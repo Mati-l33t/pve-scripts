@@ -3,7 +3,7 @@ layout: post
 title: "The Lounge"
 date: 2024-11-28 00:00:00 +0000
 categories: ["Bots & ChatOps"]
-tags: [the-lounge, ct, bots-chatops, auto-update]
+tags: [the-lounge, lxc, bots-chatops, auto-update]
 description: "Modern web IRC client designed for self-hosting "
 #image:
 #  path: /assets/img/the-lounge.png
@@ -16,7 +16,12 @@ description: "Modern web IRC client designed for self-hosting "
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/the-lounge.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Ubuntu 24.04
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Ubuntu 24.04</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** The Lounge is running in private mode. Use `runuser -u thelounge -- thelounge add usernamehere` to create users.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  The Lounge is running in private mode. Use `runuser -u thelounge -- thelounge add usernamehere` to create users.
+</div>
 
 ## Web Interface
 
-Default port: `9000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 9000</span></div>
 
 ## Links
 

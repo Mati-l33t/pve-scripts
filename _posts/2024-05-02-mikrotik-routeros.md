@@ -16,13 +16,19 @@ description: "Mikrotik RouterOS CHR is a Linux-based operating system that trans
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/vm/mikrotik-routeros.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 512 MB
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`none\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>none</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Links
 

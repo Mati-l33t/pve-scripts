@@ -3,11 +3,11 @@ layout: post
 title: "Speedtest-Tracker"
 date: 2025-12-11 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [speedtest-tracker, ct, network-firewall, auto-update]
+tags: [speedtest-tracker, lxc, network-firewall, auto-update]
 description: "Speedtest Tracker is a self-hosted application that runs scheduled speed tests using the Ookla Speedtest CLI and saves the results to a database for historical tracking and visualization."
-#image:
-#  path: /assets/img/speedtest-tracker.png
-#  alt: Speedtest-Tracker
+image:
+  path: /assets/img/speedtest-tracker.jpeg
+  alt: Speedtest-Tracker
 ---
 
 ## Installation
@@ -16,13 +16,21 @@ description: "Speedtest Tracker is a self-hosted application that runs scheduled
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/speedtest-tracker.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin@example.com\` | \`password\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin@example.com</code></td><td><code>password</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,7 +41,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

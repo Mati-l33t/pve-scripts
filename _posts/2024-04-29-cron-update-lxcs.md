@@ -19,12 +19,18 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** Execute within the Proxmox shell
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox shell
+</div>
 
-> **INFO:** To exclude LXCs from updating, edit the crontab using `crontab -e` and add CTID as shown in the example below:
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  To exclude LXCs from updating, edit the crontab using `crontab -e` and add CTID as shown in the example below:
 
 
 
 `0 0 * * 0 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/update-lxcs-cron.sh)" -s 103 111 >>/var/log/update-lxcs-cron.log 2>/dev/null`
+</div>
 
 ---

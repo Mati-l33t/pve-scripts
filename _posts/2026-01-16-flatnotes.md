@@ -3,11 +3,11 @@ layout: post
 title: "Flatnotes"
 date: 2026-01-16 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [flatnotes, ct, documents-notes, auto-update]
+tags: [flatnotes, lxc, documents-notes, auto-update]
 description: "A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage."
-#image:
-#  path: /assets/img/flatnotes.png
-#  alt: Flatnotes
+image:
+  path: /assets/img/flatnotes.png
+  alt: Flatnotes
 ---
 
 ## Installation
@@ -16,7 +16,12 @@ description: "A self-hosted, database-less note-taking web app that utilises a f
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/flatnotes.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `8080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8080</span></div>
 
 ## Links
 

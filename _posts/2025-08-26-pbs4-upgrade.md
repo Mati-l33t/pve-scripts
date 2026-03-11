@@ -19,13 +19,25 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** Execute this script directly on the PBS 3.x host as root.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute this script directly on the PBS 3.x host as root.
+</div>
 
-> **WARNING:** Ensure you have a verified backup of /etc/proxmox-backup before starting.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Ensure you have a verified backup of /etc/proxmox-backup before starting.
+</div>
 
-> **WARNING:** Do not run this on an already upgraded PBS 4.x system.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Do not run this on an already upgraded PBS 4.x system.
+</div>
 
-> **INFO:** A reboot is strongly recommended after upgrade to activate the new kernel and services.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  A reboot is strongly recommended after upgrade to activate the new kernel and services.
+</div>
 
 ## Links
 

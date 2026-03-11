@@ -3,7 +3,7 @@ layout: post
 title: "Vaultwarden"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [vaultwarden, ct, authentication-security, auto-update]
+tags: [vaultwarden, lxc, authentication-security, auto-update]
 description: "Vaultwarden is a self-hosted password manager which provides secure and encrypted password storage. It uses client-side encryption and provides access to passwords through a web interface and mobile apps."
 #image:
 #  path: /assets/img/vaultwarden.png
@@ -16,13 +16,23 @@ description: "Vaultwarden is a self-hosted password manager which provides secur
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/vaultwarden.sh)"
 ```
-**CPU:** 4 core(s) &nbsp;|&nbsp; **RAM:** 6144 MB &nbsp;|&nbsp; **Disk:** 20 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 4 cores</span>
+  <span class="res-pill res-ram">RAM: 6144 MB</span>
+  <span class="res-pill res-disk">Disk: 20 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 **Alpine install:**
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/alpine-vaultwarden.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 256 MB &nbsp;|&nbsp; **Disk:** 1 GB &nbsp;|&nbsp; **OS:** Alpine 3.23
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 256 MB</span>
+  <span class="res-pill res-disk">Disk: 1 GB</span>
+  <span class="res-pill res-os">OS: Alpine 3.23</span>
+</div>
 
 ## Configuration
 
@@ -33,13 +43,19 @@ Config file:
 
 ## Notes
 
-> **WARNING:** Application uses self-signed certificate for HTTPS to work and is enabled by default. If you need a different setup, please read the documentation.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Application uses self-signed certificate for HTTPS to work and is enabled by default. If you need a different setup, please read the documentation.
+</div>
 
-> **INFO:** To set the Admin Token, run the command below (or type update) in the LXC Console.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  To set the Admin Token, run the command below (or type update) in the LXC Console.
+</div>
 
 ## Web Interface
 
-Default port: `8000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8000</span></div>
 
 ## Links
 

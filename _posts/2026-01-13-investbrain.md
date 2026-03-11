@@ -3,11 +3,11 @@ layout: post
 title: "Investbrain"
 date: 2026-01-13 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [investbrain, ct, finance-budgeting, auto-update]
+tags: [investbrain, lxc, finance-budgeting, auto-update]
 description: "Investbrain is a smart open-source investment tracker that helps you manage, track, and make informed decisions about your investments."
-#image:
-#  path: /assets/img/investbrain.png
-#  alt: Investbrain
+image:
+  path: /assets/img/investbrain.png
+  alt: Investbrain
 ---
 
 ## Installation
@@ -16,7 +16,12 @@ description: "Investbrain is a smart open-source investment tracker that helps y
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/investbrain.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** Database credentials: `cat ~/investbrain.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Database credentials: `cat ~/investbrain.creds`
+</div>
 
 ## Web Interface
 
-Default port: `8000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8000</span></div>
 
 ## Links
 

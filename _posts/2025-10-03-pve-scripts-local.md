@@ -3,7 +3,7 @@ layout: post
 title: "PVEScriptsLocal"
 date: 2025-10-03 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [pve-scripts-local, ct, proxmox-virtualization, auto-update]
+tags: [pve-scripts-local, lxc, proxmox-virtualization, auto-update]
 description: "A modern web-based management interface for Proxmox VE (PVE) helper scripts. This tool provides a user-friendly way to discover, download, and execute community-sourced Proxmox scripts locally with real-time terminal output streaming."
 #image:
 #  path: /assets/img/pve-scripts-local.png
@@ -16,7 +16,12 @@ description: "A modern web-based management interface for Proxmox VE (PVE) helpe
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pve-scripts-local.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

@@ -3,7 +3,7 @@ layout: post
 title: "Duplicati"
 date: 2025-02-06 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [duplicati, ct, backup-recovery, auto-update]
+tags: [duplicati, lxc, backup-recovery, auto-update]
 description: "Duplicati is a free, open-source backup solution that offers zero-trust, fully encrypted backups for your data."
 #image:
 #  path: /assets/img/duplicati.png
@@ -16,15 +16,23 @@ description: "Duplicati is a free, open-source backup solution that offers zero-
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/duplicati.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1048 MB &nbsp;|&nbsp; **Disk:** 10 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1048 MB</span>
+  <span class="res-pill res-disk">Disk: 10 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Notes
 
-> **INFO:** Admin password and database encryption key: `cat ~/duplicati.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Admin password and database encryption key: `cat ~/duplicati.creds`
+</div>
 
 ## Web Interface
 
-Default port: `8200`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8200</span></div>
 
 ## Links
 

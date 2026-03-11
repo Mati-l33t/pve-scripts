@@ -3,7 +3,7 @@ layout: post
 title: "Cleanuparr"
 date: 2025-07-25 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [cleanuparr, ct, arr-suite, auto-update]
+tags: [cleanuparr, lxc, arr-suite, auto-update]
 description: "Cleanuparr is a tool for automating the cleanup of unwanted or blocked files in Sonarr, Radarr, and supported download clients like qBittorrent, Transmission, and Deluge. It removes incomplete, blocked, or malicious downloads and can trigger replacement searches to ensure your media library stays complete and up-to-date."
 #image:
 #  path: /assets/img/cleanuparr.png
@@ -16,7 +16,12 @@ description: "Cleanuparr is a tool for automating the cleanup of unwanted or blo
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/cleanuparr.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `11011`
+<div class="resource-bar"><span class="res-pill res-port">Port: 11011</span></div>
 
 ## Links
 

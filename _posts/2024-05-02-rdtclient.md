@@ -3,7 +3,7 @@ layout: post
 title: "Real-Debrid Torrent Client"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [rdtclient, ct, files-downloads, auto-update]
+tags: [rdtclient, lxc, files-downloads, auto-update]
 description: "RDTClient is a web interface to manage your torrents on Real-Debrid, AllDebrid or Premiumize."
 #image:
 #  path: /assets/img/rdtclient.png
@@ -16,7 +16,12 @@ description: "RDTClient is a web interface to manage your torrents on Real-Debri
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/rdtclient.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `6500`
+<div class="resource-bar"><span class="res-pill res-port">Port: 6500</span></div>
 
 ## Links
 

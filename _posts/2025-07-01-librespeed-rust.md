@@ -3,7 +3,7 @@ layout: post
 title: "Librespeed Rust"
 date: 2025-07-01 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [librespeed-rust, ct, network-firewall, auto-update]
+tags: [librespeed-rust, lxc, network-firewall, auto-update]
 description: "Librespeed is a no flash, no java, no websocket speedtest server. This community script deploys the rust version for simplicity and low resource usage."
 #image:
 #  path: /assets/img/librespeed-rust.png
@@ -16,7 +16,12 @@ description: "Librespeed is a no flash, no java, no websocket speedtest server. 
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/librespeed-rust.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `8080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8080</span></div>
 
 ## Links
 

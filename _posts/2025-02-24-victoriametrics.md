@@ -3,7 +3,7 @@ layout: post
 title: "VictoriaMetrics"
 date: 2025-02-24 00:00:00 +0000
 categories: [Databases]
-tags: [victoriametrics, ct, databases, auto-update]
+tags: [victoriametrics, lxc, databases, auto-update]
 description: "VictoriaMetrics is a fast, cost-saving, and scalable solution for monitoring and managing time series data. It delivers high performance and reliability, making it an ideal choice for businesses of all sizes."
 #image:
 #  path: /assets/img/victoriametrics.png
@@ -16,15 +16,23 @@ description: "VictoriaMetrics is a fast, cost-saving, and scalable solution for 
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/victoriametrics.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 16 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 16 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Notes
 
-> **INFO:** Included option to install VictoriaLogs.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Included option to install VictoriaLogs.
+</div>
 
 ## Web Interface
 
-Default port: `8428`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8428</span></div>
 
 ## Links
 

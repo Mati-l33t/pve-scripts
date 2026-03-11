@@ -3,11 +3,11 @@ layout: post
 title: "Mail-Archiver"
 date: 2025-12-28 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [mail-archiver, ct, backup-recovery, auto-update]
+tags: [mail-archiver, lxc, backup-recovery, auto-update]
 description: "Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard."
-#image:
-#  path: /assets/img/mail-archiver.png
-#  alt: Mail-Archiver
+image:
+  path: /assets/img/mail-archiver.jpg
+  alt: Mail-Archiver
 ---
 
 ## Installation
@@ -16,13 +16,21 @@ description: "Mail-Archiver is a web application for archiving, searching, and e
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/mail-archiver.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`secure123!\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>secure123!</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,7 +41,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `5000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 5000</span></div>
 
 ## Links
 

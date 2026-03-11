@@ -3,7 +3,7 @@ layout: post
 title: "Home Assistant Container"
 date: 2024-04-29 00:00:00 +0000
 categories: ["IoT & Smart Home"]
-tags: [homeassistant, ct, iot-smart-home, auto-update]
+tags: [homeassistant, lxc, iot-smart-home, auto-update]
 description: "A standalone container-based installation of Home Assistant Core means that the software is installed inside a Docker container, separate from the host operating system. This allows for flexibility and scalability, as well as improved security, as the container can be easily moved or isolated from other processes on the host."
 #image:
 #  path: /assets/img/homeassistant.png
@@ -16,7 +16,12 @@ description: "A standalone container-based installation of Home Assistant Core m
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/homeassistant.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 16 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 16 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,19 +32,34 @@ Config file:
 
 ## Notes
 
-> **WARNING:** Containerized version doesn't allow Home Assistant add-ons.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Containerized version doesn't allow Home Assistant add-ons.
+</div>
 
-> **WARNING:** If the LXC is created Privileged, the script will automatically set up USB passthrough.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  If the LXC is created Privileged, the script will automatically set up USB passthrough.
+</div>
 
-> **INFO:** config path: `/var/lib/docker/volumes/hass_config/_data`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  config path: `/var/lib/docker/volumes/hass_config/_data`
+</div>
 
-> **INFO:** Portainer interface: $IP: 9443 - User & password must be set manually within 5 minutes, otherwise a restart of Portainer is required!
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Portainer interface: $IP: 9443 - User & password must be set manually within 5 minutes, otherwise a restart of Portainer is required!
+</div>
 
-> **WARNING:** WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+</div>
 
 ## Web Interface
 
-Default port: `8123`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8123</span></div>
 
 ## Links
 

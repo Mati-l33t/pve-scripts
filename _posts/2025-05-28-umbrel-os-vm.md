@@ -16,21 +16,32 @@ description: "Take control of your digital life with Umbrel — a private, perso
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/vm/umbrel-os-vm.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 32 GB &nbsp;|&nbsp; **OS:** Debian 12
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 32 GB</span>
+  <span class="res-pill res-os">OS: Debian 12</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`umbrel\` | \`umbrel\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>umbrel</code></td><td><code>umbrel</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Notes
 
-> **INFO:** This VM use as base a Debian 12 OS with a custom kernel and some additional packages to run Umbrel OS. It is not a standard Debian VM, but it is optimized for Umbrel OS.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  This VM use as base a Debian 12 OS with a custom kernel and some additional packages to run Umbrel OS. It is not a standard Debian VM, but it is optimized for Umbrel OS.
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

@@ -5,9 +5,9 @@ date: 2026-02-22 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [cronmaster, addon, proxmox-virtualization, auto-update]
 description: "Self-hosted cron job scheduler with web UI, live logs, auth and prebuilt binaries provided upstream."
-#image:
-#  path: /assets/img/cronmaster.png
-#  alt: CR*NMASTER
+image:
+  path: /assets/img/cronmaster.png
+  alt: CR*NMASTER
 ---
 
 ## Installation
@@ -26,13 +26,19 @@ Config file:
 
 ## Notes
 
-> **INFO:** Credentials are saved to: /root/cronmaster.creds
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Credentials are saved to: /root/cronmaster.creds
+</div>
 
-> **INFO:** Update with: update_cronmaster
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Update with: update_cronmaster
+</div>
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

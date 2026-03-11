@@ -3,7 +3,7 @@ layout: post
 title: "LanguageTool"
 date: 2026-01-30 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [languagetool, ct, miscellaneous, auto-update]
+tags: [languagetool, lxc, miscellaneous, auto-update]
 description: "LanguageTool is an Open Source proofreading software for English, Spanish, French, German, Portuguese, Polish, Dutch, and more than 20 other languages. It finds many errors that a simple spell checker cannot detect."
 #image:
 #  path: /assets/img/languagetool.png
@@ -16,7 +16,12 @@ description: "LanguageTool is an Open Source proofreading software for English, 
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/languagetool.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 16 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 16 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** API is available at `http://<LXC_IP>:8081/v2`.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  API is available at `http://<LXC_IP>:8081/v2`.
+</div>
 
 ## Web Interface
 
-Default port: `8081`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8081</span></div>
 
 ## Links
 

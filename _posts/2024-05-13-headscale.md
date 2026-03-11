@@ -3,7 +3,7 @@ layout: post
 title: "Headscale"
 date: 2024-05-13 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [headscale, ct, network-firewall, auto-update]
+tags: [headscale, lxc, network-firewall, auto-update]
 description: "An open source, self-hosted implementation of the Tailscale control server"
 #image:
 #  path: /assets/img/headscale.png
@@ -16,7 +16,12 @@ description: "An open source, self-hosted implementation of the Tailscale contro
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/headscale.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,9 +32,15 @@ Config file:
 
 ## Notes
 
-> **INFO:** Configuration settings: `/etc/headscale/config.yaml`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Configuration settings: `/etc/headscale/config.yaml`
+</div>
 
-> **INFO:** Access headscale-admin UI via `http://<LXC-IP>/admin/`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Access headscale-admin UI via `http://<LXC-IP>/admin/`
+</div>
 
 ## Links
 

@@ -3,7 +3,7 @@ layout: post
 title: "HortusFox"
 date: 2025-08-08 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [hortusfox, ct, gaming-leisure, auto-update]
+tags: [hortusfox, lxc, gaming-leisure, auto-update]
 description: "HortusFox is a collaborative plant management system for plant enthusiasts. Manage, document and track your entire plant collection – self-hosted and privacy-friendly."
 #image:
 #  path: /assets/img/hortusfox.png
@@ -16,7 +16,12 @@ description: "HortusFox is a collaborative plant management system for plant ent
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/hortusfox.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 5 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 5 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** Login Credentials : `cat ~/hortusfox.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Login Credentials : `cat ~/hortusfox.creds`
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

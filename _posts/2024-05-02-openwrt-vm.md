@@ -16,11 +16,18 @@ description: "OpenWrt is a powerful open-source firmware that can transform a wi
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/vm/openwrt-vm.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 256 MB &nbsp;|&nbsp; **Disk:** 0.5 GB
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 256 MB</span>
+  <span class="res-pill res-disk">Disk: 0.5 GB</span>
+</div>
 
 ## Notes
 
-> **INFO:** If you use VLANs (default LAN is set to VLAN 999), make sure the Proxmox Linux Bridge is configured as VLAN-aware, otherwise the VM may fail to start.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  If you use VLANs (default LAN is set to VLAN 999), make sure the Proxmox Linux Bridge is configured as VLAN-aware, otherwise the VM may fail to start.
+</div>
 
 ## Links
 

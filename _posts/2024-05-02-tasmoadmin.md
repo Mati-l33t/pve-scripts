@@ -3,7 +3,7 @@ layout: post
 title: "TasmoAdmin"
 date: 2024-05-02 00:00:00 +0000
 categories: ["IoT & Smart Home"]
-tags: [tasmoadmin, ct, iot-smart-home, auto-update]
+tags: [tasmoadmin, lxc, iot-smart-home, auto-update]
 description: "TasmoAdmin is an administrative platform for devices flashed with Tasmota."
 #image:
 #  path: /assets/img/tasmoadmin.png
@@ -16,11 +16,16 @@ description: "TasmoAdmin is an administrative platform for devices flashed with 
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/tasmoadmin.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Web Interface
 
-Default port: `9999`
+<div class="resource-bar"><span class="res-pill res-port">Port: 9999</span></div>
 
 ## Links
 

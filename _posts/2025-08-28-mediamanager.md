@@ -3,7 +3,7 @@ layout: post
 title: "MediaManager"
 date: 2025-08-28 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [mediamanager, ct, arr-suite, media-streaming, auto-update]
+tags: [mediamanager, lxc, arr-suite, media-streaming, auto-update]
 description: "A modern selfhosted media management system for your media library"
 #image:
 #  path: /assets/img/mediamanager.png
@@ -16,13 +16,21 @@ description: "A modern selfhosted media management system for your media library
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/mediamanager.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 3072 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 3072 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`<email address>\` | \`admin\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code><email address></code></td><td><code>admin</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,13 +41,19 @@ Config file:
 
 ## Notes
 
-> **INFO:** During the installation, provide the email address of the first admin user
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  During the installation, provide the email address of the first admin user
+</div>
 
-> **INFO:** You're probably going to want to use a bind mount for the media directories
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  You're probably going to want to use a bind mount for the media directories
+</div>
 
 ## Web Interface
 
-Default port: `8000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8000</span></div>
 
 ## Links
 

@@ -3,7 +3,7 @@ layout: post
 title: "LubeLogger"
 date: 2024-11-29 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [lubelogger, ct, gaming-leisure, auto-update]
+tags: [lubelogger, lxc, gaming-leisure, auto-update]
 description: "Web-Based Vehicle Maintenance and Fuel Mileage Tracker"
 #image:
 #  path: /assets/img/lubelogger.png
@@ -16,7 +16,12 @@ description: "Web-Based Vehicle Maintenance and Fuel Mileage Tracker"
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/lubelogger.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `5000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 5000</span></div>
 
 ## Links
 

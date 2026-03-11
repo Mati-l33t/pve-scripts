@@ -19,8 +19,14 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** Execute within the Proxmox Backup Server shell on a bare metal system. The script will exit if it detects that it is running in a virtualized environment.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox Backup Server shell on a bare metal system. The script will exit if it detects that it is running in a virtualized environment.
+</div>
 
-> **INFO:** After a reboot, you can check whether any microcode updates are currently in effect by running the following command: `journalctl -k | grep -E "microcode" | head -n 1`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  After a reboot, you can check whether any microcode updates are currently in effect by running the following command: `journalctl -k | grep -E "microcode" | head -n 1`
+</div>
 
 ---

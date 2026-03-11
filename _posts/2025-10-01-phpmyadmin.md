@@ -26,9 +26,15 @@ Debian/Ubuntu: /var/www/html/phpMyAdmin | Alpine: /usr/share/phpmyadmin
 
 ## Notes
 
-> **WARNING:** Execute within an existing LXC Console
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Execute within an existing LXC Console
+</div>
 
-> **INFO:** To update or uninstall run bash call again
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  To update or uninstall run bash call again
+</div>
 
 ## Links
 

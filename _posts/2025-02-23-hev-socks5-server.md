@@ -3,7 +3,7 @@ layout: post
 title: "hev-socks5-server"
 date: 2025-02-23 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [hev-socks5-server, ct, network-firewall, auto-update]
+tags: [hev-socks5-server, lxc, network-firewall, auto-update]
 description: "HevSocks5Server is a simple, lightweight socks5 server."
 #image:
 #  path: /assets/img/hev-socks5-server.png
@@ -16,7 +16,12 @@ description: "HevSocks5Server is a simple, lightweight socks5 server."
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/hev-socks5-server.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** Default credentials: `cat /root/hev.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Default credentials: `cat /root/hev.creds`
+</div>
 
 ## Web Interface
 
-Default port: `1080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 1080</span></div>
 
 ## Links
 

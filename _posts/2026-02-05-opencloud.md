@@ -3,11 +3,11 @@ layout: post
 title: "OpenCloud"
 date: 2026-02-05 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [opencloud, ct, files-downloads, auto-update]
+tags: [opencloud, lxc, files-downloads, auto-update]
 description: "OpenCloud is the file sharing and collaboration solution of the Heinlein Group. Through intelligent file management and a strong open source community, files become valuable resources, effectively structured and usable in the long term. With flexible data rooms and intelligent access rights, teams can access and work together on data anytime, anywhere without barriers, but with a lot of productivity."
-#image:
-#  path: /assets/img/opencloud.png
-#  alt: OpenCloud
+image:
+  path: /assets/img/opencloud.jpg
+  alt: OpenCloud
 ---
 
 ## Installation
@@ -16,13 +16,21 @@ description: "OpenCloud is the file sharing and collaboration solution of the He
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/opencloud.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 20 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 20 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`randomly generated during the installation process\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>randomly generated during the installation process</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,23 +41,44 @@ Config file:
 
 ## Notes
 
-> **WARNING:** Valid TLS certificates and fully-qualified domain names behind a reverse proxy (Caddy) for 3 services - OpenCloud (port: 9200), Collabora (port: 9980), and WOPI (port: 9300) are **REQUIRED**
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Valid TLS certificates and fully-qualified domain names behind a reverse proxy (Caddy) for 3 services - OpenCloud (port: 9200), Collabora (port: 9980), and WOPI (port: 9300) are **REQUIRED**
+</div>
 
-> **INFO:** Forgot your admin password? Check `admin_password` in the 'idm' section in `/etc/opencloud/opencloud.yaml`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Forgot your admin password? Check `admin_password` in the 'idm' section in `/etc/opencloud/opencloud.yaml`
+</div>
 
-> **INFO:** **Optional External Apps**: extract zip archives from App Store to `/etc/opencloud/web/assets/apps`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  **Optional External Apps**: extract zip archives from App Store to `/etc/opencloud/web/assets/apps`
+</div>
 
-> **INFO:** **Optional CalDAV and CardDAV**: requires separate Radicale install. Edit and rename `/etc/opencloud/proxy.yaml.bak` and change your Radicale config to use `http_x_remote_user` as the auth method
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  **Optional CalDAV and CardDAV**: requires separate Radicale install. Edit and rename `/etc/opencloud/proxy.yaml.bak` and change your Radicale config to use `http_x_remote_user` as the auth method
+</div>
 
-> **INFO:** **Optional OpenID**: Authelia and PocketID supported. Uncomment relevant lines in `/etc/opencloud/opencloud.env` and consult OpenCloud GitHub discussions for configuration tips
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  **Optional OpenID**: Authelia and PocketID supported. Uncomment relevant lines in `/etc/opencloud/opencloud.env` and consult OpenCloud GitHub discussions for configuration tips
+</div>
 
-> **INFO:** **Optional Full-text Search with Apache Tika**: requires your own Tika LXC. See `https://community-scripts.github.io/ProxmoxVE/scripts?id=apache-tika`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  **Optional Full-text Search with Apache Tika**: requires your own Tika LXC. See `https://community-scripts.github.io/ProxmoxVE/scripts?id=apache-tika`
+</div>
 
-> **INFO:** **Relevant services**: `opencloud.service`, `opencloud-wopi.service`, `coolwsd.service`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  **Relevant services**: `opencloud.service`, `opencloud-wopi.service`, `coolwsd.service`
+</div>
 
 ## Web Interface
 
-Default port: `443`
+<div class="resource-bar"><span class="res-pill res-port">Port: 443</span></div>
 
 ## Links
 

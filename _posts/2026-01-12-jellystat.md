@@ -5,9 +5,9 @@ date: 2026-01-12 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [jellystat, addon, monitoring-analytics, auto-update]
 description: "A free and open source statistics app for Jellyfin"
-#image:
-#  path: /assets/img/jellystat.png
-#  alt: Jellystat
+image:
+  path: /assets/img/jellystat.png
+  alt: Jellystat
 ---
 
 ## Installation
@@ -26,15 +26,24 @@ Config file:
 
 ## Notes
 
-> **INFO:** Requires Node.js 20+ and PostgreSQL (auto-installed if missing)
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Requires Node.js 20+ and PostgreSQL (auto-installed if missing)
+</div>
 
-> **INFO:** Default PostgreSQL credentials: jellystat / jellystat
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Default PostgreSQL credentials: jellystat / jellystat
+</div>
 
-> **INFO:** Update with: update_jellystat
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Update with: update_jellystat
+</div>
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

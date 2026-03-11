@@ -26,15 +26,24 @@ Config file:
 
 ## Notes
 
-> **INFO:** Edit /opt/adguardhome-sync/adguardhome-sync.yaml to configure your AdGuardHome instances
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Edit /opt/adguardhome-sync/adguardhome-sync.yaml to configure your AdGuardHome instances
+</div>
 
-> **INFO:** Origin = Primary instance, Replicas = Instances to sync to
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Origin = Primary instance, Replicas = Instances to sync to
+</div>
 
-> **INFO:** Update with: update_adguardhome-sync
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Update with: update_adguardhome-sync
+</div>
 
 ## Web Interface
 
-Default port: `8080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8080</span></div>
 
 ## Links
 

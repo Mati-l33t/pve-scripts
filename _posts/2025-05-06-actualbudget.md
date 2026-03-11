@@ -3,7 +3,7 @@ layout: post
 title: "Actual Budget"
 date: 2025-05-06 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [actualbudget, ct, finance-budgeting, auto-update]
+tags: [actualbudget, lxc, finance-budgeting, auto-update]
 description: "Actual Budget is a super fast and privacy-focused app for managing your finances. At its heart is the well proven and much loved Envelope Budgeting methodology."
 #image:
 #  path: /assets/img/actualbudget.png
@@ -16,7 +16,12 @@ description: "Actual Budget is a super fast and privacy-focused app for managing
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/actualbudget.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `5006`
+<div class="resource-bar"><span class="res-pill res-port">Port: 5006</span></div>
 
 ## Links
 

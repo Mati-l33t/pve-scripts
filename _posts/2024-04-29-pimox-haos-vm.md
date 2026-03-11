@@ -16,15 +16,22 @@ description: "The script automates the manual process of finding, downloading an
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/vm/pimox-haos-vm.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 32 GB
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 32 GB</span>
+</div>
 
 ## Notes
 
-> **INFO:** After the script completes, click on the VM, then on the Summary or Console tab to find the VM IP.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  After the script completes, click on the VM, then on the Summary or Console tab to find the VM IP.
+</div>
 
 ## Web Interface
 
-Default port: `8123`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8123</span></div>
 
 ## Links
 

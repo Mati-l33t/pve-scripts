@@ -3,7 +3,7 @@ layout: post
 title: "Matterbridge"
 date: 2024-06-12 00:00:00 +0000
 categories: [ZigBee and Z-Wave]
-tags: [matterbridge, ct, zigbee-and-z-wave, auto-update]
+tags: [matterbridge, lxc, zigbee-and-z-wave, auto-update]
 description: "Matterbridge allows you to have all your Matter devices up and running in a couple of minutes without having to deal with the pairing process of each single device."
 #image:
 #  path: /assets/img/matterbridge.png
@@ -16,17 +16,28 @@ description: "Matterbridge allows you to have all your Matter devices up and run
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/matterbridge.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Notes
 
-> **WARNING:** If the LXC is created Privileged, the script will automatically set up USB passthrough.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  If the LXC is created Privileged, the script will automatically set up USB passthrough.
+</div>
 
-> **INFO:** Updatable via the Matterbridge WebUI
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Updatable via the Matterbridge WebUI
+</div>
 
 ## Web Interface
 
-Default port: `8283`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8283</span></div>
 
 ## Links
 

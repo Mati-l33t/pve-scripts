@@ -3,7 +3,7 @@ layout: post
 title: "PaperlessAI"
 date: 2025-02-06 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [paperless-ai, ct, ai-coding-dev-tools, auto-update]
+tags: [paperless-ai, lxc, ai-coding-dev-tools, auto-update]
 description: "An automated document analyzer for Paperless-ngx using OpenAI API, Ollama and all OpenAI API compatible Services to automatically analyze and tag your documents.It features: Automode, Manual Mode, Ollama and OpenAI, a Chat function to query your documents with AI, a modern and intuitive Webinterface."
 #image:
 #  path: /assets/img/paperless-ai.png
@@ -16,7 +16,12 @@ description: "An automated document analyzer for Paperless-ngx using OpenAI API,
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/paperless-ai.sh)"
 ```
-**CPU:** 4 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 20 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 4 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 20 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

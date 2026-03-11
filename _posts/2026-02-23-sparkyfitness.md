@@ -3,11 +3,11 @@ layout: post
 title: "SparkyFitness"
 date: 2026-02-23 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [sparkyfitness, ct, monitoring-analytics, auto-update]
+tags: [sparkyfitness, lxc, monitoring-analytics, auto-update]
 description: "A self-hosted, privacy-first alternative to MyFitnessPal. Track nutrition, exercise, body metrics, and health data while keeping full control of your data."
-#image:
-#  path: /assets/img/sparkyfitness.png
-#  alt: SparkyFitness
+image:
+  path: /assets/img/sparkyfitness.png
+  alt: SparkyFitness
 ---
 
 ## Installation
@@ -16,7 +16,12 @@ description: "A self-hosted, privacy-first alternative to MyFitnessPal. Track nu
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/sparkyfitness.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

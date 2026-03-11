@@ -3,7 +3,7 @@ layout: post
 title: "Zot Registry"
 date: 2025-06-06 00:00:00 +0000
 categories: ["Containers & Docker"]
-tags: [zot-registry, ct, containers-docker, auto-update]
+tags: [zot-registry, lxc, containers-docker, auto-update]
 description: "Zot is a cloud-native OCI image registry focused on extensibility, maintainability, and performance. It supports advanced features such as Web UI, security scanning, authentication via htpasswd and OIDC, and more."
 #image:
 #  path: /assets/img/zot-registry.png
@@ -16,7 +16,12 @@ description: "Zot is a cloud-native OCI image registry focused on extensibility,
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/zot-registry.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 5 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 5 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `8080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8080</span></div>
 
 ## Links
 

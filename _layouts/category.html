@@ -1,0 +1,37 @@
+---
+layout: page
+# The Category layout
+---
+
+{% include lang.html %}
+
+<div id="page-category">
+  <h1 class="ps-lg-2">
+    <i class="far fa-folder-open fa-fw text-muted"></i>
+    {{ page.title }}
+    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
+  </h1>
+
+  <ul class="content ps-0">
+    {% for post in page.posts %}
+      <li class="d-flex justify-content-between px-md-3">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          {% if post.tags contains 'lxc' %}
+            <span class="type-badge type-lxc">LXC</span>
+          {% elsif post.tags contains 'vm' %}
+            <span class="type-badge type-vm">VM</span>
+          {% elsif post.tags contains 'addon' %}
+            <span class="type-badge type-addon">ADDON</span>
+          {% elsif post.tags contains 'pve' %}
+            <span class="type-badge type-pve">PVE</span>
+          {% elsif post.tags contains 'turnkey' %}
+            <span class="type-badge type-turnkey">TURNKEY</span>
+          {% endif %}
+        </a>
+        <span class="dash flex-grow-1"></span>
+        {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>

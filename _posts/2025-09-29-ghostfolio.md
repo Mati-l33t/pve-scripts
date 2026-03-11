@@ -3,7 +3,7 @@ layout: post
 title: "Ghostfolio"
 date: 2025-09-29 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [ghostfolio, ct, finance-budgeting, auto-update]
+tags: [ghostfolio, lxc, finance-budgeting, auto-update]
 description: "Ghostfolio is an open source wealth management software built with web technology. The application empowers busy people to keep track of stocks, ETFs or cryptocurrencies and make solid, data-driven investment decisions."
 #image:
 #  path: /assets/img/ghostfolio.png
@@ -16,7 +16,12 @@ description: "Ghostfolio is an open source wealth management software built with
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/ghostfolio.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,17 +32,29 @@ Config file:
 
 ## Notes
 
-> **INFO:** Create your first user account by visiting the web interface and clicking 'Get Started'. The first user will automatically get admin privileges.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Create your first user account by visiting the web interface and clicking 'Get Started'. The first user will automatically get admin privileges.
+</div>
 
-> **INFO:** Database and Redis credentials: `cat ~/ghostfolio.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Database and Redis credentials: `cat ~/ghostfolio.creds`
+</div>
 
-> **INFO:** Optional: CoinGecko API keys can be added during installation or later in the .env file for enhanced cryptocurrency data.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Optional: CoinGecko API keys can be added during installation or later in the .env file for enhanced cryptocurrency data.
+</div>
 
-> **WARNING:** Build process requires 4GB RAM (runtime: ~2GB). A temporary swap file will be created automatically if insufficient memory is detected.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Build process requires 4GB RAM (runtime: ~2GB). A temporary swap file will be created automatically if insufficient memory is detected.
+</div>
 
 ## Web Interface
 
-Default port: `3333`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3333</span></div>
 
 ## Links
 

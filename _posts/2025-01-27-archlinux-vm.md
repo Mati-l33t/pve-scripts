@@ -16,11 +16,18 @@ description: "Arch Linux is a highly customizable, independent Linux distributio
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/vm/archlinux-vm.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+</div>
 
 ## Notes
 
-> **WARNING:** doesnt work with lvm and lvmthin disks!
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  doesnt work with lvm and lvmthin disks!
+</div>
 
 ## Links
 

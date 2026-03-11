@@ -3,11 +3,11 @@ layout: post
 title: "Gramps Web"
 date: 2026-02-22 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [gramps-web, ct, documents-notes, auto-update]
+tags: [gramps-web, lxc, documents-notes, auto-update]
 description: "Gramps Web is a collaborative genealogy platform for browsing, editing and sharing family trees through a modern web interface."
-#image:
-#  path: /assets/img/gramps-web.png
-#  alt: Gramps Web
+image:
+  path: /assets/img/gramps-web.png
+  alt: Gramps Web
 ---
 
 ## Installation
@@ -16,7 +16,12 @@ description: "Gramps Web is a collaborative genealogy platform for browsing, edi
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/gramps-web.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 20 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 20 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,13 +32,19 @@ Config file:
 
 ## Notes
 
-> **INFO:** On first access, create the owner account via the built-in onboarding wizard.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  On first access, create the owner account via the built-in onboarding wizard.
+</div>
 
-> **WARNING:** The initial deployment compiles the frontend and can take several minutes.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  The initial deployment compiles the frontend and can take several minutes.
+</div>
 
 ## Web Interface
 
-Default port: `5000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 5000</span></div>
 
 ## Links
 

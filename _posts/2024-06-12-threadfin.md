@@ -3,7 +3,7 @@ layout: post
 title: "Threadfin"
 date: 2024-06-12 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [threadfin, ct, media-streaming, auto-update]
+tags: [threadfin, lxc, media-streaming, auto-update]
 description: "Threadfin is a M3U proxy for Kernel, Plex, Jellyfin, or Emby, based on xTeVe."
 #image:
 #  path: /assets/img/threadfin.png
@@ -16,11 +16,16 @@ description: "Threadfin is a M3U proxy for Kernel, Plex, Jellyfin, or Emby, base
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/threadfin.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Web Interface
 
-Default port: `34400`
+<div class="resource-bar"><span class="res-pill res-port">Port: 34400</span></div>
 
 ## Links
 

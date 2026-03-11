@@ -3,7 +3,7 @@ layout: post
 title: "TeddyCloud"
 date: 2024-12-28 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [teddycloud, ct, media-streaming, auto-update]
+tags: [teddycloud, lxc, media-streaming, auto-update]
 description: "TeddyCloud is an open source server replacement for the Boxine Cloud."
 #image:
 #  path: /assets/img/teddycloud.png
@@ -16,15 +16,23 @@ description: "TeddyCloud is an open source server replacement for the Boxine Clo
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/teddycloud.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Notes
 
-> **WARN:** First start of the service can take some time due to certificate generation.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  First start of the service can take some time due to certificate generation.
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

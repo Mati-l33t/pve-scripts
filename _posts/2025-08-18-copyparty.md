@@ -26,13 +26,19 @@ Config file:
 
 ## Notes
 
-> **INFO:** Execute within the Proxmox shell or in LXC
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox shell or in LXC
+</div>
 
-> **INFO:** Update with: update_copyparty
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Update with: update_copyparty
+</div>
 
 ## Web Interface
 
-Default port: `3923`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3923</span></div>
 
 ## Links
 

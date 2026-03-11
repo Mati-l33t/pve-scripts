@@ -3,7 +3,7 @@ layout: post
 title: "Pelican Panel"
 date: 2025-02-27 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [pelican-panel, ct, gaming-leisure, auto-update]
+tags: [pelican-panel, lxc, gaming-leisure, auto-update]
 description: "Pelican Panel is a web-based control panel for managing game and application servers. It provides an intuitive interface to start, stop, configure, and monitor servers easily. It works alongside Pelican Wings, a lightweight daemon that handles server deployments and resource management."
 #image:
 #  path: /assets/img/pelican-panel.png
@@ -16,17 +16,28 @@ description: "Pelican Panel is a web-based control panel for managing game and a
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pelican-panel.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Notes
 
-> **INFO:** Database credentials: `cat ~/pelican-panel.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Database credentials: `cat ~/pelican-panel.creds`
+</div>
 
-> **INFO:** Step 5 of the Panel installer can be skipped because it has already been set up by the script.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Step 5 of the Panel installer can be skipped because it has already been set up by the script.
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

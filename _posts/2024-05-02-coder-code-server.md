@@ -19,11 +19,14 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **WARNING:** Execute within an existing LXC Console
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Execute within an existing LXC Console
+</div>
 
 ## Web Interface
 
-Default port: `8680`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8680</span></div>
 
 ## Links
 

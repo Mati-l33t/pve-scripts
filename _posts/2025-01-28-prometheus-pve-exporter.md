@@ -3,7 +3,7 @@ layout: post
 title: "Prometheus Proxmox VE Exporter"
 date: 2025-01-28 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [prometheus-pve-exporter, ct, proxmox-virtualization, monitoring-analytics, auto-update]
+tags: [prometheus-pve-exporter, lxc, proxmox-virtualization, monitoring-analytics, auto-update]
 description: "An exporter that exposes information gathered from Proxmox VE node for use by the Prometheus monitoring system."
 #image:
 #  path: /assets/img/prometheus-pve-exporter.png
@@ -16,7 +16,12 @@ description: "An exporter that exposes information gathered from Proxmox VE node
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/prometheus-pve-exporter.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** Please adjust the Proxmox credentials in the configuration file!
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Please adjust the Proxmox credentials in the configuration file!
+</div>
 
 ## Web Interface
 
-Default port: `9221`
+<div class="resource-bar"><span class="res-pill res-port">Port: 9221</span></div>
 
 ## Links
 

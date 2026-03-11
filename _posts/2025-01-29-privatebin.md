@@ -3,7 +3,7 @@ layout: post
 title: "PrivateBin"
 date: 2025-01-29 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [privatebin, ct, documents-notes, auto-update]
+tags: [privatebin, lxc, documents-notes, auto-update]
 description: "PrivateBin is a minimalist, open-source pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES."
 #image:
 #  path: /assets/img/privatebin.png
@@ -16,7 +16,12 @@ description: "PrivateBin is a minimalist, open-source pastebin where the server 
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/privatebin.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

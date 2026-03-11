@@ -3,7 +3,7 @@ layout: post
 title: "Autocaliweb"
 date: 2025-09-10 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [autocaliweb, ct, media-streaming, auto-update]
+tags: [autocaliweb, lxc, media-streaming, auto-update]
 description: "A modern web management system for eBooks, eComics and PDFs"
 #image:
 #  path: /assets/img/autocaliweb.png
@@ -16,13 +16,21 @@ description: "A modern web management system for eBooks, eComics and PDFs"
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/autocaliweb.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 6 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 6 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`admin123\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>admin123</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,7 +41,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `8083`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8083</span></div>
 
 ## Links
 

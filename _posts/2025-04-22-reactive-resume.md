@@ -3,7 +3,7 @@ layout: post
 title: "Reactive Resume"
 date: 2025-04-22 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [reactive-resume, ct, documents-notes, auto-update]
+tags: [reactive-resume, lxc, documents-notes, auto-update]
 description: "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever."
 #image:
 #  path: /assets/img/reactive-resume.png
@@ -16,7 +16,12 @@ description: "A one-of-a-kind resume builder that keeps your privacy in mind. Co
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/reactive-resume.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

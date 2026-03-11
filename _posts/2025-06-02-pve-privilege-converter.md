@@ -19,11 +19,20 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** Execute this script inside the Proxmox shell as root.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute this script inside the Proxmox shell as root.
+</div>
 
-> **WARNING:** Ensure that the backup and target storage have enough space.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Ensure that the backup and target storage have enough space.
+</div>
 
-> **INFO:** The container will be recreated with a new ID and desired privilege setting.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  The container will be recreated with a new ID and desired privilege setting.
+</div>
 
 ## Links
 

@@ -19,8 +19,14 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** Execute within the Proxmox shell
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox shell
+</div>
 
-> **WARNING:** The script updates only the operating system of the LXC container. It DOES NOT update the application installed within the container!
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  The script updates only the operating system of the LXC container. It DOES NOT update the application installed within the container!
+</div>
 
 ---

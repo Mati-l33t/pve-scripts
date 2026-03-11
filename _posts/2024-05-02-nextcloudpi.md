@@ -3,7 +3,7 @@ layout: post
 title: "NextcloudPi"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
-tags: [nextcloudpi, ct, operating-systems, auto-update]
+tags: [nextcloudpi, lxc, operating-systems, auto-update]
 description: "NextCloudPi is a popular self-hosted solution for file collaboration and data storage. It is built on the NextCloud software, which is an open-source platform for data management."
 #image:
 #  path: /assets/img/nextcloudpi.png
@@ -16,23 +16,39 @@ description: "NextCloudPi is a popular self-hosted solution for file collaborati
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/nextcloudpi.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 12
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 12</span>
+</div>
 
 **Alpine install:**
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/alpine-nextcloud.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Alpine 3.23
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Alpine 3.23</span>
+</div>
 
 ## Notes
 
-> **WARNING:** Only Alpine: To get the username and password, run the script again inside the LXC shell.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Only Alpine: To get the username and password, run the script again inside the LXC shell.
+</div>
 
-> **WARNING:** WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+</div>
 
 ## Web Interface
 
-Default port: `4443`
+<div class="resource-bar"><span class="res-pill res-port">Port: 4443</span></div>
 
 ## Links
 

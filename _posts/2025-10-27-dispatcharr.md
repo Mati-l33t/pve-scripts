@@ -3,7 +3,7 @@ layout: post
 title: "Dispatcharr"
 date: 2025-10-27 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [dispatcharr, ct, arr-suite, auto-update]
+tags: [dispatcharr, lxc, arr-suite, auto-update]
 description: "Dispatcharr is an open-source powerhouse for managing IPTV streams and EPG data with elegance and control. Born from necessity and built with passion, it started as a personal project by OkinawaBoss and evolved with contributions from legends like dekzter, SergeantPanda and Bucatini."
 #image:
 #  path: /assets/img/dispatcharr.png
@@ -16,7 +16,12 @@ description: "Dispatcharr is an open-source powerhouse for managing IPTV streams
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/dispatcharr.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `9191`
+<div class="resource-bar"><span class="res-pill res-port">Port: 9191</span></div>
 
 ## Links
 

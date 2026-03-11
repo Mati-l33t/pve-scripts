@@ -3,7 +3,7 @@ layout: post
 title: "Baby Buddy"
 date: 2025-05-21 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [babybuddy, ct, finance-budgeting, auto-update]
+tags: [babybuddy, lxc, finance-budgeting, auto-update]
 description: "Baby Buddy is an open-source web application designed to assist caregivers in tracking various aspects of a baby's daily routine, including sleep, feedings, diaper changes, tummy time, and more. By recording this data, caregivers can better understand and anticipate their baby's needs, reducing guesswork in daily care. The application offers a user-friendly dashboard for data entry and visualization, supports multiple users, and provides features like timers and reminders. Additionally, Baby Buddy can be integrated with platforms like Home Assistant and Grafana for enhanced functionality."
 #image:
 #  path: /assets/img/babybuddy.png
@@ -16,13 +16,21 @@ description: "Baby Buddy is an open-source web application designed to assist ca
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/babybuddy.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 5 GB &nbsp;|&nbsp; **OS:** Debian 12
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 5 GB</span>
+  <span class="res-pill res-os">OS: Debian 12</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`admin\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>admin</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,11 +41,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** for private SSL setup visit: `https://github.com/babybuddy/babybuddy/blob/master/docs/setup/ssl.md`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  for private SSL setup visit: `https://github.com/babybuddy/babybuddy/blob/master/docs/setup/ssl.md`
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

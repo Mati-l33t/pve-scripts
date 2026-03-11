@@ -3,7 +3,7 @@ layout: post
 title: "CommaFeed"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [commafeed, ct, documents-notes, auto-update]
+tags: [commafeed, lxc, documents-notes, auto-update]
 description: "CommaFeed is a Google Reader inspired self-hosted RSS reader."
 #image:
 #  path: /assets/img/commafeed.png
@@ -16,17 +16,25 @@ description: "CommaFeed is a Google Reader inspired self-hosted RSS reader."
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/commafeed.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`admin\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>admin</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Web Interface
 
-Default port: `8082`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8082</span></div>
 
 ## Links
 

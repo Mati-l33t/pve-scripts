@@ -3,11 +3,11 @@ layout: post
 title: "Infisical"
 date: 2025-11-07 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [infisical, ct, authentication-security, auto-update]
+tags: [infisical, lxc, authentication-security, auto-update]
 description: "Secrets, certificates, and access management on autopilot. All-in-one platform to securely manage application secrets, certificates, SSH keys, and configurations across your team and infrastructure."
-#image:
-#  path: /assets/img/infisical.png
-#  alt: Infisical
+image:
+  path: /assets/img/infisical.png
+  alt: Infisical
 ---
 
 ## Installation
@@ -16,7 +16,12 @@ description: "Secrets, certificates, and access management on autopilot. All-in-
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/infisical.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 6 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 6 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `8080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8080</span></div>
 
 ## Links
 

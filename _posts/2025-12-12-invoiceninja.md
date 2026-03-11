@@ -3,7 +3,7 @@ layout: post
 title: "InvoiceNinja"
 date: 2025-12-12 00:00:00 +0000
 categories: ["Business & ERP"]
-tags: [invoiceninja, ct, business-erp, auto-update]
+tags: [invoiceninja, lxc, business-erp, auto-update]
 description: "Invoice Ninja is a free, open-source invoicing, quotes, expenses and time-tracking application for freelancers and businesses. Features include recurring invoices, online payments, client portal, and multi-company support."
 #image:
 #  path: /assets/img/invoiceninja.png
@@ -16,7 +16,12 @@ description: "Invoice Ninja is a free, open-source invoicing, quotes, expenses a
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/invoiceninja.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,15 +32,24 @@ Config file:
 
 ## Notes
 
-> **INFO:** First visit http://IP:8080/setup to complete the initial configuration
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  First visit http://IP:8080/setup to complete the initial configuration
+</div>
 
-> **INFO:** Database credentials are stored in `~/invoiceninja.creds`. Use them in the above initial configuration step.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Database credentials are stored in `~/invoiceninja.creds`. Use them in the above initial configuration step.
+</div>
 
-> **WARNING:** Configure SMTP settings in /opt/invoiceninja/.env for email functionality
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Configure SMTP settings in /opt/invoiceninja/.env for email functionality
+</div>
 
 ## Web Interface
 
-Default port: `8080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8080</span></div>
 
 ## Links
 

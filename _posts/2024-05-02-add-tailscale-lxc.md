@@ -19,9 +19,15 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** After the script finishes, reboot the LXC then run `tailscale up` in the LXC console
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  After the script finishes, reboot the LXC then run `tailscale up` in the LXC console
+</div>
 
-> **INFO:** Execute within the Proxmox host shell
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox host shell
+</div>
 
 ## Links
 

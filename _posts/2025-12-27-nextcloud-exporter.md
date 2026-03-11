@@ -26,7 +26,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `9205`
+<div class="resource-bar"><span class="res-pill res-port">Port: 9205</span></div>
 
 ## Links
 

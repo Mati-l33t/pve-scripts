@@ -3,7 +3,7 @@ layout: post
 title: "ONLYOFFICE Docs"
 date: 2025-06-24 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [onlyoffice, ct, documents-notes, auto-update]
+tags: [onlyoffice, lxc, documents-notes, auto-update]
 description: "ONLYOFFICE Docs is an open-source online office suite that provides collaborative editors for text documents, spreadsheets, and presentations, fully compatible with Microsoft Office formats (DOCX, XLSX, PPTX)."
 #image:
 #  path: /assets/img/onlyoffice.png
@@ -16,13 +16,21 @@ description: "ONLYOFFICE Docs is an open-source online office suite that provide
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/onlyoffice.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 10 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 10 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`admin\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>admin</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,11 +41,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** Database / RabbitMQ Credentials: `cat ~/onlyoffice.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Database / RabbitMQ Credentials: `cat ~/onlyoffice.creds`
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

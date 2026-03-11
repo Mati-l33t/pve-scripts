@@ -3,7 +3,7 @@ layout: post
 title: "ImmichFrame"
 date: 2026-03-07 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [immichframe, ct, media-streaming, auto-update]
+tags: [immichframe, lxc, media-streaming, auto-update]
 description: "ImmichFrame is a digital photo frame web application that connects to your Immich server and displays your photos as a fullscreen slideshow."
 image:
   path: /assets/img/immichframe.png
@@ -16,7 +16,12 @@ image:
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/immichframe.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **WARNING:** After installation, edit `/opt/immichframe/Config/Settings.yml` and set ImmichServerUrl and ApiKey. Then restart the service with `systemctl restart immichframe`.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  After installation, edit `/opt/immichframe/Config/Settings.yml` and set ImmichServerUrl and ApiKey. Then restart the service with `systemctl restart immichframe`.
+</div>
 
 ## Web Interface
 
-Default port: `8080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8080</span></div>
 
 ## Links
 

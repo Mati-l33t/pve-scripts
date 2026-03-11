@@ -3,7 +3,7 @@ layout: post
 title: "Excalidraw"
 date: 2025-02-12 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [excalidraw, ct, documents-notes, auto-update]
+tags: [excalidraw, lxc, documents-notes, auto-update]
 description: "An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted."
 #image:
 #  path: /assets/img/excalidraw.png
@@ -16,11 +16,16 @@ description: "An open source virtual hand-drawn style whiteboard. Collaborative 
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/excalidraw.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 3072 MB &nbsp;|&nbsp; **Disk:** 10 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 3072 MB</span>
+  <span class="res-pill res-disk">Disk: 10 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

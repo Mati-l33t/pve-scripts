@@ -3,7 +3,7 @@ layout: post
 title: "Pocketbase"
 date: 2024-05-07 00:00:00 +0000
 categories: [Databases]
-tags: [pocketbase, ct, databases, auto-update]
+tags: [pocketbase, lxc, databases, auto-update]
 description: "PocketBase is an open source backend consisting of embedded database (SQLite) with realtime subscriptions, built-in auth management, convenient dashboard UI and simple REST-ish API."
 #image:
 #  path: /assets/img/pocketbase.png
@@ -16,11 +16,19 @@ description: "PocketBase is an open source backend consisting of embedded databa
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/pocketbase.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Notes
 
-> **INFO:** Type `/opt/pocketbase/pocketbase superuser create YOUREMAIL PASSWORD` to create your superuser account.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Type `/opt/pocketbase/pocketbase superuser create YOUREMAIL PASSWORD` to create your superuser account.
+</div>
 
 ## Links
 

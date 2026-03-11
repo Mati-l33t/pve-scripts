@@ -3,7 +3,7 @@ layout: post
 title: "Change Detection"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [changedetection, ct, gaming-leisure, auto-update]
+tags: [changedetection, lxc, gaming-leisure, auto-update]
 description: "Change Detection is a service that allows you to monitor changes to web pages and receive notifications when changes occur. It can be used for a variety of purposes such as keeping track of online price changes, monitoring news websites for updates, or tracking changes to online forums."
 #image:
 #  path: /assets/img/changedetection.png
@@ -16,7 +16,12 @@ description: "Change Detection is a service that allows you to monitor changes t
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/changedetection.sh)"
 ```
-**CPU:** 4 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 10 GB &nbsp;|&nbsp; **OS:** Debian 12
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 4 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 10 GB</span>
+  <span class="res-pill res-os">OS: Debian 12</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `5000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 5000</span></div>
 
 ## Links
 

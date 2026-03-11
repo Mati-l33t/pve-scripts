@@ -3,7 +3,7 @@ layout: post
 title: "Bar-Assistant"
 date: 2025-07-14 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [bar-assistant, ct, gaming-leisure, auto-update]
+tags: [bar-assistant, lxc, gaming-leisure, auto-update]
 description: "Bar Assistant is all-in-one solution for managing your home bar. Compared to other recipe management software that usually tries to be more for general use, Bar Assistant is made specifically for managing cocktail recipes. This means that there are a lot of cocktail-oriented features, like ingredient substitutes, first-class ingredients, ABV calculations, unit switching and more.."
 #image:
 #  path: /assets/img/bar-assistant.png
@@ -16,7 +16,12 @@ description: "Bar Assistant is all-in-one solution for managing your home bar. C
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/bar-assistant.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

@@ -3,7 +3,7 @@ layout: post
 title: "Dotnet ASP Web API"
 date: 2025-01-15 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [dotnetaspwebapi, ct, ai-coding-dev-tools, auto-update, privileged]
+tags: [dotnetaspwebapi, lxc, ai-coding-dev-tools, auto-update, privileged]
 description: "Automatically setup a ASP.NET server up, as well as a FTP server so you can publish to this container from Visual Studio."
 #image:
 #  path: /assets/img/dotnetaspwebapi.png
@@ -16,15 +16,23 @@ description: "Automatically setup a ASP.NET server up, as well as a FTP server s
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/dotnetaspwebapi.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Ubuntu 24.04
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Ubuntu 24.04</span>
+</div>
 
 ## Notes
 
-> **INFO:** FTP server credentials: `cat ~/ftp.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  FTP server credentials: `cat ~/ftp.creds`
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

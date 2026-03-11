@@ -22,20 +22,44 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** Execute within the Proxmox shell
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox shell
+</div>
 
-> **WARNING:** Virtual machines without the QEMU guest agent installed must be excluded.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Virtual machines without the QEMU guest agent installed must be excluded.
+</div>
 
-> **WARNING:** Prior to generating any new CT/VM not found in this repository, it's necessary to halt Proxmox VE Monitor-All by running `systemctl stop ping-instances`.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Prior to generating any new CT/VM not found in this repository, it's necessary to halt Proxmox VE Monitor-All by running `systemctl stop ping-instances`.
+</div>
 
-> **INFO:** To make setup changes, first stop the service: `systemctl stop ping-instances`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  To make setup changes, first stop the service: `systemctl stop ping-instances`
+</div>
 
-> **INFO:** To edit pause time: `nano /usr/local/bin/ping-instances.sh`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  To edit pause time: `nano /usr/local/bin/ping-instances.sh`
+</div>
 
-> **INFO:** To add excluded instances: `nano /etc/systemd/system/ping-instances.service`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  To add excluded instances: `nano /etc/systemd/system/ping-instances.service`
+</div>
 
-> **INFO:** After changes have been saved, `systemctl daemon-reload` and start the service: `systemctl start ping-instances`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  After changes have been saved, `systemctl daemon-reload` and start the service: `systemctl start ping-instances`
+</div>
 
-> **INFO:** Monitor-All logs: `cat /var/log/ping-instances.log`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Monitor-All logs: `cat /var/log/ping-instances.log`
+</div>
 
 ---

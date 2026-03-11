@@ -19,9 +19,12 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`helper-scripts.com\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>helper-scripts.com</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -32,7 +35,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `8080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8080</span></div>
 
 ## Links
 

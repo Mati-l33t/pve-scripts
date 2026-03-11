@@ -3,7 +3,7 @@ layout: post
 title: "LinkStack"
 date: 2025-07-22 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [linkstack, ct, monitoring-analytics, auto-update]
+tags: [linkstack, lxc, monitoring-analytics, auto-update]
 description: "LinkStack is an open-source, self-hosted alternative to Linktree, allowing users to create a customizable profile page to share multiple links, hosted on their own server."
 #image:
 #  path: /assets/img/linkstack.png
@@ -16,7 +16,12 @@ description: "LinkStack is an open-source, self-hosted alternative to Linktree, 
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/linkstack.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 5 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 5 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,13 +32,19 @@ Config file:
 
 ## Notes
 
-> **INFO:** LinkStack can be updated via the user interface.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  LinkStack can be updated via the user interface.
+</div>
 
-> **INFO:** Complete setup via the web interface at http://<container-ip>/. Check installation logs: `cat ~/linkstack-install.log`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Complete setup via the web interface at http://<container-ip>/. Check installation logs: `cat ~/linkstack-install.log`
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

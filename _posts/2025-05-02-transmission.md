@@ -3,7 +3,7 @@ layout: post
 title: "Transmission"
 date: 2025-05-02 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [transmission, ct, files-downloads, auto-update]
+tags: [transmission, lxc, files-downloads, auto-update]
 description: "Transmission is a free, open-source BitTorrent client known for its fast download speeds and ease of use. It supports various platforms such as Windows, Linux, and macOS and has features like web interface, peer exchange, and encrypted transfers."
 #image:
 #  path: /assets/img/transmission.png
@@ -16,30 +16,46 @@ description: "Transmission is a free, open-source BitTorrent client known for it
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/transmission.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 **Alpine install:**
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/alpine-transmission.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 256 MB &nbsp;|&nbsp; **Disk:** 1 GB &nbsp;|&nbsp; **OS:** Alpine 3.23
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 256 MB</span>
+  <span class="res-pill res-disk">Disk: 1 GB</span>
+  <span class="res-pill res-os">OS: Alpine 3.23</span>
+</div>
 
 ## Configuration
 
 Config file:
 ```
-Debian 
-```/etc/transmission-daemon/settings.json` | Alpine `/var/lib/transmission/config/settings.json``
+Debian `/etc/transmission-daemon/settings.json` | Alpine `/var/lib/transmission/config/settings.json`
+```
 
 ## Notes
 
-> **INFO:** Script disables whitelisting by default. Change config to suit your needs.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Script disables whitelisting by default. Change config to suit your needs.
+</div>
 
-> **INFO:** Alpine script sets initial disk size to 1GB. Please adjust for your needs after installation ends.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Alpine script sets initial disk size to 1GB. Please adjust for your needs after installation ends.
+</div>
 
 ## Web Interface
 
-Default port: `9091`
+<div class="resource-bar"><span class="res-pill res-port">Port: 9091</span></div>
 
 ## Links
 

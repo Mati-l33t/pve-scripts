@@ -3,7 +3,7 @@ layout: post
 title: "BunkerWeb"
 date: 2024-06-12 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [bunkerweb, ct, authentication-security, auto-update]
+tags: [bunkerweb, lxc, authentication-security, auto-update]
 description: "BunkerWeb is a security-focused web server that enhances web application protection. It guards against common web vulnerabilities like SQL injection, XSS, and CSRF. It features simple setup and configuration using a YAML file, customizable security rules, and provides detailed logs for traffic monitoring and threat detection."
 #image:
 #  path: /assets/img/bunkerweb.png
@@ -16,7 +16,12 @@ description: "BunkerWeb is a security-focused web server that enhances web appli
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/bunkerweb.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 8192 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 8192 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,10 @@ Config file:
 
 ## Notes
 
-> **WARNING:** WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+</div>
 
 ## Links
 

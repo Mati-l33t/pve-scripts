@@ -3,11 +3,11 @@ layout: post
 title: "Domain Locker"
 date: 2025-11-17 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [domain-locker, ct, monitoring-analytics, auto-update]
+tags: [domain-locker, lxc, monitoring-analytics, auto-update]
 description: "The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! "
-#image:
-#  path: /assets/img/domain-locker.png
-#  alt: Domain Locker
+image:
+  path: /assets/img/domain-locker.png
+  alt: Domain Locker
 ---
 
 ## Installation
@@ -16,7 +16,12 @@ description: "The all-in-one tool, for keeping track of your domain name portfol
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/domain-locker.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 8 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,13 +32,19 @@ Config file:
 
 ## Notes
 
-> **INFO:** Show DB credentials: `cat ~/Domain-Locker.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Show DB credentials: `cat ~/Domain-Locker.creds`
+</div>
 
-> **INFO:** Domain-locker takes quite some time to build and a lot of ressources, RAM and Cores can be lowered after install.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Domain-locker takes quite some time to build and a lot of ressources, RAM and Cores can be lowered after install.
+</div>
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

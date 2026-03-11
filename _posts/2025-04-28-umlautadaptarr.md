@@ -3,7 +3,7 @@ layout: post
 title: "UmlautAdaptarr"
 date: 2025-04-28 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [umlautadaptarr, ct, arr-suite, auto-update]
+tags: [umlautadaptarr, lxc, arr-suite, auto-update]
 description: "UmlautAdaptarr is a tool that fixes issues with how Sonarr, Radarr, Lidarr, and Readarr handle foreign languages. It sits between these apps and the indexers, changing searches and results, and renaming releases so the apps recognize them correctly."
 #image:
 #  path: /assets/img/umlautadaptarr.png
@@ -16,7 +16,12 @@ description: "UmlautAdaptarr is a tool that fixes issues with how Sonarr, Radarr
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/umlautadaptarr.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `5005`
+<div class="resource-bar"><span class="res-pill res-port">Port: 5005</span></div>
 
 ## Links
 

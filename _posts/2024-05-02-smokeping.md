@@ -3,7 +3,7 @@ layout: post
 title: "SmokePing"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [smokeping, ct, network-firewall, auto-update]
+tags: [smokeping, lxc, network-firewall, auto-update]
 description: "SmokePing is a deluxe latency measurement tool. It can measure, store and display latency, latency distribution and packet loss."
 #image:
 #  path: /assets/img/smokeping.png
@@ -16,7 +16,12 @@ description: "SmokePing is a deluxe latency measurement tool. It can measure, st
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/smokeping.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 

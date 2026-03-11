@@ -19,8 +19,14 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** Execute within the Proxmox shell
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox shell
+</div>
 
-> **INFO:** A backup is rendered ineffective when it remains stored on the host
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  A backup is rendered ineffective when it remains stored on the host
+</div>
 
 ---

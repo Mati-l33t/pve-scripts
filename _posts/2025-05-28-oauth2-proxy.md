@@ -3,7 +3,7 @@ layout: post
 title: "OAuth2-Proxy"
 date: 2025-05-28 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [oauth2-proxy, ct, network-firewall, authentication-security, auto-update]
+tags: [oauth2-proxy, lxc, network-firewall, authentication-security, auto-update]
 description: "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
 #image:
 #  path: /assets/img/oauth2-proxy.png
@@ -16,7 +16,12 @@ description: "A reverse proxy that provides authentication with Google, Azure, O
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/oauth2-proxy.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 3 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 3 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,9 +32,15 @@ Config file:
 
 ## Notes
 
-> **INFO:** This application includes a blank configuration file by default due to the wide range of available configuration options. We recommend referring to the official documentation for guidance: `https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview`. With this you can make your config.toml file accordingly to your needs.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  This application includes a blank configuration file by default due to the wide range of available configuration options. We recommend referring to the official documentation for guidance: `https://oauth2-proxy.github.io/oauth2-proxy/configuration/overview`. With this you can make your config.toml file accordingly to your needs.
+</div>
 
-> **INFO:** After changing the config restart OAuth2-Proxy with: `systemctl restart oauth2-proxy`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  After changing the config restart OAuth2-Proxy with: `systemctl restart oauth2-proxy`
+</div>
 
 ## Links
 

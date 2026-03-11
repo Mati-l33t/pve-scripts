@@ -26,7 +26,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `8081`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8081</span></div>
 
 ## Links
 

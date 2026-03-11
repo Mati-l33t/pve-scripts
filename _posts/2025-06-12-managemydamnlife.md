@@ -3,7 +3,7 @@ layout: post
 title: "Manage My Damn Life"
 date: 2025-06-12 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [managemydamnlife, ct, miscellaneous, auto-update]
+tags: [managemydamnlife, lxc, miscellaneous, auto-update]
 description: "Manage My Damn Life (MMDL) is a self-hosted front end for managing your CalDAV tasks and calendars."
 #image:
 #  path: /assets/img/managemydamnlife.png
@@ -16,7 +16,12 @@ description: "Manage My Damn Life (MMDL) is a self-hosted front end for managing
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/managemydamnlife.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 6 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 6 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

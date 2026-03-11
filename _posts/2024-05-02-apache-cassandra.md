@@ -3,7 +3,7 @@ layout: post
 title: "Apache-Cassandra"
 date: 2024-05-02 00:00:00 +0000
 categories: [Databases]
-tags: [apache-cassandra, ct, databases, auto-update]
+tags: [apache-cassandra, lxc, databases, auto-update]
 description: "Apache-Cassandra is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance."
 #image:
 #  path: /assets/img/apache-cassandra.png
@@ -16,7 +16,12 @@ description: "Apache-Cassandra is an open source NoSQL distributed database trus
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/apache-cassandra.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 

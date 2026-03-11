@@ -3,7 +3,7 @@ layout: post
 title: "sonarqube"
 date: 2025-10-10 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [sonarqube, ct, ai-coding-dev-tools, automation-scheduling, auto-update]
+tags: [sonarqube, lxc, ai-coding-dev-tools, automation-scheduling, auto-update]
 description: "SonarQube Server automates code quality and security reviews and provides actionable code intelligence so developers can focus on building better, faster."
 #image:
 #  path: /assets/img/sonarqube.png
@@ -16,13 +16,21 @@ description: "SonarQube Server automates code quality and security reviews and p
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/sonarqube.sh)"
 ```
-**CPU:** 4 core(s) &nbsp;|&nbsp; **RAM:** 6144 MB &nbsp;|&nbsp; **Disk:** 25 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 4 cores</span>
+  <span class="res-pill res-ram">RAM: 6144 MB</span>
+  <span class="res-pill res-disk">Disk: 25 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`admin\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>admin</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,7 +41,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `9000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 9000</span></div>
 
 ## Links
 

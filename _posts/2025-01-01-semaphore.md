@@ -3,7 +3,7 @@ layout: post
 title: "Semaphore"
 date: 2025-01-01 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [semaphore, ct, automation-scheduling, auto-update]
+tags: [semaphore, lxc, automation-scheduling, auto-update]
 description: "Semaphore UI is a modern web interface for managing popular DevOps tools"
 #image:
 #  path: /assets/img/semaphore.png
@@ -16,13 +16,21 @@ description: "Semaphore UI is a modern web interface for managing popular DevOps
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/semaphore.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Ubuntu 24.04
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Ubuntu 24.04</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`None\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>None</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,13 +41,19 @@ Config file:
 
 ## Notes
 
-> **INFO:** This instance uses SQLite
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  This instance uses SQLite
+</div>
 
-> **INFO:** Admin password: `cat ~/semaphore.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Admin password: `cat ~/semaphore.creds`
+</div>
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

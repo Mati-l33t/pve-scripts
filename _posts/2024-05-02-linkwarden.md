@@ -3,7 +3,7 @@ layout: post
 title: "Linkwarden"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [linkwarden, ct, documents-notes, auto-update]
+tags: [linkwarden, lxc, documents-notes, auto-update]
 description: "Linkwarden is a fully self-hostable, open-source collaborative bookmark manager to collect, organize and archive webpages."
 #image:
 #  path: /assets/img/linkwarden.png
@@ -16,7 +16,12 @@ description: "Linkwarden is a fully self-hostable, open-source collaborative boo
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/linkwarden.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 12 GB &nbsp;|&nbsp; **OS:** Ubuntu 24.04
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 12 GB</span>
+  <span class="res-pill res-os">OS: Ubuntu 24.04</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

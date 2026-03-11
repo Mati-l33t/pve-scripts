@@ -3,11 +3,11 @@ layout: post
 title: "KitchenOwl"
 date: 2026-02-02 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [kitchenowl, ct, media-streaming, auto-update]
+tags: [kitchenowl, lxc, media-streaming, auto-update]
 description: "KitchenOwl is a smart self-hosted grocery list and recipe manager with real-time synchronization, recipe management, meal planning, and expense tracking."
-#image:
-#  path: /assets/img/kitchenowl.png
-#  alt: KitchenOwl
+image:
+  path: /assets/img/kitchenowl.png
+  alt: KitchenOwl
 ---
 
 ## Installation
@@ -16,7 +16,12 @@ description: "KitchenOwl is a smart self-hosted grocery list and recipe manager 
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/kitchenowl.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 6 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 6 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 

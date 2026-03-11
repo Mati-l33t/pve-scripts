@@ -3,7 +3,7 @@ layout: post
 title: "Audiobookshelf"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [audiobookshelf, ct, media-streaming, auto-update]
+tags: [audiobookshelf, lxc, media-streaming, auto-update]
 description: "Audiobookshelf is a Self-hosted audiobook and podcast server."
 #image:
 #  path: /assets/img/audiobookshelf.png
@@ -16,7 +16,12 @@ description: "Audiobookshelf is a Self-hosted audiobook and podcast server."
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/audiobookshelf.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 5 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 5 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,7 +32,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `13378`
+<div class="resource-bar"><span class="res-pill res-port">Port: 13378</span></div>
 
 ## Links
 

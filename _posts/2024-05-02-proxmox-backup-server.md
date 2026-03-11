@@ -3,7 +3,7 @@ layout: post
 title: "Proxmox Backup Server (PBS)"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [proxmox-backup-server, ct, proxmox-virtualization, auto-update]
+tags: [proxmox-backup-server, lxc, proxmox-virtualization, auto-update]
 description: "Proxmox Backup Server is an enterprise backup solution, for backing up and restoring VMs, containers, and physical hosts. By supporting incremental, fully deduplicated backups, Proxmox Backup Server significantly reduces network load and saves valuable storage space."
 #image:
 #  path: /assets/img/proxmox-backup-server.png
@@ -16,23 +16,37 @@ description: "Proxmox Backup Server is an enterprise backup solution, for backin
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/proxmox-backup-server.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 10 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 10 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`root\` | \`None\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>root</code></td><td><code>None</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Notes
 
-> **WARNING:** Set a root password if using autologin. This will be the PBS password. `passwd root`
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Set a root password if using autologin. This will be the PBS password. `passwd root`
+</div>
 
-> **WARNING:** Advanced Install is only possible with IPv6 disabled! Otherwise, the installation may get stuck.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Advanced Install is only possible with IPv6 disabled! Otherwise, the installation may get stuck.
+</div>
 
 ## Web Interface
 
-Default port: `8007`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8007</span></div>
 
 ## Links
 

@@ -19,11 +19,20 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** After the script finishes, reboot the LXC then run `netbird up` in the LXC console
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  After the script finishes, reboot the LXC then run `netbird up` in the LXC console
+</div>
 
-> **INFO:** Execute within the Proxmox main shell
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox main shell
+</div>
 
-> **WARNING:** The script only works in Debian/Ubuntu, not in Alpine!
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  The script only works in Debian/Ubuntu, not in Alpine!
+</div>
 
 ## Links
 

@@ -3,7 +3,7 @@ layout: post
 title: "OpenObserve"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [openobserve, ct, monitoring-analytics, auto-update]
+tags: [openobserve, lxc, monitoring-analytics, auto-update]
 description: "OpenObserve is a simple yet sophisticated log search, infrastructure monitoring, and APM solution."
 #image:
 #  path: /assets/img/openobserve.png
@@ -16,7 +16,12 @@ description: "OpenObserve is a simple yet sophisticated log search, infrastructu
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/openobserve.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 3 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 3 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** Show Login Credentials: `cat /opt/openobserve/data/.env`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Show Login Credentials: `cat /opt/openobserve/data/.env`
+</div>
 
 ## Web Interface
 
-Default port: `5080`
+<div class="resource-bar"><span class="res-pill res-port">Port: 5080</span></div>
 
 ## Links
 

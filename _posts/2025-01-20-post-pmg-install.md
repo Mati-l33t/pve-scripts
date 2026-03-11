@@ -19,10 +19,19 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **WARNING:** Proxmox Mail Gateway ONLY
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Proxmox Mail Gateway ONLY
+</div>
 
-> **INFO:** Execute within the Proxmox Mail Gateway Shell
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox Mail Gateway Shell
+</div>
 
-> **INFO:** It is recommended to answer “yes” (y) to all options presented during the process.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  It is recommended to answer “yes” (y) to all options presented during the process.
+</div>
 
 ---

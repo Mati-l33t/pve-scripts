@@ -19,29 +19,65 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 ## Notes
 
-> **INFO:** Execute within the Proxmox shell.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Execute within the Proxmox shell.
+</div>
 
-> **INFO:** Full Guide can be found here: `https://github.com/community-scripts/ProxmoxVE/discussions/11532`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Full Guide can be found here: `https://github.com/community-scripts/ProxmoxVE/discussions/11532`
+</div>
 
-> **INFO:** By default, only containers with `community-script` or `proxmox-helper-scripts` tags are listed for update. You can override this by using `var_tags='custom-tag|othertag'`.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  By default, only containers with `community-script` or `proxmox-helper-scripts` tags are listed for update. You can override this by using `var_tags='custom-tag|othertag'`.
+</div>
 
-> **WARNING:** Optionally performs a vzdump backup before updating containers.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Optionally performs a vzdump backup before updating containers.
+</div>
 
-> **INFO:** If required, the script will temporarily increase container CPU/RAM resources for the build process and restore them after completion.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  If required, the script will temporarily increase container CPU/RAM resources for the build process and restore them after completion.
+</div>
 
-> **INFO:** At the end of the update, containers requiring a reboot will be listed, and you may choose to reboot them directly.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  At the end of the update, containers requiring a reboot will be listed, and you may choose to reboot them directly.
+</div>
 
-> **INFO:** Use `var_backup=yes|no` to enable/disable backup (skip prompt).
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Use `var_backup=yes|no` to enable/disable backup (skip prompt).
+</div>
 
-> **INFO:** Use `var_backup_storage=<name>` to set backup storage location.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Use `var_backup_storage=<name>` to set backup storage location.
+</div>
 
-> **INFO:** Use `var_container=all|all_running|all_stopped|101,102,...` to select containers.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Use `var_container=all|all_running|all_stopped|101,102,...` to select containers.
+</div>
 
-> **INFO:** Use `var_unattended=yes|no` to run updates without interaction.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Use `var_unattended=yes|no` to run updates without interaction.
+</div>
 
-> **INFO:** Use `var_skip_confirm=yes` to skip initial confirmation dialog.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Use `var_skip_confirm=yes` to skip initial confirmation dialog.
+</div>
 
-> **INFO:** Use `var_auto_reboot=yes|no` to auto-reboot containers after update.
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Use `var_auto_reboot=yes|no` to auto-reboot containers after update.
+</div>
 
 ## Links
 

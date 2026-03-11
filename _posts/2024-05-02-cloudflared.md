@@ -3,7 +3,7 @@ layout: post
 title: "Cloudflared"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [cloudflared, ct, network-firewall, auto-update]
+tags: [cloudflared, lxc, network-firewall, auto-update]
 description: "Cloudflared is a command-line tool that allows you to securely access resources on the Cloudflare network, such as websites and APIs, from your local computer. It works by creating a secure tunnel between your computer and the Cloudflare network, allowing you to access resources as if they were on your local network."
 #image:
 #  path: /assets/img/cloudflared.png
@@ -16,7 +16,12 @@ description: "Cloudflared is a command-line tool that allows you to securely acc
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/cloudflared.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 2 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,9 +32,15 @@ Config file:
 
 ## Notes
 
-> **INFO:** After install, run: cloudflared tunnel login && cloudflared tunnel create <NAME>
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  After install, run: cloudflared tunnel login && cloudflared tunnel create <NAME>
+</div>
 
-> **INFO:** Or create tunnel via Cloudflare Zero Trust Dashboard
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Or create tunnel via Cloudflare Zero Trust Dashboard
+</div>
 
 ## Links
 

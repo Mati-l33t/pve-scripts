@@ -3,7 +3,7 @@ layout: post
 title: "Podman Home Assistant Container"
 date: 2024-04-29 00:00:00 +0000
 categories: ["IoT & Smart Home"]
-tags: [podman-homeassistant, ct, iot-smart-home, auto-update]
+tags: [podman-homeassistant, lxc, iot-smart-home, auto-update]
 description: "A standalone Podman container-based installation of Home Assistant Core means that the Home Assistant Core software is installed inside a container managed by Podman, separate from the host operating system. This provides a flexible and scalable solution for running the software, as the container can be easily moved between host systems or isolated from other processes for security. Podman is a popular open-source tool for managing containers that is similar to Docker, but designed for use on Linux systems without a daemon.
 
 🛈 If the LXC is created Privileged, the script will automatically set up USB passthrough."
@@ -18,7 +18,12 @@ description: "A standalone Podman container-based installation of Home Assistant
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/podman-homeassistant.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 16 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 16 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -29,15 +34,24 @@ Config file:
 
 ## Notes
 
-> **WARNING:** If the LXC is created Privileged, the script will automatically set up USB passthrough.
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  If the LXC is created Privileged, the script will automatically set up USB passthrough.
+</div>
 
-> **INFO:** config path: `/var/lib/containers/storage/volumes/hass_config/_data`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  config path: `/var/lib/containers/storage/volumes/hass_config/_data`
+</div>
 
-> **WARNING:** Options to Install Portainer or Portainer Agent
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  Options to Install Portainer or Portainer Agent
+</div>
 
 ## Web Interface
 
-Default port: `8123`
+<div class="resource-bar"><span class="res-pill res-port">Port: 8123</span></div>
 
 ## Links
 

@@ -3,7 +3,7 @@ layout: post
 title: "Fluid-Calendar"
 date: 2025-03-12 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [fluid-calendar, ct, automation-scheduling, miscellaneous, auto-update]
+tags: [fluid-calendar, lxc, automation-scheduling, miscellaneous, auto-update]
 description: "The open-source intelligent calendar that adapts to your workflow. Experience seamless task scheduling powered by AI, designed to make your time management effortless."
 #image:
 #  path: /assets/img/fluid-calendar.png
@@ -16,7 +16,12 @@ description: "The open-source intelligent calendar that adapts to your workflow.
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/fluid-calendar.sh)"
 ```
-**CPU:** 3 core(s) &nbsp;|&nbsp; **RAM:** 4096 MB &nbsp;|&nbsp; **Disk:** 7 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 3 cores</span>
+  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-disk">Disk: 7 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Configuration
 
@@ -27,11 +32,14 @@ Config file:
 
 ## Notes
 
-> **INFO:** Creds: cat ~/fluid-calendar.creds
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Creds: cat ~/fluid-calendar.creds
+</div>
 
 ## Web Interface
 
-Default port: `3000`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3000</span></div>
 
 ## Links
 

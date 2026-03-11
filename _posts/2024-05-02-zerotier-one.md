@@ -3,7 +3,7 @@ layout: post
 title: "Zerotier-One"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [zerotier-one, ct, network-firewall, auto-update]
+tags: [zerotier-one, lxc, network-firewall, auto-update]
 description: "ZeroTier is a secure network overlay that allows you to manage all of your network resources as if they were on the same LAN. The software-defined solution can be deployed in minutes from anywhere. No matter how many devices you need to connect, or where they are in the world, ZeroTier makes global networking simple."
 #image:
 #  path: /assets/img/zerotier-one.png
@@ -16,13 +16,21 @@ description: "ZeroTier is a secure network overlay that allows you to manage all
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/zerotier-one.sh)"
 ```
-**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 1 cores</span>
+  <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`password\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>password</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -33,7 +41,7 @@ Config file:
 
 ## Web Interface
 
-Default port: `3443`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3443</span></div>
 
 ## Links
 

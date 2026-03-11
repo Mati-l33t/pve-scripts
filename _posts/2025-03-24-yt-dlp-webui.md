@@ -3,7 +3,7 @@ layout: post
 title: "yt-dlp-webui"
 date: 2025-03-24 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [yt-dlp-webui, ct, files-downloads, auto-update]
+tags: [yt-dlp-webui, lxc, files-downloads, auto-update]
 description: "A not so terrible web ui for yt-dlp.
 High performance extendeable web ui and RPC server for yt-dlp with low impact on resources.
 Created for the only purpose of fetching videos from my server/nas and monitor upcoming livestreams."
@@ -18,13 +18,21 @@ Created for the only purpose of fetching videos from my server/nas and monitor u
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/yt-dlp-webui.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 1024 MB &nbsp;|&nbsp; **Disk:** 4 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 1024 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`None\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>None</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Configuration
 
@@ -35,15 +43,24 @@ Config file:
 
 ## Notes
 
-> **INFO:** Show password: `cat ~/yt-dlp-webui.creds`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Show password: `cat ~/yt-dlp-webui.creds`
+</div>
 
-> **INFO:** The config file is located in `/opt/yt-dlp-webui/config.conf`
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  The config file is located in `/opt/yt-dlp-webui/config.conf`
+</div>
 
-> **INFO:** Make sure to either mount an external path or increase the Disk space afterwards
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  Make sure to either mount an external path or increase the Disk space afterwards
+</div>
 
 ## Web Interface
 
-Default port: `3033`
+<div class="resource-bar"><span class="res-pill res-port">Port: 3033</span></div>
 
 ## Links
 

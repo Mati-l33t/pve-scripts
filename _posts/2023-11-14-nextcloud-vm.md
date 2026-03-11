@@ -16,21 +16,32 @@ description: "TurnKey Nextcloud is an open-source file sharing server and collab
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/vm/nextcloud-vm.sh)"
 ```
-**CPU:** 2 core(s) &nbsp;|&nbsp; **RAM:** 2048 MB &nbsp;|&nbsp; **Disk:** 12 GB &nbsp;|&nbsp; **OS:** Debian 13
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 12 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
 
 ## Default Credentials
 
-| Username | Password |
-|----------|----------|
-| \`admin\` | \`None\` |
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>admin</code></td><td><code>None</code></td></tr></tbody>
+  </table>
+</div>
 
 ## Notes
 
-> **WARNING:** This VM requires extra installation steps, see install guide at `https://github.com/community-scripts/ProxmoxVE/discussions/144`
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  This VM requires extra installation steps, see install guide at `https://github.com/community-scripts/ProxmoxVE/discussions/144`
+</div>
 
 ## Web Interface
 
-Default port: `80`
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 
