@@ -2,14 +2,13 @@
 layout: post
 title: "CR*NMASTER"
 date: 2026-02-22 00:00:00 +0000
-categories: [Proxmox & Virtualization]
+categories: ["Proxmox & Virtualization"]
 tags: [cronmaster, addon, proxmox-virtualization, auto-update]
 description: "Self-hosted cron job scheduler with web UI, live logs, auth and prebuilt binaries provided upstream."
+#image:
+#  path: /assets/img/cronmaster.png
+#  alt: CR*NMASTER
 ---
-
-## Description
-
-Self-hosted cron job scheduler with web UI, live logs, auth and prebuilt binaries provided upstream.
 
 ## Installation
 
@@ -17,19 +16,20 @@ Self-hosted cron job scheduler with web UI, live logs, auth and prebuilt binarie
 ```bash
 bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/tools/addon/cronmaster.sh)"
 ```
-## Default Credentials
-
-No default credentials.
 
 ## Configuration
 
-Config file: `/opt/cronmaster/.env`
+Config file:
+```
+/opt/cronmaster/.env
+```
 
 ## Notes
 
 > **INFO:** Credentials are saved to: /root/cronmaster.creds
 
 > **INFO:** Update with: update_cronmaster
+
 ## Web Interface
 
 Default port: `3000`
@@ -40,4 +40,3 @@ Default port: `3000`
 - [Documentation](https://github.com/fccview/cronmaster)
 
 ---
-*Source: [community-scripts/ProxmoxVE](https://github.com/community-scripts/ProxmoxVE) — MIT License*

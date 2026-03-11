@@ -2,40 +2,44 @@
 layout: post
 title: "AdGuard Home"
 date: 2026-03-10 00:00:00 +0000
-categories: [Proxmox VE, Adblock & DNS, Homelab]
-tags: [adguard, dns, adblock, lxc, proxmox script]
-description: "Self-hosted network-wide ad blocking at the DNS level using AdGuard Home on Proxmox VE."
+categories: [Adblock & DNS]
+tags: [adguard, ct, adblock-dns, auto-update]
+description: "AdGuard Home is an open-source, self-hosted network-wide ad blocker. It blocks advertisements, trackers, phishing and malware websites, and provides protection against online threats."
 image:
   path: /assets/img/adguard-home.png
   alt: AdGuard Home
 ---
 
-## Description
-
-AdGuard Home functions as an open-source, self-hosted network-wide ad blocker operating at the DNS level. It prevents advertisements, trackers, phishing attempts, and malicious websites from reaching devices across your network. The web-based interface enables easy configuration and provides detailed statistics showing which websites are being blocked.
-
 ## Installation
 
-**Default (Debian-based):**
-
+**Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/adguard.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/adguard.sh)"
+```
+**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 512 MB &nbsp;|&nbsp; **Disk:** 2 GB &nbsp;|&nbsp; **OS:** Debian 13
+
+**Alpine install:**
+```bash
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/alpine-adguard.sh)"
+```
+**CPU:** 1 core(s) &nbsp;|&nbsp; **RAM:** 256 MB &nbsp;|&nbsp; **Disk:** 1 GB &nbsp;|&nbsp; **OS:** Alpine 3.23
+
+## Configuration
+
+Config file:
+```
+/opt/AdGuardHome/AdGuardHome.yaml
 ```
 
-**Alpine Linux Alternative:**
+## Notes
 
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/alpine-adguard.sh)"
-```
+> **INFO:** AdGuard Home can only be updated via the user interface.
 
-## Default Configuration
+## Web Interface
 
-| Variant | CPU | RAM | Storage | Web UI |
-|---------|-----|-----|---------|--------|
-| Default | 1 vCPU | 512 MB | 2 GB | IP:3000 |
-| Alpine  | 1 vCPU | 256 MB | 1 GB | IP:3000 |
+Default port: `3000`
 
 ## Links
 
-- [Official Website](https://adguard.com)
+- [Official Website](https://adguard.com/en/adguard-home/overview.html)
 - [Documentation](https://github.com/AdguardTeam/AdGuardHome/wiki/Getting-Started)

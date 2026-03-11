@@ -6,7 +6,7 @@ timezone: Finland/Helsinki
 title: Proxmox VE Scripts
 tagline: Streamlining your HomeLab
 description: >- # this means to ignore newlines until "baseurl:"
-  A collection of scripts for Proxmox and other usefull things.
+  Proxmox VE scripts for self-hosted services — easy install scripts for LXC containers, VMs and addons including Home Assistant, AdGuard, Jellyfin and more.
 
 url: "https://proxmox-scripts.com"
 baseurl: ""
@@ -15,7 +15,7 @@ github:
   username: Mati-l33t
 
 twitter:
-  username: jekyllrb
+  username:
 
 social:
   name: Proxmox-Scripts
