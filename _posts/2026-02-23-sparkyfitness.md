@@ -4,6 +4,7 @@ title: "SparkyFitness"
 date: 2026-02-23 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [sparkyfitness, lxc, monitoring-analytics, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/sparkyfitness.webp"
 description: "A self-hosted, privacy-first alternative to MyFitnessPal. Track nutrition, exercise, body metrics, and health data while keeping full control of your data."
 image:
   path: /assets/img/sparkyfitness.png

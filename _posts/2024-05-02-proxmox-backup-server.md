@@ -4,6 +4,7 @@ title: "Proxmox Backup Server (PBS)"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [proxmox-backup-server, lxc, proxmox-virtualization, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox-backup-server.webp"
 description: "Proxmox Backup Server is an enterprise backup solution, for backing up and restoring VMs, containers, and physical hosts. By supporting incremental, fully deduplicated backups, Proxmox Backup Server significantly reduces network load and saves valuable storage space."
 #image:
 #  path: /assets/img/proxmox-backup-server.png

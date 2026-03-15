@@ -4,6 +4,7 @@ title: "Pelican Wings"
 date: 2025-02-27 00:00:00 +0000
 categories: ["Gaming & Leisure"]
 tags: [pelican-wings, lxc, gaming-leisure, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pelican-wings.webp"
 description: "Pelican Wings is Pelican's server control plane, built for the rapidly changing gaming industry and designed to be highly performant and secure. Wings provides an HTTP API allowing you to interface directly with running server instances, fetch server logs, generate backups, and control all aspects of the server lifecycle."
 #image:
 #  path: /assets/img/pelican-wings.png

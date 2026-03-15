@@ -4,6 +4,7 @@ title: "PVE Post Install"
 date: 2024-04-28 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [post-pve-install, pve, proxmox-virtualization]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/post-pve-install.webp"
 description: "This script provides options for managing Proxmox VE repositories, including disabling the Enterprise Repo, adding or correcting PVE sources, enabling the No-Subscription Repo, adding the test Repo, disabling the subscription nag, updating Proxmox VE, and rebooting the system."
 #image:
 #  path: /assets/img/post-pve-install.png

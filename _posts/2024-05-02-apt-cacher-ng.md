@@ -4,6 +4,7 @@ title: "Apt-Cacher-NG"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [apt-cacher-ng, lxc, network-firewall, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apt-cacher-ng.webp"
 description: "Apt-Cacher-NG is a caching proxy. Specialized for package files from Linux distributors, primarily for Debian (and Debian based) distributions."
 #image:
 #  path: /assets/img/apt-cacher-ng.png

@@ -4,6 +4,7 @@ title: "Wordpress"
 date: 2025-01-14 00:00:00 +0000
 categories: ["Webservers & Proxies"]
 tags: [wordpress, lxc, webservers-proxies, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/wordpress.webp"
 description: "WordPress is the simplest, most popular way to create your own website or blog. In fact, WordPress powers over 43.6% of all the websites on the Internet. Yes – more than one in four websites that you visit are likely powered by WordPress.
 
 On a slightly more technical level, WordPress is an open-source content management system licensed under GPLv2, which means that anyone can use or modify the WordPress software for free."

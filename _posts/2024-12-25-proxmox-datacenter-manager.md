@@ -4,6 +4,7 @@ title: "Proxmox Datacenter Manager (PDM)"
 date: 2024-12-25 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [proxmox-datacenter-manager, lxc, proxmox-virtualization, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox-datacenter-manager.webp"
 description: "The Proxmox Datacenter Manager project has been developed with the objective of providing a centralized overview of all your individual nodes and clusters. It also enables basic management like migrations of virtual guests without any cluster network requirements. "
 #image:
 #  path: /assets/img/proxmox-datacenter-manager.png

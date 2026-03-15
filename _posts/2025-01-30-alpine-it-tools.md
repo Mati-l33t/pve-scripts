@@ -4,6 +4,7 @@ title: "Alpine-IT-Tools"
 date: 2025-01-30 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [alpine-it-tools, lxc, ai-coding-dev-tools, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/alpine-it-tools.webp"
 description: "IT-Tools is a web-based suite of utilities designed to streamline and simplify various IT tasks, providing tools for developers and system administrators to manage their workflows efficiently."
 #image:
 #  path: /assets/img/alpine-it-tools.png

@@ -4,6 +4,7 @@ title: "AdventureLog"
 date: 2024-10-26 00:00:00 +0000
 categories: ["Gaming & Leisure"]
 tags: [adventurelog, lxc, gaming-leisure, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/adventurelog.webp"
 description: "Adventure Log is an app designed to track outdoor activities and personal achievements, allowing users to log their adventures with photos, notes, and location data. It focuses on enhancing outdoor experiences by preserving memories and sharing them with others."
 #image:
 #  path: /assets/img/adventurelog.png

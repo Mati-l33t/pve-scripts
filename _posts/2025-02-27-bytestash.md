@@ -4,6 +4,7 @@ title: "ByteStash"
 date: 2025-02-27 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [bytestash, lxc, ai-coding-dev-tools, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bytestash.webp"
 description: "ByteStash is a self-hosted web application designed to store, organise, and manage your code snippets efficiently. With support for creating, editing, and filtering snippets, ByteStash helps you keep track of your code in one secure place."
 #image:
 #  path: /assets/img/bytestash.png

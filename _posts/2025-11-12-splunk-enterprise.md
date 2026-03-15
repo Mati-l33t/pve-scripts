@@ -4,6 +4,7 @@ title: "Splunk Enterprise"
 date: 2025-11-12 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [splunk-enterprise, lxc, monitoring-analytics]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/splunk-enterprise.webp"
 description: "Platform for searching, monitoring, and analyzing machine-generated data at scale for operational intelligence and security."
 image:
   path: /assets/img/splunk-enterprise.png

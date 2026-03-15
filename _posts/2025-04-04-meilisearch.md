@@ -4,6 +4,7 @@ title: "Meilisearch"
 date: 2025-04-04 00:00:00 +0000
 categories: [Databases]
 tags: [meilisearch, lxc, databases, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/meilisearch.webp"
 description: "Meilisearch is a fast, open-source search engine designed for instant, full-text search with typo tolerance. It provides an API that allows developers to integrate powerful search features into applications. Meilisearch-UI is an optional web-based interface that provides a simple way to interact with Meilisearch, visualize indexed data, and test queries without needing to use the API directly."
 #image:
 #  path: /assets/img/meilisearch.png

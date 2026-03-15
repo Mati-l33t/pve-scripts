@@ -4,6 +4,7 @@ title: "sonarqube"
 date: 2025-10-10 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [sonarqube, lxc, ai-coding-dev-tools, automation-scheduling, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/sonarqube.webp"
 description: "SonarQube Server automates code quality and security reviews and provides actionable code intelligence so developers can focus on building better, faster."
 #image:
 #  path: /assets/img/sonarqube.png

@@ -4,6 +4,7 @@ title: "LazyLibrarian"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [lazylibrarian, lxc, media-streaming, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/lazylibrarian.webp"
 description: "LazyLibrarian is a SickBeard, CouchPotato, Headphones-like application for ebooks, audiobooks and magazines."
 #image:
 #  path: /assets/img/lazylibrarian.png

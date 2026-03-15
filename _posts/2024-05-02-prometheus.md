@@ -4,6 +4,7 @@ title: "Prometheus"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [prometheus, lxc, monitoring-analytics, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/prometheus.webp"
 description: "Prometheus is widely used to monitor the performance and health of various infrastructure components and applications, and trigger alerts based on predefined rules. It has a multi-dimensional data model and supports various data sources and exporters, making it an extremely flexible and scalable monitoring solution."
 #image:
 #  path: /assets/img/prometheus.png

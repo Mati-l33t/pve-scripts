@@ -4,6 +4,7 @@ title: "PVE LXC Cleaner"
 date: 2024-04-29 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [clean-lxcs, pve, proxmox-virtualization]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/clean-lxcs.webp"
 description: "This script provides options to delete logs and cache, and repopulate apt lists for Ubuntu and Debian systems."
 #image:
 #  path: /assets/img/clean-lxcs.png

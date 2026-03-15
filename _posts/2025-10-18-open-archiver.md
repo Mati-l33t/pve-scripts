@@ -4,6 +4,7 @@ title: "Open-Archiver"
 date: 2025-10-18 00:00:00 +0000
 categories: ["Backup & Recovery"]
 tags: [open-archiver, lxc, backup-recovery, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/open-archiver.webp"
 description: "Open Archiver is a secure, self-hosted email archiving solution, and it's completely open source. Get an email archiver that enables full-text search across email and attachments. Create a permanent, searchable, and compliant mail archive from Google Workspace, Microsoft 35, and any IMAP server."
 #image:
 #  path: /assets/img/open-archiver.png

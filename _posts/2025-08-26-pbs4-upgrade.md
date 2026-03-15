@@ -4,6 +4,7 @@ title: "PBS 4 Upgrade"
 date: 2025-08-26 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [pbs4-upgrade, pve, proxmox-virtualization]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pbs4-upgrade.webp"
 description: "This script guides you through upgrading Proxmox Backup Server from version 3.x (Debian 12 Bookworm) to version 4.0 (Debian 13 Trixie). It adjusts the Debian base sources, configures PBS 4 repositories in deb822 format, updates enterprise/no-subscription/test repos, runs a full system upgrade, and finalizes with a reboot."
 #image:
 #  path: /assets/img/pbs4-upgrade.png

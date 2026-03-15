@@ -4,6 +4,7 @@ title: "Nightscout"
 date: 2026-02-06 00:00:00 +0000
 categories: [Miscellaneous]
 tags: [nightscout, lxc, miscellaneous, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nightscout.webp"
 description: "Nightscout is an open source, DIY project that allows real time access to a CGM data via personal website, smartwatch watchers, or apps and widgets available for smartphones."
 image:
   path: /assets/img/nightscout.png

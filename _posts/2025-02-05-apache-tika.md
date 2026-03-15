@@ -4,6 +4,7 @@ title: "Apache Tika"
 date: 2025-02-05 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [apache-tika, lxc, documents-notes, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-tika.webp"
 description: "The Apache Tika™ toolkit detects and extracts metadata and text from over a thousand different file types (such as PPT, XLS, and PDF). All of these file types can be parsed through a single interface, making Tika useful for search engine indexing, content analysis, translation, and much more."
 #image:
 #  path: /assets/img/apache-tika.png

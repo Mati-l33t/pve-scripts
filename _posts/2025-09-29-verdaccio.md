@@ -4,6 +4,7 @@ title: "Verdaccio"
 date: 2025-09-29 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [verdaccio, lxc, ai-coding-dev-tools, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/verdaccio.webp"
 description: "Verdaccio is a lightweight private npm proxy registry built with Node.js. It allows you to host your own npm registry with minimal configuration, providing a private npm repository for your projects. Verdaccio supports npm, yarn, and pnpm, and can cache packages from the public npm registry, allowing for faster installs and protection against npm registry outages. It includes a web interface for browsing packages, authentication and authorization features, and can be easily integrated into your development workflow."
 #image:
 #  path: /assets/img/verdaccio.png

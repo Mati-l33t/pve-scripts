@@ -4,6 +4,7 @@ title: "PhotoPrism"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [photoprism, lxc, media-streaming, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/photoprism.webp"
 description: "PhotoPrism is an AI-Powered Photos App for the Decentralized Web. It makes use of the latest technologies to tag and find pictures automatically without getting in your way."
 #image:
 #  path: /assets/img/photoprism.png

@@ -4,6 +4,7 @@ title: "FlowiseAI"
 date: 2024-05-02 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [flowiseai, lxc, ai-coding-dev-tools, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/flowiseai.webp"
 description: "FlowiseAI is an open source low-code tool for developers to build customized LLM orchestration flow & AI agents"
 #image:
 #  path: /assets/img/flowiseai.png

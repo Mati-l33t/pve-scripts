@@ -4,6 +4,7 @@ title: "Dispatcharr"
 date: 2025-10-27 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [dispatcharr, lxc, arr-suite, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/dispatcharr.webp"
 description: "Dispatcharr is an open-source powerhouse for managing IPTV streams and EPG data with elegance and control. Born from necessity and built with passion, it started as a personal project by OkinawaBoss and evolved with contributions from legends like dekzter, SergeantPanda and Bucatini."
 #image:
 #  path: /assets/img/dispatcharr.png

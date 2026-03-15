@@ -4,6 +4,7 @@ title: "Autocaliweb"
 date: 2025-09-10 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [autocaliweb, lxc, media-streaming, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/autocaliweb.webp"
 description: "A modern web management system for eBooks, eComics and PDFs"
 #image:
 #  path: /assets/img/autocaliweb.png

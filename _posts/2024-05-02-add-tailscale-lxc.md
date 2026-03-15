@@ -4,6 +4,7 @@ title: "Tailscale"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [add-tailscale-lxc, addon, proxmox-virtualization, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tailscale.webp"
 description: "Tailscale is a software-defined networking solution that enables secure communication between devices over the internet. It creates a virtual private network (VPN) that enables devices to communicate with each other as if they were on the same local network. Tailscale works even when the devices are separated by firewalls or subnets, and provides secure and encrypted communication between devices. With Tailscale, users can connect devices, servers, computers, and cloud instances to create a secure network, making it easier to manage and control access to resources. Tailscale is designed to be easy to set up and use, providing a streamlined solution for secure communication between devices over the internet."
 #image:
 #  path: /assets/img/add-tailscale-lxc.png

@@ -4,6 +4,7 @@ title: "PVE Privilege Converter"
 date: 2025-06-02 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [pve-privilege-converter, pve, proxmox-virtualization]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pve-privilege-converter.webp"
 description: "This script allows converting Proxmox LXC containers between privileged and unprivileged modes using vzdump backup and restore. It guides you through container selection, backup storage, ID assignment, and privilege flipping via automated restore. Useful for applying changes that require different LXC modes."
 #image:
 #  path: /assets/img/pve-privilege-converter.png

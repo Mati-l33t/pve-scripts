@@ -4,6 +4,7 @@ title: "PVE Monitor-All"
 date: 2024-04-29 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [monitor-all, pve, proxmox-virtualization]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/monitor-all.webp"
 description: "This script will add Monitor-All to Proxmox VE, which will monitor the status of all your instances, both containers and virtual machines, excluding templates and user-defined ones, and automatically restart or reset them if they become unresponsive. This is particularly useful if you're experiencing problems with Home Assistant becoming non-responsive every few days/weeks. Monitor-All also maintains a log of the entire process, which can be helpful for troubleshooting and monitoring purposes.
 
 🛈 Virtual machines without the QEMU guest agent installed must be excluded.

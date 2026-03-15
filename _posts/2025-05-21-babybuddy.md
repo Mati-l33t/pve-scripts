@@ -4,6 +4,7 @@ title: "Baby Buddy"
 date: 2025-05-21 00:00:00 +0000
 categories: ["Finance & Budgeting"]
 tags: [babybuddy, lxc, finance-budgeting, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/babybuddy.webp"
 description: "Baby Buddy is an open-source web application designed to assist caregivers in tracking various aspects of a baby's daily routine, including sleep, feedings, diaper changes, tummy time, and more. By recording this data, caregivers can better understand and anticipate their baby's needs, reducing guesswork in daily care. The application offers a user-friendly dashboard for data entry and visualization, supports multiple users, and provides features like timers and reminders. Additionally, Baby Buddy can be integrated with platforms like Home Assistant and Grafana for enhanced functionality."
 #image:
 #  path: /assets/img/babybuddy.png

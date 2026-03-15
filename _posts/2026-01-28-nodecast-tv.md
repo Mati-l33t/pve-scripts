@@ -4,6 +4,7 @@ title: "nodecast-tv"
 date: 2026-01-28 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [nodecast-tv, lxc, media-streaming, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nodecast-tv.webp"
 description: "nodecast-tv is a modern, web-based IPTV player featuring Live TV, EPG, Movies (VOD), and Series support. Built with performance and user experience in mind."
 image:
   path: /assets/img/nodecast-tv.png

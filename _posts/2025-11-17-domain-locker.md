@@ -4,6 +4,7 @@ title: "Domain Locker"
 date: 2025-11-17 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [domain-locker, lxc, monitoring-analytics, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/domain-locker.webp"
 description: "The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! "
 image:
   path: /assets/img/domain-locker.png

@@ -4,6 +4,7 @@ title: "Matterbridge"
 date: 2024-06-12 00:00:00 +0000
 categories: [ZigBee and Z-Wave]
 tags: [matterbridge, lxc, zigbee-and-z-wave, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/matterbridge.webp"
 description: "Matterbridge allows you to have all your Matter devices up and running in a couple of minutes without having to deal with the pairing process of each single device."
 #image:
 #  path: /assets/img/matterbridge.png

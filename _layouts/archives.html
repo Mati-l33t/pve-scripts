@@ -27,7 +27,7 @@ layout: page
       <span class="date month small text-muted ms-1" data-ts="{{ ts }}" data-df="{{ df_dayjs_m }}">
         {{ post.date | date: df_strftime_m }}
       </span>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}" class="d-inline-flex align-items-center gap-1">{% if post.icon %}<img class="post-icon" src="{{ post.icon }}" alt="" onerror="this.style.display='none'">{% endif %}{{ post.title }}</a>
       {% if post.tags contains 'lxc' %}
         <span class="type-badge type-lxc">LXC</span>
       {% elsif post.tags contains 'vm' %}

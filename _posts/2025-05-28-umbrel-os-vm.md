@@ -4,6 +4,7 @@ title: "Umbrel OS"
 date: 2025-05-28 00:00:00 +0000
 categories: [Operating Systems]
 tags: [umbrel-os-vm, vm, operating-systems, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/umbrel-os.webp"
 description: "Take control of your digital life with Umbrel — a private, personal server that lets you self-host powerful open source apps with ease. Whether you want to run a Bitcoin or Lightning node, manage your files with Nextcloud, stream media, block ads across your network, or explore self-hosted AI tools, Umbrel gives you full ownership and privacy. All through a beautiful, user-friendly interface — no cloud, no tracking, just your data under your control."
 #image:
 #  path: /assets/img/umbrel-os-vm.png

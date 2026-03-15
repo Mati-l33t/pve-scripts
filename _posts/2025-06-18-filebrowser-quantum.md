@@ -4,6 +4,7 @@ title: "FileBrowser Quantum"
 date: 2025-06-18 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [filebrowser-quantum, addon, proxmox-virtualization, files-downloads, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/filebrowser-quantum.webp"
 description: "FileBrowser Quantum provides an easy way to access and manage your files from the web. It has has a web page interface that allows you to create secure shared links, users with their own specific permissions and settings, and offers a great viewing experience for many file types. This version is called Quantum because it packs tons of advanced features into a tiny easy to run file. Unlike the majority of alternative options, FileBrowser Quantum is simple to install and easy to configure."
 #image:
 #  path: /assets/img/filebrowser-quantum.png

@@ -4,6 +4,7 @@ title: "InvenTree"
 date: 2025-03-06 00:00:00 +0000
 categories: ["Business & ERP"]
 tags: [inventree, lxc, business-erp, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/inventree.webp"
 description: "InvenTree is an open-source inventory management system which provides intuitive parts management and stock control. It is designed to be lightweight and easy to use for SME or hobbyist applications."
 #image:
 #  path: /assets/img/inventree.png

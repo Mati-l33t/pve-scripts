@@ -4,6 +4,7 @@ title: "Navidrome"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [navidrome, lxc, media-streaming, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/navidrome.webp"
 description: "Navidrome is a music server solution that makes your music collection accessible from anywhere. It provides a modern web-based user interface and compatibility with a range of third-party mobile apps for both iOS and Android devices. With Navidrome, users can access their music collection from anywhere, whether at home or on the go. The software supports a variety of music formats, making it easy for users to play their favorite songs and albums. Navidrome provides a simple and user-friendly interface for managing and organizing music collections, making it a valuable tool for music lovers who want to access their music from anywhere. The software is designed to be easy to set up and use, making it a popular choice for those who want to host their own music server and enjoy their music collection from anywhere."
 #image:
 #  path: /assets/img/navidrome.png

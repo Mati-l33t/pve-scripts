@@ -4,6 +4,7 @@ title: "LibreTranslate"
 date: 2025-06-15 00:00:00 +0000
 categories: [Miscellaneous]
 tags: [libretranslate, lxc, miscellaneous, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/libretranslate.webp"
 description: "Free and Open Source Machine Translation API, entirely self-hosted. Unlike other APIs, it doesn't rely on proprietary providers such as Google or Azure to perform translations. Instead, its translation engine is powered by the open source Argos Translate library."
 #image:
 #  path: /assets/img/libretranslate.png

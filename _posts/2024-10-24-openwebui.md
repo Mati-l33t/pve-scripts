@@ -4,6 +4,7 @@ title: "Open WebUI"
 date: 2024-10-24 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [openwebui, lxc, ai-coding-dev-tools, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openwebui.webp"
 description: "OpenWebUI is a self-hosted, web-based interface that allows you to run AI models entirely offline. It integrates with various LLM runners, such as OpenAI and Ollama, and supports features like markdown and LaTeX rendering, model management, and voice/video calls. It also offers multilingual support and the ability to generate images using APIs like DALL-E or ComfyUI"
 #image:
 #  path: /assets/img/openwebui.png

@@ -4,6 +4,7 @@ title: "cross-seed"
 date: 2025-02-07 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [cross-seed, lxc, arr-suite, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cross-seed.webp"
 description: "cross-seed is an app designed to help you download torrents that you can cross seed based on your existing torrents. It is designed to match conservatively to minimize manual intervention."
 #image:
 #  path: /assets/img/cross-seed.png

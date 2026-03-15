@@ -4,6 +4,7 @@ title: "PVE Cron LXC Updater"
 date: 2024-04-29 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [cron-update-lxcs, pve, proxmox-virtualization]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cron-update-lxcs.webp"
 description: "This script will add/remove a crontab schedule that updates the operating system of all LXCs every Sunday at midnight."
 #image:
 #  path: /assets/img/cron-update-lxcs.png

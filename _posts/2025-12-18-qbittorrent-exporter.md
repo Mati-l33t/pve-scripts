@@ -4,6 +4,7 @@ title: "qbittorrent Exporter"
 date: 2025-12-18 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [qbittorrent-exporter, addon, monitoring-analytics, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/qbittorrent-exporter.webp"
 description: "A fast and lightweight prometheus exporter for qBittorrent "
 image:
   path: /assets/img/qbittorrent-exporter.png

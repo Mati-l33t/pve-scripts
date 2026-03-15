@@ -4,6 +4,7 @@ title: "LanguageTool"
 date: 2026-01-30 00:00:00 +0000
 categories: [Miscellaneous]
 tags: [languagetool, lxc, miscellaneous, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/languagetool.webp"
 description: "LanguageTool is an Open Source proofreading software for English, Spanish, French, German, Portuguese, Polish, Dutch, and more than 20 other languages. It finds many errors that a simple spell checker cannot detect."
 #image:
 #  path: /assets/img/languagetool.png

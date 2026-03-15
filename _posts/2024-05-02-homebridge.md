@@ -4,6 +4,7 @@ title: "Homebridge"
 date: 2024-05-02 00:00:00 +0000
 categories: ["IoT & Smart Home"]
 tags: [homebridge, lxc, iot-smart-home, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/homebridge.webp"
 description: "Homebridge is a popular open-source software platform that enables you to integrate smart home devices and services that do not natively support Apple's HomeKit protocol into the HomeKit ecosystem. This allows you to control and automate these devices using Siri, the Home app, or other HomeKit-enabled apps, making it easy to bring together a variety of different devices into a unified smart home system. With Homebridge, you can expand the capabilities of your smart home, unlocking new possibilities for automating and controlling your devices and systems."
 #image:
 #  path: /assets/img/homebridge.png

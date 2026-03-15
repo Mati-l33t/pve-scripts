@@ -4,6 +4,7 @@ title: "Recyclarr"
 date: 2024-11-15 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [recyclarr, lxc, arr-suite, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/recyclarr.webp"
 description: "Recyclarr is an automation tool that integrates with media management software like Sonarr and Radarr. It helps users manage and organize their media libraries by automatically searching for and adding content from indexers, based on user-defined criteria. It streamlines the process of maintaining and updating media collections without manual intervention."
 #image:
 #  path: /assets/img/recyclarr.png

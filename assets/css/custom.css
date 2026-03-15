@@ -118,6 +118,42 @@ a.post-tag[href*="/tags/auto-update/"] {
   margin-top: 0.15rem;
 }
 
+/* ── Post app icons ── */
+.post-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 3px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+/* Neutralize the shimmer/preview-img wrapper the theme injects around post-icon on home page */
+h1.card-title .preview-img,
+h1.card-title .shimmer {
+  aspect-ratio: unset;
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 24px;
+  background: none !important;
+  overflow: visible;
+  border-radius: 3px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+h1.card-title .preview-img::before,
+h1.card-title .shimmer::before {
+  display: none !important;
+}
+
+h1.card-title .preview-img img {
+  width: 24px !important;
+  height: 24px !important;
+  object-fit: contain;
+}
+
 /* ── Styled credentials table ── */
 .styled-table table {
   width: 100%;

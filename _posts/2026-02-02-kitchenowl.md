@@ -4,6 +4,7 @@ title: "KitchenOwl"
 date: 2026-02-02 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [kitchenowl, lxc, media-streaming, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/kitchenowl.webp"
 description: "KitchenOwl is a smart self-hosted grocery list and recipe manager with real-time synchronization, recipe management, meal planning, and expense tracking."
 image:
   path: /assets/img/kitchenowl.png

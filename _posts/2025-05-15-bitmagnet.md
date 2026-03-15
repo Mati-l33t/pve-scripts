@@ -4,6 +4,7 @@ title: "Bitmagnet"
 date: 2025-05-15 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [bitmagnet, lxc, files-downloads, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bitmagnet.webp"
 description: "A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration."
 #image:
 #  path: /assets/img/bitmagnet.png

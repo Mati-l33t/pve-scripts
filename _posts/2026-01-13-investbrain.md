@@ -4,6 +4,7 @@ title: "Investbrain"
 date: 2026-01-13 00:00:00 +0000
 categories: ["Finance & Budgeting"]
 tags: [investbrain, lxc, finance-budgeting, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/investbrain.webp"
 description: "Investbrain is a smart open-source investment tracker that helps you manage, track, and make informed decisions about your investments."
 image:
   path: /assets/img/investbrain.png

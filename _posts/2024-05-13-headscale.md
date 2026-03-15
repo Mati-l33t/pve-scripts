@@ -4,6 +4,7 @@ title: "Headscale"
 date: 2024-05-13 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [headscale, lxc, network-firewall, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/headscale.webp"
 description: "An open source, self-hosted implementation of the Tailscale control server"
 #image:
 #  path: /assets/img/headscale.png

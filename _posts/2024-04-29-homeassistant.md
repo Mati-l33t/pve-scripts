@@ -4,6 +4,7 @@ title: "Home Assistant Container"
 date: 2024-04-29 00:00:00 +0000
 categories: ["IoT & Smart Home"]
 tags: [homeassistant, lxc, iot-smart-home, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/homeassistant.webp"
 description: "A standalone container-based installation of Home Assistant Core means that the software is installed inside a Docker container, separate from the host operating system. This allows for flexibility and scalability, as well as improved security, as the container can be easily moved or isolated from other processes on the host."
 #image:
 #  path: /assets/img/homeassistant.png

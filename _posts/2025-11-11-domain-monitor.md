@@ -4,6 +4,7 @@ title: "Domain Monitor"
 date: 2025-11-11 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [domain-monitor, lxc, monitoring-analytics, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/domain-monitor.webp"
 description: "A self-hosted PHP domain expiration monitoring tool that tracks domain expiry dates, RDAP/WHOIS data, and SSL certificate validity. Supports alerts, multi-user setup, and cron automation. Built for developers, hosting providers, and IT admins who want full control without third-party services."
 #image:
 #  path: /assets/img/domain-monitor.png

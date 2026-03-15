@@ -4,6 +4,7 @@ title: "UmlautAdaptarr"
 date: 2025-04-28 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [umlautadaptarr, lxc, arr-suite, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/umlautadaptarr.webp"
 description: "UmlautAdaptarr is a tool that fixes issues with how Sonarr, Radarr, Lidarr, and Readarr handle foreign languages. It sits between these apps and the indexers, changing searches and results, and renaming releases so the apps recognize them correctly."
 #image:
 #  path: /assets/img/umlautadaptarr.png

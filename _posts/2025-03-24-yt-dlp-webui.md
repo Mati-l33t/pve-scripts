@@ -4,6 +4,7 @@ title: "yt-dlp-webui"
 date: 2025-03-24 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [yt-dlp-webui, lxc, files-downloads, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/yt-dlp-webui.webp"
 description: "A not so terrible web ui for yt-dlp.
 High performance extendeable web ui and RPC server for yt-dlp with low impact on resources.
 Created for the only purpose of fetching videos from my server/nas and monitor upcoming livestreams."

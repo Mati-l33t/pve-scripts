@@ -4,6 +4,7 @@ title: "PVE Kernel Pin"
 date: 2024-05-08 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [kernel-pin, pve, proxmox-virtualization]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/kernel-pin.webp"
 description: "Kernel Pin is an essential tool for effortlessly managing kernel pinning and unpinning."
 #image:
 #  path: /assets/img/kernel-pin.png

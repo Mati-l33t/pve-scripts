@@ -4,6 +4,7 @@ title: "OPNsense"
 date: 2025-11-23 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [opnsense-vm, vm, network-firewall, operating-systems, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/opnsense.webp"
 description: "OPNsense is an open-source firewall and routing platform based on FreeBSD. It provides advanced security features, including intrusion detection, VPN support, traffic shaping, and web filtering, with an intuitive web interface for easy management. Known for its reliability and regular updates, OPNsense is a popular choice for both businesses and home networks."
 image:
   path: /assets/img/opnsense-vm.jpg

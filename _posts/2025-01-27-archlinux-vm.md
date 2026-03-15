@@ -4,6 +4,7 @@ title: "Arch Linux"
 date: 2025-01-27 00:00:00 +0000
 categories: [Operating Systems]
 tags: [archlinux-vm, vm, operating-systems, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/archlinux.webp"
 description: "Arch Linux is a highly customizable, independent Linux distribution that gives users complete control over their system. Known for its rolling release model, Arch Linux is always up-to-date with the latest software. It's favored by experienced users who appreciate its minimalist approach, demanding a hands-on installation and configuration process. This level of control and flexibility makes it a popular choice for those who want to tailor their Linux system to their exact needs."
 #image:
 #  path: /assets/img/archlinux-vm.png

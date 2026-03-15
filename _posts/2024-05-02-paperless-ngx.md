@@ -4,6 +4,7 @@ title: "Paperless-ngx"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [paperless-ngx, lxc, documents-notes, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paperless-ngx.webp"
 description: "Paperless-ngx is a software tool designed for digitizing and organizing paper documents. It provides a web-based interface for scanning, uploading, and organizing paper documents, making it easier to manage, search, and access important information. Paperless-ngx uses the OCR (Optical Character Recognition) technology to extract text from scanned images and makes it searchable, thus increasing the efficiency of document management."
 #image:
 #  path: /assets/img/paperless-ngx.png

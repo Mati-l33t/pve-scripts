@@ -4,6 +4,7 @@ title: "NetBird"
 date: 2024-05-19 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [add-netbird-lxc, addon, proxmox-virtualization, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netbird.webp"
 description: "NetBird combines a configuration-free peer-to-peer private network and a centralized access control system in a single platform, making it easy to create secure private networks for your organization or home."
 #image:
 #  path: /assets/img/add-netbird-lxc.png

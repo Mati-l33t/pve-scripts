@@ -4,6 +4,7 @@ title: "Coder Code Server"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [coder-code-server, addon, proxmox-virtualization, ai-coding-dev-tools, files-downloads]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/coder-code-server.webp"
 description: "Coder Code Server is an open-source project that enables you to run Visual Studio Code (VS Code) on a remote machine, such as a desktop PC or virtual server. It serves a web-based version of VS Code that you can access from any browser via a URL, allowing remote development without needing an SSH connection. Unlike the official VS Code Server used by vscode.dev for Remote Tunnels, code-server is developed by Coder and operates independently, providing similar capabilities through a self-hosted solution."
 #image:
 #  path: /assets/img/coder-code-server.png

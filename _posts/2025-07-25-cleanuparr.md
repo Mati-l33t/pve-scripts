@@ -4,6 +4,7 @@ title: "Cleanuparr"
 date: 2025-07-25 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [cleanuparr, lxc, arr-suite, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cleanuparr.webp"
 description: "Cleanuparr is a tool for automating the cleanup of unwanted or blocked files in Sonarr, Radarr, and supported download clients like qBittorrent, Transmission, and Deluge. It removes incomplete, blocked, or malicious downloads and can trigger replacement searches to ensure your media library stays complete and up-to-date."
 #image:
 #  path: /assets/img/cleanuparr.png

@@ -4,6 +4,7 @@ title: "TrueNAS Community Edition"
 date: 2026-02-19 00:00:00 +0000
 categories: [Operating Systems]
 tags: [truenas-vm, vm, operating-systems]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/truenas-scale.webp"
 description: "TrueNAS Community Edition is the world's most deployed storage software. Free, flexible and build on OpenZFS with Docker."
 image:
   path: /assets/img/truenas-vm.webp

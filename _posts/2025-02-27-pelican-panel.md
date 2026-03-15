@@ -4,6 +4,7 @@ title: "Pelican Panel"
 date: 2025-02-27 00:00:00 +0000
 categories: ["Gaming & Leisure"]
 tags: [pelican-panel, lxc, gaming-leisure, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pelican-panel.webp"
 description: "Pelican Panel is a web-based control panel for managing game and application servers. It provides an intuitive interface to start, stop, configure, and monitor servers easily. It works alongside Pelican Wings, a lightweight daemon that handles server deployments and resource management."
 #image:
 #  path: /assets/img/pelican-panel.png

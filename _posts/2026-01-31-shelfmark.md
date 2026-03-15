@@ -4,6 +4,7 @@ title: "Shelfmark"
 date: 2026-01-31 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [shelfmark, lxc, media-streaming, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/shelfmark.webp"
 description: "Shelfmark is a unified web interface for searching and aggregating books and audiobook downloads from multiple sources - all in one place."
 image:
   path: /assets/img/shelfmark.png

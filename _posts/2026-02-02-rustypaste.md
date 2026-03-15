@@ -4,6 +4,7 @@ title: "RustyPaste"
 date: 2026-02-02 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [rustypaste, lxc, files-downloads, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rustypaste.webp"
 description: "Rustypaste is a minimal file upload/pastebin service."
 image:
   path: /assets/img/rustypaste.png

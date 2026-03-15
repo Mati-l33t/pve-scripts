@@ -4,6 +4,7 @@ title: "PaperlessAI"
 date: 2025-02-06 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [paperless-ai, lxc, ai-coding-dev-tools, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paperless-ai.webp"
 description: "An automated document analyzer for Paperless-ngx using OpenAI API, Ollama and all OpenAI API compatible Services to automatically analyze and tag your documents.It features: Automode, Manual Mode, Ollama and OpenAI, a Chat function to query your documents with AI, a modern and intuitive Webinterface."
 #image:
 #  path: /assets/img/paperless-ai.png

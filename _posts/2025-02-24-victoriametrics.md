@@ -4,6 +4,7 @@ title: "VictoriaMetrics"
 date: 2025-02-24 00:00:00 +0000
 categories: [Databases]
 tags: [victoriametrics, lxc, databases, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/victoriametrics.webp"
 description: "VictoriaMetrics is a fast, cost-saving, and scalable solution for monitoring and managing time series data. It delivers high performance and reliability, making it an ideal choice for businesses of all sizes."
 #image:
 #  path: /assets/img/victoriametrics.png

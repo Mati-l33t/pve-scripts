@@ -4,6 +4,7 @@ title: "Prometheus Proxmox VE Exporter"
 date: 2025-01-28 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [prometheus-pve-exporter, lxc, proxmox-virtualization, monitoring-analytics, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/prometheus-pve-exporter.webp"
 description: "An exporter that exposes information gathered from Proxmox VE node for use by the Prometheus monitoring system."
 #image:
 #  path: /assets/img/prometheus-pve-exporter.png

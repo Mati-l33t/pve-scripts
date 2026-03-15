@@ -4,6 +4,7 @@ title: "Element Synapse"
 date: 2025-02-02 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [elementsynapse, lxc, network-firewall, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/elementsynapse.webp"
 description: "Synapse is an open source Matrix homeserver implementation, written and maintained by Element. Matrix is the open standard for secure and interoperable real time communications. You can directly run and manage the source code in this repository, available under an AGPL license. There is no support provided from Element unless you have a subscription."
 #image:
 #  path: /assets/img/elementsynapse.png

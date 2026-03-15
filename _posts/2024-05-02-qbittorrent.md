@@ -4,6 +4,7 @@ title: "qBittorrent"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [qbittorrent, lxc, files-downloads, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/qbittorrent.webp"
 description: "qBittorrent offers a user-friendly interface that allows users to search for and download torrent files easily. It also supports magnet links, which allow users to start downloading files without the need for a torrent file."
 #image:
 #  path: /assets/img/qbittorrent.png

@@ -4,6 +4,7 @@ title: "Uptime Kuma"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [uptimekuma, lxc, monitoring-analytics, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/uptimekuma.webp"
 description: "Uptime Kuma is a monitoring and alerting system that tracks the availability and performance of servers, websites, and other internet-connected devices. It can be self-hosted and is open-source, offering a visually appealing interface for monitoring and receiving notifications about downtime events."
 #image:
 #  path: /assets/img/uptimekuma.png

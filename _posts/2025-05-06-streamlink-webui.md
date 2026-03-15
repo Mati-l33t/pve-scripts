@@ -4,6 +4,7 @@ title: "Streamlink WebUI"
 date: 2025-05-06 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [streamlink-webui, lxc, files-downloads, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/streamlink-webui.webp"
 description: "a simple web-ui to the well-known streamlink cli application, which allows you to save twitch streams to your local disk."
 #image:
 #  path: /assets/img/streamlink-webui.png

@@ -4,6 +4,7 @@ title: "Profilarr"
 date: 2026-03-02 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [profilarr, lxc, arr-suite, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/profilarr.webp"
 description: "Profilarr is a configuration management platform for Radarr and Sonarr that simplifies importing, syncing, and managing quality profiles, custom formats, and release profiles."
 #image:
 #  path: /assets/img/profilarr.png

@@ -4,6 +4,7 @@ title: "Copyparty"
 date: 2025-08-18 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [copyparty, addon, files-downloads, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/copyparty.webp"
 description: "Copyparty is a lightweight, portable HTTP file server with a browser-based interface. It supports drag-and-drop uploads, downloads, deduplication, media playback, and advanced search, making it ideal for quickly sharing and managing files."
 #image:
 #  path: /assets/img/copyparty.png

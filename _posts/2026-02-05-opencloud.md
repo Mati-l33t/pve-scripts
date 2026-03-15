@@ -4,6 +4,7 @@ title: "OpenCloud"
 date: 2026-02-05 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [opencloud, lxc, files-downloads, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/opencloud.webp"
 description: "OpenCloud is the file sharing and collaboration solution of the Heinlein Group. Through intelligent file management and a strong open source community, files become valuable resources, effectively structured and usable in the long term. With flexible data rooms and intelligent access rights, teams can access and work together on data anytime, anywhere without barriers, but with a lot of productivity."
 image:
   path: /assets/img/opencloud.jpg

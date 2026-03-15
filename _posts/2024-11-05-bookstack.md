@@ -4,6 +4,7 @@ title: "BookStack"
 date: 2024-11-05 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [bookstack, lxc, documents-notes, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bookstack.webp"
 description: "BookStack is a user-friendly documentation platform that offers a simple and intuitive experience. New users should be able to create content with basic word-processing skills. While the platform provides advanced features, they do not interfere with the core simplicity of the user experience."
 #image:
 #  path: /assets/img/bookstack.png

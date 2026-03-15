@@ -4,6 +4,7 @@ title: "Audiobookshelf"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [audiobookshelf, lxc, media-streaming, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/audiobookshelf.webp"
 description: "Audiobookshelf is a Self-hosted audiobook and podcast server."
 #image:
 #  path: /assets/img/audiobookshelf.png

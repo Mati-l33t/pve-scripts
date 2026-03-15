@@ -4,6 +4,7 @@ title: "Nginx Proxy Manager"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Webservers & Proxies"]
 tags: [nginxproxymanager, lxc, webservers-proxies, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nginxproxymanager.webp"
 description: "Nginx Proxy Manager is a tool that provides a web-based interface to manage Nginx reverse proxies. It enables users to easily and securely expose their services to the internet by providing features such as HTTPS encryption, domain mapping, and access control. It eliminates the need for manual configuration of Nginx reverse proxies, making it easy for users to quickly and securely expose their services to the public."
 #image:
 #  path: /assets/img/nginxproxymanager.png

@@ -4,6 +4,7 @@ title: "PVE LXC Deletion"
 date: 2025-01-21 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [lxc-delete, pve, proxmox-virtualization]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/lxc-delete.webp"
 description: "This script helps manage and delete LXC containers on a Proxmox VE server. It lists all available containers, allowing the user to select one or more for deletion through an interactive menu. Running containers are automatically stopped before deletion, and the user is asked to confirm each action. The script ensures a controlled and efficient container management process."
 #image:
 #  path: /assets/img/lxc-delete.png

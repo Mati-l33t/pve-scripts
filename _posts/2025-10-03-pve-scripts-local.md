@@ -4,6 +4,7 @@ title: "PVEScriptsLocal"
 date: 2025-10-03 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [pve-scripts-local, lxc, proxmox-virtualization, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pve-scripts-local.webp"
 description: "A modern web-based management interface for Proxmox VE (PVE) helper scripts. This tool provides a user-friendly way to discover, download, and execute community-sourced Proxmox scripts locally with real-time terminal output streaming."
 #image:
 #  path: /assets/img/pve-scripts-local.png

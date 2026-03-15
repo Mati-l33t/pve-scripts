@@ -4,6 +4,7 @@ title: "PiMox HAOS"
 date: 2024-04-29 00:00:00 +0000
 categories: ["IoT & Smart Home"]
 tags: [pimox-haos-vm, vm, iot-smart-home, auto-update]
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pimox-haos.webp"
 description: "The script automates the manual process of finding, downloading and extracting the aarch64 (qcow2) disk image provided by the Home Assistant Team, creating a VM with user defined settings, importing and attaching the disk, setting the boot order and starting the VM."
 #image:
 #  path: /assets/img/pimox-haos-vm.png
