@@ -4,8 +4,8 @@ title: "VictoriaMetrics"
 date: 2025-02-24 00:00:00 +0000
 categories: [Databases]
 tags: [victoriametrics, lxc, databases, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/victoriametrics.webp"
 description: "VictoriaMetrics is a fast, cost-saving, and scalable solution for monitoring and managing time series data. It delivers high performance and reliability, making it an ideal choice for businesses of all sizes."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/victoriametrics.webp"
 #image:
 #  path: /assets/img/victoriametrics.png
 #  alt: VictoriaMetrics
@@ -28,7 +28,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Included option to install VictoriaLogs.
+  <div>Included option to install VictoriaLogs.</div>
 </div>
 
 ## Web Interface

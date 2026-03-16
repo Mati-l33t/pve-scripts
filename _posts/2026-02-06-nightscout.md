@@ -4,8 +4,8 @@ title: "Nightscout"
 date: 2026-02-06 00:00:00 +0000
 categories: [Miscellaneous]
 tags: [nightscout, lxc, miscellaneous, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nightscout.webp"
 description: "Nightscout is an open source, DIY project that allows real time access to a CGM data via personal website, smartwatch watchers, or apps and widgets available for smartphones."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nightscout.webp"
 image:
   path: /assets/img/nightscout.png
   alt: Nightscout
@@ -35,22 +35,22 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Nightscout requires configuring `my.env` with your Mongo connection string. API_SECRET has been generated and saved to `~/nightscout.creds`.
+  <div>Nightscout requires configuring <code>my.env</code> with your Mongo connection string. API_SECRET has been generated and saved to <code>~/nightscout.creds</code>.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Edit `/opt/nightscout/my.env` to configure your CGM source (Dexcom/CareLink). Then run: `systemctl restart nightscout`
+  <div>Edit <code>/opt/nightscout/my.env</code> to configure your CGM source (Dexcom/CareLink). Then run: <code>systemctl restart nightscout</code></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Official Configuration Guide: https://nightscout.github.io/nightscout/setup_variables/
+  <div>Official Configuration Guide: https://nightscout.github.io/nightscout/setup_variables/</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Nightscout requires HTTPS for many features (security, tokens, PWA). Usage of a reverse proxy (e.g. Nginx Proxy Manager, Traefik, Caddy) is highly recommended.
+  <div>Nightscout requires HTTPS for many features (security, tokens, PWA). Usage of a reverse proxy (e.g. Nginx Proxy Manager, Traefik, Caddy) is highly recommended.</div>
 </div>
 
 ## Web Interface

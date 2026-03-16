@@ -4,8 +4,8 @@ title: "Nextcloud Exporter"
 date: 2025-12-27 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [nextcloud-exporter, addon, monitoring-analytics, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud-exporter.webp"
 description: "Prometheus exporter for Nextcloud servers. "
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud.webp"
 #image:
 #  path: /assets/img/nextcloud-exporter.png
 #  alt: Nextcloud Exporter

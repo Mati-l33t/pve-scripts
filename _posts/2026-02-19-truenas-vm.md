@@ -4,8 +4,8 @@ title: "TrueNAS Community Edition"
 date: 2026-02-19 00:00:00 +0000
 categories: [Operating Systems]
 tags: [truenas-vm, vm, operating-systems]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/truenas-scale.webp"
 description: "TrueNAS Community Edition is the world's most deployed storage software. Free, flexible and build on OpenZFS with Docker."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/truenas-core.webp"
 image:
   path: /assets/img/truenas-vm.webp
   alt: TrueNAS Community Edition
@@ -28,7 +28,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/v
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Once the script finishes, proceed with the OS installation via the console. For more details, please refer to this discussion: `https://github.com/community-scripts/ProxmoxVE/discussions/11344`
+  <div>Once the script finishes, proceed with the OS installation via the console. For more details, please refer to this discussion: <code>https://github.com/community-scripts/ProxmoxVE/discussions/11344</code></div>
 </div>
 
 ## Links

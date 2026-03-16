@@ -4,8 +4,8 @@ title: "Duplicati"
 date: 2025-02-06 00:00:00 +0000
 categories: ["Backup & Recovery"]
 tags: [duplicati, lxc, backup-recovery, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/duplicati.webp"
 description: "Duplicati is a free, open-source backup solution that offers zero-trust, fully encrypted backups for your data."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/duplicati.webp"
 #image:
 #  path: /assets/img/duplicati.png
 #  alt: Duplicati
@@ -28,7 +28,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Admin password and database encryption key: `cat ~/duplicati.creds`
+  <div>Admin password and database encryption key: <code>cat ~/duplicati.creds</code></div>
 </div>
 
 ## Web Interface

@@ -4,8 +4,8 @@ title: "PhotoPrism"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [photoprism, lxc, media-streaming, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/photoprism.webp"
 description: "PhotoPrism is an AI-Powered Photos App for the Decentralized Web. It makes use of the latest technologies to tag and find pictures automatically without getting in your way."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/photoprism.webp"
 #image:
 #  path: /assets/img/photoprism.png
 #  alt: PhotoPrism
@@ -44,7 +44,7 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Please note that Ubuntu 22.04 and Debian 12 are supported, while older Linux distributions may not be compatible.
+  <div>Please note that Ubuntu 22.04 and Debian 12 are supported, while older Linux distributions may not be compatible.</div>
 </div>
 
 ## Web Interface

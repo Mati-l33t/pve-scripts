@@ -4,8 +4,8 @@ title: "Zot Registry"
 date: 2025-06-06 00:00:00 +0000
 categories: ["Containers & Docker"]
 tags: [zot-registry, lxc, containers-docker, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/zot-registry.webp"
 description: "Zot is a cloud-native OCI image registry focused on extensibility, maintainability, and performance. It supports advanced features such as Web UI, security scanning, authentication via htpasswd and OIDC, and more."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/zot-registry.webp"
 #image:
 #  path: /assets/img/zot-registry.png
 #  alt: Zot Registry

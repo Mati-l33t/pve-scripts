@@ -4,8 +4,8 @@ title: "Apache CouchDB"
 date: 2024-05-02 00:00:00 +0000
 categories: [Databases]
 tags: [apache-couchdb, lxc, databases, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-couchdb.webp"
 description: "Apache CouchDB Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/couchdb.webp"
 #image:
 #  path: /assets/img/apache-couchdb.png
 #  alt: Apache CouchDB
@@ -35,7 +35,7 @@ etc/default.ini
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Login Credentials: `cat ~/couchdb.creds`
+  <div>Login Credentials: <code>cat ~/couchdb.creds</code></div>
 </div>
 
 ## Web Interface

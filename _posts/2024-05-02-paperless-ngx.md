@@ -4,8 +4,8 @@ title: "Paperless-ngx"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [paperless-ngx, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paperless-ngx.webp"
 description: "Paperless-ngx is a software tool designed for digitizing and organizing paper documents. It provides a web-based interface for scanning, uploading, and organizing paper documents, making it easier to manage, search, and access important information. Paperless-ngx uses the OCR (Optical Character Recognition) technology to extract text from scanned images and makes it searchable, thus increasing the efficiency of document management."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paperless-ngx.webp"
 #image:
 #  path: /assets/img/paperless-ngx.png
 #  alt: Paperless-ngx
@@ -35,17 +35,17 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Show Login Credentials, type `cat ~/paperless-ngx.creds` in the LXC console
+  <div>Show Login Credentials, type <code>cat ~/paperless-ngx.creds</code> in the LXC console</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Script installs English as default OCR language. To install additional languages, use `apt-get install tesseract-ocr-[lang]`, where [lang] is the language code (e.g. `apt-get install tesseract-ocr-deu`).
+  <div>Script installs English as default OCR language. To install additional languages, use <code>apt-get install tesseract-ocr-[lang]</code>, where [lang] is the language code (e.g. <code>apt-get install tesseract-ocr-deu</code>).</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Paperless-NGX use uv, so all calls need to start with `uv run` f.e. `uv run python3 manage.py document_exporter $path` instead `python3 manage.py`
+  <div>Paperless-NGX use uv, so all calls need to start with <code>uv run</code> f.e. <code>uv run python3 manage.py document_exporter $path</code> instead <code>python3 manage.py</code></div>
 </div>
 
 ## Web Interface

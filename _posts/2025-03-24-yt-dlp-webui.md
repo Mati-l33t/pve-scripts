@@ -4,10 +4,10 @@ title: "yt-dlp-webui"
 date: 2025-03-24 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [yt-dlp-webui, lxc, files-downloads, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/yt-dlp-webui.webp"
 description: "A not so terrible web ui for yt-dlp.
 High performance extendeable web ui and RPC server for yt-dlp with low impact on resources.
 Created for the only purpose of fetching videos from my server/nas and monitor upcoming livestreams."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/youtube-dl.webp"
 #image:
 #  path: /assets/img/yt-dlp-webui.png
 #  alt: yt-dlp-webui
@@ -46,17 +46,17 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Show password: `cat ~/yt-dlp-webui.creds`
+  <div>Show password: <code>cat ~/yt-dlp-webui.creds</code></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  The config file is located in `/opt/yt-dlp-webui/config.conf`
+  <div>The config file is located in <code>/opt/yt-dlp-webui/config.conf</code></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Make sure to either mount an external path or increase the Disk space afterwards
+  <div>Make sure to either mount an external path or increase the Disk space afterwards</div>
 </div>
 
 ## Web Interface

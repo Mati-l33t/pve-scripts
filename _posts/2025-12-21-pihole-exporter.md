@@ -4,8 +4,8 @@ title: "Pi-Hole Exporter"
 date: 2025-12-21 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [pihole-exporter, addon, monitoring-analytics, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pihole-exporter.webp"
 description: "A Prometheus exporter for PI-Hole's Raspberry PI ad blocker"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pi-hole.webp"
 image:
   path: /assets/img/pihole-exporter.jpg
   alt: Pi-Hole Exporter

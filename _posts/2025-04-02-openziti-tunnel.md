@@ -4,8 +4,8 @@ title: "openziti-tunnel"
 date: 2025-04-02 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [openziti-tunnel, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openziti-tunnel.webp"
 description: "OpenZiti is an open-source, zero trust networking platform that enables secure connectivity between applications, services, and devices. It provides secure, encrypted connections between clients and services, and can be used to create secure, zero trust networks."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openziti.webp"
 #image:
 #  path: /assets/img/openziti-tunnel.png
 #  alt: openziti-tunnel
@@ -28,12 +28,12 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  The Openziti tunnel is installed in host mode; please see documentation for more information
+  <div>The Openziti tunnel is installed in host mode; please see documentation for more information</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Openziti tunnel prompts for identity enrollment token during installation
+  <div>Openziti tunnel prompts for identity enrollment token during installation</div>
 </div>
 
 ## Links

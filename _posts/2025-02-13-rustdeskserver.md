@@ -4,8 +4,8 @@ title: "RustDesk Server"
 date: 2025-02-13 00:00:00 +0000
 categories: ["Webservers & Proxies"]
 tags: [rustdeskserver, lxc, webservers-proxies, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rustdeskserver.webp"
 description: "RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rustdesk.webp"
 #image:
 #  path: /assets/img/rustdeskserver.png
 #  alt: RustDesk Server
@@ -39,22 +39,22 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Check our configuration guide for help: `https://github.com/community-scripts/ProxmoxVE/discussions/2388`
+  <div>Check our configuration guide for help: <code>https://github.com/community-scripts/ProxmoxVE/discussions/2388</code></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  To set admin password on Debian, type `cd /var/lib/rustdesk-api && rustdesk-api reset-admin-pwd <yournewpasswordhere>` inside LXC.
+  <div>To set admin password on Debian, type <code>cd /var/lib/rustdesk-api && rustdesk-api reset-admin-pwd <yournewpasswordhere></code> inside LXC.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  To see admin password on Alpine, type `cat ~/rustdesk.creds` inside LXC.
+  <div>To see admin password on Alpine, type <code>cat ~/rustdesk.creds</code> inside LXC.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  This script uses hbbs/hbbr builds from `lejianwen/rustdesk-server` (instead of the official repo) for full compatibility with the RustDesk API (SSO/OAuth). See `https://github.com/community-scripts/ProxmoxVE/issues/12079`.
+  <div>This script uses hbbs/hbbr builds from <code>lejianwen/rustdesk-server</code> (instead of the official repo) for full compatibility with the RustDesk API (SSO/OAuth). See <code>https://github.com/community-scripts/ProxmoxVE/issues/12079</code>.</div>
 </div>
 
 ## Web Interface

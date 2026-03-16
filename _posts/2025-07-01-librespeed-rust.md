@@ -4,8 +4,8 @@ title: "Librespeed Rust"
 date: 2025-07-01 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [librespeed-rust, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/librespeed-rust.webp"
 description: "Librespeed is a no flash, no java, no websocket speedtest server. This community script deploys the rust version for simplicity and low resource usage."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/librespeed.webp"
 #image:
 #  path: /assets/img/librespeed-rust.png
 #  alt: Librespeed Rust

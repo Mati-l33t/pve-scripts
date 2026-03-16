@@ -4,8 +4,8 @@ title: "Warracker"
 date: 2025-09-29 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [warracker, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/warracker.webp"
 description: "Warracker is an open source, self-hostable warranty tracker to monitor expirations, store receipts, files. You own the data, your rules!"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/warracker.webp"
 #image:
 #  path: /assets/img/warracker.png
 #  alt: Warracker
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  The first user you register will be the admin user.
+  <div>The first user you register will be the admin user.</div>
 </div>
 
 ## Web Interface

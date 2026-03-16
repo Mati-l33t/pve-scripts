@@ -4,8 +4,8 @@ title: "PVE Host Backup"
 date: 2024-04-29 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [host-backup, pve, proxmox-virtualization]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/host-backup.webp"
 description: "This script serves as a versatile backup utility, enabling users to specify both the backup path and the directory they want to work in. This flexibility empowers users to select the specific files and directories they wish to back up, making it compatible with a wide range of hosts, not limited to Proxmox."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
 #  path: /assets/img/host-backup.png
 #  alt: PVE Host Backup
@@ -22,12 +22,12 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Execute within the Proxmox shell
+  <div>Execute within the Proxmox shell</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  A backup is rendered ineffective when it remains stored on the host
+  <div>A backup is rendered ineffective when it remains stored on the host</div>
 </div>
 
 ---

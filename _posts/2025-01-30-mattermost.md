@@ -4,8 +4,8 @@ title: "Mattermost"
 date: 2025-01-30 00:00:00 +0000
 categories: ["Business & ERP"]
 tags: [mattermost, lxc, business-erp, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mattermost.webp"
 description: "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle. It's written in Go and React and runs as a single Linux binary with MySQL or PostgreSQL. It has a slimilar interface and features to Slack or Discord."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mattermost.webp"
 #image:
 #  path: /assets/img/mattermost.png
 #  alt: Mattermost
@@ -35,7 +35,7 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+  <div>WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.</div>
 </div>
 
 ## Web Interface

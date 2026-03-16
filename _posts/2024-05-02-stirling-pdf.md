@@ -4,8 +4,8 @@ title: "Stirling-PDF"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [stirling-pdf, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/stirling-pdf.webp"
 description: "Stirling-PDF is a powerful locally hosted web based PDF manipulation tool that allows you to perform various operations on PDF files, such as splitting merging, converting, reorganizing, adding images, rotating, compressing, and more."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/stirling-pdf.webp"
 #image:
 #  path: /assets/img/stirling-pdf.png
 #  alt: Stirling-PDF

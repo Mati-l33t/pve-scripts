@@ -4,8 +4,8 @@ title: "The Lounge"
 date: 2024-11-28 00:00:00 +0000
 categories: ["Bots & ChatOps"]
 tags: [the-lounge, lxc, bots-chatops, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/the-lounge.webp"
 description: "Modern web IRC client designed for self-hosting "
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/the-lounge.webp"
 #image:
 #  path: /assets/img/the-lounge.png
 #  alt: The Lounge
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  The Lounge is running in private mode. Use `runuser -u thelounge -- thelounge add usernamehere` to create users.
+  <div>The Lounge is running in private mode. Use <code>runuser -u thelounge -- thelounge add usernamehere</code> to create users.</div>
 </div>
 
 ## Web Interface

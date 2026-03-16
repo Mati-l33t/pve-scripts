@@ -4,8 +4,8 @@ title: "Apache Tomcat"
 date: 2025-03-04 00:00:00 +0000
 categories: ["Dashboards & Frontends"]
 tags: [apache-tomcat, lxc, dashboards-frontends, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-tomcat.webp"
 description: "Apache Tomcat is an open-source application server that runs Java Servlets and JavaServer Pages (JSP). It allows developers to deploy and manage Java web applications by handling HTTP requests and serving dynamic content. Tomcat is widely used for lightweight web applications and supports various Java EE features like WebSockets and JNDI."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-tomcat.webp"
 #image:
 #  path: /assets/img/apache-tomcat.png
 #  alt: Apache Tomcat
@@ -28,7 +28,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  User can select which Adoptium JDK should be used for the selected Tomcat version (9, 10.1 or 11). 
+  <div>User can select which Adoptium JDK should be used for the selected Tomcat version (9, 10.1 or 11). </div>
 </div>
 
 ## Web Interface

@@ -4,8 +4,8 @@ title: "InvoiceNinja"
 date: 2025-12-12 00:00:00 +0000
 categories: ["Business & ERP"]
 tags: [invoiceninja, lxc, business-erp, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invoiceninja.webp"
 description: "Invoice Ninja is a free, open-source invoicing, quotes, expenses and time-tracking application for freelancers and businesses. Features include recurring invoices, online payments, client portal, and multi-company support."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invoice-ninja.webp"
 #image:
 #  path: /assets/img/invoiceninja.png
 #  alt: InvoiceNinja
@@ -35,17 +35,17 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  First visit http://IP:8080/setup to complete the initial configuration
+  <div>First visit http://IP:8080/setup to complete the initial configuration</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Database credentials are stored in `~/invoiceninja.creds`. Use them in the above initial configuration step.
+  <div>Database credentials are stored in <code>~/invoiceninja.creds</code>. Use them in the above initial configuration step.</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Configure SMTP settings in /opt/invoiceninja/.env for email functionality
+  <div>Configure SMTP settings in /opt/invoiceninja/.env for email functionality</div>
 </div>
 
 ## Web Interface

@@ -39,6 +39,9 @@ layout: page
       {% elsif post.tags contains 'turnkey' %}
         <span class="type-badge type-turnkey">TURNKEY</span>
       {% endif %}
+      {% if post.tags contains 'dev' %}
+        <span class="type-badge type-dev">DEV</span>
+      {% endif %}
     </li>
 
     {% if forloop.last %}</ul>{% endif %}

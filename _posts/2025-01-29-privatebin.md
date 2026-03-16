@@ -4,8 +4,8 @@ title: "PrivateBin"
 date: 2025-01-29 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [privatebin, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/privatebin.webp"
 description: "PrivateBin is a minimalist, open-source pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/privatebin.webp"
 #image:
 #  path: /assets/img/privatebin.png
 #  alt: PrivateBin

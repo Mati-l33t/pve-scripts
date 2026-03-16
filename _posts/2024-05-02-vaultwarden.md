@@ -4,8 +4,8 @@ title: "Vaultwarden"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Authentication & Security"]
 tags: [vaultwarden, lxc, authentication-security, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/vaultwarden.webp"
 description: "Vaultwarden is a self-hosted password manager which provides secure and encrypted password storage. It uses client-side encryption and provides access to passwords through a web interface and mobile apps."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/vaultwarden.webp"
 #image:
 #  path: /assets/img/vaultwarden.png
 #  alt: Vaultwarden
@@ -46,12 +46,12 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Application uses self-signed certificate for HTTPS to work and is enabled by default. If you need a different setup, please read the documentation.
+  <div>Application uses self-signed certificate for HTTPS to work and is enabled by default. If you need a different setup, please read the documentation.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  To set the Admin Token, run the command below (or type update) in the LXC Console.
+  <div>To set the Admin Token, run the command below (or type update) in the LXC Console.</div>
 </div>
 
 ## Web Interface

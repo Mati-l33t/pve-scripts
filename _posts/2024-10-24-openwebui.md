@@ -4,8 +4,8 @@ title: "Open WebUI"
 date: 2024-10-24 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [openwebui, lxc, ai-coding-dev-tools, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openwebui.webp"
 description: "OpenWebUI is a self-hosted, web-based interface that allows you to run AI models entirely offline. It integrates with various LLM runners, such as OpenAI and Ollama, and supports features like markdown and LaTeX rendering, model management, and voice/video calls. It also offers multilingual support and the ability to generate images using APIs like DALL-E or ComfyUI"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/open-webui.webp"
 #image:
 #  path: /assets/img/openwebui.png
 #  alt: Open WebUI
@@ -35,12 +35,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Script contains optional installation of Ollama.
+  <div>Script contains optional installation of Ollama.</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Initial run of the application/container can take some time, depending on your host speed, as the application is installed/updated at runtime. Please be patient!
+  <div>Initial run of the application/container can take some time, depending on your host speed, as the application is installed/updated at runtime. Please be patient!</div>
 </div>
 
 ## Web Interface

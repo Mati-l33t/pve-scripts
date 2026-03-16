@@ -4,8 +4,8 @@ title: "UrBackup Server"
 date: 2025-01-18 00:00:00 +0000
 categories: ["Backup & Recovery"]
 tags: [urbackupserver, lxc, backup-recovery, auto-update, privileged]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/urbackupserver.webp"
 description: "URBackup is an open-source backup software designed for creating reliable and efficient backups of both files and system images. It supports client-server architecture, allowing you to back up multiple computers to a central server. It offers features such as incremental backups, real-time file backup, and scheduling, ensuring minimal data loss and quick recovery"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/urbackup.webp"
 #image:
 #  path: /assets/img/urbackupserver.png
 #  alt: UrBackup Server
@@ -28,12 +28,12 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  You probably want to drastically extend the storage space to fit whatever clients you want to back up
+  <div>You probably want to drastically extend the storage space to fit whatever clients you want to back up</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Directory `/opt/urbackup/backups` is set as initial backup path. Change it to your liking
+  <div>Directory <code>/opt/urbackup/backups</code> is set as initial backup path. Change it to your liking</div>
 </div>
 
 ## Web Interface

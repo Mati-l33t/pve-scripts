@@ -4,8 +4,8 @@ title: "TasmoCompiler"
 date: 2025-02-10 00:00:00 +0000
 categories: ["IoT & Smart Home"]
 tags: [tasmocompiler, lxc, iot-smart-home, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tasmocompiler.webp"
 description: "TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tasmocompiler.webp"
 #image:
 #  path: /assets/img/tasmocompiler.png
 #  alt: TasmoCompiler

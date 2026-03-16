@@ -4,11 +4,11 @@ title: "DiscoPanel"
 date: 2025-12-10 00:00:00 +0000
 categories: ["Gaming & Leisure"]
 tags: [discopanel, lxc, gaming-leisure, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/discopanel.webp"
 description: "The Minecraft Server Manager That *Actually* Works
 Built by someone who was done with bloated panels, endless menus, and tools that break the moment you need them most.
 Spin up servers in minutes, configure your proxy without headaches, and link your own DNS name effortlessly.
 Fast setup, clean controls, zero nonsense—just a manager that gets out of your way and lets you play."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/discopanel.webp"
 image:
   path: /assets/img/discopanel.png
   alt: DiscoPanel

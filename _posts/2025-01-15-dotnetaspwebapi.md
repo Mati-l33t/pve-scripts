@@ -4,8 +4,8 @@ title: "Dotnet ASP Web API"
 date: 2025-01-15 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [dotnetaspwebapi, lxc, ai-coding-dev-tools, auto-update, privileged]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/dotnetaspwebapi.webp"
 description: "Automatically setup a ASP.NET server up, as well as a FTP server so you can publish to this container from Visual Studio."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/asp-net-core.webp"
 #image:
 #  path: /assets/img/dotnetaspwebapi.png
 #  alt: Dotnet ASP Web API
@@ -28,7 +28,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  FTP server credentials: `cat ~/ftp.creds`
+  <div>FTP server credentials: <code>cat ~/ftp.creds</code></div>
 </div>
 
 ## Web Interface

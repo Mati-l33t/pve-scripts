@@ -4,8 +4,8 @@ title: "Mail-Archiver"
 date: 2025-12-28 00:00:00 +0000
 categories: ["Backup & Recovery"]
 tags: [mail-archiver, lxc, backup-recovery, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mail-archiver.webp"
 description: "Mail-Archiver is a web application for archiving, searching, and exporting emails from multiple accounts. Featuring folder sync, attachment support, mailbox migration and a dashboard."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mail-archiver.webp"
 image:
   path: /assets/img/mail-archiver.jpg
   alt: Mail-Archiver

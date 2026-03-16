@@ -4,8 +4,8 @@ title: "Shelfmark"
 date: 2026-01-31 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [shelfmark, lxc, media-streaming, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/shelfmark.webp"
 description: "Shelfmark is a unified web interface for searching and aggregating books and audiobook downloads from multiple sources - all in one place."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/shelfmark.webp"
 image:
   path: /assets/img/shelfmark.png
   alt: Shelfmark
@@ -35,12 +35,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  The configuration at `/etc/shelfmark/.env` is for bootstrapping the initial install. Customize the configuration via the Shelfmark UI.
+  <div>The configuration at <code>/etc/shelfmark/.env</code> is for bootstrapping the initial install. Customize the configuration via the Shelfmark UI.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  This version of the application does not support routing through Tor (the `USING_TOR` env var).
+  <div>This version of the application does not support routing through Tor (the <code>USING_TOR</code> env var).</div>
 </div>
 
 ## Web Interface

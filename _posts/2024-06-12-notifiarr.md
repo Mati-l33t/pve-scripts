@@ -4,8 +4,8 @@ title: "Notifiarr"
 date: 2024-06-12 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [notifiarr, lxc, arr-suite, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/notifiarr.webp"
 description: "Notifiarr is a purpose built system to bring many applications together to manage and customize notifications via Discord. You can monitor many aspects of your network(s), be notified of downtime, be notified of health issues, etc"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/notifiarr.webp"
 #image:
 #  path: /assets/img/notifiarr.png
 #  alt: Notifiarr
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Manually edit `/etc/notifiarr/notifiarr.conf`to enter the API key from Notifiarr.com, and create a password for the UI.
+  <div>Manually edit <code>/etc/notifiarr/notifiarr.conf</code>to enter the API key from Notifiarr.com, and create a password for the UI.</div>
 </div>
 
 ## Web Interface

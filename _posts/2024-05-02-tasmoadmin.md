@@ -4,8 +4,8 @@ title: "TasmoAdmin"
 date: 2024-05-02 00:00:00 +0000
 categories: ["IoT & Smart Home"]
 tags: [tasmoadmin, lxc, iot-smart-home, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tasmoadmin.webp"
 description: "TasmoAdmin is an administrative platform for devices flashed with Tasmota."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tasmoadmin.webp"
 #image:
 #  path: /assets/img/tasmoadmin.png
 #  alt: TasmoAdmin

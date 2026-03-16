@@ -4,8 +4,8 @@ title: "Investbrain"
 date: 2026-01-13 00:00:00 +0000
 categories: ["Finance & Budgeting"]
 tags: [investbrain, lxc, finance-budgeting, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/investbrain.webp"
 description: "Investbrain is a smart open-source investment tracker that helps you manage, track, and make informed decisions about your investments."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/investbrain.webp"
 image:
   path: /assets/img/investbrain.png
   alt: Investbrain
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Database credentials: `cat ~/investbrain.creds`
+  <div>Database credentials: <code>cat ~/investbrain.creds</code></div>
 </div>
 
 ## Web Interface

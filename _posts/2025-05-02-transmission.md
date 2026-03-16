@@ -4,8 +4,8 @@ title: "Transmission"
 date: 2025-05-02 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [transmission, lxc, files-downloads, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/transmission.webp"
 description: "Transmission is a free, open-source BitTorrent client known for its fast download speeds and ease of use. It supports various platforms such as Windows, Linux, and macOS and has features like web interface, peer exchange, and encrypted transfers."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/transmission.webp"
 #image:
 #  path: /assets/img/transmission.png
 #  alt: Transmission
@@ -46,12 +46,12 @@ Debian `/etc/transmission-daemon/settings.json` | Alpine `/var/lib/transmission/
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Script disables whitelisting by default. Change config to suit your needs.
+  <div>Script disables whitelisting by default. Change config to suit your needs.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Alpine script sets initial disk size to 1GB. Please adjust for your needs after installation ends.
+  <div>Alpine script sets initial disk size to 1GB. Please adjust for your needs after installation ends.</div>
 </div>
 
 ## Web Interface

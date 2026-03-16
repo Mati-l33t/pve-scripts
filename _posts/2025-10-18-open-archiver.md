@@ -4,8 +4,8 @@ title: "Open-Archiver"
 date: 2025-10-18 00:00:00 +0000
 categories: ["Backup & Recovery"]
 tags: [open-archiver, lxc, backup-recovery, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/open-archiver.webp"
 description: "Open Archiver is a secure, self-hosted email archiving solution, and it's completely open source. Get an email archiver that enables full-text search across email and attachments. Create a permanent, searchable, and compliant mail archive from Google Workspace, Microsoft 35, and any IMAP server."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/open-archiver.webp"
 #image:
 #  path: /assets/img/open-archiver.png
 #  alt: Open-Archiver
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Data directory is: `/opt/openarchiver-data`. If you have a lot of email, you might consider mounting external storage to this directory.
+  <div>Data directory is: <code>/opt/openarchiver-data</code>. If you have a lot of email, you might consider mounting external storage to this directory.</div>
 </div>
 
 ## Web Interface

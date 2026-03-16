@@ -4,8 +4,8 @@ title: "LinkStack"
 date: 2025-07-22 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [linkstack, lxc, monitoring-analytics, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/linkstack.webp"
 description: "LinkStack is an open-source, self-hosted alternative to Linktree, allowing users to create a customizable profile page to share multiple links, hosted on their own server."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/linkstack.webp"
 #image:
 #  path: /assets/img/linkstack.png
 #  alt: LinkStack
@@ -35,12 +35,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  LinkStack can be updated via the user interface.
+  <div>LinkStack can be updated via the user interface.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Complete setup via the web interface at http://<container-ip>/. Check installation logs: `cat ~/linkstack-install.log`
+  <div>Complete setup via the web interface at http://<container-ip>/. Check installation logs: <code>cat ~/linkstack-install.log</code></div>
 </div>
 
 ## Web Interface

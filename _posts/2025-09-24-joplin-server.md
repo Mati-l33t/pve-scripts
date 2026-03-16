@@ -4,8 +4,8 @@ title: "Joplin Server"
 date: 2025-09-24 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [joplin-server, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/joplin.webp"
 description: "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/joplin.webp"
 #image:
 #  path: /assets/img/joplin-server.png
 #  alt: Joplin Server
@@ -44,12 +44,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Application can take some time to build, depending on your host speed. Please be patient.
+  <div>Application can take some time to build, depending on your host speed. Please be patient.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Default RAM size for LXC is set to 6GB because of Node.js building process. You can lower it after application installs
+  <div>Default RAM size for LXC is set to 6GB because of Node.js building process. You can lower it after application installs</div>
 </div>
 
 ## Web Interface

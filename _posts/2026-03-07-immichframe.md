@@ -4,8 +4,8 @@ title: "ImmichFrame"
 date: 2026-03-07 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [immichframe, lxc, media-streaming, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/immich-frame.webp"
 description: "ImmichFrame is a digital photo frame web application that connects to your Immich server and displays your photos as a fullscreen slideshow."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/immich-frame.webp"
 image:
   path: /assets/img/immichframe.png
   alt: ImmichFrame
@@ -35,7 +35,7 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  After installation, edit `/opt/immichframe/Config/Settings.yml` and set ImmichServerUrl and ApiKey. Then restart the service with `systemctl restart immichframe`.
+  <div>After installation, edit <code>/opt/immichframe/Config/Settings.yml</code> and set ImmichServerUrl and ApiKey. Then restart the service with <code>systemctl restart immichframe</code>.</div>
 </div>
 
 ## Web Interface

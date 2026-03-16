@@ -107,6 +107,9 @@ layout: default
               {% elsif post.tags contains 'turnkey' %}
                 <span class="type-badge type-turnkey">TURNKEY</span>
               {% endif %}
+              {% if post.tags contains 'dev' %}
+                <span class="type-badge type-dev">DEV</span>
+              {% endif %}
             </h1>
 
             <div class="card-text content mt-0 mb-3">
@@ -129,6 +132,12 @@ layout: default
                     {% endfor %}
                   </span>
                 {% endif %}
+
+                <!-- view counter -->
+                <span class="post-views ms-2" data-path="{{ post.url }}">
+                  <i class="far fa-eye fa-fw me-1"></i>
+                  <span class="view-count">…</span>
+                </span>
               </div>
 
               {% if post.pin %}
@@ -151,3 +160,16 @@ layout: default
 {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
 {% endif %}
+
+<script>
+(function () {
+  document.querySelectorAll('.post-views').forEach(function (el) {
+    const path = el.getAttribute('data-path');
+    const countEl = el.querySelector('.view-count');
+    fetch('/api/count?path=' + encodeURIComponent(path))
+      .then(function (r) { return r.json(); })
+      .then(function (d) { countEl.textContent = d.count.toLocaleString(); })
+      .catch(function () { el.style.display = 'none'; });
+  });
+})();
+</script>

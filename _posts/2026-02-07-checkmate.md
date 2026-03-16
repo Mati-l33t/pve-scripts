@@ -4,8 +4,8 @@ title: "Checkmate"
 date: 2026-02-07 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [checkmate, lxc, monitoring-analytics, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/checkmate.webp"
 description: "Checkmate is an open source uptime and infrastructure monitoring application that helps you track the availability and performance of your services."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/checkmate.webp"
 image:
   path: /assets/img/checkmate.png
   alt: Checkmate
@@ -35,17 +35,17 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Create your admin account on first login via the web interface.
+  <div>Create your admin account on first login via the web interface.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Server API runs on port 52345, Client UI on port 5173.
+  <div>Server API runs on port 52345, Client UI on port 5173.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  For PageSpeed monitoring, add a Google PageSpeed API key to the server .env file.
+  <div>For PageSpeed monitoring, add a Google PageSpeed API key to the server .env file.</div>
 </div>
 
 ## Web Interface

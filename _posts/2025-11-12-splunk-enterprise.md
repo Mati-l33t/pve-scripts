@@ -4,8 +4,8 @@ title: "Splunk Enterprise"
 date: 2025-11-12 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [splunk-enterprise, lxc, monitoring-analytics]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/splunk-enterprise.webp"
 description: "Platform for searching, monitoring, and analyzing machine-generated data at scale for operational intelligence and security."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/splunk-light.webp"
 image:
   path: /assets/img/splunk-enterprise.png
   alt: Splunk Enterprise
@@ -28,17 +28,17 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  The credentials to login can be found in splunk.creds.
+  <div>The credentials to login can be found in splunk.creds.</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Trial license allows indexing 500 MB/Day. After 60 days you can convert to a perpetual free license or purchase a Splunk Enterprise license to continue using the expanded functionality designed for enterprise-scale deployments.
+  <div>Trial license allows indexing 500 MB/Day. After 60 days you can convert to a perpetual free license or purchase a Splunk Enterprise license to continue using the expanded functionality designed for enterprise-scale deployments.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  About Splunk Free License: https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.0/configure-splunk-licenses/about-splunk-free
+  <div>About Splunk Free License: https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.0/configure-splunk-licenses/about-splunk-free</div>
 </div>
 
 ## Web Interface

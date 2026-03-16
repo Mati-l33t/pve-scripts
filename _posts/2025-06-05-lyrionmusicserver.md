@@ -4,8 +4,8 @@ title: "Lyrion Music Server"
 date: 2025-06-05 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [lyrionmusicserver, lxc, media-streaming, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/lyrionmusicserver.webp"
 description: "Lyrion Music Server is an open-source server software to stream local music collections, internet radio, and music services to Squeezebox and compatible audio players."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/lyrion-music-server.webp"
 #image:
 #  path: /assets/img/lyrionmusicserver.png
 #  alt: Lyrion Music Server

@@ -4,8 +4,8 @@ title: "TeddyCloud"
 date: 2024-12-28 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [teddycloud, lxc, media-streaming, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/teddycloud.webp"
 description: "TeddyCloud is an open source server replacement for the Boxine Cloud."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/teddycloud.webp"
 #image:
 #  path: /assets/img/teddycloud.png
 #  alt: TeddyCloud
@@ -28,7 +28,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  First start of the service can take some time due to certificate generation.
+  <div>First start of the service can take some time due to certificate generation.</div>
 </div>
 
 ## Web Interface

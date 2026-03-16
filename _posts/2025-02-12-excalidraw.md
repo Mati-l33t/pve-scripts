@@ -4,8 +4,8 @@ title: "Excalidraw"
 date: 2025-02-12 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [excalidraw, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/excalidraw.webp"
 description: "An open source virtual hand-drawn style whiteboard. Collaborative and end-to-end encrypted."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/excalidraw.webp"
 #image:
 #  path: /assets/img/excalidraw.png
 #  alt: Excalidraw

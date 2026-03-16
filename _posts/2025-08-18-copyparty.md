@@ -4,8 +4,8 @@ title: "Copyparty"
 date: 2025-08-18 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [copyparty, addon, files-downloads, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/copyparty.webp"
 description: "Copyparty is a lightweight, portable HTTP file server with a browser-based interface. It supports drag-and-drop uploads, downloads, deduplication, media playback, and advanced search, making it ideal for quickly sharing and managing files."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/copyparty.webp"
 #image:
 #  path: /assets/img/copyparty.png
 #  alt: Copyparty
@@ -29,12 +29,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Execute within the Proxmox shell or in LXC
+  <div>Execute within the Proxmox shell or in LXC</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Update with: update_copyparty
+  <div>Update with: update_copyparty</div>
 </div>
 
 ## Web Interface

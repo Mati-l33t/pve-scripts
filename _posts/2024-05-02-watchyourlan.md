@@ -4,8 +4,8 @@ title: "WatchYourLAN"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [watchyourlan, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/watchyourlan.webp"
 description: "WatchYourLAN is a lightweight network IP scanner with web GUI."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/watchyourlan.webp"
 #image:
 #  path: /assets/img/watchyourlan.png
 #  alt: WatchYourLAN

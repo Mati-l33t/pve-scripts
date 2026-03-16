@@ -4,8 +4,8 @@ title: "twingate-connector"
 date: 2025-08-18 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [twingate-connector, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/twingate-connector.webp"
 description: "Twingate Connectors are lightweight software components that establish secure, least-privileged access between private network resources and authorized users without exposing the network to the internet. They act as outbound-only bridges between your protected resources and the Twingate infrastructure, ensuring zero-trust access without the need for a VPN."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/twingate.webp"
 #image:
 #  path: /assets/img/twingate-connector.png
 #  alt: twingate-connector
@@ -35,12 +35,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  You can get your Twingate access or refresh tokens from the Twingate Admin Console. `https://auth.twingate.com/signup-v2`
+  <div>You can get your Twingate access or refresh tokens from the Twingate Admin Console. <code>https://auth.twingate.com/signup-v2</code></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  If you need to update your access or refresh tokens, they can be found in /etc/twingate/connector.conf
+  <div>If you need to update your access or refresh tokens, they can be found in /etc/twingate/connector.conf</div>
 </div>
 
 ## Links

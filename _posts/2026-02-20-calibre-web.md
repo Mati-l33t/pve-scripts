@@ -4,8 +4,8 @@ title: "Calibre-Web"
 date: 2026-02-20 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [calibre-web, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/calibre-web.webp"
 description: "Web app for browsing, reading and downloading eBooks from a Calibre database. Provides an attractive interface with mobile support, user management, and eBook conversion capabilities."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/calibre-web.webp"
 image:
   path: /assets/img/calibre-web.png
   alt: Calibre-Web
@@ -44,7 +44,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Upload your Calibre library metadata.db during first setup wizard.
+  <div>Upload your Calibre library metadata.db during first setup wizard.</div>
 </div>
 
 ## Web Interface

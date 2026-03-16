@@ -4,8 +4,8 @@ title: "Headscale"
 date: 2024-05-13 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [headscale, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/headscale.webp"
 description: "An open source, self-hosted implementation of the Tailscale control server"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/headscale.webp"
 #image:
 #  path: /assets/img/headscale.png
 #  alt: Headscale
@@ -35,12 +35,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Configuration settings: `/etc/headscale/config.yaml`
+  <div>Configuration settings: <code>/etc/headscale/config.yaml</code></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Access headscale-admin UI via `http://<LXC-IP>/admin/`
+  <div>Access headscale-admin UI via <code>http://<LXC-IP>/admin/</code></div>
 </div>
 
 ## Links

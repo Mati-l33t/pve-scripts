@@ -4,8 +4,8 @@ title: "LibreTranslate"
 date: 2025-06-15 00:00:00 +0000
 categories: [Miscellaneous]
 tags: [libretranslate, lxc, miscellaneous, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/libretranslate.webp"
 description: "Free and Open Source Machine Translation API, entirely self-hosted. Unlike other APIs, it doesn't rely on proprietary providers such as Google or Azure to perform translations. Instead, its translation engine is powered by the open source Argos Translate library."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/libretranslate.webp"
 #image:
 #  path: /assets/img/libretranslate.png
 #  alt: LibreTranslate
@@ -35,12 +35,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  During the installation, application will download language models used for translation. Depending on how fast your internet/host is, this can take 5-10 minutes.
+  <div>During the installation, application will download language models used for translation. Depending on how fast your internet/host is, this can take 5-10 minutes.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  At every boot of LXC, application will look for updates for language models installed. This can prolong the startup of the LXC.
+  <div>At every boot of LXC, application will look for updates for language models installed. This can prolong the startup of the LXC.</div>
 </div>
 
 ## Web Interface

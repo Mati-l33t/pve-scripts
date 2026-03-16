@@ -4,8 +4,8 @@ title: "Pterodactyl Panel"
 date: 2025-03-04 00:00:00 +0000
 categories: ["Gaming & Leisure"]
 tags: [pterodactyl-panel, lxc, gaming-leisure, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pterodactyl-panel.webp"
 description: "Pterodactyl Panel is a web-based control panel for managing game and application servers. It provides an intuitive interface to start, stop, configure, and monitor servers easily. It works alongside Pterodactyl Wings, a lightweight daemon that handles server deployments and resource management."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pterodactyl.webp"
 #image:
 #  path: /assets/img/pterodactyl-panel.png
 #  alt: Pterodactyl Panel
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Show login and database credentials: `cat ~/pterodactyl-panel.creds`
+  <div>Show login and database credentials: <code>cat ~/pterodactyl-panel.creds</code></div>
 </div>
 
 ## Web Interface

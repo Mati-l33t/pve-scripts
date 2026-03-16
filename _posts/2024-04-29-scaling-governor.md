@@ -4,8 +4,8 @@ title: "PVE CPU Scaling Governor"
 date: 2024-04-29 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [scaling-governor, pve, proxmox-virtualization]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/scaling-governor.webp"
 description: "The CPU scaling governor determines how the CPU frequency is adjusted based on the workload, with the goal of either conserving power or improving performance. By scaling the frequency up or down, the operating system can optimize the CPU usage and conserve energy when possible. Generic Scaling Governors"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
 #  path: /assets/img/scaling-governor.png
 #  alt: PVE CPU Scaling Governor
@@ -22,7 +22,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Execute within the Proxmox shell
+  <div>Execute within the Proxmox shell</div>
 </div>
 
 ## Links

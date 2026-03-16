@@ -4,8 +4,8 @@ title: "Immich Public Proxy"
 date: 2026-02-04 00:00:00 +0000
 categories: ["Webservers & Proxies"]
 tags: [immich-public-proxy, addon, webservers-proxies, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/immich-public-proxy.webp"
 description: "Share your Immich photos and albums in a safe way without exposing your Immich instance to the public."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/immich-public-proxy.webp"
 image:
   path: /assets/img/immich-public-proxy.webp
   alt: Immich Public Proxy
@@ -29,12 +29,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Requires Node.js 24+
+  <div>Requires Node.js 24+</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Update with: update_immich-public-proxy
+  <div>Update with: update_immich-public-proxy</div>
 </div>
 
 ## Web Interface

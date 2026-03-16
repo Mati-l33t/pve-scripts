@@ -4,8 +4,8 @@ title: "FileFlows"
 date: 2025-03-24 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [fileflows, lxc, media-streaming, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/fileflows.webp"
 description: "FileFlows is a powerful, open-source tool for automating media file processing workflows, including encoding, decoding, and media management. It offers an intuitive GUI and extensive plugin support, making it ideal for tasks like video transcoding, organizing, and managing large media libraries."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/fileflows.webp"
 #image:
 #  path: /assets/img/fileflows.png
 #  alt: FileFlows
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  With Privileged/Unprivileged Hardware Acceleration Support
+  <div>With Privileged/Unprivileged Hardware Acceleration Support</div>
 </div>
 
 ## Web Interface

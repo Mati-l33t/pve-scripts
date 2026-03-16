@@ -4,8 +4,8 @@ title: "Zerotier-One"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [zerotier-one, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/zerotier-one.webp"
 description: "ZeroTier is a secure network overlay that allows you to manage all of your network resources as if they were on the same LAN. The software-defined solution can be deployed in minutes from anywhere. No matter how many devices you need to connect, or where they are in the world, ZeroTier makes global networking simple."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/zerotier.webp"
 #image:
 #  path: /assets/img/zerotier-one.png
 #  alt: Zerotier-One

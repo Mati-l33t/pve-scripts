@@ -4,8 +4,8 @@ title: "Real-Debrid Torrent Client"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [rdtclient, lxc, files-downloads, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rdtclient.webp"
 description: "RDTClient is a web interface to manage your torrents on Real-Debrid, AllDebrid or Premiumize."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/real-debrid.webp"
 #image:
 #  path: /assets/img/rdtclient.png
 #  alt: Real-Debrid Torrent Client

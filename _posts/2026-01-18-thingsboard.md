@@ -4,8 +4,8 @@ title: "ThingsBoard"
 date: 2026-01-18 00:00:00 +0000
 categories: ["Backup & Recovery"]
 tags: [thingsboard, lxc, backup-recovery, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/thingsboard.webp"
 description: "ThingsBoard is an open-source IoT platform for data collection, processing, visualization, and device management. It enables device connectivity via industry standard IoT protocols - MQTT, CoAP and HTTP and supports both cloud and on-premises deployments."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/thingsboard.webp"
 #image:
 #  path: /assets/img/thingsboard.png
 #  alt: ThingsBoard
@@ -44,17 +44,17 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Please allow up to 90 seconds for the Web UI to start
+  <div>Please allow up to 90 seconds for the Web UI to start</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Additional demo accounts: tenant@thingsboard.org / tenant and customer@thingsboard.org / customer
+  <div>Additional demo accounts: tenant@thingsboard.org / tenant and customer@thingsboard.org / customer</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Change passwords for all accounts in the account profile page after first login
+  <div>Change passwords for all accounts in the account profile page after first login</div>
 </div>
 
 ## Web Interface

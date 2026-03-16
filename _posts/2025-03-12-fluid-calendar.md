@@ -4,8 +4,8 @@ title: "Fluid-Calendar"
 date: 2025-03-12 00:00:00 +0000
 categories: ["Automation & Scheduling"]
 tags: [fluid-calendar, lxc, automation-scheduling, miscellaneous, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/fluid-calendar.webp"
 description: "The open-source intelligent calendar that adapts to your workflow. Experience seamless task scheduling powered by AI, designed to make your time management effortless."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/fluidcalendar.webp"
 #image:
 #  path: /assets/img/fluid-calendar.png
 #  alt: Fluid-Calendar
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Creds: cat ~/fluid-calendar.creds
+  <div>Creds: cat ~/fluid-calendar.creds</div>
 </div>
 
 ## Web Interface

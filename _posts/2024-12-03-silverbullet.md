@@ -4,8 +4,8 @@ title: "Silverbullet"
 date: 2024-12-03 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [silverbullet, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/silverbullet.webp"
 description: "SilverBullet is a note-taking application optimized for people with a hacker mindset."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/silverbullet.webp"
 #image:
 #  path: /assets/img/silverbullet.png
 #  alt: Silverbullet

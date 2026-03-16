@@ -4,8 +4,8 @@ title: "Databasus"
 date: 2026-02-17 00:00:00 +0000
 categories: ["Backup & Recovery"]
 tags: [databasus, lxc, backup-recovery, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/databasus.webp"
 description: "Free, open source and self-hosted solution for automated PostgreSQL backups. With multiple storage options, notifications, scheduling, and a beautiful web interface for managing database backups across multiple PostgreSQL instances."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/databasus.webp"
 image:
   path: /assets/img/databasus.svg
   alt: Databasus
@@ -44,12 +44,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Supports PostgreSQL versions 12-18 with cloud and self-hosted instances
+  <div>Supports PostgreSQL versions 12-18 with cloud and self-hosted instances</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Features: Scheduled backups, multiple storage providers, notifications, encryption
+  <div>Features: Scheduled backups, multiple storage providers, notifications, encryption</div>
 </div>
 
 ## Web Interface

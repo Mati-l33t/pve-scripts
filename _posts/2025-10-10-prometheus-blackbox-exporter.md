@@ -4,8 +4,8 @@ title: "Prometheus Blackbox Exporter"
 date: 2025-10-10 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [prometheus-blackbox-exporter, lxc, proxmox-virtualization, monitoring-analytics, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/prometheus-blackbox-exporter.webp"
 description: "An exporter allows blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP, ICMP and gRPC for use by the Prometheus monitoring system."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/prometheus.webp"
 #image:
 #  path: /assets/img/prometheus-blackbox-exporter.png
 #  alt: Prometheus Blackbox Exporter
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Please adjust the Proxmox credentials in the configuration file!
+  <div>Please adjust the Proxmox credentials in the configuration file!</div>
 </div>
 
 ## Web Interface

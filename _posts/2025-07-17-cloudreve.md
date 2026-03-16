@@ -4,8 +4,8 @@ title: "Cloudreve"
 date: 2025-07-17 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [cloudreve, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cloudreve.webp"
 description: "Cloudreve is an open-source, community-driven cloud storage system that provides file sharing, synchronization, and management features. It supports a wide range of storage backends and integrates with various notification and logging platforms."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cloudreve.webp"
 #image:
 #  path: /assets/img/cloudreve.png
 #  alt: Cloudreve
@@ -35,7 +35,7 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  After Installation: Register your user -> Login -> Dashboard -> Accept Primary URL.
+  <div>After Installation: Register your user -> Login -> Dashboard -> Accept Primary URL.</div>
 </div>
 
 ## Web Interface

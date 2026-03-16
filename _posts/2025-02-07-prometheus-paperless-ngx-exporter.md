@@ -4,8 +4,8 @@ title: "Prometheus Paperless NGX Exporter"
 date: 2025-02-07 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [prometheus-paperless-ngx-exporter, addon, monitoring-analytics, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/prometheus-paperless-ngx-exporter.webp"
 description: "Prometheus metrics exporter for Paperless-NGX, a document management system transforming physical documents into a searchable online archive. The exporter relies on Paperless' REST API."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paperless-ngx.webp"
 #image:
 #  path: /assets/img/prometheus-paperless-ngx-exporter.png
 #  alt: Prometheus Paperless NGX Exporter

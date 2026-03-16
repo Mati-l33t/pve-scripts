@@ -4,8 +4,8 @@ title: "LimeSurvey"
 date: 2025-10-15 00:00:00 +0000
 categories: ["Business & ERP"]
 tags: [limesurvey, lxc, business-erp, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/limesurvey.webp"
 description: "LimeSurvey is the simple, quick and anonymous online survey tool that's bursting with juicy insights. Calling students, professionals and enterprises: design a survey and get the best insights, it’s free and as easy as squeezing a lime. Make a free online survey now!"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/limesurvey.webp"
 #image:
 #  path: /assets/img/limesurvey.png
 #  alt: LimeSurvey
@@ -28,7 +28,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  You will need to input database credentials into LimeSurvey installer. Use `cat ~/limesurvey.creds` inside LXC.
+  <div>You will need to input database credentials into LimeSurvey installer. Use <code>cat ~/limesurvey.creds</code> inside LXC.</div>
 </div>
 
 ## Web Interface

@@ -4,8 +4,8 @@ title: "LanguageTool"
 date: 2026-01-30 00:00:00 +0000
 categories: [Miscellaneous]
 tags: [languagetool, lxc, miscellaneous, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/languagetool.webp"
 description: "LanguageTool is an Open Source proofreading software for English, Spanish, French, German, Portuguese, Polish, Dutch, and more than 20 other languages. It finds many errors that a simple spell checker cannot detect."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/languagetool.webp"
 #image:
 #  path: /assets/img/languagetool.png
 #  alt: LanguageTool
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  API is available at `http://<LXC_IP>:8081/v2`.
+  <div>API is available at <code>http://<LXC_IP>:8081/v2</code>.</div>
 </div>
 
 ## Web Interface

@@ -4,8 +4,8 @@ title: "Z-Wave JS UI"
 date: 2024-05-02 00:00:00 +0000
 categories: [ZigBee and Z-Wave]
 tags: [zwave-js-ui, lxc, zigbee-and-z-wave, auto-update, privileged]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/zwave-js-ui.webp"
 description: "Z-Wave JS UI is an open-source software that serves as a gateway between Z-Wave devices and MQTT (Message Queuing Telemetry Transport) protocol, allowing users to control and monitor their Z-Wave devices via a user interface. The software provides a configurable platform to manage Z-Wave networks and integrate with other smart home systems through MQTT."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/z-wave-js-ui.webp"
 #image:
 #  path: /assets/img/zwave-js-ui.png
 #  alt: Z-Wave JS UI

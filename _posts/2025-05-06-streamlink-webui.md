@@ -4,8 +4,8 @@ title: "Streamlink WebUI"
 date: 2025-05-06 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [streamlink-webui, lxc, files-downloads, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/streamlink-webui.webp"
 description: "a simple web-ui to the well-known streamlink cli application, which allows you to save twitch streams to your local disk."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/streamlink.webp"
 #image:
 #  path: /assets/img/streamlink-webui.png
 #  alt: Streamlink WebUI
@@ -44,7 +44,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  This app requires a Twitch cliend_ID and client_secret, set it in the config file. Look in the application documentation on how to obtain it.
+  <div>This app requires a Twitch cliend_ID and client_secret, set it in the config file. Look in the application documentation on how to obtain it.</div>
 </div>
 
 ## Web Interface

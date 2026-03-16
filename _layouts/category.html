@@ -28,6 +28,9 @@ layout: page
           {% elsif post.tags contains 'turnkey' %}
             <span class="type-badge type-turnkey">TURNKEY</span>
           {% endif %}
+          {% if post.tags contains 'dev' %}
+            <span class="type-badge type-dev">DEV</span>
+          {% endif %}
         </a>
         <span class="dash flex-grow-1"></span>
         {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}

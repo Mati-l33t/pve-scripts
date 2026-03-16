@@ -4,8 +4,8 @@ title: "Cloudflare-DDNS"
 date: 2025-05-22 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [cloudflare-ddns, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cloudflare-ddns.webp"
 description: "A feature-rich and robust Cloudflare DDNS updater with a small footprint. The program will detect your machine’s public IP addresses and update DNS records using the Cloudflare API"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cloudflare.webp"
 #image:
 #  path: /assets/img/cloudflare-ddns.png
 #  alt: Cloudflare-DDNS
@@ -35,12 +35,12 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  To setup the updater you must have the Cloudflare Token and the domains, please read the Github documentation at `https://github.com/favonia/cloudflare-ddns?tab=readme-ov-file#-step-1-updating-the-compose-file` (only the expandable section)
+  <div>To setup the updater you must have the Cloudflare Token and the domains, please read the Github documentation at <code>https://github.com/favonia/cloudflare-ddns?tab=readme-ov-file#-step-1-updating-the-compose-file</code> (only the expandable section)</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  To update the configuration edit `/etc/systemd/system/cloudflare-ddns.service`. After edit please restart with `systemctl restart cloudflare-ddns`
+  <div>To update the configuration edit <code>/etc/systemd/system/cloudflare-ddns.service</code>. After edit please restart with <code>systemctl restart cloudflare-ddns</code></div>
 </div>
 
 ## Links

@@ -4,8 +4,8 @@ title: "Home Assistant Container"
 date: 2024-04-29 00:00:00 +0000
 categories: ["IoT & Smart Home"]
 tags: [homeassistant, lxc, iot-smart-home, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/homeassistant.webp"
 description: "A standalone container-based installation of Home Assistant Core means that the software is installed inside a Docker container, separate from the host operating system. This allows for flexibility and scalability, as well as improved security, as the container can be easily moved or isolated from other processes on the host."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/home-assistant.webp"
 #image:
 #  path: /assets/img/homeassistant.png
 #  alt: Home Assistant Container
@@ -35,27 +35,27 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Containerized version doesn't allow Home Assistant add-ons.
+  <div>Containerized version doesn't allow Home Assistant add-ons.</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  If the LXC is created Privileged, the script will automatically set up USB passthrough.
+  <div>If the LXC is created Privileged, the script will automatically set up USB passthrough.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  config path: `/var/lib/docker/volumes/hass_config/_data`
+  <div>config path: <code>/var/lib/docker/volumes/hass_config/_data</code></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Portainer interface: $IP: 9443 - User & password must be set manually within 5 minutes, otherwise a restart of Portainer is required!
+  <div>Portainer interface: $IP: 9443 - User & password must be set manually within 5 minutes, otherwise a restart of Portainer is required!</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+  <div>WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.</div>
 </div>
 
 ## Web Interface

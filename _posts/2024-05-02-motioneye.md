@@ -4,8 +4,8 @@ title: "MotionEye NVR"
 date: 2024-05-02 00:00:00 +0000
 categories: ["NVR & Cameras"]
 tags: [motioneye, lxc, nvr-cameras, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/motioneye.webp"
 description: "MotionEye is an open-source, self-hosted network video recording (NVR) software designed to manage and monitor IP cameras. It runs on various platforms such as Linux, Raspberry Pi, and Docker, and offers features such as real-time video streaming, motion detection, and customizable camera views."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/motioneye.webp"
 #image:
 #  path: /assets/img/motioneye.png
 #  alt: MotionEye NVR

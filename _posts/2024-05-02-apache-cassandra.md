@@ -4,8 +4,8 @@ title: "Apache-Cassandra"
 date: 2024-05-02 00:00:00 +0000
 categories: [Databases]
 tags: [apache-cassandra, lxc, databases, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-cassandra.webp"
 description: "Apache-Cassandra is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-cassandra.webp"
 #image:
 #  path: /assets/img/apache-cassandra.png
 #  alt: Apache-Cassandra

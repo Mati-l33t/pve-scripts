@@ -4,8 +4,8 @@ title: "AdGuardHome-Sync"
 date: 2025-12-13 00:00:00 +0000
 categories: ["Adblock & DNS"]
 tags: [adguardhome-sync, addon, adblock-dns, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/adguardhome-sync.webp"
 description: "Synchronize AdGuardHome config to one or multiple replica instances. Syncs General Settings, Filters, Rewrites, Services, Clients, DNS Config, DHCP Config and Theme."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/adguardhome-sync.webp"
 #image:
 #  path: /assets/img/adguardhome-sync.png
 #  alt: AdGuardHome-Sync
@@ -29,17 +29,17 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Edit /opt/adguardhome-sync/adguardhome-sync.yaml to configure your AdGuardHome instances
+  <div>Edit /opt/adguardhome-sync/adguardhome-sync.yaml to configure your AdGuardHome instances</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Origin = Primary instance, Replicas = Instances to sync to
+  <div>Origin = Primary instance, Replicas = Instances to sync to</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Update with: update_adguardhome-sync
+  <div>Update with: update_adguardhome-sync</div>
 </div>
 
 ## Web Interface

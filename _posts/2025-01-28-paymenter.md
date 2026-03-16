@@ -4,8 +4,8 @@ title: "Paymenter"
 date: 2025-01-28 00:00:00 +0000
 categories: ["Webservers & Proxies"]
 tags: [paymenter, lxc, webservers-proxies, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paymenter.webp"
 description: "Paymenter is an open source webshop solution for hosting companies. It's developed to provide an more easy way to manage your hosting company."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paymenter.webp"
 #image:
 #  path: /assets/img/paymenter.png
 #  alt: Paymenter
@@ -44,7 +44,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  After installation, navigate to the directory with `cd /opt/paymenter` and run `php artisan app:init`. An interactive setup will prompt you to enter your company name and application URL.
+  <div>After installation, navigate to the directory with <code>cd /opt/paymenter</code> and run <code>php artisan app:init</code>. An interactive setup will prompt you to enter your company name and application URL.</div>
 </div>
 
 ## Web Interface

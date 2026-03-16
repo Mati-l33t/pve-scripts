@@ -4,8 +4,8 @@ title: "Proxmox Backup Server (PBS)"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [proxmox-backup-server, lxc, proxmox-virtualization, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox-backup-server.webp"
 description: "Proxmox Backup Server is an enterprise backup solution, for backing up and restoring VMs, containers, and physical hosts. By supporting incremental, fully deduplicated backups, Proxmox Backup Server significantly reduces network load and saves valuable storage space."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
 #  path: /assets/img/proxmox-backup-server.png
 #  alt: Proxmox Backup Server (PBS)
@@ -37,12 +37,12 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Set a root password if using autologin. This will be the PBS password. `passwd root`
+  <div>Set a root password if using autologin. This will be the PBS password. <code>passwd root</code></div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Advanced Install is only possible with IPv6 disabled! Otherwise, the installation may get stuck.
+  <div>Advanced Install is only possible with IPv6 disabled! Otherwise, the installation may get stuck.</div>
 </div>
 
 ## Web Interface

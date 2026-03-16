@@ -4,8 +4,8 @@ title: "Proxmox Mail Gateway (PMG)"
 date: 2025-02-04 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [proxmox-mail-gateway, lxc, proxmox-virtualization, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox-mail-gateway.webp"
 description: "Proxmox Mail Gateway is the leading open-source email security solution helping you to protect your mail server against all email threats from the moment they emerge."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
 #  path: /assets/img/proxmox-mail-gateway.png
 #  alt: Proxmox Mail Gateway (PMG)
@@ -37,7 +37,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Set a root password if using autologin. This will be the PMG password. `passwd root`
+  <div>Set a root password if using autologin. This will be the PMG password. <code>passwd root</code></div>
 </div>
 
 ## Web Interface

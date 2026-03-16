@@ -4,8 +4,8 @@ title: "SeaweedFS"
 date: 2026-02-23 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [seaweedfs, lxc, files-downloads, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/seaweedfs.webp"
 description: "SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lakes, with O(1) disk seek, S3 API, FUSE mount, WebDAV, and cloud tiering support."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/seaweedfs.webp"
 image:
   path: /assets/img/seaweedfs.png
   alt: SeaweedFS
@@ -28,17 +28,17 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Master UI available at port 9333, Filer UI at port 8888, S3 API at port 8333.
+  <div>Master UI available at port 9333, Filer UI at port 8888, S3 API at port 8333.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Data is stored in /opt/seaweedfs-data.
+  <div>Data is stored in /opt/seaweedfs-data.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  FUSE mounting requires fuse3 (pre-installed).
+  <div>FUSE mounting requires fuse3 (pre-installed).</div>
 </div>
 
 ## Web Interface

@@ -4,8 +4,8 @@ title: "ArchiveBox"
 date: 2024-10-19 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [archivebox, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/archivebox.webp"
 description: "ArchiveBox is an open source tool that lets organizations & individuals archive both public & private web content while retaining control over their data. It can be used to save copies of bookmarks, preserve evidence for legal cases, backup photos from FB/Insta/Flickr or media from YT/Soundcloud/etc., save research papers, and more..."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/archivebox.webp"
 #image:
 #  path: /assets/img/archivebox.png
 #  alt: ArchiveBox

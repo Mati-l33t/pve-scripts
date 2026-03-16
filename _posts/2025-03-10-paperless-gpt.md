@@ -4,8 +4,8 @@ title: "Paperless-GPT"
 date: 2025-03-10 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
 tags: [paperless-gpt, lxc, ai-coding-dev-tools, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paperless-gpt.webp"
 description: "Paperless-GPT seamlessly pairs with paperless-ngx to generate AI-powered document titles and tags, saving you hours of manual sorting. While other tools may offer AI chat features, paperless-gpt stands out by supercharging OCR with LLMs-ensuring high accuracy, even with tricky scans. If you’re craving next-level text extraction and effortless document organization, this is your solution."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paperless-ngx-light.webp"
 #image:
 #  path: /assets/img/paperless-gpt.png
 #  alt: Paperless-GPT
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Configuration File: `/opt/paperless-gpt-data/.env`
+  <div>Configuration File: <code>/opt/paperless-gpt-data/.env</code></div>
 </div>
 
 ## Web Interface

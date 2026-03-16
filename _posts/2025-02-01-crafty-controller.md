@@ -4,10 +4,10 @@ title: "Crafty Controller"
 date: 2025-02-01 00:00:00 +0000
 categories: ["Gaming & Leisure"]
 tags: [crafty-controller, lxc, gaming-leisure, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/crafty-controller.webp"
 description: "Crafty Controller is a free and open-source Minecraft launcher and manager that allows users to start and administer Minecraft servers from a user-friendly interface. The interface is run as a self-hosted web server that is accessible to devices on the local network by default and can be port forwarded to provide external access outside of your local network. Crafty is designed to be easy to install and use, requiring only a bit of technical knowledge and a desire to learn to get started. Crafty Controller is still actively being developed by Arcadia Technology and we are continually making major improvements to the software.
 
 Crafty Controller is a feature rich panel that allows you to create and run servers, manage players, run commands, change server settings, view and edit server files, and make backups. With the help of Crafty Controller managing a large number of Minecraft servers on separate versions is easy and intuitive to do."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/crafty-controller.webp"
 #image:
 #  path: /assets/img/crafty-controller.png
 #  alt: Crafty Controller
@@ -46,7 +46,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Show password: `cat ~/crafty-controller.creds`
+  <div>Show password: <code>cat ~/crafty-controller.creds</code></div>
 </div>
 
 ## Web Interface

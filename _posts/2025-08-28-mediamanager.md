@@ -4,8 +4,8 @@ title: "MediaManager"
 date: 2025-08-28 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [mediamanager, lxc, arr-suite, media-streaming, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mediamanager.webp"
 description: "A modern selfhosted media management system for your media library"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mediamanager.webp"
 #image:
 #  path: /assets/img/mediamanager.png
 #  alt: MediaManager
@@ -44,12 +44,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  During the installation, provide the email address of the first admin user
+  <div>During the installation, provide the email address of the first admin user</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  You're probably going to want to use a bind mount for the media directories
+  <div>You're probably going to want to use a bind mount for the media directories</div>
 </div>
 
 ## Web Interface

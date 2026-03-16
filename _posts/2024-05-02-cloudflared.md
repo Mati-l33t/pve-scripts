@@ -4,8 +4,8 @@ title: "Cloudflared"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [cloudflared, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cloudflared.webp"
 description: "Cloudflared is a command-line tool that allows you to securely access resources on the Cloudflare network, such as websites and APIs, from your local computer. It works by creating a secure tunnel between your computer and the Cloudflare network, allowing you to access resources as if they were on your local network."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cloudflare.webp"
 #image:
 #  path: /assets/img/cloudflared.png
 #  alt: Cloudflared
@@ -35,12 +35,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  After install, run: cloudflared tunnel login && cloudflared tunnel create <NAME>
+  <div>After install, run: cloudflared tunnel login && cloudflared tunnel create <NAME></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Or create tunnel via Cloudflare Zero Trust Dashboard
+  <div>Or create tunnel via Cloudflare Zero Trust Dashboard</div>
 </div>
 
 ## Links

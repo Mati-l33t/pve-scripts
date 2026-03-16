@@ -4,8 +4,8 @@ title: "Flatnotes"
 date: 2026-01-16 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [flatnotes, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/flatnotes.webp"
 description: "A self-hosted, database-less note-taking web app that utilises a flat folder of markdown files for storage."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/flatnotes.webp"
 image:
   path: /assets/img/flatnotes.png
   alt: Flatnotes

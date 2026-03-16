@@ -4,8 +4,8 @@ title: "Domain Locker"
 date: 2025-11-17 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [domain-locker, lxc, monitoring-analytics, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/domain-locker.webp"
 description: "The all-in-one tool, for keeping track of your domain name portfolio. Got domain names? Get Domain Locker! "
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/domain-locker.webp"
 image:
   path: /assets/img/domain-locker.png
   alt: Domain Locker
@@ -35,12 +35,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Show DB credentials: `cat ~/Domain-Locker.creds`
+  <div>Show DB credentials: <code>cat ~/Domain-Locker.creds</code></div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Domain-locker takes quite some time to build and a lot of ressources, RAM and Cores can be lowered after install.
+  <div>Domain-locker takes quite some time to build and a lot of ressources, RAM and Cores can be lowered after install.</div>
 </div>
 
 ## Web Interface

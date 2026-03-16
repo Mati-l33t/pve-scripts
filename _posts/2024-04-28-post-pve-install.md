@@ -4,8 +4,8 @@ title: "PVE Post Install"
 date: 2024-04-28 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [post-pve-install, pve, proxmox-virtualization]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/post-pve-install.webp"
 description: "This script provides options for managing Proxmox VE repositories, including disabling the Enterprise Repo, adding or correcting PVE sources, enabling the No-Subscription Repo, adding the test Repo, disabling the subscription nag, updating Proxmox VE, and rebooting the system."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
 #  path: /assets/img/post-pve-install.png
 #  alt: PVE Post Install
@@ -22,12 +22,12 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Execute within the Proxmox shell
+  <div>Execute within the Proxmox shell</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  It is recommended to answer “yes” (y) to all options presented during the process.
+  <div>It is recommended to answer “yes” (y) to all options presented during the process.</div>
 </div>
 
 ---

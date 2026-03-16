@@ -4,8 +4,8 @@ title: "Configarr"
 date: 2025-05-21 00:00:00 +0000
 categories: ["*Arr Suite"]
 tags: [configarr, lxc, arr-suite, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/configarr.webp"
 description: "Configarr is an open-source tool designed to simplify configuration and synchronization for Sonarr and Radarr (and other experimental). It integrates with TRaSH Guides to automate updates of custom formats, quality profiles, and other settings, while also supporting user-defined configurations."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/configarr.webp"
 #image:
 #  path: /assets/img/configarr.png
 #  alt: Configarr
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  change secrets file /opt/configarr/secrets.yml
+  <div>change secrets file /opt/configarr/secrets.yml</div>
 </div>
 
 ## Web Interface

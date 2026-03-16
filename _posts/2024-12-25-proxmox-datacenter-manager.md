@@ -4,8 +4,8 @@ title: "Proxmox Datacenter Manager (PDM)"
 date: 2024-12-25 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [proxmox-datacenter-manager, lxc, proxmox-virtualization, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox-datacenter-manager.webp"
 description: "The Proxmox Datacenter Manager project has been developed with the objective of providing a centralized overview of all your individual nodes and clusters. It also enables basic management like migrations of virtual guests without any cluster network requirements. "
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
 #  path: /assets/img/proxmox-datacenter-manager.png
 #  alt: Proxmox Datacenter Manager (PDM)
@@ -28,7 +28,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Set a root password if using autologin. This will be the Proxmox-Datacenter-Manager password. `sudo passwd root`
+  <div>Set a root password if using autologin. This will be the Proxmox-Datacenter-Manager password. <code>sudo passwd root</code></div>
 </div>
 
 ## Web Interface

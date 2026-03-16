@@ -4,8 +4,8 @@ title: "NextcloudPi"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
 tags: [nextcloudpi, lxc, operating-systems, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloudpi.webp"
 description: "NextCloudPi is a popular self-hosted solution for file collaboration and data storage. It is built on the NextCloud software, which is an open-source platform for data management."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud.webp"
 #image:
 #  path: /assets/img/nextcloudpi.png
 #  alt: NextcloudPi
@@ -39,12 +39,12 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Only Alpine: To get the username and password, run the script again inside the LXC shell.
+  <div>Only Alpine: To get the username and password, run the script again inside the LXC shell.</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+  <div>WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.</div>
 </div>
 
 ## Web Interface

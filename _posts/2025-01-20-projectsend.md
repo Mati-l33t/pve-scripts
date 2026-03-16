@@ -4,8 +4,8 @@ title: "ProjectSend"
 date: 2025-01-20 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [projectsend, lxc, documents-notes, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/projectsend.webp"
 description: "ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more!"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/projectsend.webp"
 #image:
 #  path: /assets/img/projectsend.png
 #  alt: ProjectSend
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  After running the update script, logging in as a system user in ProjectSend is necessary to upgrade the database.
+  <div>After running the update script, logging in as a system user in ProjectSend is necessary to upgrade the database.</div>
 </div>
 
 ## Web Interface

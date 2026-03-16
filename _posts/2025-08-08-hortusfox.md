@@ -4,8 +4,8 @@ title: "HortusFox"
 date: 2025-08-08 00:00:00 +0000
 categories: ["Gaming & Leisure"]
 tags: [hortusfox, lxc, gaming-leisure, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/hortusfox.webp"
 description: "HortusFox is a collaborative plant management system for plant enthusiasts. Manage, document and track your entire plant collection – self-hosted and privacy-friendly."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/hortusfox.webp"
 #image:
 #  path: /assets/img/hortusfox.png
 #  alt: HortusFox
@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  Login Credentials : `cat ~/hortusfox.creds`
+  <div>Login Credentials : <code>cat ~/hortusfox.creds</code></div>
 </div>
 
 ## Web Interface

@@ -1,6 +1,13 @@
 ---
 ---
 
+/* ── Post view counter ── */
+.post-views {
+  font-size: 0.85rem;
+  color: inherit;
+  opacity: 0.75;
+}
+
 /* Type badge colors for LXC, VM, Addon, PVE tags */
 a.post-tag[href*="/tags/ct/"],
 a.post-tag[href*="/tags/lxc/"] {
@@ -33,6 +40,12 @@ a.post-tag[href*="/tags/auto-update/"] {
   border-color: #2a7a7a !important;
 }
 
+a.post-tag[href*="/tags/dev/"] {
+  background-color: #e07b00 !important;
+  color: #fff !important;
+  border-color: #e07b00 !important;
+}
+
 /* Type badges shown next to post titles on home and category pages */
 .type-badge {
   display: inline-block;
@@ -52,6 +65,7 @@ a.post-tag[href*="/tags/auto-update/"] {
 .type-addon{ background-color: #7a3e9d; color: #fff; }
 .type-pve  { background-color: #b84e00; color: #fff; }
 .type-turnkey { background-color: #2a7a7a; color: #fff; }
+.type-dev     { background-color: #e07b00; color: #fff; }
 
 /* ── Resource pills (CPU / RAM / Disk / OS) ── */
 .resource-bar {
@@ -114,6 +128,48 @@ a.post-tag[href*="/tags/auto-update/"] {
 .warn-callout .fas {
   font-size: 1rem;
   color: #f59e0b;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+/* ── Dev (in development) callout ── */
+.dev-callout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: rgba(224, 123, 0, 0.08);
+  border-left: 4px solid #e07b00;
+  border-radius: 0 6px 6px 0;
+  padding: 0.65rem 1rem;
+  margin: 0.6rem 0 1rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.dev-callout .fas {
+  font-size: 1rem;
+  color: #e07b00;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+/* ── Unavailable (disabled) callout ── */
+.unavail-callout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: rgba(220, 38, 38, 0.08);
+  border-left: 4px solid #dc2626;
+  border-radius: 0 6px 6px 0;
+  padding: 0.65rem 1rem;
+  margin: 0.6rem 0 1rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.unavail-callout .fas {
+  font-size: 1rem;
+  color: #dc2626;
   flex-shrink: 0;
   margin-top: 0.15rem;
 }

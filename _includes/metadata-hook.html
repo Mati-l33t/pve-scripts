@@ -1,0 +1,9 @@
+{% if page.layout == 'post' %}
+<script>
+(function () {
+  const path = '{{ page.url }}';
+  fetch('/api/hit?path=' + encodeURIComponent(path), { method: 'POST' })
+    .catch(function () {});
+})();
+</script>
+{% endif %}

@@ -4,8 +4,8 @@ title: "SnowShare"
 date: 2025-12-02 00:00:00 +0000
 categories: ["Files & Downloads"]
 tags: [snowshare, lxc, files-downloads, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/snowshare.webp"
 description: "A modern, secure file and link sharing platform built with Next.js, Prisma, and NextAuth. Share URLs, code snippets, and files with customizable expiration, privacy, and QR codes."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/snowshare.png"
 image:
   path: /assets/img/snowshare.png
   alt: SnowShare

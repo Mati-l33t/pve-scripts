@@ -4,8 +4,8 @@ title: "Prometheus Alertmanager"
 date: 2025-01-09 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [prometheus-alertmanager, lxc, monitoring-analytics, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/prometheus-alertmanager.webp"
 description: "Alerting with Prometheus is separated into two parts. Alerting rules in Prometheus servers send alerts to an Alertmanager. The Alertmanager then manages those alerts, including silencing, inhibition, aggregation and sending out notifications via methods such as email, on-call notification systems, and chat platforms."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/prometheus.webp"
 #image:
 #  path: /assets/img/prometheus-alertmanager.png
 #  alt: Prometheus Alertmanager

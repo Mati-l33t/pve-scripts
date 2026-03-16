@@ -4,8 +4,8 @@ title: "BunkerWeb"
 date: 2024-06-12 00:00:00 +0000
 categories: ["Authentication & Security"]
 tags: [bunkerweb, lxc, authentication-security, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bunkerweb.webp"
 description: "BunkerWeb is a security-focused web server that enhances web application protection. It guards against common web vulnerabilities like SQL injection, XSS, and CSRF. It features simple setup and configuration using a YAML file, customizable security rules, and provides detailed logs for traffic monitoring and threat detection."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bunkerweb.webp"
 #image:
 #  path: /assets/img/bunkerweb.png
 #  alt: BunkerWeb
@@ -35,7 +35,7 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.
+  <div>WARNING: Installation sources scripts outside of Community Scripts repo. Please check the source before installing.</div>
 </div>
 
 ## Links

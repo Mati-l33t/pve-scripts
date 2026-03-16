@@ -4,8 +4,8 @@ title: "File Browser"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
 tags: [filebrowser, addon, proxmox-virtualization, files-downloads, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/filebrowser.webp"
 description: "File Browser offers a user-friendly web interface for managing files within a designated directory. It allows you to perform various actions such as uploading, deleting, previewing, renaming, and editing files."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/file-browser.webp"
 #image:
 #  path: /assets/img/filebrowser.png
 #  alt: File Browser
@@ -31,7 +31,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  Execute within an existing LXC Console
+  <div>Execute within an existing LXC Console</div>
 </div>
 
 ## Web Interface

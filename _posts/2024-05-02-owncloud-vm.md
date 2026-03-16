@@ -4,8 +4,8 @@ title: "ownCloud"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
 tags: [owncloud-vm, vm, operating-systems, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/owncloud.webp"
 description: "TurnKey ownCloud is an open-source file sharing server and collaboration platform that can store your personal content, like documents and pictures, in a centralized location."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/owncloud.webp"
 #image:
 #  path: /assets/img/owncloud-vm.png
 #  alt: ownCloud
@@ -37,7 +37,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/v
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  This VM requires extra installation steps, see install guide at `https://github.com/community-scripts/ProxmoxVE/discussions/144`
+  <div>This VM requires extra installation steps, see install guide at <code>https://github.com/community-scripts/ProxmoxVE/discussions/144</code></div>
 </div>
 
 ## Web Interface

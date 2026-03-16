@@ -4,8 +4,8 @@ title: "Speedtest-Tracker"
 date: 2025-12-11 00:00:00 +0000
 categories: ["Network & Firewall"]
 tags: [speedtest-tracker, lxc, network-firewall, auto-update]
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/speedtest-tracker.webp"
 description: "Speedtest Tracker is a self-hosted application that runs scheduled speed tests using the Ookla Speedtest CLI and saves the results to a database for historical tracking and visualization."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/speedtest-tracker.webp"
 image:
   path: /assets/img/speedtest-tracker.jpeg
   alt: Speedtest-Tracker
