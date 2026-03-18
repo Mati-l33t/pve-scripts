@@ -24,8 +24,8 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
-  <span class="res-pill res-ram">RAM: 4096 MB</span>
-  <span class="res-pill res-disk">Disk: 12 GB</span>
+  <span class="res-pill res-ram">RAM: 6144 MB</span>
+  <span class="res-pill res-disk">Disk: 20 GB</span>
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
@@ -45,7 +45,17 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Configure your AI provider API keys in /opt/librechat/.env and restart the service.</div>
+  <div>Add your AI provider API keys to /opt/librechat/.env (OPENAI_API_KEY, ANTHROPIC_API_KEY, etc.) and restart librechat. OpenAI, Anthropic, Google and Agents endpoints are pre-enabled via ENDPOINTS.</div>
+</div>
+
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>RAG API is included and running on port 8000. Set RAG_OPENAI_API_KEY in /opt/rag-api/.env to enable document Q&A.</div>
+</div>
+
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>For local embeddings without an API key, set EMBEDDINGS_PROVIDER=ollama and OLLAMA_BASE_URL=http://<ollama-host>:11434 in /opt/rag-api/.env and restart rag-api.</div>
 </div>
 
 ## Web Interface
