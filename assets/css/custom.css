@@ -1,6 +1,13 @@
 ---
 ---
 
+/* ── Sidebar active link: Proxmox orange ── */
+#sidebar ul li.nav-item.active .nav-link,
+#sidebar .sidebar-bottom a:hover,
+#sidebar .site-title:hover {
+  color: #fe6e00 !important;
+}
+
 /* ── Post view counter ── */
 .post-views {
   font-size: 0.85rem;

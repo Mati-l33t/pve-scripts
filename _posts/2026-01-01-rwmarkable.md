@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Split-Pro"
-date: 2026-02-12 00:00:00 +0000
+title: "rwMarkable"
+date: 2026-01-01 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [split-pro, lxc, auto-update]
+tags: [rwmarkable, lxc, auto-update]
 #description: ""  # Add manually
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/split-pro.webp"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rwmarkable.webp"
 #image:
-#  path: /assets/img/split-pro.png
-#  alt: Split-Pro
+#  path: /assets/img/rwmarkable.png
+#  alt: rwMarkable
 #categories_manual: []  # Add correct category manually
 #date_created_manual: ""  # Set correct date if known
 #notes: []  # Add notes manually
@@ -21,11 +21,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/split-pro.webp"
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/split-pro.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/rwmarkable.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
-  <span class="res-pill res-ram">RAM: 4096 MB</span>
+  <span class="res-pill res-ram">RAM: 3072 MB</span>
   <span class="res-pill res-disk">Disk: 6 GB</span>
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
@@ -36,6 +36,6 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/c
 
 ## Links
 
-- [Official Website](https://github.com/oss-apps/split-pro)
+- [Official Website](https://github.com/fccview/rwMarkable)
 
 ---
