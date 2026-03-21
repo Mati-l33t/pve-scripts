@@ -40,7 +40,12 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>After installation, update EMAIL_DOMAIN in /opt/simplelogin/.env with your actual domain and configure DNS (MX, SPF, DKIM) accordingly.</div>
+  <div>After installation, update EMAIL_DOMAIN and URL in /opt/simplelogin/.env with your actual domain and configure DNS (MX, SPF, DKIM) accordingly.</div>
+</div>
+
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  <div>A working SMTP setup (Postfix + valid domain/DNS) is required. Registration sends an activation email that must be delivered.</div>
 </div>
 
 <div class="info-callout">

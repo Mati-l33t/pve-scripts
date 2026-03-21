@@ -54,12 +54,12 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Admin user is created with username 'admin'. Set password in first login.</div>
+  <div>Admin credentials are saved in <code>/root/discourse.creds</code> inside the container.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Configure SMTP settings in admin panel for email notifications.</div>
+  <div>Configure SMTP settings in the admin panel (Admin > Settings > Email) for email notifications.</div>
 </div>
 
 ## Web Interface
