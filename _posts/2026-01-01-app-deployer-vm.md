@@ -3,7 +3,7 @@ layout: post
 title: "${APP:-App Deployer}"
 date: 2026-01-01 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [app-deployer-vm, vm, dev]
+tags: [app-deployer-vm, vm]
 #description: ""  # Add manually
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/app-deployer.webp"
 #image:
@@ -16,11 +16,6 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/app-deployer.webp"
 #  username: ""
 #  password: ""
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

@@ -1,0 +1,26 @@
+<!-- Top Scripts panel — driven by hit counter API -->
+<section id="top-scripts">
+  <h2 class="panel-heading">Top Scripts</h2>
+  <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2" id="top-scripts-list">
+    <li class="text-muted small">Loading...</li>
+  </ul>
+</section>
+
+<script>
+fetch('/api/top?limit=5')
+  .then(r => r.json())
+  .then(data => {
+    const list = document.getElementById('top-scripts-list');
+    if (!data.length) { list.innerHTML = ''; return; }
+    list.innerHTML = data.map((item) => {
+      const title = item.path.replace(/^\/posts\//, '').replace(/\/$/, '')
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, c => c.toUpperCase());
+      return `<li class="text-truncate lh-lg"><a href="${item.path}">${title}</a></li>`;
+    }).join('');
+  })
+  .catch(() => {
+    const list = document.getElementById('top-scripts-list');
+    list.innerHTML = '';
+  });
+</script>

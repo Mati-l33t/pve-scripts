@@ -12,6 +12,8 @@ layout: page
 
 {% assign sort_categories = site.categories | sort %}
 
+<p class="text-muted small mb-4">{{ site.posts | size }} scripts total</p>
+
 {% for category in sort_categories %}
   {% assign category_name = category | first %}
   {% assign posts_of_category = category | last %}

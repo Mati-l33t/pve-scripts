@@ -3,18 +3,13 @@ layout: post
 title: "VersityGW"
 date: 2026-03-10 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [versitygw, lxc, files-downloads, auto-update, dev]
+tags: [versitygw, lxc, files-downloads, auto-update]
 description: "VersityGW is a high-performance, cloud-native S3-compatible gateway that provides S3 API access to various storage backends including POSIX filesystems."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/versitygw.webp"
 #image:
 #  path: /assets/img/versitygw.png
 #  alt: VersityGW
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

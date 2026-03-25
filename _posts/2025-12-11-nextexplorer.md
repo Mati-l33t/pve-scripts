@@ -3,18 +3,13 @@ layout: post
 title: "nextExplorer"
 date: 2025-12-11 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [nextexplorer, lxc, files-downloads, documents-notes, auto-update, dev]
+tags: [nextexplorer, lxc, files-downloads, documents-notes, auto-update]
 description: "Self-hosted file access for teams, homelabs, and agencies with a refined interface."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextexplorer.webp"
 #image:
 #  path: /assets/img/nextexplorer.png
 #  alt: nextExplorer
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

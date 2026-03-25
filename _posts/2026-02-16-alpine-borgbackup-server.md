@@ -3,18 +3,13 @@ layout: post
 title: "Alpine-BorgBackup-Server"
 date: 2026-02-16 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [alpine-borgbackup-server, lxc, backup-recovery, auto-update, dev]
+tags: [alpine-borgbackup-server, lxc, backup-recovery, auto-update]
 description: "Alpine-BorgBackup-Server is a lightweight containerized backup server based on Alpine Linux and BorgBackup. It provides a secure and efficient way to manage your backups with minimal resource usage, making it ideal for Proxmox VE environments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/borg.webp"
 #image:
 #  path: /assets/img/alpine-borgbackup-server.png
 #  alt: Alpine-BorgBackup-Server
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 
