@@ -24,7 +24,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
-  <span class="res-pill res-ram">RAM: 1536 MB</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
   <span class="res-pill res-disk">Disk: 4 GB</span>
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
