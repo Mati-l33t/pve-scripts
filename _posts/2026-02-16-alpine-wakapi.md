@@ -15,7 +15,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/wakapi.webp"
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/ct/alpine-wakapi.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/alpine-wakapi.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>

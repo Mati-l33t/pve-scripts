@@ -99,7 +99,60 @@
 
   <!-- Scripts -->
 
+  <!-- Default to dark mode; respect saved user preference across sessions -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem('chirpy-theme') || 'dark';
+      document.documentElement.setAttribute('data-mode', saved);
+      sessionStorage.setItem('mode', saved);
+    })();
+  </script>
+
   <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
+
+  <!-- Override Theme.flip() to toggle dark<->light explicitly and persist via localStorage -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      Theme.flip = function () {
+        var current = document.documentElement.getAttribute('data-mode') || 'dark';
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-mode', next);
+        sessionStorage.setItem('mode', next);
+        localStorage.setItem('chirpy-theme', next);
+        window.postMessage({ id: 'theme-mode' }, '*');
+      };
+    });
+  </script>
+
+  <!-- Typewriter effect for site tagline (homepage only) -->
+  {% if page.layout == 'home' %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var el = document.querySelector('.site-subtitle');
+      if (!el) return;
+      var text = el.textContent.trim();
+      el.textContent = '';
+      el.style.borderRight = '2px solid currentColor';
+      el.style.whiteSpace = 'nowrap';
+      el.style.overflow = 'hidden';
+      var i = 0;
+      var cursor = true;
+      function type() {
+        if (i < text.length) {
+          el.textContent += text[i++];
+          setTimeout(type, 65 + Math.random() * 45);
+        } else {
+          var blinks = 0;
+          var blink = setInterval(function () {
+            el.style.borderRightColor = (cursor = !cursor) ? 'currentColor' : 'transparent';
+            if (++blinks >= 6) { clearInterval(blink); el.style.borderRight = 'none'; }
+          }, 400);
+        }
+      }
+      setTimeout(type, 600);
+    });
+  </script>
+  {% endif %}
 
   {% include js-selector.html lang=lang %}
 

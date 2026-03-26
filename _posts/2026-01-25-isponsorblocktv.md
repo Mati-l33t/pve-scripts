@@ -15,7 +15,7 @@ icon: "https://raw.githubusercontent.com/ajayyy/SponsorBlock/master/public/icons
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/ct/isponsorblocktv.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/isponsorblocktv.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
