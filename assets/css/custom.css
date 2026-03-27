@@ -130,7 +130,7 @@
   background: linear-gradient(to right, transparent, rgba(255,122,0,0.4), transparent) !important;
 }
 
-/* Archives — solid colours, dark edges matching bg, slightly lighter centre */
+/* Archives — solid dark edges matching sidebar, slightly lighter centre */
 html[data-mode=dark] #archives li:nth-child(odd) {
   background-image: linear-gradient(
     to right,
