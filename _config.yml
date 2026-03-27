@@ -41,7 +41,7 @@ comments:
     reactions_enabled: 1
     emit_metadata: 0
     input_position: top
-    theme: dark
+    theme: transparent_dark
     lang: en
 
 paginate: 10

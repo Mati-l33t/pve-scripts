@@ -14,9 +14,14 @@ A collection of scripts for Proxmox VE and other useful self-hosted tools. The g
 
 Most scripts are republished here under the [MIT License](https://github.com/community-scripts/ProxmoxVE/blob/main/LICENSE) — Copyright (c) 2021-2026 tteck.
 
-## How to use the scripts
+## How to use these scripts
 
-All scripts are designed to be run from the **Proxmox VE shell**. Just copy the install command from the post and paste it into your Proxmox shell.
+These scripts allow users to interactively deploy Linux containers or virtual machines, offering two configuration paths:
+
+- **Basic setup** — Follows sensible defaults for a quick, hassle-free deployment.
+- **Advanced setup** — Unlocks full control, letting users tailor the configuration to their specific needs.
+
+All options are presented through a dialog-based interface. After the user makes their selections, the script validates the input and assembles the final container or VM configuration automatically.
 
 ## Contributing / Feedback
 

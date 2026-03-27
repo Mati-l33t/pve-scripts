@@ -1,6 +1,11 @@
 - type: github
   icon: fab fa-github
 
+- type: email
+  icon: fas fa-envelope
+  url: mailto:info@proxmox-scripts.com
+  noblank: true
+
 - type: rss
   icon: fas fa-rss
   noblank: true
