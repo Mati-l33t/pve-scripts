@@ -3,7 +3,7 @@ layout: post
 title: "Matter Server"
 date: 2026-03-24 00:00:00 +0000
 categories: [ZigBee and Z-Wave]
-tags: [matter-server, lxc, zigbee-and-z-wave, auto-update, dev]
+tags: [matter-server, lxc, zigbee-and-z-wave, auto-update]
 description: "Open Home Foundation Matter Server - an officially certified Matter controller serving as the foundation for Matter support in Home Assistant and other projects."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/home-assistant.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/home-assistant.webp"
 #  alt: Matter Server
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/ct/matter-server.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/matter-server.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

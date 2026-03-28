@@ -12,7 +12,7 @@ A collection of scripts for Proxmox VE and other useful self-hosted tools. The g
 
 ## Where do the scripts come from?
 
-Most scripts are republished here under the [MIT License](https://github.com/community-scripts/ProxmoxVE/blob/main/LICENSE) — Copyright (c) 2021-2026 tteck.
+Some scripts are published here under the [MIT License](https://github.com/community-scripts/ProxmoxVE/blob/main/LICENSE)
 
 ## How to use these scripts
 
