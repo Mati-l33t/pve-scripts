@@ -6,9 +6,9 @@ categories: ["Media & Streaming"]
 tags: [invidious, lxc, media-streaming, auto-update, dev]
 description: "A self-hosted alternative frontend for YouTube"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invidious.webp"
-#image:
-#  path: /assets/img/invidious.png
-#  alt: Invidious
+image:
+  path: /assets/img/invidious.png
+  alt: Invidious
 ---
 
 <div class="dev-callout">

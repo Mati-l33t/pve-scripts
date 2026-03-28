@@ -6,9 +6,9 @@ categories: ["Automation & Scheduling"]
 tags: [apprise-api, lxc, automation-scheduling, auto-update, dev]
 description: "The Apprise API is a web-based gateway to the Apprise library."
 icon: "https://appriseit.com/_s/apprise-full-logo-light.DZmBGJFz.svg"
-#image:
-#  path: /assets/img/apprise-api.png
-#  alt: Apprise API
+image:
+  path: /assets/img/apprise-api.png
+  alt: Apprise API
 ---
 
 <div class="dev-callout">

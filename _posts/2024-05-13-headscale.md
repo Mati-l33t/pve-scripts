@@ -40,7 +40,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Access headscale-admin UI via <code>http://<LXC-IP>/admin/</code></div>
+  <div>Access headscale-admin UI via <code>http://[LXC-IP]/admin/</code></div>
 </div>
 
 ## Links

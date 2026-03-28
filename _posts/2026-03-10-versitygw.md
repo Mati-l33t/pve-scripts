@@ -6,9 +6,9 @@ categories: ["Files & Downloads"]
 tags: [versitygw, lxc, files-downloads, auto-update]
 description: "VersityGW is a high-performance, cloud-native S3-compatible gateway that provides S3 API access to various storage backends including POSIX filesystems."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/versitygw.webp"
-#image:
-#  path: /assets/img/versitygw.png
-#  alt: VersityGW
+image:
+  path: /assets/img/versitygw.png
+  alt: VersityGW
 ---
 
 ## Installation

@@ -12,7 +12,7 @@
         {tags}
       </div>
     </header>
-    <p>{content}</p>
+    <p>{description}</p>
   </article>
 {% endcapture %}
 
@@ -27,7 +27,7 @@
       json: '{{ '/assets/js/data/search.json' | relative_url }}',
       searchResultTemplate: '{{ result_elem | strip_newlines }}',
       noResultsText: '{{ not_found }}',
-      limit: 20,
+      limit: 50,
       templateMiddleware: function(prop, value, template) {
         if (prop === 'categories') {
           if (value === '') {

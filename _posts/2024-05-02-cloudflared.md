@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>After install, run: cloudflared tunnel login && cloudflared tunnel create <NAME></div>
+  <div>After install, run: cloudflared tunnel login && cloudflared tunnel create [NAME]</div>
 </div>
 
 <div class="info-callout">

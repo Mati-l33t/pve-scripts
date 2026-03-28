@@ -6,9 +6,9 @@ categories: ["Automation & Scheduling"]
 tags: [bitfocus-companion, lxc, automation-scheduling, auto-update, dev]
 description: "Bitfocus Companion enables the Elgato Stream Deck and other controllers to trigger actions in broadcast software. Installs headless with systemd service, fetching the latest release via the Bitfocus API."
 icon: "https://raw.githubusercontent.com/bitfocus/companion/main/assets/icon.png"
-#image:
-#  path: /assets/img/bitfocus-companion.png
-#  alt: Bitfocus Companion
+image:
+  path: /assets/img/bitfocus-companion.png
+  alt: Bitfocus Companion
 ---
 
 <div class="dev-callout">

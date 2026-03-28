@@ -45,7 +45,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Then run: cd /opt/actions-runner && sudo -u runner ./config.sh --url https://github.com/your-username/your-repo --token <YOUR_TOKEN></div>
+  <div>Then run: cd /opt/actions-runner && sudo -u runner ./config.sh --url https://github.com/your-username/your-repo --token [YOUR_TOKEN]</div>
 </div>
 
 <div class="info-callout">

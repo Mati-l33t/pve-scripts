@@ -6,9 +6,9 @@ categories: ["Media & Streaming"]
 tags: [storyteller, lxc, media-streaming, auto-update, dev]
 description: "Storyteller is a self-hosted platform for creating and reading ebooks with synced narration, combining audiobooks and ebooks with automatic synchronization."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/storyteller.webp"
-#image:
-#  path: /assets/img/storyteller.png
-#  alt: Storyteller
+image:
+  path: /assets/img/storyteller.png
+  alt: Storyteller
 ---
 
 <div class="dev-callout">

@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>API is available at <code>http://<LXC_IP>:8081/v2</code>.</div>
+  <div>API is available at <code>http://[LXC_IP]:8081/v2</code>.</div>
 </div>
 
 ## Web Interface

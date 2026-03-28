@@ -6,9 +6,9 @@ categories: ["Media & Streaming"]
 tags: [tubearchivist, lxc, media-streaming, auto-update, dev]
 description: "Tube Archivist is a self-hosted YouTube media collection manager that indexes your video collection with metadata for organizing, searching, and playing archived YouTube videos offline."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tube-archivist.webp"
-#image:
-#  path: /assets/img/tubearchivist.png
-#  alt: Tube Archivist
+image:
+  path: /assets/img/tubearchivist.jpg
+  alt: Tube Archivist
 ---
 
 <div class="dev-callout">

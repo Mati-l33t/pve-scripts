@@ -6,9 +6,9 @@ categories: ["AI / Coding & Dev-Tools"]
 tags: [librechat, lxc, ai-coding-dev-tools, auto-update, dev]
 description: "LibreChat is an open-source AI chat platform that supports multiple AI providers including OpenAI, Anthropic, Google, and more. It features conversation history, multi-modal support, custom endpoints, and a plugin system."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/librechat.webp"
-#image:
-#  path: /assets/img/librechat.png
-#  alt: LibreChat
+image:
+  path: /assets/img/librechat.webp
+  alt: LibreChat
 ---
 
 <div class="dev-callout">
