@@ -6,9 +6,9 @@ categories: ["Monitoring & Analytics"]
 tags: [alpine-wakapi, lxc, monitoring-analytics, auto-update]
 description: "Wakapi is an open-source tool that helps you keep track of the time you have spent coding on different projects in different programming languages and more. Ideal for statistics freaks and anyone else."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/wakapi.webp"
-#image:
-#  path: /assets/img/alpine-wakapi.png
-#  alt: Alpine-Wakapi
+image:
+  path: /assets/img/alpine-wakapi.webp
+  alt: Alpine-Wakapi
 ---
 
 ## Installation

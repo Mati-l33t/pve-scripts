@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>To create the first user, run: npm adduser --registry http://<container-ip>:4873</div>
+  <div>To create the first user, run: npm adduser --registry http://&lt;container-ip&gt;:4873</div>
 </div>
 
 ## Web Interface

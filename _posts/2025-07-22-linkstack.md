@@ -40,7 +40,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Complete setup via the web interface at http://<container-ip>/. Check installation logs: <code>cat ~/linkstack-install.log</code></div>
+  <div>Complete setup via the web interface at http://&lt;container-ip&gt;/. Check installation logs: <code>cat ~/linkstack-install.log</code></div>
 </div>
 
 ## Web Interface

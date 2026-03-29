@@ -6,9 +6,9 @@ categories: ["Authentication & Security"]
 tags: [authentik, lxc, authentication-security, auto-update, dev]
 description: "authentik is an IdP (Identity Provider) and SSO (Single Sign On) platform."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/authentik.webp"
-#image:
-#  path: /assets/img/authentik.png
-#  alt: authentik
+image:
+  path: /assets/img/authentik.jpg
+  alt: authentik
 ---
 
 <div class="dev-callout">

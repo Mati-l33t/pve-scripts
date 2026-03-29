@@ -6,10 +6,11 @@
 {% capture result_elem %}
   <article class="px-1 px-sm-2 px-lg-4 px-xl-0">
     <header>
-      <h2><a href="{url}">{title}</a></h2>
-      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">
+      <h2>
+        {icon}<a href="{url}">{title}</a> {type}{dev}
+      </h2>
+      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1" style="padding-left:1.6em;">
         {categories}
-        {tags}
       </div>
     </header>
     <p>{description}</p>
@@ -43,6 +44,21 @@
           } else {
             return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
           }
+        }
+
+        if (prop === 'icon') {
+          if (value === '') return '';
+          return `<img src="${value}" alt="" style="width:1.1em;height:1.1em;object-fit:contain;vertical-align:middle;margin-right:0.5em;" onerror="this.style.display='none'">`;
+        }
+
+        if (prop === 'type') {
+          const labels = { lxc: 'LXC', vm: 'VM', addon: 'ADDON', pve: 'PVE', turnkey: 'TURNKEY' };
+          if (!value || !labels[value]) return '';
+          return `<span class="type-badge type-${value}">${labels[value]}</span>`;
+        }
+
+        if (prop === 'dev') {
+          return value === 'dev' ? `<span class="type-badge type-dev">DEV</span>` : '';
         }
       }
     });

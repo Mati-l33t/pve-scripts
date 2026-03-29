@@ -12,6 +12,16 @@ swcache: true
     "tags": {{ post.tags | join: ', ' | jsonify }},
     "date": {{ post.date | jsonify }},
     "description": {{ post.description | default: '' | jsonify }},
+    "icon": {{ post.icon | default: '' | jsonify }},
+    {% assign post_type = '' %}
+    {% if post.tags contains 'lxc' %}{% assign post_type = 'lxc' %}
+    {% elsif post.tags contains 'vm' %}{% assign post_type = 'vm' %}
+    {% elsif post.tags contains 'addon' %}{% assign post_type = 'addon' %}
+    {% elsif post.tags contains 'pve' %}{% assign post_type = 'pve' %}
+    {% elsif post.tags contains 'turnkey' %}{% assign post_type = 'turnkey' %}
+    {% endif %}
+    "type": {{ post_type | jsonify }},
+    "dev": {% if post.tags contains 'dev' %}"dev"{% else %}""{% endif %},
     {% capture content -%}{% include post-summary.html full_text=true %}{%- endcapture -%}
     "content": {{ content | jsonify }}
   }{% unless forloop.last %},{% endunless %}

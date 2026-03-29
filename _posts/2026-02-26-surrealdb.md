@@ -6,9 +6,9 @@ categories: [Databases]
 tags: [surrealdb, lxc, databases, auto-update, dev]
 description: "SurrealDB is a multi-model database that combines the power of document, graph, and relational databases into a single platform, offering real-time queries, built-in permissions, and a simplified backend stack."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/surrealdb.webp"
-#image:
-#  path: /assets/img/surrealdb.png
-#  alt: SurrealDB
+image:
+  path: /assets/img/surrealdb.png
+  alt: SurrealDB
 ---
 
 <div class="dev-callout">

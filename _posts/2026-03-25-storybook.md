@@ -6,9 +6,9 @@ categories: ["AI / Coding & Dev-Tools"]
 tags: [storybook, lxc, ai-coding-dev-tools, auto-update, dev]
 description: "Storybook is a frontend workshop for building UI components and pages in isolation. It's used for UI development, testing, and documentation."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/storybook.webp"
-#image:
-#  path: /assets/img/storybook.png
-#  alt: Storybook
+image:
+  path: /assets/img/storybook.png
+  alt: Storybook
 ---
 
 <div class="dev-callout">

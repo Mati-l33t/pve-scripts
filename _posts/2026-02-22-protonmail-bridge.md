@@ -6,9 +6,9 @@ categories: ["MQTT & Messaging"]
 tags: [protonmail-bridge, lxc, mqtt-messaging, auto-update, dev]
 description: "Proton Mail Bridge runs a local IMAP/SMTP service that lets traditional mail clients access a Proton mailbox. This LXC runs Bridge headless and forwards IMAP/SMTP to the LAN using systemd socket activation (systemd-socket-proxyd)."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proton-mail.webp"
-#image:
-#  path: /assets/img/protonmail-bridge.png
-#  alt: Proton Mail Bridge
+image:
+  path: /assets/img/protonmail-bridge.png
+  alt: Proton Mail Bridge
 ---
 
 <div class="dev-callout">

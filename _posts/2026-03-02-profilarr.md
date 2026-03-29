@@ -6,9 +6,9 @@ categories: ["*Arr Suite"]
 tags: [profilarr, lxc, arr-suite, auto-update]
 description: "Profilarr is a configuration management platform for Radarr and Sonarr that simplifies importing, syncing, and managing quality profiles, custom formats, and release profiles."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/profilarr.webp"
-#image:
-#  path: /assets/img/profilarr.png
-#  alt: Profilarr
+image:
+  path: /assets/img/profilarr.png
+  alt: Profilarr
 ---
 
 ## Installation

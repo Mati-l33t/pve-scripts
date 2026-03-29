@@ -6,9 +6,9 @@ categories: ["Authentication & Security"]
 tags: [simplelogin, lxc, authentication-security, auto-update, dev]
 description: "SimpleLogin is an open-source email alias solution that lets you create anonymous email aliases to protect your real email address from spam, trackers and data breaches."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/simplelogin.webp"
-#image:
-#  path: /assets/img/simplelogin.png
-#  alt: SimpleLogin
+image:
+  path: /assets/img/simplelogin.png
+  alt: SimpleLogin
 ---
 
 <div class="dev-callout">
