@@ -1,0 +1,21 @@
+{% if page.layout == 'home' %}
+{% assign base_url = site.url | append: site.baseurl %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Latest Posts",
+  "url": "{{ base_url }}/",
+  "itemListElement": [
+    {% for post in site.posts limit:5 %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "name": {{ post.title | jsonify }},
+      "url": "{{ base_url }}{{ post.url }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
