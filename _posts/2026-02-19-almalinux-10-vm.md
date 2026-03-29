@@ -6,9 +6,9 @@ categories: [Operating Systems]
 tags: [almalinux-10-vm, vm, operating-systems, auto-update, dev]
 description: "AlmaLinux 10 (Heliotrope Lion) is a community-driven, RHEL-compatible enterprise Linux distribution. It provides a stable, production-ready platform with long-term support, making it ideal for servers, workloads, and cloud deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/almalinux.webp"
-#image:
-#  path: /assets/img/almalinux-10-vm.png
-#  alt: AlmaLinux 10
+image:
+  path: /assets/img/almalinux-10-vm.png
+  alt: AlmaLinux 10
 ---
 
 <div class="dev-callout">

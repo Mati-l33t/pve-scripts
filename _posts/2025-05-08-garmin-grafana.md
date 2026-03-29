@@ -3,7 +3,7 @@ layout: post
 title: "garmin-grafana"
 date: 2025-05-08 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [garmin-grafana, lxc, monitoring-analytics, auto-update, dev]
+tags: [garmin-grafana, addon, monitoring-analytics, auto-update, dev]
 description: "A self-hosted solution to fetch data from Garmin servers and store it in a local InfluxDB database for visualization with Grafana."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/garmin-grafana.webp"
 #image:
@@ -20,14 +20,8 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/garmin-grafana.webp"
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/ct/garmin-grafana.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main//tools/addon/garmin-grafana.sh)"
 ```
-<div class="resource-bar">
-  <span class="res-pill res-cpu">CPU: 2 cores</span>
-  <span class="res-pill res-ram">RAM: 2048 MB</span>
-  <span class="res-pill res-disk">Disk: 8 GB</span>
-  <span class="res-pill res-os">OS: Debian 13</span>
-</div>
 
 ## Configuration
 

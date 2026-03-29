@@ -6,9 +6,9 @@ categories: ["Automation & Scheduling"]
 tags: [skylite-ux, lxc, automation-scheduling, auto-update, dev]
 description: "Skylite-UX is an open-source, self-hosted family management app with calendar, todos, shopping lists, and user management."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/skylite-ux.webp"
-#image:
-#  path: /assets/img/skylite-ux.png
-#  alt: Skylite-UX
+image:
+  path: /assets/img/skylite-ux.png
+  alt: Skylite-UX
 ---
 
 <div class="dev-callout">

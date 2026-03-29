@@ -6,9 +6,9 @@ categories: ["Finance & Budgeting"]
 tags: [discourse, lxc, finance-budgeting, auto-update, dev]
 description: "Discourse is the civilized discussion platform. Use it as a mailing list, discussion forum, or long-form chat room."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/discourse.webp"
-#image:
-#  path: /assets/img/discourse.png
-#  alt: Discourse
+image:
+  path: /assets/img/discourse.png
+  alt: Discourse
 ---
 
 <div class="dev-callout">

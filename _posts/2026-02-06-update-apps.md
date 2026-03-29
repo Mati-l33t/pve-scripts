@@ -57,7 +57,7 @@ bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/t
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Use <code>var_backup_storage=<name></code> to set backup storage location.</div>
+  <div>Use <code>var_backup_storage=&lt;name&gt;</code> to set backup storage location.</div>
 </div>
 
 <div class="info-callout">

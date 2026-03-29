@@ -373,6 +373,29 @@ a.post-tag[href*="/tags/dev/"] {
   margin-top: 0.15rem;
 }
 
+/* ── Post title icon (shown on individual post pages) ── */
+.post-title-icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+/* Prevent the theme's lightbox/shimmer wrapper from distorting the title icon */
+h1[data-toc-skip] .popup,
+h1[data-toc-skip] .shimmer,
+h1[data-toc-skip] .img-link {
+  display: inline-block !important;
+  width: 40px !important;
+  height: 40px !important;
+  aspect-ratio: unset !important;
+  background: none !important;
+  pointer-events: none !important;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
 /* ── Post app icons ── */
 .post-icon {
   width: 20px;
