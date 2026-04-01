@@ -2,8 +2,8 @@
 layout: post
 title: "fireshare"
 date: 2026-02-21 00:00:00 +0000
-categories: ["Authentication & Security"]
-tags: [fireshare, lxc, authentication-security, auto-update, dev]
+categories: ["Media & Streaming"]
+tags: [fireshare, lxc, media-streaming, auto-update, dev]
 description: "Fireshare is a self-hosted app that lets you share videos — particularly gaming clips — via unique links. You upload videos to a folder, and the app generates shareable URLs for each one. It's designed as a lightweight alternative to services like Medal or YouTube for people who want full control over their content without relying on third-party platforms."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/fireshare.webp"
 #image:
