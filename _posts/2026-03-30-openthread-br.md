@@ -3,7 +3,7 @@ layout: post
 title: "OpenThread Border Router"
 date: 2026-03-30 00:00:00 +0000
 categories: [ZigBee and Z-Wave]
-tags: [openthread-br, lxc, zigbee-and-z-wave, auto-update, dev]
+tags: [openthread-br, lxc, zigbee-and-z-wave, auto-update, privileged, dev]
 description: "OpenThread Border Router (OTBR) connects a Thread network to other IP-based networks such as Wi-Fi or Ethernet, providing bidirectional connectivity, mDNS/SRP service discovery, NAT64, and external Thread commissioning."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openthread.webp"
 #image:
@@ -40,17 +40,12 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>Requires a Thread Radio Co-Processor (RCP) USB device passed through to the LXC container (e.g. /dev/ttyACM0). Edit /etc/default/otbr-agent to configure the RCP device path.</div>
+  <div>Requires a Thread Radio Co-Processor (RCP) device. USB: pass through to LXC (e.g. /dev/ttyACM0). TCP: use <code>spinel+hdlc+uart://IP:PORT</code> format.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>This container runs in privileged mode for network administration (iptables, ipset, tun device access).</div>
-</div>
-
-<div class="info-callout">
-  <i class="fas fa-info-circle"></i>
-  <div>Services are not started automatically on first boot. Connect your RCP device, configure /etc/default/otbr-agent, then run: systemctl start otbr-agent && systemctl start otbr-web</div>
+  <div>Services are enabled but not started at install. Configure <code>/etc/default/otbr-agent</code> with your RCP device, then run: <code>systemctl start otbr-agent && systemctl start otbr-web</code></div>
 </div>
 
 ## Web Interface
