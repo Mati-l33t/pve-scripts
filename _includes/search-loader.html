@@ -20,47 +20,66 @@
 {% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
 
 <script>
-  {% comment %} Note: dependent library will be loaded in `js-selector.html` {% endcomment %}
-  document.addEventListener('DOMContentLoaded', () => {
-    SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('search-results'),
-      json: '{{ '/assets/js/data/search.json' | relative_url }}',
-      searchResultTemplate: '{{ result_elem | strip_newlines }}',
-      noResultsText: '{{ not_found }}',
-      limit: 50,
-      templateMiddleware: function(prop, value, template) {
-        if (prop === 'categories') {
-          if (value === '') {
-            return `${value}`;
-          } else {
-            return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+  var _sData = null;
+  fetch('{{ '/assets/js/data/search.json' | relative_url }}')
+    .then(function(r){ return r.json(); })
+    .then(function(d){ _sData = d; })
+    .catch(function(){ _sData = []; });
+
+  function _sScore(title, q) {
+    var t = title.toLowerCase();
+    if (t === q) return 100;
+    if (t.indexOf(q) === 0) return 80;
+    if (t.indexOf(q) >= 0) return 60;
+    var words = q.split(' ').filter(Boolean);
+    if (words.length > 1 && words.every(function(w){ return t.indexOf(w) >= 0; })) return 50;
+    if (words.some(function(w){ return t.indexOf(w) >= 0; })) return 10;
+    return 0;
+  }
+
+  function _sRender(item) {
+    var tmpl = '{{ result_elem | strip_newlines }}';
+    var labels = { lxc:'LXC', vm:'VM', addon:'ADDON', pve:'PVE', turnkey:'TURNKEY' };
+    return tmpl.replace(/\{(\w+)\}/g, function(_, p) {
+      var v = item[p] != null ? String(item[p]) : '';
+      if (p === 'categories') return v ? '<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>' + v + '</div>' : '';
+      if (p === 'tags') return v ? '<div><i class="fa fa-tag fa-fw"></i>' + v + '</div>' : '';
+      if (p === 'icon') return v ? '<img src="' + v + '" alt="" style="width:1.1em;height:1.1em;object-fit:contain;vertical-align:middle;margin-right:0.5em;" onerror="this.style.display=\'none\'">' : '';
+      if (p === 'type') return (v && labels[v]) ? '<span class="type-badge type-' + v + '">' + labels[v] + '</span>' : '';
+      if (p === 'dev') return v === 'dev' ? '<span class="type-badge type-dev">DEV</span>' : '';
+      return v;
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var input = document.getElementById('search-input');
+    var container = document.getElementById('search-results');
+    var noResults = '{{ not_found }}';
+    var timer;
+    input.addEventListener('input', function() {
+      clearTimeout(timer);
+      timer = setTimeout(function() {
+        var q = (input.value || '').trim().toLowerCase();
+        if (!q) { container.innerHTML = ''; return; }
+        if (!_sData) return;
+        var matches = [];
+        for (var i = 0; i < _sData.length; i++) {
+          var item = _sData[i];
+          var title = (item.title || '').toLowerCase();
+          var desc = (item.description || '').toLowerCase();
+          var tags = (item.tags || '').toLowerCase();
+          var cats = (item.categories || '').toLowerCase();
+          if (title.indexOf(q) >= 0 || desc.indexOf(q) >= 0 || tags.indexOf(q) >= 0 || cats.indexOf(q) >= 0) {
+            matches.push({ item: item, score: _sScore(item.title || '', q) });
           }
         }
-
-        if (prop === 'tags') {
-          if (value === '') {
-            return `${value}`;
-          } else {
-            return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
-          }
-        }
-
-        if (prop === 'icon') {
-          if (value === '') return '';
-          return `<img src="${value}" alt="" style="width:1.1em;height:1.1em;object-fit:contain;vertical-align:middle;margin-right:0.5em;" onerror="this.style.display='none'">`;
-        }
-
-        if (prop === 'type') {
-          const labels = { lxc: 'LXC', vm: 'VM', addon: 'ADDON', pve: 'PVE', turnkey: 'TURNKEY' };
-          if (!value || !labels[value]) return '';
-          return `<span class="type-badge type-${value}">${labels[value]}</span>`;
-        }
-
-        if (prop === 'dev') {
-          return value === 'dev' ? `<span class="type-badge type-dev">DEV</span>` : '';
-        }
-      }
+        matches.sort(function(a, b){ return b.score - a.score; });
+        matches = matches.slice(0, 50);
+        if (!matches.length) { container.innerHTML = noResults; return; }
+        var html = '';
+        for (var j = 0; j < matches.length; j++) html += _sRender(matches[j].item);
+        container.innerHTML = html;
+      }, 150);
     });
   });
 </script>
