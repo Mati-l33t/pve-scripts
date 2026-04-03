@@ -3,7 +3,7 @@ layout: post
 title: "netboot.xyz"
 date: 2026-03-20 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [netboot-xyz, lxc, network-firewall, auto-update, dev]
+tags: [netboot-xyz, lxc, network-firewall, auto-update]
 description: "netboot.xyz is a network boot utility that lets you boot into any type of operating system or utility disk directly from a BIOS/UEFI, without needing a physical boot media. It uses iPXE to present a user-friendly menu of operating systems and tools."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netboot-xyz.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netboot-xyz.webp"
 #  alt: netboot.xyz
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/ct/netboot-xyz.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/netboot-xyz.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
