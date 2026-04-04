@@ -501,10 +501,8 @@ h1.card-title .preview-img img {
 [data-mode=dark] .type-dev     { box-shadow: 0 0 10px rgba(224, 123,   0, 1.0); }
 [data-mode=dark] .type-turnkey { box-shadow: 0 0 10px rgba(42,  122, 122, 1.0); }
 
-/* 6. Code blocks — blue left accent border + faint inner glow */
-[data-mode=dark] div[class^=language-],
-[data-mode=dark] figure.highlight,
-[data-mode=dark] .highlight {
+/* 6. Code blocks — blue left accent border + faint inner glow (outer wrapper only) */
+[data-mode=dark] div[class^=language-] {
   border-left: 3px solid rgba(77, 166, 255, 0.5) !important;
   box-shadow: inset 4px 0 20px rgba(77, 166, 255, 0.04), 0 2px 12px rgba(0, 0, 0, 0.4) !important;
 }
