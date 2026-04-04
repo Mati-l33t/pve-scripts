@@ -473,17 +473,17 @@ h1.card-title .preview-img img {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.55) !important;
 }
 
-/* 2. Post page h1 title — white-to-blue gradient */
+/* 2. Post page h1 title — white-to-gold gradient */
 [data-mode=dark] h1[data-toc-skip] {
-  background: linear-gradient(100deg, #ffffff 0%, #4da6ff 100%);
+  background: linear-gradient(100deg, #ffffff 0%, #ffaa00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* 3. Home / list page card titles — white-to-blue gradient */
+/* 3. Home / list page card titles — white-to-gold gradient */
 [data-mode=dark] h1.card-title {
-  background: linear-gradient(100deg, #ffffff 0%, #5cb3ff 100%);
+  background: linear-gradient(100deg, #ffffff 0%, #fe6e00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
