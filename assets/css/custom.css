@@ -522,20 +522,5 @@ h1.card-title .preview-img img {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5), 0 0 18px rgba(254, 110, 0, 0.3) !important;
 }
 
-/* 7. Search input — glassmorphism */
-[data-mode=dark] #search input.form-control,
-[data-mode=dark] #search-input {
-  background: rgba(255, 255, 255, 0.04) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3) !important;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
-}
-[data-mode=dark] #search input.form-control:focus,
-[data-mode=dark] #search-input:focus {
-  border-color: rgba(254, 110, 0, 0.5) !important;
-  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0 3px rgba(254, 110, 0, 0.12) !important;
-}
 
 /* === END MODERN UI ENHANCEMENTS === */
