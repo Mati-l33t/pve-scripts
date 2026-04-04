@@ -475,15 +475,15 @@ h1.card-title .preview-img img {
 
 /* 2. Post page h1 title — white-to-blue gradient */
 [data-mode=dark] h1[data-toc-skip] {
-  background: linear-gradient(100deg, #ffffff 15%, #7eb8f7 100%);
+  background: linear-gradient(100deg, #ffffff 0%, #4da6ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* 3. Home / list page card titles — softer gradient */
+/* 3. Home / list page card titles — white-to-blue gradient */
 [data-mode=dark] h1.card-title {
-  background: linear-gradient(100deg, #dde8f5 15%, #89b8f0 100%);
+  background: linear-gradient(100deg, #ffffff 0%, #5cb3ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -494,11 +494,11 @@ h1.card-title .preview-img img {
 }
 
 /* 4. Type badge glow matching each badge colour */
-[data-mode=dark] .type-lxc     { box-shadow: 0 0 7px rgba(30,  111,  62, 0.75); }
-[data-mode=dark] .type-vm      { box-shadow: 0 0 7px rgba(26,   79, 138, 0.75); }
-[data-mode=dark] .type-addon   { box-shadow: 0 0 7px rgba(122,  62, 157, 0.75); }
-[data-mode=dark] .type-pve     { box-shadow: 0 0 7px rgba(184,  78,   0, 0.75); }
-[data-mode=dark] .type-dev     { box-shadow: 0 0 7px rgba(224, 123,   0, 0.75); }
-[data-mode=dark] .type-turnkey { box-shadow: 0 0 7px rgba(42,  122, 122, 0.75); }
+[data-mode=dark] .type-lxc     { box-shadow: 0 0 10px rgba(30,  111,  62, 1.0); }
+[data-mode=dark] .type-vm      { box-shadow: 0 0 10px rgba(26,   79, 138, 1.0); }
+[data-mode=dark] .type-addon   { box-shadow: 0 0 10px rgba(122,  62, 157, 1.0); }
+[data-mode=dark] .type-pve     { box-shadow: 0 0 10px rgba(184,  78,   0, 1.0); }
+[data-mode=dark] .type-dev     { box-shadow: 0 0 10px rgba(224, 123,   0, 1.0); }
+[data-mode=dark] .type-turnkey { box-shadow: 0 0 10px rgba(42,  122, 122, 1.0); }
 
 /* === END MODERN UI ENHANCEMENTS === */
