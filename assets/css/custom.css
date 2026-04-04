@@ -460,3 +460,45 @@ h1.card-title .preview-img img {
   padding: 0.45rem 1rem;
   border-bottom: 1px solid rgba(128,128,128,0.15);
 }
+
+/* ===========================================================
+   MODERN UI ENHANCEMENTS
+   To revert: delete everything from this line to
+   the matching END MODERN UI ENHANCEMENTS comment.
+   =========================================================== */
+
+/* 1. Topbar — orange accent line + depth shadow */
+[data-mode=dark] #topbar-wrapper {
+  border-bottom: 1px solid rgba(254, 110, 0, 0.28) !important;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.55) !important;
+}
+
+/* 2. Post page h1 title — white-to-blue gradient */
+[data-mode=dark] h1[data-toc-skip] {
+  background: linear-gradient(100deg, #ffffff 15%, #7eb8f7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 3. Home / list page card titles — softer gradient */
+[data-mode=dark] h1.card-title {
+  background: linear-gradient(100deg, #dde8f5 15%, #89b8f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* Badges inside card titles inherit transparent fill — restore it */
+[data-mode=dark] h1.card-title .type-badge {
+  -webkit-text-fill-color: #fff;
+}
+
+/* 4. Type badge glow matching each badge colour */
+[data-mode=dark] .type-lxc     { box-shadow: 0 0 7px rgba(30,  111,  62, 0.75); }
+[data-mode=dark] .type-vm      { box-shadow: 0 0 7px rgba(26,   79, 138, 0.75); }
+[data-mode=dark] .type-addon   { box-shadow: 0 0 7px rgba(122,  62, 157, 0.75); }
+[data-mode=dark] .type-pve     { box-shadow: 0 0 7px rgba(184,  78,   0, 0.75); }
+[data-mode=dark] .type-dev     { box-shadow: 0 0 7px rgba(224, 123,   0, 0.75); }
+[data-mode=dark] .type-turnkey { box-shadow: 0 0 7px rgba(42,  122, 122, 0.75); }
+
+/* === END MODERN UI ENHANCEMENTS === */
