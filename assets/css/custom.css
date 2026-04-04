@@ -479,8 +479,13 @@ h1.card-title .preview-img img {
   text-shadow: 0 0 18px rgba(255, 160, 0, 0.7), 0 0 40px rgba(255, 100, 0, 0.35);
 }
 
-/* 3. Home / list page card titles — gold glow */
+/* 3. Home / list page card titles — white default, gold glow on hover */
 [data-mode=dark] h1.card-title {
+  color: #ffffff !important;
+  text-shadow: none;
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+[data-mode=dark] .post-preview:hover h1.card-title {
   color: #ffe0a0 !important;
   text-shadow: 0 0 14px rgba(255, 160, 0, 0.65), 0 0 32px rgba(255, 100, 0, 0.3);
 }
