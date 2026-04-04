@@ -8,9 +8,18 @@
   background: radial-gradient(ellipse at top, #0b0f14 0%, #05070a 60%) !important;
 }
 
+/* Sticky topbar — stays at top on scroll */
+#topbar-wrapper {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+
 /* Main content wrappers — match background */
 [data-mode=dark] #topbar-wrapper {
-  background-color: transparent !important;
+  background-color: rgba(5, 7, 10, 0.92) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 [data-mode=dark] footer {
   background-color: #05070a !important;
