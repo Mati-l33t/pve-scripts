@@ -20,7 +20,7 @@ image:
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/ct/skylite-ux.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/skylite-ux.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

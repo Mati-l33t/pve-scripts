@@ -15,7 +15,7 @@ image:
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/vm/opnsense-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/opnsense-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>

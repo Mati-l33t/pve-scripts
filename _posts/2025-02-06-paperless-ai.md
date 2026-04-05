@@ -15,7 +15,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paperless-ai.webp"
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/paperless-ai.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/paperless-ai.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>

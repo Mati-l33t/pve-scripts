@@ -18,7 +18,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/tools/pve/monitor-all.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/monitor-all.sh)"
 ```
 
 ## Notes

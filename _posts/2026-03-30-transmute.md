@@ -20,7 +20,7 @@ icon: "https://raw.githubusercontent.com/transmute-app/transmute/main/frontend/p
 
 **Default install:**
 ```bash
-bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVED/raw/main/ct/transmute.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/transmute.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
