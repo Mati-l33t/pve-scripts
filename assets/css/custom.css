@@ -467,10 +467,20 @@ h1.card-title .preview-img img {
    the matching END MODERN UI ENHANCEMENTS comment.
    =========================================================== */
 
-/* 1. Topbar — orange accent line + depth shadow */
+/* 1. Topbar — fading orange accent line + depth shadow */
 [data-mode=dark] #topbar-wrapper {
-  border-bottom: 1px solid rgba(254, 110, 0, 0.28) !important;
+  border-bottom: none !important;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.55) !important;
+}
+[data-mode=dark] #topbar-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(254, 110, 0, 0.4), transparent);
+  pointer-events: none;
 }
 
 /* 2. Post page h1 title — gold glow */
@@ -488,7 +498,7 @@ h1.card-title .preview-img img {
 }
 [data-mode=dark] #post-list a.post-preview:hover h1.card-title {
   color: #ffe0a0 !important;
-  text-shadow: 0 0 14px rgba(255, 160, 0, 0.65), 0 0 32px rgba(255, 100, 0, 0.3);
+  text-shadow: 0 0 8px rgba(255, 160, 0, 0.45);
 }
 
 
