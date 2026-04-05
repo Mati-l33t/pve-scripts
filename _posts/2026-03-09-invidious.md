@@ -3,18 +3,13 @@ layout: post
 title: "Invidious"
 date: 2026-03-09 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [invidious, lxc, media-streaming, updateable, dev]
+tags: [invidious, lxc, media-streaming, updateable]
 description: "A self-hosted alternative frontend for YouTube"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invidious.webp"
 image:
   path: /assets/img/invidious.png
   alt: Invidious
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

@@ -3,18 +3,13 @@ layout: post
 title: "Tor Snowflake"
 date: 2025-12-19 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [tor-snowflake, lxc, network-firewall, updateable, dev]
+tags: [tor-snowflake, lxc, network-firewall, updateable]
 description: "Snowflake is a pluggable transport that proxies traffic through temporary proxies using WebRTC. Snowflake allows users in censored locations to access the open internet by connecting through volunteer-run proxies. Running a Snowflake proxy helps users circumvent internet censorship by forwarding their traffic through your server."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tor.webp"
 #image:
 #  path: /assets/img/tor-snowflake.png
 #  alt: Tor Snowflake
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

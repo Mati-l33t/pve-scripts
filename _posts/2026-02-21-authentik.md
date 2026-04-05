@@ -3,18 +3,13 @@ layout: post
 title: "authentik"
 date: 2026-02-21 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [authentik, lxc, authentication-security, updateable, dev]
+tags: [authentik, lxc, authentication-security, updateable]
 description: "authentik is an IdP (Identity Provider) and SSO (Single Sign On) platform."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/authentik.webp"
 image:
   path: /assets/img/authentik.jpg
   alt: authentik
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

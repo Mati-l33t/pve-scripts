@@ -3,18 +3,13 @@ layout: post
 title: "Apprise API"
 date: 2026-03-24 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [apprise-api, lxc, automation-scheduling, updateable, dev]
+tags: [apprise-api, lxc, automation-scheduling, updateable]
 description: "The Apprise API is a web-based gateway to the Apprise library."
 icon: "https://appriseit.com/_s/apprise-full-logo-light.DZmBGJFz.svg"
 image:
   path: /assets/img/apprise-api.png
   alt: Apprise API
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 
