@@ -1,1 +1,1 @@
-{% assign _cat_icon = site.data.category_icons[include.category] | default: 'far fa-folder' %}<i class="{{ _cat_icon }} fa-fw"></i>
+{% assign _cat = site.data.category_icons[include.category] %}{% if _cat %}<i class="{{ _cat.icon }} fa-fw" style="color:{{ _cat.color }}"></i>{% else %}<i class="far fa-folder fa-fw"></i>{% endif %}

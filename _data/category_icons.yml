@@ -1,26 +1,78 @@
-Proxmox & Virtualization: "fas fa-server"
-Operating Systems: "fas fa-desktop"
-Containers & Docker: "fas fa-cube"
-Network & Firewall: "fas fa-shield-alt"
-Adblock & DNS: "fas fa-ban"
-Authentication & Security: "fas fa-key"
-Backup & Recovery: "fas fa-archive"
-Databases: "fas fa-database"
-Monitoring & Analytics: "fas fa-chart-bar"
-Dashboards & Frontends: "fas fa-th-large"
-Files & Downloads: "fas fa-folder-open"
-Documents & Notes: "fas fa-file-alt"
-Media & Streaming: "fas fa-film"
-"*Arr Suite": "fas fa-download"
-NVR & Cameras: "fas fa-video"
-IoT & Smart Home: "fas fa-home"
-ZigBee and Z-Wave: "fas fa-wifi"
-MQTT & Messaging: "fas fa-comments"
-Automation & Scheduling: "fas fa-clock"
-AI / Coding & Dev-Tools: "fas fa-code"
-Webservers & Proxies: "fas fa-globe"
-Bots & ChatOps: "fas fa-robot"
-Finance & Budgeting: "fas fa-dollar-sign"
-Gaming & Leisure: "fas fa-gamepad"
-Business & ERP: "fas fa-building"
-Miscellaneous: "fas fa-cube"
+"Proxmox & Virtualization":
+  icon: "fas fa-server"
+  color: "#fe6e00"
+"Operating Systems":
+  icon: "fas fa-desktop"
+  color: "#60a5fa"
+"Containers & Docker":
+  icon: "fas fa-cube"
+  color: "#22d3ee"
+"Network & Firewall":
+  icon: "fas fa-shield-alt"
+  color: "#4ade80"
+"Adblock & DNS":
+  icon: "fas fa-ban"
+  color: "#f87171"
+"Authentication & Security":
+  icon: "fas fa-key"
+  color: "#fbbf24"
+"Backup & Recovery":
+  icon: "fas fa-archive"
+  color: "#a78bfa"
+"Databases":
+  icon: "fas fa-database"
+  color: "#38bdf8"
+"Monitoring & Analytics":
+  icon: "fas fa-chart-bar"
+  color: "#34d399"
+"Dashboards & Frontends":
+  icon: "fas fa-th-large"
+  color: "#818cf8"
+"Files & Downloads":
+  icon: "fas fa-folder-open"
+  color: "#22d3ee"
+"Documents & Notes":
+  icon: "fas fa-file-alt"
+  color: "#fde68a"
+"Media & Streaming":
+  icon: "fas fa-film"
+  color: "#fb7185"
+"*Arr Suite":
+  icon: "fas fa-download"
+  color: "#c084fc"
+"NVR & Cameras":
+  icon: "fas fa-video"
+  color: "#94a3b8"
+"IoT & Smart Home":
+  icon: "fas fa-home"
+  color: "#86efac"
+"ZigBee and Z-Wave":
+  icon: "fas fa-wifi"
+  color: "#5eead4"
+"MQTT & Messaging":
+  icon: "fas fa-comments"
+  color: "#fdba74"
+"Automation & Scheduling":
+  icon: "fas fa-clock"
+  color: "#7dd3fc"
+"AI / Coding & Dev-Tools":
+  icon: "fas fa-code"
+  color: "#e879f9"
+"Webservers & Proxies":
+  icon: "fas fa-globe"
+  color: "#67e8f9"
+"Bots & ChatOps":
+  icon: "fas fa-robot"
+  color: "#86efac"
+"Finance & Budgeting":
+  icon: "fas fa-dollar-sign"
+  color: "#fcd34d"
+"Gaming & Leisure":
+  icon: "fas fa-gamepad"
+  color: "#c4b5fd"
+"Business & ERP":
+  icon: "fas fa-building"
+  color: "#93c5fd"
+"Miscellaneous":
+  icon: "fas fa-cube"
+  color: "#94a3b8"
