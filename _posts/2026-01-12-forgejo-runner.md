@@ -3,13 +3,18 @@ layout: post
 title: "Forgejo Runner"
 date: 2026-01-12 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [forgejo-runner, lxc, ai-coding-dev-tools, updateable]
+tags: [forgejo-runner, lxc, ai-coding-dev-tools, updateable, dev]
 description: "Forgejo Runner is a lightweight service that executes CI/CD jobs for Forgejo, enabling automated builds, tests, and deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/forgejo.webp"
 #image:
 #  path: /assets/img/forgejo-runner.png
 #  alt: Forgejo Runner
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

@@ -3,13 +3,18 @@ layout: post
 title: "Tube Archivist"
 date: 2026-03-25 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [tubearchivist, lxc, media-streaming, updateable]
+tags: [tubearchivist, lxc, media-streaming, updateable, dev]
 description: "Tube Archivist is a self-hosted YouTube media collection manager that indexes your video collection with metadata for organizing, searching, and playing archived YouTube videos offline."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tube-archivist.webp"
 image:
   path: /assets/img/tubearchivist.jpg
   alt: Tube Archivist
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

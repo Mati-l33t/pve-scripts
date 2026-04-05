@@ -3,13 +3,18 @@ layout: post
 title: "OpenThread Border Router"
 date: 2026-03-30 00:00:00 +0000
 categories: [ZigBee and Z-Wave]
-tags: [openthread-br, lxc, zigbee-and-z-wave, updateable, privileged]
+tags: [openthread-br, lxc, zigbee-and-z-wave, updateable, privileged, dev]
 description: "OpenThread Border Router (OTBR) connects a Thread network to other IP-based networks such as Wi-Fi or Ethernet, providing bidirectional connectivity, mDNS/SRP service discovery, NAT64, and external Thread commissioning."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openthread.webp"
 #image:
 #  path: /assets/img/openthread-br.png
 #  alt: OpenThread Border Router
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 
@@ -35,12 +40,17 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>Requires a Thread Radio Co-Processor (RCP) device. USB: pass through to LXC (e.g. /dev/ttyACM0). TCP: use <code>spinel+hdlc+uart://IP:PORT</code> format.</div>
+  <div>Requires a Thread Radio Co-Processor (RCP) device. USB: pass through to LXC (e.g. /dev/ttyACM0). TCP: use socat forkpty pattern (see <code>/etc/default/otbr-agent</code> for examples).</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Services are enabled but not started at install. Configure <code>/etc/default/otbr-agent</code> with your RCP device, then run: <code>systemctl start otbr-agent && systemctl start otbr-web</code></div>
+  <div>Services are enabled but not started at install. Configure <code>/etc/default/otbr-agent</code> with your RCP device, then run: <code>systemctl restart otbr-agent otbr-web</code></div>
+</div>
+
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>Home Assistant: Add 'OpenThread Border Router' integration with URL <code>http://[IP]:8081</code>. Web UI is on port 80.</div>
 </div>
 
 ## Web Interface

@@ -3,13 +3,18 @@ layout: post
 title: "SurrealDB"
 date: 2026-02-26 00:00:00 +0000
 categories: [Databases]
-tags: [surrealdb, lxc, databases, updateable]
+tags: [surrealdb, lxc, databases, updateable, dev]
 description: "SurrealDB is a multi-model database that combines the power of document, graph, and relational databases into a single platform, offering real-time queries, built-in permissions, and a simplified backend stack."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/surrealdb.webp"
 image:
   path: /assets/img/surrealdb.png
   alt: SurrealDB
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 
