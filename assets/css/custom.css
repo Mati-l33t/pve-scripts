@@ -219,9 +219,9 @@ html[data-mode=dark] #archives li:nth-child(odd) {
 /* Type badge colors for LXC, VM, Addon, PVE tags */
 a.post-tag[href*="/tags/ct/"],
 a.post-tag[href*="/tags/lxc/"] {
-  background: rgba(240,244,248,0.08) !important;
-  color: #d0d8e4 !important;
-  border-color: rgba(240,244,248,0.18) !important;
+  background: rgba(6,182,212,0.1) !important;
+  color: #06b6d4 !important;
+  border-color: rgba(6,182,212,0.25) !important;
 }
 
 a.post-tag[href*="/tags/vm/"] {
@@ -231,9 +231,9 @@ a.post-tag[href*="/tags/vm/"] {
 }
 
 a.post-tag[href*="/tags/addon/"] {
-  background: rgba(240,244,248,0.08) !important;
-  color: #d0d8e4 !important;
-  border-color: rgba(240,244,248,0.18) !important;
+  background: rgba(139,92,246,0.1) !important;
+  color: #8b5cf6 !important;
+  border-color: rgba(139,92,246,0.25) !important;
 }
 
 a.post-tag[href*="/tags/pve/"] {
@@ -270,9 +270,9 @@ a.post-tag[href*="/tags/dev/"] {
   text-transform: uppercase;
 }
 
-.type-lxc     { background: rgba(240,244,248,0.08); color: #d0d8e4; border-color: rgba(240,244,248,0.18); }
+.type-lxc     { background: rgba(6,182,212,0.1);    color: #06b6d4; border-color: rgba(6,182,212,0.25); }
 .type-vm      { background: rgba(34,197,94,0.1);    color: #22c55e; border-color: rgba(34,197,94,0.25); }
-.type-addon   { background: rgba(240,244,248,0.08); color: #d0d8e4; border-color: rgba(240,244,248,0.18); }
+.type-addon   { background: rgba(139,92,246,0.1);   color: #8b5cf6; border-color: rgba(139,92,246,0.25); }
 .type-pve     { background: rgba(245,158,11,0.1);   color: #f59e0b; border-color: rgba(245,158,11,0.25); }
 .type-turnkey { background: rgba(240,244,248,0.08); color: #d0d8e4; border-color: rgba(240,244,248,0.18); }
 .type-dev     { background: rgba(254,110,0,0.1);    color: #fe8c30; border-color: rgba(254,110,0,0.25); }
