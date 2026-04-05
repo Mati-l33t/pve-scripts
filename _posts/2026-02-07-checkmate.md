@@ -3,7 +3,7 @@ layout: post
 title: "Checkmate"
 date: 2026-02-07 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [checkmate, lxc, monitoring-analytics, auto-update]
+tags: [checkmate, lxc, monitoring-analytics, updateable]
 description: "Checkmate is an open source uptime and infrastructure monitoring application that helps you track the availability and performance of your services."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/checkmate.webp"
 image:

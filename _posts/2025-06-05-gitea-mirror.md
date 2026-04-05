@@ -3,7 +3,7 @@ layout: post
 title: "Gitea-Mirror"
 date: 2025-06-05 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [gitea-mirror, lxc, backup-recovery, auto-update]
+tags: [gitea-mirror, lxc, backup-recovery, updateable]
 description: "Gitea Mirror auto-syncs GitHub repos to your self-hosted Gitea, with a sleek Web UI and easy Docker deployment. "
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/gitea-mirror.webp"
 #image:

@@ -3,7 +3,7 @@ layout: post
 title: "OpenWrt"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [openwrt-vm, vm, network-firewall, operating-systems, auto-update]
+tags: [openwrt-vm, vm, network-firewall, operating-systems, updateable]
 description: "OpenWrt is a powerful open-source firmware that can transform a wide range of networking devices into highly customizable and feature-rich routers, providing users with greater control and flexibility over their network infrastructure."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openwrt.webp"
 #image:

@@ -3,7 +3,7 @@ layout: post
 title: "Apache Guacamole"
 date: 2024-12-19 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [apache-guacamole, lxc, miscellaneous, auto-update]
+tags: [apache-guacamole, lxc, miscellaneous, updateable]
 description: "Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-guacamole.webp"
 #image:

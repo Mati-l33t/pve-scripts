@@ -3,7 +3,7 @@ layout: post
 title: "CaddyManager"
 date: 2026-02-11 00:00:00 +0000
 categories: ["Webservers & Proxies"]
-tags: [caddymanager, lxc, webservers-proxies, auto-update, dev]
+tags: [caddymanager, lxc, webservers-proxies, updateable, dev]
 description: "Caddy Manager is a free, open source tool to easily manage your Caddy web servers with a modern web interace. Simplify your workflow and focus on what matters."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/caddymanager.webp"
 #image:

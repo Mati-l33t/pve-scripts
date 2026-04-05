@@ -3,7 +3,7 @@ layout: post
 title: "Forgejo Runner"
 date: 2026-01-12 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [forgejo-runner, lxc, ai-coding-dev-tools, auto-update, dev]
+tags: [forgejo-runner, lxc, ai-coding-dev-tools, updateable, dev]
 description: "Forgejo Runner is a lightweight service that executes CI/CD jobs for Forgejo, enabling automated builds, tests, and deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/forgejo.webp"
 #image:

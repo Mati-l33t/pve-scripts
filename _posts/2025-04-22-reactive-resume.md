@@ -3,7 +3,7 @@ layout: post
 title: "Reactive Resume"
 date: 2025-04-22 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [reactive-resume, lxc, documents-notes, auto-update]
+tags: [reactive-resume, lxc, documents-notes, updateable]
 description: "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/reactive-resume.webp"
 #image:

@@ -3,7 +3,7 @@ layout: post
 title: "nextExplorer"
 date: 2025-12-11 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [nextexplorer, lxc, files-downloads, documents-notes, auto-update]
+tags: [nextexplorer, lxc, files-downloads, documents-notes, updateable]
 description: "Self-hosted file access for teams, homelabs, and agencies with a refined interface."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextexplorer.webp"
 #image:

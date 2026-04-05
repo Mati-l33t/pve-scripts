@@ -3,7 +3,7 @@ layout: post
 title: "InvoiceNinja"
 date: 2025-12-12 00:00:00 +0000
 categories: ["Business & ERP"]
-tags: [invoiceninja, lxc, business-erp, auto-update]
+tags: [invoiceninja, lxc, business-erp, updateable]
 description: "Invoice Ninja is a free, open-source invoicing, quotes, expenses and time-tracking application for freelancers and businesses. Features include recurring invoices, online payments, client portal, and multi-company support."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invoice-ninja.webp"
 #image:

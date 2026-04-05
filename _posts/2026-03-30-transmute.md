@@ -3,7 +3,7 @@ layout: post
 title: "Transmute"
 date: 2026-03-30 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [transmute, lxc, files-downloads, auto-update, dev]
+tags: [transmute, lxc, files-downloads, updateable, dev]
 description: "Transmute is a free, open-source, self-hosted file converter built for privacy. Convert images, video, audio, documents, spreadsheets, subtitles, and fonts locally with no file size limits."
 icon: "https://raw.githubusercontent.com/transmute-app/transmute/main/frontend/public/transmute-logo.svg"
 #image:

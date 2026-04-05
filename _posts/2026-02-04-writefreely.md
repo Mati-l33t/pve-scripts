@@ -3,7 +3,7 @@ layout: post
 title: "WriteFreely"
 date: 2026-02-04 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [writefreely, lxc, documents-notes, auto-update]
+tags: [writefreely, lxc, documents-notes, updateable]
 description: "WriteFreely is free and open source software for easily publishing writing on the web with support for the ActivityPub protocol. Use it to start a personal blog — or an entire community."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/writefreely-light.webp"
 image:

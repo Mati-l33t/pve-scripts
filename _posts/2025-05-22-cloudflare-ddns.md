@@ -3,7 +3,7 @@ layout: post
 title: "Cloudflare-DDNS"
 date: 2025-05-22 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [cloudflare-ddns, lxc, network-firewall, auto-update]
+tags: [cloudflare-ddns, lxc, network-firewall, updateable]
 description: "A feature-rich and robust Cloudflare DDNS updater with a small footprint. The program will detect your machine’s public IP addresses and update DNS records using the Cloudflare API"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cloudflare.webp"
 #image:

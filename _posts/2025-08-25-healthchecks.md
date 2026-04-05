@@ -3,7 +3,7 @@ layout: post
 title: "Healthchecks"
 date: 2025-08-25 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [healthchecks, lxc, monitoring-analytics, auto-update]
+tags: [healthchecks, lxc, monitoring-analytics, updateable]
 description: "Healthchecks is a cron job monitoring service. It listens for HTTP requests and email messages (\"pings\") from your cron jobs and scheduled tasks (\"checks\"). When a ping does not arrive on time, Healthchecks sends out alerts. Healthchecks comes with a web dashboard, API, 25+ integrations for delivering notifications, monthly email reports, WebAuthn 2FA support, team management features: projects, team members, read-only access."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/healthchecks.webp"
 #image:

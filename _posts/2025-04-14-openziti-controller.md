@@ -3,7 +3,7 @@ layout: post
 title: "openziti-controller"
 date: 2025-04-14 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [openziti-controller, lxc, network-firewall, auto-update]
+tags: [openziti-controller, lxc, network-firewall, updateable]
 description: "OpenZiti is an open-source, zero trust networking platform that enables secure connectivity between applications, services, and devices. It provides secure, encrypted connections between clients and services, and can be used to create secure, zero trust networks."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openziti.webp"
 #image:

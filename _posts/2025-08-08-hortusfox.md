@@ -3,7 +3,7 @@ layout: post
 title: "HortusFox"
 date: 2025-08-08 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [hortusfox, lxc, gaming-leisure, auto-update]
+tags: [hortusfox, lxc, gaming-leisure, updateable]
 description: "HortusFox is a collaborative plant management system for plant enthusiasts. Manage, document and track your entire plant collection – self-hosted and privacy-friendly."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/hortusfox.webp"
 #image:

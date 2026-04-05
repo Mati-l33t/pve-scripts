@@ -3,7 +3,7 @@ layout: post
 title: "LubeLogger"
 date: 2024-11-29 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [lubelogger, lxc, gaming-leisure, auto-update]
+tags: [lubelogger, lxc, gaming-leisure, updateable]
 description: "Web-Based Vehicle Maintenance and Fuel Mileage Tracker"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/lubelogger.webp"
 #image:

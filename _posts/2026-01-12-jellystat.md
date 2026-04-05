@@ -3,7 +3,7 @@ layout: post
 title: "Jellystat"
 date: 2026-01-12 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [jellystat, addon, monitoring-analytics, auto-update]
+tags: [jellystat, addon, monitoring-analytics, updateable]
 description: "A free and open source statistics app for Jellyfin"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/jellystat.webp"
 image:

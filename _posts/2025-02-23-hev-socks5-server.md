@@ -3,7 +3,7 @@ layout: post
 title: "hev-socks5-server"
 date: 2025-02-23 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [hev-socks5-server, lxc, network-firewall, auto-update]
+tags: [hev-socks5-server, lxc, network-firewall, updateable]
 description: "HevSocks5Server is a simple, lightweight socks5 server."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/hev.webp"
 #image:

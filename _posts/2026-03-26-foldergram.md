@@ -3,7 +3,7 @@ layout: post
 title: "Foldergram"
 date: 2026-03-26 00:00:00 +0000
 categories: ["Webservers & Proxies"]
-tags: [foldergram, lxc, webservers-proxies, auto-update, dev]
+tags: [foldergram, lxc, webservers-proxies, updateable, dev]
 description: "Foldergram is a self-hosted web application that turns your local folders into a beautiful, instagram-style feed and profile. It turns your local folder to app folders (profiles), and serves a lightning-fast Progressive Web App (PWA)."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/foldergram.webp"
 image:

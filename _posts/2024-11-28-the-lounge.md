@@ -3,7 +3,7 @@ layout: post
 title: "The Lounge"
 date: 2024-11-28 00:00:00 +0000
 categories: ["Bots & ChatOps"]
-tags: [the-lounge, lxc, bots-chatops, auto-update]
+tags: [the-lounge, lxc, bots-chatops, updateable]
 description: "Modern web IRC client designed for self-hosting "
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/the-lounge.webp"
 #image:

@@ -3,7 +3,7 @@ layout: post
 title: "Threadfin"
 date: 2024-06-12 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [threadfin, lxc, media-streaming, auto-update]
+tags: [threadfin, lxc, media-streaming, updateable]
 description: "Threadfin is a M3U proxy for Kernel, Plex, Jellyfin, or Emby, based on xTeVe."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/threadfin.webp"
 #image:

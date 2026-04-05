@@ -3,7 +3,7 @@ layout: post
 title: "Resilio Sync"
 date: 2025-09-06 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [resiliosync, lxc, files-downloads, auto-update]
+tags: [resiliosync, lxc, files-downloads, updateable]
 description: "Fast, reliable, and simple file sync and share solution, powered by P2P technology. Sync files across all your devices without storing them in the cloud."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/resilio-sync.webp"
 #image:

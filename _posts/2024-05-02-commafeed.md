@@ -3,7 +3,7 @@ layout: post
 title: "CommaFeed"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [commafeed, lxc, documents-notes, auto-update]
+tags: [commafeed, lxc, documents-notes, updateable]
 description: "CommaFeed is a Google Reader inspired self-hosted RSS reader."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/commafeed.webp"
 #image:

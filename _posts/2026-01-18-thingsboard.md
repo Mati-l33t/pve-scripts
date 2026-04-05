@@ -3,7 +3,7 @@ layout: post
 title: "ThingsBoard"
 date: 2026-01-18 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [thingsboard, lxc, backup-recovery, auto-update]
+tags: [thingsboard, lxc, backup-recovery, updateable]
 description: "ThingsBoard is an open-source IoT platform for data collection, processing, visualization, and device management. It enables device connectivity via industry standard IoT protocols - MQTT, CoAP and HTTP and supports both cloud and on-premises deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/thingsboard.webp"
 #image:

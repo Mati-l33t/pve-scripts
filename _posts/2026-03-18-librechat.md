@@ -3,7 +3,7 @@ layout: post
 title: "LibreChat"
 date: 2026-03-18 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [librechat, lxc, ai-coding-dev-tools, auto-update, dev]
+tags: [librechat, lxc, ai-coding-dev-tools, updateable, dev]
 description: "LibreChat is an open-source AI chat platform that supports multiple AI providers including OpenAI, Anthropic, Google, and more. It features conversation history, multi-modal support, custom endpoints, and a plugin system."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/librechat.webp"
 image:

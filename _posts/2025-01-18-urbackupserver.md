@@ -3,7 +3,7 @@ layout: post
 title: "UrBackup Server"
 date: 2025-01-18 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [urbackupserver, lxc, backup-recovery, auto-update, privileged]
+tags: [urbackupserver, lxc, backup-recovery, updateable, privileged]
 description: "URBackup is an open-source backup software designed for creating reliable and efficient backups of both files and system images. It supports client-server architecture, allowing you to back up multiple computers to a central server. It offers features such as incremental backups, real-time file backup, and scheduling, ensuring minimal data loss and quick recovery"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/urbackup.webp"
 #image:

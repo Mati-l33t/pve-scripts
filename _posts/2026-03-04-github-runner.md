@@ -3,7 +3,7 @@ layout: post
 title: "GitHub Runner"
 date: 2026-03-04 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [github-runner, lxc, ai-coding-dev-tools, auto-update, dev]
+tags: [github-runner, lxc, ai-coding-dev-tools, updateable, dev]
 description: "GitHub Actions self-hosted runner executes workflows for your repository or organization, enabling CI/CD, builds, and deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/github.webp"
 #image:

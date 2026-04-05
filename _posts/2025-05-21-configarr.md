@@ -3,7 +3,7 @@ layout: post
 title: "Configarr"
 date: 2025-05-21 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [configarr, lxc, arr-suite, auto-update]
+tags: [configarr, lxc, arr-suite, updateable]
 description: "Configarr is an open-source tool designed to simplify configuration and synchronization for Sonarr and Radarr (and other experimental). It integrates with TRaSH Guides to automate updates of custom formats, quality profiles, and other settings, while also supporting user-defined configurations."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/configarr.webp"
 #image:

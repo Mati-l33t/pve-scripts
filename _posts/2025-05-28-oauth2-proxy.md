@@ -3,7 +3,7 @@ layout: post
 title: "OAuth2-Proxy"
 date: 2025-05-28 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [oauth2-proxy, lxc, network-firewall, authentication-security, auto-update]
+tags: [oauth2-proxy, lxc, network-firewall, authentication-security, updateable]
 description: "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/oauth2-proxy.webp"
 #image:

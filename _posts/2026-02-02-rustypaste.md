@@ -3,7 +3,7 @@ layout: post
 title: "RustyPaste"
 date: 2026-02-02 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [rustypaste, lxc, files-downloads, auto-update]
+tags: [rustypaste, lxc, files-downloads, updateable]
 description: "Rustypaste is a minimal file upload/pastebin service."
 icon: "https://github.com/orhun/rustypaste/raw/master/img/rustypaste_logo.png"
 image:

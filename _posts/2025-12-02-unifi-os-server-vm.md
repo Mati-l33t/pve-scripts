@@ -3,7 +3,7 @@ layout: post
 title: "Unifi OS Server VM"
 date: 2025-12-02 00:00:00 +0000
 categories: [Operating Systems]
-tags: [unifi-os-server-vm, vm, operating-systems, auto-update, dev]
+tags: [unifi-os-server-vm, vm, operating-systems, updateable, dev]
 description: "Unifi OS Server is the operating system that powers Ubiquiti's UniFi line of network devices. It provides a centralized platform for managing and monitoring UniFi access points, switches, and security gateways, offering features such as network configuration, device provisioning, and performance analytics."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ubiquiti-unifi.webp"
 #image:

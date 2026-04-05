@@ -3,7 +3,7 @@ layout: post
 title: "ownCloud"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
-tags: [owncloud-vm, vm, operating-systems, auto-update]
+tags: [owncloud-vm, vm, operating-systems, updateable]
 description: "TurnKey ownCloud is an open-source file sharing server and collaboration platform that can store your personal content, like documents and pictures, in a centralized location."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/owncloud.webp"
 #image:

@@ -3,7 +3,7 @@ layout: post
 title: "ONLYOFFICE Docs"
 date: 2025-06-24 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [onlyoffice, lxc, documents-notes, auto-update]
+tags: [onlyoffice, lxc, documents-notes, updateable]
 description: "ONLYOFFICE Docs is an open-source online office suite that provides collaborative editors for text documents, spreadsheets, and presentations, fully compatible with Microsoft Office formats (DOCX, XLSX, PPTX)."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/onlyoffice.webp"
 #image:

@@ -3,7 +3,7 @@ layout: post
 title: "Duplicati"
 date: 2025-02-06 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [duplicati, lxc, backup-recovery, auto-update]
+tags: [duplicati, lxc, backup-recovery, updateable]
 description: "Duplicati is a free, open-source backup solution that offers zero-trust, fully encrypted backups for your data."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/duplicati.webp"
 #image:

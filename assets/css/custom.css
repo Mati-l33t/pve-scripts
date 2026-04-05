@@ -219,61 +219,63 @@ html[data-mode=dark] #archives li:nth-child(odd) {
 /* Type badge colors for LXC, VM, Addon, PVE tags */
 a.post-tag[href*="/tags/ct/"],
 a.post-tag[href*="/tags/lxc/"] {
-  background-color: #1e6f3e !important;
-  color: #fff !important;
-  border-color: #1e6f3e !important;
+  background: rgba(240,244,248,0.08) !important;
+  color: #d0d8e4 !important;
+  border-color: rgba(240,244,248,0.18) !important;
 }
 
 a.post-tag[href*="/tags/vm/"] {
-  background-color: #1a4f8a !important;
-  color: #fff !important;
-  border-color: #1a4f8a !important;
+  background: rgba(34,197,94,0.1) !important;
+  color: #22c55e !important;
+  border-color: rgba(34,197,94,0.25) !important;
 }
 
 a.post-tag[href*="/tags/addon/"] {
-  background-color: #7a3e9d !important;
-  color: #fff !important;
-  border-color: #7a3e9d !important;
+  background: rgba(240,244,248,0.08) !important;
+  color: #d0d8e4 !important;
+  border-color: rgba(240,244,248,0.18) !important;
 }
 
 a.post-tag[href*="/tags/pve/"] {
-  background-color: #b84e00 !important;
-  color: #fff !important;
-  border-color: #b84e00 !important;
+  background: rgba(245,158,11,0.1) !important;
+  color: #f59e0b !important;
+  border-color: rgba(245,158,11,0.25) !important;
 }
 
-a.post-tag[href*="/tags/auto-update/"] {
-  background-color: #2a7a7a !important;
-  color: #fff !important;
-  border-color: #2a7a7a !important;
+a.post-tag[href*="/tags/updateable/"] {
+  background: rgba(34,197,94,0.08) !important;
+  color: #4ade80 !important;
+  border-color: rgba(34,197,94,0.2) !important;
 }
 
 a.post-tag[href*="/tags/dev/"] {
-  background-color: #e07b00 !important;
-  color: #fff !important;
-  border-color: #e07b00 !important;
+  background: rgba(254,110,0,0.1) !important;
+  color: #fe8c30 !important;
+  border-color: rgba(254,110,0,0.25) !important;
 }
 
 /* Type badges shown next to post titles on home and category pages */
 .type-badge {
-  display: inline-block;
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  padding: 0.15em 0.45em;
-  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 0.15em 0.6em;
+  border-radius: 9999px;
+  border: 1px solid transparent;
   vertical-align: middle;
   margin-left: 0.35em;
-  line-height: 1.4;
+  line-height: 1.5;
   text-transform: uppercase;
 }
 
-.type-lxc  { background-color: #1e6f3e; color: #fff; }
-.type-vm   { background-color: #1a4f8a; color: #fff; }
-.type-addon{ background-color: #7a3e9d; color: #fff; }
-.type-pve  { background-color: #b84e00; color: #fff; }
-.type-turnkey { background-color: #2a7a7a; color: #fff; }
-.type-dev     { background-color: #e07b00; color: #fff; }
+.type-lxc     { background: rgba(240,244,248,0.08); color: #d0d8e4; border-color: rgba(240,244,248,0.18); }
+.type-vm      { background: rgba(34,197,94,0.1);    color: #22c55e; border-color: rgba(34,197,94,0.25); }
+.type-addon   { background: rgba(240,244,248,0.08); color: #d0d8e4; border-color: rgba(240,244,248,0.18); }
+.type-pve     { background: rgba(245,158,11,0.1);   color: #f59e0b; border-color: rgba(245,158,11,0.25); }
+.type-turnkey { background: rgba(240,244,248,0.08); color: #d0d8e4; border-color: rgba(240,244,248,0.18); }
+.type-dev     { background: rgba(254,110,0,0.1);    color: #fe8c30; border-color: rgba(254,110,0,0.25); }
 
 /* ── Resource pills (CPU / RAM / Disk / OS) ── */
 .resource-bar {

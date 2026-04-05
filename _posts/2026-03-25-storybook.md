@@ -3,7 +3,7 @@ layout: post
 title: "Storybook"
 date: 2026-03-25 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [storybook, lxc, ai-coding-dev-tools, auto-update, dev]
+tags: [storybook, lxc, ai-coding-dev-tools, updateable, dev]
 description: "Storybook is a frontend workshop for building UI components and pages in isolation. It's used for UI development, testing, and documentation."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/storybook.webp"
 image:

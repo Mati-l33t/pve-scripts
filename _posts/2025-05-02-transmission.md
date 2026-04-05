@@ -3,7 +3,7 @@ layout: post
 title: "Transmission"
 date: 2025-05-02 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [transmission, lxc, files-downloads, auto-update]
+tags: [transmission, lxc, files-downloads, updateable]
 description: "Transmission is a free, open-source BitTorrent client known for its fast download speeds and ease of use. It supports various platforms such as Windows, Linux, and macOS and has features like web interface, peer exchange, and encrypted transfers."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/transmission.webp"
 #image:

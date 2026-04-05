@@ -3,7 +3,7 @@ layout: post
 title: "Syncthing"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [syncthing, lxc, documents-notes, auto-update]
+tags: [syncthing, lxc, documents-notes, updateable]
 description: "Syncthing is an open-source file syncing tool that allows users to keep their files in sync across multiple devices by using peer-to-peer synchronization. It doesn't rely on any central server, so all data transfers are directly between devices."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/syncthing.webp"
 #image:

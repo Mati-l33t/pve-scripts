@@ -3,7 +3,7 @@ layout: post
 title: "Vaultwarden"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [vaultwarden, lxc, authentication-security, auto-update]
+tags: [vaultwarden, lxc, authentication-security, updateable]
 description: "Vaultwarden is a self-hosted password manager which provides secure and encrypted password storage. It uses client-side encryption and provides access to passwords through a web interface and mobile apps."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/vaultwarden.webp"
 #image:

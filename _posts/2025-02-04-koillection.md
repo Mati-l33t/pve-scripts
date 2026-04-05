@@ -3,7 +3,7 @@ layout: post
 title: "Koillection"
 date: 2025-02-04 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [koillection, lxc, gaming-leisure, auto-update]
+tags: [koillection, lxc, gaming-leisure, updateable]
 description: "Koillection is a self-hosted collection manager created to keep track of physical (mostly) collections of any kind like books, DVDs, stamps, games... Koillection is meant to be used for any kind of collections and doesn't come with pre-built metadata download. But you can tailor your own HTML scraper, or you can add your own metadata freely."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/koillection.webp"
 #image:

@@ -3,7 +3,7 @@ layout: post
 title: "NextcloudPi"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
-tags: [nextcloudpi, lxc, operating-systems, auto-update]
+tags: [nextcloudpi, lxc, operating-systems, updateable]
 description: "NextCloudPi is a popular self-hosted solution for file collaboration and data storage. It is built on the NextCloud software, which is an open-source platform for data management."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud.webp"
 #image:

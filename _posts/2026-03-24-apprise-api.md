@@ -3,7 +3,7 @@ layout: post
 title: "Apprise API"
 date: 2026-03-24 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [apprise-api, lxc, automation-scheduling, auto-update, dev]
+tags: [apprise-api, lxc, automation-scheduling, updateable, dev]
 description: "The Apprise API is a web-based gateway to the Apprise library."
 icon: "https://appriseit.com/_s/apprise-full-logo-light.DZmBGJFz.svg"
 image:

@@ -3,7 +3,7 @@ layout: post
 title: "Homelable"
 date: 2026-03-30 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [homelable, lxc, monitoring-analytics, auto-update, dev]
+tags: [homelable, lxc, monitoring-analytics, updateable, dev]
 description: "Homelable is an interactive homelab network visualization and monitoring tool. Map your infrastructure on a drag-and-drop canvas with live node status checks (ping, HTTP, TCP, SSH), network scanning via nmap, and hardware spec tracking."
 icon: "https://raw.githubusercontent.com/Pouzor/homelable/main/frontend/public/logo.svg"
 #image:

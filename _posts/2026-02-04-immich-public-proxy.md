@@ -3,7 +3,7 @@ layout: post
 title: "Immich Public Proxy"
 date: 2026-02-04 00:00:00 +0000
 categories: ["Webservers & Proxies"]
-tags: [immich-public-proxy, addon, webservers-proxies, auto-update]
+tags: [immich-public-proxy, addon, webservers-proxies, updateable]
 description: "Share your Immich photos and albums in a safe way without exposing your Immich instance to the public."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/immich-public-proxy.webp"
 image:

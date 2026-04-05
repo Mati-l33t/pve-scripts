@@ -3,7 +3,7 @@ layout: post
 title: "Rocky Linux"
 date: 2026-01-01 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [rockylinux, lxc, auto-update]
+tags: [rockylinux, lxc, updateable]
 #description: ""  # Add manually
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rockylinux.webp"
 #image:

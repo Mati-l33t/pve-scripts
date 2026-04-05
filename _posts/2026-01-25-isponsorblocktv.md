@@ -3,7 +3,7 @@ layout: post
 title: "iSponsorBlockTV"
 date: 2026-01-25 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [isponsorblocktv, lxc, media-streaming, auto-update]
+tags: [isponsorblocktv, lxc, media-streaming, updateable]
 description: "iSponsorBlockTV connects to YouTube TV clients and automatically skips SponsorBlock segments, mutes ads, and presses the Skip Ad button when available."
 icon: "https://raw.githubusercontent.com/ajayyy/SponsorBlock/master/public/icons/IconSponsorBlocker512px.png"
 #image:

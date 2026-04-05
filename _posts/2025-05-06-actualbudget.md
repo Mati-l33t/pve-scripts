@@ -3,7 +3,7 @@ layout: post
 title: "Actual Budget"
 date: 2025-05-06 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [actualbudget, lxc, finance-budgeting, auto-update]
+tags: [actualbudget, lxc, finance-budgeting, updateable]
 description: "Actual Budget is a super fast and privacy-focused app for managing your finances. At its heart is the well proven and much loved Envelope Budgeting methodology."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/actual-budget.webp"
 #image:

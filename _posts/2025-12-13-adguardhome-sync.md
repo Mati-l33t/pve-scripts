@@ -3,7 +3,7 @@ layout: post
 title: "AdGuardHome-Sync"
 date: 2025-12-13 00:00:00 +0000
 categories: ["Adblock & DNS"]
-tags: [adguardhome-sync, addon, adblock-dns, auto-update]
+tags: [adguardhome-sync, addon, adblock-dns, updateable]
 description: "Synchronize AdGuardHome config to one or multiple replica instances. Syncs General Settings, Filters, Rewrites, Services, Clients, DNS Config, DHCP Config and Theme."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/adguardhome-sync.webp"
 #image:

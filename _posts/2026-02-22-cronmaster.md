@@ -3,7 +3,7 @@ layout: post
 title: "CR*NMASTER"
 date: 2026-02-22 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [cronmaster, addon, proxmox-virtualization, auto-update]
+tags: [cronmaster, addon, proxmox-virtualization, updateable]
 description: "Self-hosted cron job scheduler with web UI, live logs, auth and prebuilt binaries provided upstream."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cr-nmaster.webp"
 image:

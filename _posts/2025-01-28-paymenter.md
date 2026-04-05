@@ -3,7 +3,7 @@ layout: post
 title: "Paymenter"
 date: 2025-01-28 00:00:00 +0000
 categories: ["Webservers & Proxies"]
-tags: [paymenter, lxc, webservers-proxies, auto-update]
+tags: [paymenter, lxc, webservers-proxies, updateable]
 description: "Paymenter is an open source webshop solution for hosting companies. It's developed to provide an more easy way to manage your hosting company."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/paymenter.webp"
 #image:

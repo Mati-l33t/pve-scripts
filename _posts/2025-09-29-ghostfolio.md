@@ -3,7 +3,7 @@ layout: post
 title: "Ghostfolio"
 date: 2025-09-29 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [ghostfolio, lxc, finance-budgeting, auto-update]
+tags: [ghostfolio, lxc, finance-budgeting, updateable]
 description: "Ghostfolio is an open source wealth management software built with web technology. The application empowers busy people to keep track of stocks, ETFs or cryptocurrencies and make solid, data-driven investment decisions."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ghostfolio.webp"
 #image:

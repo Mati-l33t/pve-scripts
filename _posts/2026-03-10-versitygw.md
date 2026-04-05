@@ -3,7 +3,7 @@ layout: post
 title: "VersityGW"
 date: 2026-03-10 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [versitygw, lxc, files-downloads, auto-update]
+tags: [versitygw, lxc, files-downloads, updateable]
 description: "VersityGW is a high-performance, cloud-native S3-compatible gateway that provides S3 API access to various storage backends including POSIX filesystems."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/versitygw.webp"
 image:

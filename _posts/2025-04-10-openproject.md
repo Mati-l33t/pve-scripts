@@ -3,7 +3,7 @@ layout: post
 title: "OpenProject"
 date: 2025-04-10 00:00:00 +0000
 categories: ["Business & ERP"]
-tags: [openproject, lxc, business-erp, auto-update]
+tags: [openproject, lxc, business-erp, updateable]
 description: "OpenProject is a web-based project management software. Use OpenProject to manage your projects, tasks and goals. Collaborate via work packages and link them to your pull requests on Github. Read more about the OpenProject GitHub integration."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openproject.webp"
 #image:

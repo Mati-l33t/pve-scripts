@@ -3,7 +3,7 @@ layout: post
 title: "Proxmox Mail Gateway (PMG)"
 date: 2025-02-04 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [proxmox-mail-gateway, lxc, proxmox-virtualization, auto-update]
+tags: [proxmox-mail-gateway, lxc, proxmox-virtualization, updateable]
 description: "Proxmox Mail Gateway is the leading open-source email security solution helping you to protect your mail server against all email threats from the moment they emerge."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:

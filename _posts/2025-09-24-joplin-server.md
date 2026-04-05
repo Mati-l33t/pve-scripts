@@ -3,7 +3,7 @@ layout: post
 title: "Joplin Server"
 date: 2025-09-24 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [joplin-server, lxc, documents-notes, auto-update]
+tags: [joplin-server, lxc, documents-notes, updateable]
 description: "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/joplin.webp"
 #image:

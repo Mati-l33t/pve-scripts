@@ -3,7 +3,7 @@ layout: post
 title: "Storyteller"
 date: 2026-03-25 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [storyteller, lxc, media-streaming, auto-update, dev]
+tags: [storyteller, lxc, media-streaming, updateable, dev]
 description: "Storyteller is a self-hosted platform for creating and reading ebooks with synced narration, combining audiobooks and ebooks with automatic synchronization."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/storyteller.webp"
 image:

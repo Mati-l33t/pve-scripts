@@ -3,7 +3,7 @@ layout: post
 title: "Apache CouchDB"
 date: 2024-05-02 00:00:00 +0000
 categories: [Databases]
-tags: [apache-couchdb, lxc, databases, auto-update]
+tags: [apache-couchdb, lxc, databases, updateable]
 description: "Apache CouchDB Seamless multi-master sync, that scales from Big Data to Mobile, with an Intuitive HTTP/JSON API and designed for Reliability."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/couchdb.webp"
 #image:

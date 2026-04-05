@@ -3,7 +3,7 @@ layout: post
 title: "ImmichFrame"
 date: 2026-03-07 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [immichframe, lxc, media-streaming, auto-update]
+tags: [immichframe, lxc, media-streaming, updateable]
 description: "ImmichFrame is a digital photo frame web application that connects to your Immich server and displays your photos as a fullscreen slideshow."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/immich-frame.webp"
 image:

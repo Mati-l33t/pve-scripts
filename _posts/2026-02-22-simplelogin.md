@@ -3,7 +3,7 @@ layout: post
 title: "SimpleLogin"
 date: 2026-02-22 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [simplelogin, lxc, authentication-security, auto-update, dev]
+tags: [simplelogin, lxc, authentication-security, updateable, dev]
 description: "SimpleLogin is an open-source email alias solution that lets you create anonymous email aliases to protect your real email address from spam, trackers and data breaches."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/simplelogin.webp"
 image:

@@ -3,7 +3,7 @@ layout: post
 title: "authentik"
 date: 2026-02-21 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [authentik, lxc, authentication-security, auto-update, dev]
+tags: [authentik, lxc, authentication-security, updateable, dev]
 description: "authentik is an IdP (Identity Provider) and SSO (Single Sign On) platform."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/authentik.webp"
 image:

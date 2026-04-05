@@ -3,7 +3,7 @@ layout: post
 title: "Semaphore"
 date: 2025-01-01 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [semaphore, lxc, automation-scheduling, auto-update]
+tags: [semaphore, lxc, automation-scheduling, updateable]
 description: "Semaphore UI is a modern web interface for managing popular DevOps tools"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/semaphore-ui.webp"
 #image:

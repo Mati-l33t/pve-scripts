@@ -3,7 +3,7 @@ layout: post
 title: "Pterodactyl Wings"
 date: 2025-03-04 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [pterodactyl-wings, lxc, gaming-leisure, auto-update]
+tags: [pterodactyl-wings, lxc, gaming-leisure, updateable]
 description: "Pterodactyl Wings is Pterodactyl's server control plane, built for the rapidly changing gaming industry and designed to be highly performant and secure. Wings provides an HTTP API allowing you to interface directly with running server instances, fetch server logs, generate backups, and control all aspects of the server lifecycle."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pterodactyl.webp"
 #image:

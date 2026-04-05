@@ -3,7 +3,7 @@ layout: post
 title: "netboot.xyz"
 date: 2026-03-20 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [netboot-xyz, lxc, network-firewall, auto-update]
+tags: [netboot-xyz, lxc, network-firewall, updateable]
 description: "netboot.xyz is a network boot utility that lets you boot into any type of operating system or utility disk directly from a BIOS/UEFI, without needing a physical boot media. It uses iPXE to present a user-friendly menu of operating systems and tools."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netboot-xyz.webp"
 #image:

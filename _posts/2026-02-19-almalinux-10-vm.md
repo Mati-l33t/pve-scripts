@@ -3,7 +3,7 @@ layout: post
 title: "AlmaLinux 10"
 date: 2026-02-19 00:00:00 +0000
 categories: [Operating Systems]
-tags: [almalinux-10-vm, vm, operating-systems, auto-update, dev]
+tags: [almalinux-10-vm, vm, operating-systems, updateable, dev]
 description: "AlmaLinux 10 (Heliotrope Lion) is a community-driven, RHEL-compatible enterprise Linux distribution. It provides a stable, production-ready platform with long-term support, making it ideal for servers, workloads, and cloud deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/almalinux.webp"
 image:

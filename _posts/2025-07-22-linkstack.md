@@ -3,7 +3,7 @@ layout: post
 title: "LinkStack"
 date: 2025-07-22 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [linkstack, lxc, monitoring-analytics, auto-update]
+tags: [linkstack, lxc, monitoring-analytics, updateable]
 description: "LinkStack is an open-source, self-hosted alternative to Linktree, allowing users to create a customizable profile page to share multiple links, hosted on their own server."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/linkstack.webp"
 #image:

@@ -3,7 +3,7 @@ layout: post
 title: "Tor Snowflake"
 date: 2025-12-19 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [tor-snowflake, lxc, network-firewall, auto-update, dev]
+tags: [tor-snowflake, lxc, network-firewall, updateable, dev]
 description: "Snowflake is a pluggable transport that proxies traffic through temporary proxies using WebRTC. Snowflake allows users in censored locations to access the open internet by connecting through volunteer-run proxies. Running a Snowflake proxy helps users circumvent internet censorship by forwarding their traffic through your server."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tor.webp"
 #image:

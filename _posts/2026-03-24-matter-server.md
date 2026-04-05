@@ -3,7 +3,7 @@ layout: post
 title: "Matter Server"
 date: 2026-03-24 00:00:00 +0000
 categories: [ZigBee and Z-Wave]
-tags: [matter-server, lxc, zigbee-and-z-wave, auto-update]
+tags: [matter-server, lxc, zigbee-and-z-wave, updateable]
 description: "Open Home Foundation Matter Server - an officially certified Matter controller serving as the foundation for Matter support in Home Assistant and other projects."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/home-assistant.webp"
 #image:

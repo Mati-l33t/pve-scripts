@@ -3,7 +3,7 @@ layout: post
 title: "Proton Mail Bridge"
 date: 2026-02-22 00:00:00 +0000
 categories: ["MQTT & Messaging"]
-tags: [protonmail-bridge, lxc, mqtt-messaging, auto-update, dev]
+tags: [protonmail-bridge, lxc, mqtt-messaging, updateable, dev]
 description: "Proton Mail Bridge runs a local IMAP/SMTP service that lets traditional mail clients access a Proton mailbox. This LXC runs Bridge headless and forwards IMAP/SMTP to the LAN using systemd socket activation (systemd-socket-proxyd)."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proton-mail.webp"
 image:

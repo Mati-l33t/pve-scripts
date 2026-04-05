@@ -3,7 +3,7 @@ layout: post
 title: "Discourse"
 date: 2026-02-02 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [discourse, lxc, finance-budgeting, auto-update, dev]
+tags: [discourse, lxc, finance-budgeting, updateable, dev]
 description: "Discourse is the civilized discussion platform. Use it as a mailing list, discussion forum, or long-form chat room."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/discourse.webp"
 image:

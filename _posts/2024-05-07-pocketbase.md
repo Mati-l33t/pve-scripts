@@ -3,7 +3,7 @@ layout: post
 title: "Pocketbase"
 date: 2024-05-07 00:00:00 +0000
 categories: [Databases]
-tags: [pocketbase, lxc, databases, auto-update]
+tags: [pocketbase, lxc, databases, updateable]
 description: "PocketBase is an open source backend consisting of embedded database (SQLite) with realtime subscriptions, built-in auth management, convenient dashboard UI and simple REST-ish API."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pocketbase.webp"
 #image:

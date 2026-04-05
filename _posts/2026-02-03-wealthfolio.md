@@ -3,7 +3,7 @@ layout: post
 title: "Wealthfolio"
 date: 2026-02-03 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [wealthfolio, lxc, finance-budgeting, auto-update]
+tags: [wealthfolio, lxc, finance-budgeting, updateable]
 description: "Wealthfolio is a beautiful, privacy-focused investment tracker with local data storage. Track your portfolio across multiple accounts and asset types with detailed performance analytics, goal planning, and multi-currency support."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/wealthfolio.webp"
 image:

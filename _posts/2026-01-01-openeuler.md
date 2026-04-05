@@ -3,7 +3,7 @@ layout: post
 title: "openEuler"
 date: 2026-01-01 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [openeuler, lxc, auto-update]
+tags: [openeuler, lxc, updateable]
 #description: ""  # Add manually
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openeuler.webp"
 #image:

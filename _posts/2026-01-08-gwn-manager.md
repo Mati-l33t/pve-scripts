@@ -3,7 +3,7 @@ layout: post
 title: "GWN Manager"
 date: 2026-01-08 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [gwn-manager, lxc, monitoring-analytics, auto-update]
+tags: [gwn-manager, lxc, monitoring-analytics, updateable]
 description: "GWN Manager is a free on-premise enterprise-grade, management platform for Grandstream GWN series devices. Typically deployed on a customer’s private network, this flexible, scalable solution offers simplified configuration and management."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/gwn-manager.webp"
 image:

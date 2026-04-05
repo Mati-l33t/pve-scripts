@@ -3,7 +3,7 @@ layout: post
 title: "Manage My Damn Life"
 date: 2025-06-12 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [managemydamnlife, lxc, miscellaneous, auto-update]
+tags: [managemydamnlife, lxc, miscellaneous, updateable]
 description: "Manage My Damn Life (MMDL) is a self-hosted front end for managing your CalDAV tasks and calendars."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/manage-my-damn-life.webp"
 #image:

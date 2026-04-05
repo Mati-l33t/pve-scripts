@@ -3,7 +3,7 @@ layout: post
 title: "SmokePing"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [smokeping, lxc, network-firewall, auto-update]
+tags: [smokeping, lxc, network-firewall, updateable]
 description: "SmokePing is a deluxe latency measurement tool. It can measure, store and display latency, latency distribution and packet loss."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/smokeping.webp"
 #image:

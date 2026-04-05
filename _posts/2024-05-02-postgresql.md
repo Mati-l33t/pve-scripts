@@ -3,7 +3,7 @@ layout: post
 title: "PostgreSQL"
 date: 2024-05-02 00:00:00 +0000
 categories: [Databases]
-tags: [postgresql, lxc, databases, auto-update]
+tags: [postgresql, lxc, databases, updateable]
 description: "PostgreSQL (often referred to as Postgres) is an open-source relational database management system that is known for its extensibility and strict adherence to SQL standards. It is a free and powerful database solution, suitable for a wide range of applications, from small projects to large enterprise systems. PostgreSQL is widely used for its reliability, feature-richness, and robustness."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/postgresql.webp"
 #image:

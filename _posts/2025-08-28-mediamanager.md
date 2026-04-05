@@ -3,7 +3,7 @@ layout: post
 title: "MediaManager"
 date: 2025-08-28 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [mediamanager, lxc, arr-suite, media-streaming, auto-update]
+tags: [mediamanager, lxc, arr-suite, media-streaming, updateable]
 description: "A modern selfhosted media management system for your media library"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mediamanager.webp"
 #image:

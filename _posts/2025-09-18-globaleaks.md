@@ -3,7 +3,7 @@ layout: post
 title: "GlobaLeaks"
 date: 2025-09-18 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [globaleaks, lxc, miscellaneous, auto-update]
+tags: [globaleaks, lxc, miscellaneous, updateable]
 description: "GlobaLeaks is a free and open-source whistleblowing software enabling anyone to easily set up and maintain a secure reporting platform."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/globaleaks.webp"
 #image:

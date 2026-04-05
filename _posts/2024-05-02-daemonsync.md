@@ -3,7 +3,7 @@ layout: post
 title: "Daemon Sync Server"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [daemonsync, lxc, automation-scheduling, auto-update]
+tags: [daemonsync, lxc, automation-scheduling, updateable]
 description: "Sync files from app to server, share photos & videos, back up your data and stay secure inside local network."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/daemon-sync.webp"
 #image:

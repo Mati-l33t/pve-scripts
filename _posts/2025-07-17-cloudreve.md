@@ -3,7 +3,7 @@ layout: post
 title: "Cloudreve"
 date: 2025-07-17 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [cloudreve, lxc, documents-notes, auto-update]
+tags: [cloudreve, lxc, documents-notes, updateable]
 description: "Cloudreve is an open-source, community-driven cloud storage system that provides file sharing, synchronization, and management features. It supports a wide range of storage backends and integrates with various notification and logging platforms."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cloudreve.webp"
 #image:

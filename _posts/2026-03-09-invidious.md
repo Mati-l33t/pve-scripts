@@ -3,7 +3,7 @@ layout: post
 title: "Invidious"
 date: 2026-03-09 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [invidious, lxc, media-streaming, auto-update, dev]
+tags: [invidious, lxc, media-streaming, updateable, dev]
 description: "A self-hosted alternative frontend for YouTube"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invidious.webp"
 image:

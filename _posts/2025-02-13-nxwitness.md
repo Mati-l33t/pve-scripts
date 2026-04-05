@@ -3,7 +3,7 @@ layout: post
 title: "Nx Witness"
 date: 2025-02-13 00:00:00 +0000
 categories: ["NVR & Cameras"]
-tags: [nxwitness, lxc, nvr-cameras, auto-update, privileged]
+tags: [nxwitness, lxc, nvr-cameras, updateable, privileged]
 description: "Nx Witness is a professional video management system (VMS) designed for IP cameras and surveillance systems. It provides real-time video streaming, recording, and remote access with an intuitive user interface. The software supports AI-based video analytics, integrates with third-party security systems, and offers advanced search and event management features. It is used for security monitoring, business intelligence, and large-scale surveillance deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nx-witness.webp"
 #image:

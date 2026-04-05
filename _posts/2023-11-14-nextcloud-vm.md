@@ -3,7 +3,7 @@ layout: post
 title: "Nextcloud"
 date: 2023-11-14 00:00:00 +0000
 categories: [Operating Systems]
-tags: [nextcloud-vm, vm, operating-systems, auto-update]
+tags: [nextcloud-vm, vm, operating-systems, updateable]
 description: "TurnKey Nextcloud is an open-source file sharing server and collaboration platform that can store your personal content, like documents and pictures, in a centralized location."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud.webp"
 #image:

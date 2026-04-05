@@ -3,7 +3,7 @@ layout: post
 title: "MagicMirror Server"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [magicmirror, lxc, gaming-leisure, auto-update]
+tags: [magicmirror, lxc, gaming-leisure, updateable]
 description: "MagicMirror² is a smart mirror software that allows you to build your own personal smart mirror. It uses modular components that you can customize to display information such as the weather, news, calendar, to-do list, and more. The platform is open source, allowing for community contributions and customization."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/magicmirror2.webp"
 #image:

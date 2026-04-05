@@ -3,7 +3,7 @@ layout: post
 title: "Unifi OS Server"
 date: 2026-01-16 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [unifi-os-server, lxc, network-firewall, auto-update, privileged]
+tags: [unifi-os-server, lxc, network-firewall, updateable, privileged]
 description: "Unifi OS Server is the operating system that powers Ubiquiti's UniFi line of network devices. It provides a centralized platform for managing and monitoring UniFi access points, switches, and security gateways, offering features such as network configuration, device provisioning, and performance analytics."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ubiquiti-unifi.webp"
 image:

@@ -3,7 +3,7 @@ layout: post
 title: "RustDesk Server"
 date: 2025-02-13 00:00:00 +0000
 categories: ["Webservers & Proxies"]
-tags: [rustdeskserver, lxc, webservers-proxies, auto-update]
+tags: [rustdeskserver, lxc, webservers-proxies, updateable]
 description: "RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rustdesk.webp"
 #image:

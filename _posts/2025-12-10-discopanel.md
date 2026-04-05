@@ -3,7 +3,7 @@ layout: post
 title: "DiscoPanel"
 date: 2025-12-10 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [discopanel, lxc, gaming-leisure, auto-update]
+tags: [discopanel, lxc, gaming-leisure, updateable]
 description: "The Minecraft Server Manager That *Actually* Works
 Built by someone who was done with bloated panels, endless menus, and tools that break the moment you need them most.
 Spin up servers in minutes, configure your proxy without headaches, and link your own DNS name effortlessly.

@@ -3,7 +3,7 @@ layout: post
 title: "OpenObserve"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [openobserve, lxc, monitoring-analytics, auto-update]
+tags: [openobserve, lxc, monitoring-analytics, updateable]
 description: "OpenObserve is a simple yet sophisticated log search, infrastructure monitoring, and APM solution."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openobserve.webp"
 #image:

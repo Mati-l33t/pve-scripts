@@ -3,7 +3,7 @@ layout: post
 title: "Gramps Web"
 date: 2026-02-22 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [gramps-web, lxc, documents-notes, auto-update]
+tags: [gramps-web, lxc, documents-notes, updateable]
 description: "Gramps Web is a collaborative genealogy platform for browsing, editing and sharing family trees through a modern web interface."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/gramps.webp"
 image:

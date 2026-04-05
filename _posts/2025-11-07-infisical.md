@@ -3,7 +3,7 @@ layout: post
 title: "Infisical"
 date: 2025-11-07 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [infisical, lxc, authentication-security, auto-update]
+tags: [infisical, lxc, authentication-security, updateable]
 description: "Secrets, certificates, and access management on autopilot. All-in-one platform to securely manage application secrets, certificates, SSH keys, and configurations across your team and infrastructure."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/infisical.webp"
 image:

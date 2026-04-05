@@ -3,7 +3,7 @@ layout: post
 title: "TeddyCloud"
 date: 2024-12-28 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [teddycloud, lxc, media-streaming, auto-update]
+tags: [teddycloud, lxc, media-streaming, updateable]
 description: "TeddyCloud is an open source server replacement for the Boxine Cloud."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/teddycloud.webp"
 #image:

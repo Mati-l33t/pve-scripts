@@ -3,7 +3,7 @@ layout: post
 title: "Apache Tomcat"
 date: 2025-03-04 00:00:00 +0000
 categories: ["Dashboards & Frontends"]
-tags: [apache-tomcat, lxc, dashboards-frontends, auto-update]
+tags: [apache-tomcat, lxc, dashboards-frontends, updateable]
 description: "Apache Tomcat is an open-source application server that runs Java Servlets and JavaServer Pages (JSP). It allows developers to deploy and manage Java web applications by handling HTTP requests and serving dynamic content. Tomcat is widely used for lightweight web applications and supports various Java EE features like WebSockets and JNDI."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-tomcat.webp"
 #image:

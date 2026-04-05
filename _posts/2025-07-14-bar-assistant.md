@@ -3,7 +3,7 @@ layout: post
 title: "Bar-Assistant"
 date: 2025-07-14 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [bar-assistant, lxc, gaming-leisure, auto-update]
+tags: [bar-assistant, lxc, gaming-leisure, updateable]
 description: "Bar Assistant is all-in-one solution for managing your home bar. Compared to other recipe management software that usually tries to be more for general use, Bar Assistant is made specifically for managing cocktail recipes. This means that there are a lot of cocktail-oriented features, like ingredient substitutes, first-class ingredients, ABV calculations, unit switching and more.."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bar-assistant.webp"
 #image:

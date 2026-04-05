@@ -3,7 +3,7 @@ layout: post
 title: "Jellyseerr"
 date: 2026-01-01 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [jellyseerr, lxc, auto-update]
+tags: [jellyseerr, lxc, updateable]
 #description: ""  # Add manually
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/jellyseerr.webp"
 #image:

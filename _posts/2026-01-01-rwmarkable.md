@@ -3,7 +3,7 @@ layout: post
 title: "rwMarkable"
 date: 2026-01-01 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [rwmarkable, lxc, auto-update]
+tags: [rwmarkable, lxc, updateable]
 #description: ""  # Add manually
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rwmarkable.webp"
 #image:

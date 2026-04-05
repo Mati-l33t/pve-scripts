@@ -3,7 +3,7 @@ layout: post
 title: "FlareSolverr"
 date: 2024-06-12 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [flaresolverr, lxc, arr-suite, auto-update]
+tags: [flaresolverr, lxc, arr-suite, updateable]
 description: "FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/flaresolverr.webp"
 #image:

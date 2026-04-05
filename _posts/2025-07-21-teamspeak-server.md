@@ -3,7 +3,7 @@ layout: post
 title: "Teamspeak-Server"
 date: 2025-07-21 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [teamspeak-server, lxc, gaming-leisure, auto-update]
+tags: [teamspeak-server, lxc, gaming-leisure, updateable]
 description: "TeamSpeak is a voice over IP (VoIP) application, primarily used by gamers and teams to chat in real time on dedicated servers. It delivers crystal‑clear, low‑latency voice communication."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/teamspeak-light.webp"
 #image:

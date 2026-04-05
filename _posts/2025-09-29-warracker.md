@@ -3,7 +3,7 @@ layout: post
 title: "Warracker"
 date: 2025-09-29 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [warracker, lxc, documents-notes, auto-update]
+tags: [warracker, lxc, documents-notes, updateable]
 description: "Warracker is an open source, self-hostable warranty tracker to monitor expirations, store receipts, files. You own the data, your rules!"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/warracker.webp"
 #image:

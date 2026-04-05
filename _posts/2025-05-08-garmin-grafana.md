@@ -3,7 +3,7 @@ layout: post
 title: "garmin-grafana"
 date: 2025-05-08 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [garmin-grafana, addon, monitoring-analytics, auto-update, dev]
+tags: [garmin-grafana, addon, monitoring-analytics, updateable, dev]
 description: "A self-hosted solution to fetch data from Garmin servers and store it in a local InfluxDB database for visualization with Grafana."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/garmin-grafana.webp"
 #image:
