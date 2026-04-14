@@ -18,13 +18,6 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/sparkyfitness.webp"
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/addon/sparkyfitness-garmin.sh)"
 ```
 
-## Configuration
-
-Config file:
-```
-/etc/sparkyfitness-garmin/.env
-```
-
 ## Web Interface
 
 <div class="resource-bar"><span class="res-pill res-port">Port: 8000</span></div>

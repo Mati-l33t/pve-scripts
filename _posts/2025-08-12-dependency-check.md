@@ -23,13 +23,6 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/tools/pve/dependency-check.sh)"
 ```
 
-## Configuration
-
-Config file:
-```
-/etc/default/pve-auto-hook
-```
-
 ## Notes
 
 <div class="info-callout">

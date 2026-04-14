@@ -24,13 +24,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <span class="res-pill res-os">OS: Alpine 3.22</span>
 </div>
 
-## Configuration
-
-Config file:
-```
-/etc/ntfy/server.yml
-```
-
 ## Notes
 
 <div class="info-callout">

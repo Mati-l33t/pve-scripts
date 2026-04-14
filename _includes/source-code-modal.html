@@ -1,0 +1,170 @@
+<dialog id="src-modal" aria-modal="true" aria-labelledby="src-modal-title">
+  <div class="src-modal-inner">
+    <div class="src-modal-header">
+      <span id="src-modal-title"><i class="fas fa-code"></i> <span id="src-modal-label">Source code</span></span>
+      <div class="src-modal-actions">
+        <button id="src-copy-btn" class="src-action-btn" title="Copy to clipboard">
+          <i class="fas fa-copy"></i> Copy
+        </button>
+        <button id="src-close-btn" class="src-action-btn" title="Close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <div class="src-modal-body">
+      <div id="src-loading"><i class="fas fa-spinner fa-spin"></i> Loading...</div>
+      <pre id="src-pre" style="display:none"><code id="src-code"></code></pre>
+      <div id="src-error" style="display:none">Failed to load script source.</div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+(function() {
+  var modal = document.getElementById('src-modal');
+  if (!modal) return;
+
+  var findScriptUrl = function() {
+    var blocks = document.querySelectorAll('.content .highlight code');
+    for (var i = 0; i < blocks.length; i++) {
+      var m = blocks[i].textContent.match(/https:\/\/raw\.githubusercontent\.com\/[^\s"')]+\.sh/);
+      if (m) { return m[0]; }
+    }
+    return null;
+  };
+
+  var deriveUpdateUrl = function(installUrl) {
+    return installUrl.replace(/\/(ct|vm|misc)\/([^/]+)\.sh$/, '/install/$2-install.sh');
+  };
+
+  var addLink = function(ul, hr, content, id, icon, label, url) {
+    var link = document.createElement('a');
+    link.href = '#';
+    link.id = id;
+    link.innerHTML = '<i class="fas fa-' + icon + '"></i> ' + label;
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      openModal(label, url);
+    });
+
+    if (ul) {
+      var li = document.createElement('li');
+      li.appendChild(link);
+      ul.appendChild(li);
+    } else {
+      var p = document.createElement('p');
+      p.appendChild(link);
+      if (hr) {
+        hr.parentNode.insertBefore(p, hr);
+      } else {
+        content.appendChild(p);
+      }
+    }
+  };
+
+  var injectTriggers = function(installUrl, updateUrl) {
+    var headings = document.querySelectorAll('.content h2');
+    var linksH2 = null;
+    for (var i = 0; i < headings.length; i++) {
+      if (headings[i].textContent.trim() === 'Links') {
+        linksH2 = headings[i];
+        break;
+      }
+    }
+
+    var ul = null;
+    var hr = null;
+    var content = document.querySelector('.content');
+    if (!content) return;
+
+    if (linksH2) {
+      var next = linksH2.nextElementSibling;
+      if (next && next.tagName === 'UL') { ul = next; }
+    }
+    if (!ul) { hr = content.querySelector('hr'); }
+
+    var licenseUrl = installUrl.replace(/\/main\/.*$/, '/main/LICENSE');
+    addLink(ul, hr, content, 'src-install-trigger', 'file-code', 'Install source code', installUrl);
+    addLink(ul, hr, content, 'src-update-trigger', 'sync-alt', 'Update source code', updateUrl);
+    addLink(ul, hr, content, 'src-license-trigger', 'balance-scale', 'MIT License', licenseUrl);
+  };
+
+  var openModal = function(label, url) {
+    document.getElementById('src-modal-label').textContent = label;
+    var loading = document.getElementById('src-loading');
+    var pre = document.getElementById('src-pre');
+    var code = document.getElementById('src-code');
+    var err = document.getElementById('src-error');
+
+    loading.style.display = '';
+    pre.style.display = 'none';
+    err.style.display = 'none';
+    code.textContent = '';
+
+    modal.showModal();
+
+    fetch(url)
+      .then(function(r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.text();
+      })
+      .then(function(text) {
+        loading.style.display = 'none';
+        code.textContent = text;
+        pre.style.display = '';
+      })
+      .catch(function() {
+        loading.style.display = 'none';
+        err.style.display = '';
+      });
+  };
+
+  document.getElementById('src-close-btn').addEventListener('click', function() {
+    modal.close();
+  });
+
+  modal.addEventListener('click', function(e) {
+    if (e.target === modal) { modal.close(); }
+  });
+
+  document.getElementById('src-copy-btn').addEventListener('click', function() {
+    var code = document.getElementById('src-code');
+    if (!code.textContent) return;
+    var btn = this;
+    navigator.clipboard.writeText(code.textContent).then(function() {
+      btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+      setTimeout(function() {
+        btn.innerHTML = '<i class="fas fa-copy"></i> Copy';
+      }, 2000);
+    });
+  });
+
+  var addLinkIcons = function() {
+    var iconMap = {
+      'Official Website': 'fas fa-globe',
+      'Documentation': 'fas fa-book'
+    };
+    var links = document.querySelectorAll('.content ul a');
+    for (var i = 0; i < links.length; i++) {
+      var text = links[i].textContent.trim();
+      if (iconMap[text]) {
+        links[i].innerHTML = '<i class="' + iconMap[text] + '"></i> ' + text;
+      }
+    }
+  };
+
+  var init = function() {
+    addLinkIcons();
+    var installUrl = findScriptUrl();
+    if (!installUrl) return;
+    var updateUrl = deriveUpdateUrl(installUrl);
+    injectTriggers(installUrl, updateUrl);
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>

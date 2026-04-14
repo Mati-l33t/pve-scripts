@@ -29,13 +29,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
-## Configuration
-
-Config file:
-```
-/opt/foldergram/foldergram.env
-```
-
 ## Web Interface
 
 <div class="resource-bar"><span class="res-pill res-port">Port: 4141</span></div>

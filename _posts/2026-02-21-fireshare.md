@@ -29,13 +29,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
-## Configuration
-
-Config file:
-```
-/opt/fireshare/fireshare.env
-```
-
 ## Notes
 
 <div class="info-callout">

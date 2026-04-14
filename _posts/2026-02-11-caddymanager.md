@@ -38,13 +38,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   </table>
 </div>
 
-## Configuration
-
-Config file:
-```
-/opt/caddymanager/caddymanager.env
-```
-
 ## Web Interface
 
 <div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>

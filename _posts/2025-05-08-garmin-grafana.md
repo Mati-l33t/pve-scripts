@@ -23,13 +23,6 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/garmin-grafana.webp"
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main//tools/addon/garmin-grafana.sh)"
 ```
 
-## Configuration
-
-Config file:
-```
-/opt/garmin-grafana/.env
-```
-
 ## Notes
 
 <div class="info-callout">

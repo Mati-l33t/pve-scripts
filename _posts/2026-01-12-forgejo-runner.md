@@ -29,13 +29,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <span class="res-pill res-os">OS: Debian 12</span>
 </div>
 
-## Configuration
-
-Config file:
-```
-/root/.runner
-```
-
 ## Links
 
 - [Official Website](https://forgejo.org/docs/latest/admin/actions/runner-installation/)

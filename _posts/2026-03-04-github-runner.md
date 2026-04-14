@@ -29,13 +29,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <span class="res-pill res-os">OS: Debian 12</span>
 </div>
 
-## Configuration
-
-Config file:
-```
-/opt/actions-runner
-```
-
 ## Notes
 
 <div class="info-callout">

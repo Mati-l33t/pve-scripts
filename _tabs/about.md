@@ -14,6 +14,10 @@ A collection of scripts for Proxmox VE and other useful self-hosted tools. The g
 
 Some scripts are published here under the [MIT License](https://github.com/community-scripts/ProxmoxVE/blob/main/LICENSE)
 
+Some scripts originate from the community-scripts/ProxmoxVE open source project and are published under the MIT License. This site is an independent index and is not affiliated with, endorsed by, or officially associated with the community-scripts organization.
+
+Proxmox® is a registered trademark of Proxmox Server Solutions GmbH. This site is not affiliated with or endorsed by Proxmox Server Solutions GmbH.
+
 ## How to use these scripts
 
 These scripts allow users to interactively deploy Linux containers or virtual machines, offering two configuration paths:
