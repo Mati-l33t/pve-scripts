@@ -12,9 +12,20 @@ A collection of scripts for Proxmox VE and other useful self-hosted tools. The g
 
 ## Where do the scripts come from?
 
-Some scripts are published here under the [MIT License](https://github.com/community-scripts/ProxmoxVE/blob/main/LICENSE)
+Some scripts originate from the community-scripts/ProxmoxVE open source project and are published under the <a href="#" id="about-mit-link">MIT License</a>. This site is an independent index and is not affiliated with, endorsed by, or officially associated with the community-scripts organization.
 
-Some scripts originate from the community-scripts/ProxmoxVE open source project and are published under the MIT License. This site is an independent index and is not affiliated with, endorsed by, or officially associated with the community-scripts organization.
+{% include source-code-modal.html %}
+<script>
+(function() {
+  var link = document.getElementById('about-mit-link');
+  if (link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.openSrcModal('MIT License', 'https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/LICENSE');
+    });
+  }
+})();
+</script>
 
 Proxmox® is a registered trademark of Proxmox Server Solutions GmbH. This site is not affiliated with or endorsed by Proxmox Server Solutions GmbH.
 

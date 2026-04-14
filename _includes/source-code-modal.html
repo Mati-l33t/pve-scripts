@@ -83,10 +83,8 @@
     }
     if (!ul) { hr = content.querySelector('hr'); }
 
-    var licenseUrl = installUrl.replace(/\/main\/.*$/, '/main/LICENSE');
     addLink(ul, hr, content, 'src-install-trigger', 'file-code', 'Install source code', installUrl);
     addLink(ul, hr, content, 'src-update-trigger', 'sync-alt', 'Update source code', updateUrl);
-    addLink(ul, hr, content, 'src-license-trigger', 'balance-scale', 'MIT License', licenseUrl);
   };
 
   var openModal = function(label, url) {
@@ -151,6 +149,10 @@
         links[i].innerHTML = '<i class="' + iconMap[text] + '"></i> ' + text;
       }
     }
+  };
+
+  window.openSrcModal = function(label, url) {
+    openModal(label, url);
   };
 
   var init = function() {
