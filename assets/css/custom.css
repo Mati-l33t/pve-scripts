@@ -139,6 +139,11 @@
   background: linear-gradient(to right, transparent, rgba(255,122,0,0.4), transparent) !important;
 }
 
+/* Archives — fix date clipping: theme shifts .date left by 0.5rem into overflow:hidden area */
+#archives .date {
+  right: 0;
+}
+
 /* Archives — solid dark edges matching sidebar, slightly lighter centre */
 html[data-mode=dark] #archives li:nth-child(odd) {
   background-image: linear-gradient(
