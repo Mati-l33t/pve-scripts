@@ -40,4 +40,4 @@ All options are presented through a dialog-based interface. After the user makes
 
 ## Contributing / Feedback
 
-Found an issue with a script? Have a suggestion? Use the comment section on each post or open an issue on [GitHub](https://github.com/Mati-l33t/pve-scripts).
+Use the comment section under posts or [GitHub Discussions](https://github.com/Mati-l33t/pve-scripts/discussions) for questions and suggestions.
