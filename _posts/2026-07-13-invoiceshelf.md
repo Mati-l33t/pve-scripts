@@ -3,18 +3,13 @@ layout: post
 title: "InvoiceShelf"
 date: 2026-07-13 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [invoiceshelf, lxc, finance-budgeting, updateable, dev]
+tags: [invoiceshelf, lxc, finance-budgeting, updateable]
 description: "InvoiceShelf is an open-source web and mobile app that helps you track expenses, payments and create professional invoices and estimates."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invoiceshelf.webp"
 #image:
 #  path: /assets/img/invoiceshelf.png
 #  alt: InvoiceShelf
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

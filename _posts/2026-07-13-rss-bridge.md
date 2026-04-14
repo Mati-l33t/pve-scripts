@@ -3,18 +3,13 @@ layout: post
 title: "RSS-Bridge"
 date: 2026-07-13 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [rss-bridge, lxc, miscellaneous, updateable, dev]
+tags: [rss-bridge, lxc, miscellaneous, updateable]
 description: "RSS-Bridge is a PHP web application that generates web feeds for websites that don't have one, supporting over 400 bridges for various platforms and services."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rss-bridge.webp"
 #image:
 #  path: /assets/img/rss-bridge.png
 #  alt: RSS-Bridge
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

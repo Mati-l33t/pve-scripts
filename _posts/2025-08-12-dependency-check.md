@@ -3,18 +3,13 @@ layout: post
 title: "PVE Startup Dependency Check"
 date: 2025-08-12 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [dependency-check, pve, proxmox-virtualization, dev]
+tags: [dependency-check, pve, proxmox-virtualization]
 description: "This script checks for the presence of required dependencies before starting a VM or LXC container in Proxmox. It ensures that all referenced storages are available and, additionally, supports the usage of tags to check for specific dependencies. If any required dependency is missing, the VM or container will not start until the issue is resolved. This script is designed to be used as a Proxmox hookscript, which can be applied to both QEMU VMs and LXC containers."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
 #  path: /assets/img/dependency-check.png
 #  alt: PVE Startup Dependency Check
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

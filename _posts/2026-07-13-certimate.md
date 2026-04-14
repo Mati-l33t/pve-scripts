@@ -3,18 +3,13 @@ layout: post
 title: "Certimate"
 date: 2026-07-13 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [certimate, lxc, authentication-security, updateable, dev]
+tags: [certimate, lxc, authentication-security, updateable]
 description: "Certimate is an open-source SSL certificate management tool that automates the application, deployment, and renewal of SSL certificates, supporting integration with various cloud providers and deployment targets."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/certimate.webp"
 #image:
 #  path: /assets/img/certimate.png
 #  alt: Certimate
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 
