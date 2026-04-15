@@ -7,7 +7,7 @@ tags: [rustypaste, lxc, files-downloads, updateable]
 description: "Rustypaste is a minimal file upload/pastebin service."
 icon: "https://github.com/orhun/rustypaste/raw/master/img/rustypaste_logo.png"
 image:
-  path: /assets/img/rustypaste.gif
+  path: /assets/img/rustypaste.png
   alt: RustyPaste
 ---
 

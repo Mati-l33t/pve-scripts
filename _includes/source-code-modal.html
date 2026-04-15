@@ -108,8 +108,25 @@
     }
     if (!ul) { hr = content.querySelector('hr'); }
 
-    addExternalLink(ul, hr, content, 'src-community-link', 'fab fa-github', 'community-scripts', 'https://github.com/community-scripts/ProxmoxVE');
-    addLink(ul, hr, content, 'src-mit-trigger', 'scroll', 'MIT License', 'https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/LICENSE');
+    var githubUrl = 'https://github.com/community-scripts/ProxmoxVE';
+    var licenseUrl = 'https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/LICENSE';
+    var repoLabel = 'community-scripts';
+
+    var scriptUrl = findScriptUrl();
+    if (scriptUrl) {
+      var rm = scriptUrl.match(/https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\//);
+      if (rm && !(rm[1] === 'community-scripts' && rm[2] === 'ProxmoxVE')) {
+        githubUrl = 'https://github.com/' + rm[1] + '/' + rm[2];
+        licenseUrl = 'https://raw.githubusercontent.com/' + rm[1] + '/' + rm[2] + '/main/LICENSE';
+        repoLabel = rm[2];
+      }
+    }
+
+    var hasSourceLink = ul && Array.prototype.some.call(ul.querySelectorAll('a'), function(a) { return a.textContent.trim() === 'Source'; });
+    if (!hasSourceLink) {
+      addExternalLink(ul, hr, content, 'src-community-link', 'fab fa-github', repoLabel, githubUrl);
+    }
+    addLink(ul, hr, content, 'src-mit-trigger', 'scroll', 'MIT License', licenseUrl);
   };
 
   var injectTriggers = function(installUrl, updateUrl) {
@@ -190,7 +207,8 @@
   var addLinkIcons = function() {
     var iconMap = {
       'Official Website': 'fas fa-globe',
-      'Documentation': 'fas fa-book'
+      'Documentation': 'fas fa-book',
+      'Source': 'fab fa-github'
     };
     var links = document.querySelectorAll('.content ul a');
     for (var i = 0; i < links.length; i++) {
