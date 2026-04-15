@@ -3,13 +3,18 @@ layout: post
 title: "GitHub Runner"
 date: 2026-03-04 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [github-runner, lxc, ai-coding-dev-tools, updateable]
+tags: [github-runner, lxc, ai-coding-dev-tools, updateable, dev]
 description: "GitHub Actions self-hosted runner executes workflows for your repository or organization, enabling CI/CD, builds, and deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/github.webp"
 #image:
 #  path: /assets/img/github-runner.png
 #  alt: GitHub Runner
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

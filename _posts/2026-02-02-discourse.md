@@ -3,13 +3,18 @@ layout: post
 title: "Discourse"
 date: 2026-02-02 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [discourse, lxc, finance-budgeting, updateable]
+tags: [discourse, lxc, finance-budgeting, updateable, dev]
 description: "Discourse is the civilized discussion platform. Use it as a mailing list, discussion forum, or long-form chat room."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/discourse.webp"
 image:
   path: /assets/img/discourse.png
   alt: Discourse
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 
