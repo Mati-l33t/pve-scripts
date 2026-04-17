@@ -36,6 +36,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <div>Create your first account by registering via the web interface.</div>
 </div>
 
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  <div>After registering, verify your account via the container shell: php /opt/solidtime/artisan admin:user:verify YOUR@EMAIL</div>
+</div>
+
 ## Web Interface
 
 <div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
