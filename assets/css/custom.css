@@ -661,3 +661,54 @@ h1.card-title .preview-img img {
   padding: 1rem;
   text-align: center;
 }
+
+/* ── Category filter buttons (All / Stable / Dev) ── */
+.script-filter {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.script-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.35em 0.85em;
+  border-radius: 9999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  color: #9ca3af;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.script-filter-btn:hover {
+  background: rgba(255,255,255,0.1);
+  color: #e5e7eb;
+  border-color: rgba(255,255,255,0.2);
+}
+
+.script-filter-btn.active[data-filter="all"] {
+  background: rgba(255,255,255,0.1);
+  color: #f3f4f6;
+  border-color: rgba(255,255,255,0.25);
+}
+
+.script-filter-btn.active[data-filter="stable"] {
+  background: rgba(6,182,212,0.15);
+  color: #06b6d4;
+  border-color: rgba(6,182,212,0.4);
+}
+
+.script-filter-btn.active[data-filter="dev"] {
+  background: rgba(254,110,0,0.15);
+  color: #fe8c30;
+  border-color: rgba(254,110,0,0.4);
+}
+
+.filter-count {
+  font-size: 0.75rem;
+  opacity: 0.75;
+}

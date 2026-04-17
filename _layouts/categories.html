@@ -12,7 +12,23 @@ layout: page
 
 {% assign sort_categories = site.categories | sort %}
 
-<p class="text-muted small mb-4">{{ site.posts | size }} scripts total</p>
+{% assign total_dev = 0 %}
+{% assign total_stable = 0 %}
+{% for post in site.posts %}
+  {% if post.tags contains 'dev' %}
+    {% assign total_dev = total_dev | plus: 1 %}
+  {% else %}
+    {% assign total_stable = total_stable | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+<div class="script-filter mb-3">
+  <button class="script-filter-btn active" data-filter="all">All <span class="filter-count">{{ site.posts | size }}</span></button>
+  <button class="script-filter-btn" data-filter="stable">Stable <span class="filter-count">{{ total_stable }}</span></button>
+  <button class="script-filter-btn" data-filter="dev">Dev <span class="filter-count">{{ total_dev }}</span></button>
+</div>
+
+<p class="text-muted small mb-4"><span id="scripts-total">{{ site.posts | size }}</span> scripts total</p>
 
 {% for category in sort_categories %}
   {% assign category_name = category | first %}
@@ -22,6 +38,7 @@ layout: page
   {% if category_name == first_post.categories[0] %}
     {% assign sub_categories = '' | split: '' %}
 
+    {% assign dev_in_cat = 0 %}
     {% for post in posts_of_category %}
       {% assign second_category = post.categories[1] %}
       {% if second_category %}
@@ -29,12 +46,18 @@ layout: page
           {% assign sub_categories = sub_categories | push: second_category %}
         {% endunless %}
       {% endif %}
+      {% if post.tags contains 'dev' %}
+        {% assign dev_in_cat = dev_in_cat | plus: 1 %}
+      {% endif %}
     {% endfor %}
+
+    {% assign top_posts_size = site.categories[category_name] | size %}
+    {% assign stable_in_cat = top_posts_size | minus: dev_in_cat %}
 
     {% assign sub_categories = sub_categories | sort %}
     {% assign sub_categories_size = sub_categories | size %}
 
-    <div class="card categories">
+    <div class="card categories" data-dev="{{ dev_in_cat }}" data-stable="{{ stable_in_cat }}">
       <!-- top-category -->
       <div
         id="{{ HEAD_PREFIX }}{{ group_index }}"
@@ -47,7 +70,6 @@ layout: page
           <a href="{{ _category_url | relative_url }}" class="mx-2">{{ category_name }}</a>
 
           <!-- content count -->
-          {% assign top_posts_size = site.categories[category_name] | size %}
           <span class="text-muted small font-weight-light">
             {% if sub_categories_size > 0 %}
               {{ sub_categories_size }}
@@ -65,7 +87,10 @@ layout: page
               ,
             {% endif %}
 
-            {{ top_posts_size }}
+            <span class="cat-post-count"
+              data-total="{{ top_posts_size }}"
+              data-dev="{{ dev_in_cat }}"
+              data-stable="{{ stable_in_cat }}">{{ top_posts_size }}</span>
 
             {% if top_posts_size > 1 %}
               {{
@@ -123,3 +148,34 @@ layout: page
     {% assign group_index = group_index | plus: 1 %}
   {% endif %}
 {% endfor %}
+
+<script>
+(function() {
+  var btns = document.querySelectorAll('.script-filter-btn');
+  var cards = document.querySelectorAll('.card.categories');
+  var totalEl = document.getElementById('scripts-total');
+
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var mode = this.getAttribute('data-filter');
+      btns.forEach(function(b) { b.classList.remove('active'); });
+      this.classList.add('active');
+      var total = 0;
+      cards.forEach(function(card) {
+        var dev = parseInt(card.getAttribute('data-dev')) || 0;
+        var stable = parseInt(card.getAttribute('data-stable')) || 0;
+        var count = mode === 'dev' ? dev : mode === 'stable' ? stable : dev + stable;
+        if (count === 0) {
+          card.style.display = 'none';
+        } else {
+          card.style.display = '';
+          total += count;
+          var countEl = card.querySelector('.cat-post-count');
+          if (countEl) { countEl.textContent = count; }
+        }
+      });
+      if (totalEl) { totalEl.textContent = total; }
+    });
+  });
+})();
+</script>
