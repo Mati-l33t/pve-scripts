@@ -173,6 +173,11 @@ layout: page
           var countEl = card.querySelector('.cat-post-count');
           if (countEl) { countEl.textContent = count; }
         }
+        var links = card.querySelectorAll('a[href*="/categories/"]');
+        links.forEach(function(link) {
+          var base = link.getAttribute('href').split('?')[0];
+          link.setAttribute('href', mode === 'all' ? base : base + '?filter=' + mode);
+        });
       });
       if (totalEl) { totalEl.textContent = total; }
     });

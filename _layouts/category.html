@@ -5,16 +5,32 @@ layout: page
 
 {% include lang.html %}
 
+{% assign dev_in_cat = 0 %}
+{% for post in page.posts %}
+  {% if post.tags contains 'dev' %}
+    {% assign dev_in_cat = dev_in_cat | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% assign stable_in_cat = page.posts | size | minus: dev_in_cat %}
+
 <div id="page-category">
   <h1 class="ps-lg-2">
     {% include category-icon.html category=page.title %}
     {{ page.title }}
-    <span class="lead text-muted ps-2">{{ page.posts | size }}</span>
+    <span class="lead text-muted ps-2 cat-page-total">{{ page.posts | size }}</span>
   </h1>
+
+  {% if dev_in_cat > 0 and stable_in_cat > 0 %}
+  <div class="script-filter mb-3">
+    <button class="script-filter-btn active" data-filter="all">All <span class="filter-count">{{ page.posts | size }}</span></button>
+    <button class="script-filter-btn" data-filter="stable">Stable <span class="filter-count">{{ stable_in_cat }}</span></button>
+    <button class="script-filter-btn" data-filter="dev">Dev <span class="filter-count">{{ dev_in_cat }}</span></button>
+  </div>
+  {% endif %}
 
   <ul class="content ps-0">
     {% for post in page.posts %}
-      <li class="d-flex justify-content-between px-md-3">
+      <li class="d-flex justify-content-between px-md-3" data-dev="{% if post.tags contains 'dev' %}true{% else %}false{% endif %}">
         <a href="{{ post.url | relative_url }}" class="d-inline-flex align-items-center gap-1">
           {% if post.icon %}<img class="post-icon" src="{{ post.icon }}" alt="" onerror="this.style.display='none'">{% endif %}{{ post.title }}
           {% if post.tags contains 'lxc' %}
@@ -38,3 +54,35 @@ layout: page
     {% endfor %}
   </ul>
 </div>
+
+<script>
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var initial = params.get('filter') || 'all';
+  var btns = document.querySelectorAll('.script-filter-btn');
+  var items = document.querySelectorAll('#page-category li[data-dev]');
+  var totalEl = document.querySelector('.cat-page-total');
+
+  function applyFilter(mode) {
+    btns.forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-filter') === mode);
+    });
+    var count = 0;
+    items.forEach(function(li) {
+      var isDev = li.getAttribute('data-dev') === 'true';
+      var show = mode === 'all' || (mode === 'dev' && isDev) || (mode === 'stable' && !isDev);
+      li.style.display = show ? '' : 'none';
+      if (show) { count++; }
+    });
+    if (totalEl) { totalEl.textContent = count; }
+  }
+
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      applyFilter(this.getAttribute('data-filter'));
+    });
+  });
+
+  if (initial !== 'all') { applyFilter(initial); }
+})();
+</script>
