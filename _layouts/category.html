@@ -19,7 +19,10 @@ function catFilter(mode) {
   if (el) { el.setAttribute('data-filter', mode); }
   var btns = document.querySelectorAll('.script-filter-btn[data-filter]');
   btns.forEach(function(b) { b.classList.toggle('active', b.getAttribute('data-filter') === mode); });
+  try { sessionStorage.setItem('catFilter', mode); } catch(e) {}
 }
+var _sf = sessionStorage.getItem('catFilter');
+if (_sf && _sf !== 'all') { catFilter(_sf); }
 </script>
 
 <div id="page-category" data-filter="all">

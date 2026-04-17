@@ -24,6 +24,7 @@ layout: page
 
 <script>
 function catsFilter(mode) {
+  try { sessionStorage.setItem('catFilter', mode); } catch(e) {}
   var cards = document.querySelectorAll('.card.categories');
   var btns = document.querySelectorAll('.cats-filter .script-filter-btn');
   var totalEl = document.getElementById('scripts-total');
