@@ -22,10 +22,39 @@ layout: page
   {% endif %}
 {% endfor %}
 
-<div class="script-filter mb-3" data-page="categories">
-  <button class="script-filter-btn active" data-filter="all">All <span class="filter-count">{{ site.posts | size }}</span></button>
-  <button class="script-filter-btn" data-filter="stable">Stable <span class="filter-count">{{ total_stable }}</span></button>
-  <button class="script-filter-btn" data-filter="dev">Dev <span class="filter-count">{{ total_dev }}</span></button>
+<script>
+function catsFilter(mode) {
+  var cards = document.querySelectorAll('.card.categories');
+  var btns = document.querySelectorAll('.cats-filter .script-filter-btn');
+  var totalEl = document.getElementById('scripts-total');
+  var total = 0;
+  btns.forEach(function(b) { b.classList.toggle('active', b.getAttribute('data-filter') === mode); });
+  cards.forEach(function(card) {
+    var dev = parseInt(card.getAttribute('data-dev')) || 0;
+    var stable = parseInt(card.getAttribute('data-stable')) || 0;
+    var count = mode === 'dev' ? dev : mode === 'stable' ? stable : dev + stable;
+    if (count === 0) {
+      card.style.display = 'none';
+    } else {
+      card.style.display = '';
+      total += count;
+      var countEl = card.querySelector('.cat-post-count');
+      if (countEl) { countEl.textContent = count; }
+    }
+    var links = card.querySelectorAll('a[href*="/categories/"]');
+    links.forEach(function(link) {
+      var base = link.getAttribute('href').split('?')[0];
+      link.setAttribute('href', mode === 'all' ? base : base + '?filter=' + mode);
+    });
+  });
+  if (totalEl) { totalEl.textContent = total; }
+}
+</script>
+
+<div class="script-filter cats-filter mb-3">
+  <button type="button" class="script-filter-btn active" data-filter="all" onclick="catsFilter('all')">All <span class="filter-count">{{ site.posts | size }}</span></button>
+  <button type="button" class="script-filter-btn" data-filter="stable" onclick="catsFilter('stable')">Stable <span class="filter-count">{{ total_stable }}</span></button>
+  <button type="button" class="script-filter-btn" data-filter="dev" onclick="catsFilter('dev')">Dev <span class="filter-count">{{ total_dev }}</span></button>
 </div>
 
 <p class="text-muted small mb-4"><span id="scripts-total">{{ site.posts | size }}</span> scripts total</p>
@@ -149,39 +178,3 @@ layout: page
   {% endif %}
 {% endfor %}
 
-<script>
-(function() {
-  function applyMode(mode) {
-    var cards = document.querySelectorAll('.card.categories');
-    var btns = document.querySelectorAll('.script-filter-btn');
-    var totalEl = document.getElementById('scripts-total');
-    var total = 0;
-    btns.forEach(function(b) { b.classList.toggle('active', b.getAttribute('data-filter') === mode); });
-    cards.forEach(function(card) {
-      var dev = parseInt(card.getAttribute('data-dev')) || 0;
-      var stable = parseInt(card.getAttribute('data-stable')) || 0;
-      var count = mode === 'dev' ? dev : mode === 'stable' ? stable : dev + stable;
-      if (count === 0) {
-        card.style.display = 'none';
-      } else {
-        card.style.display = '';
-        total += count;
-        var countEl = card.querySelector('.cat-post-count');
-        if (countEl) { countEl.textContent = count; }
-      }
-      var links = card.querySelectorAll('a[href*="/categories/"]');
-      links.forEach(function(link) {
-        var base = link.getAttribute('href').split('?')[0];
-        link.setAttribute('href', mode === 'all' ? base : base + '?filter=' + mode);
-      });
-    });
-    if (totalEl) { totalEl.textContent = total; }
-  }
-
-  document.addEventListener('click', function(e) {
-    var btn = e.target.closest('.script-filter[data-page="categories"] .script-filter-btn');
-    if (!btn) return;
-    applyMode(btn.getAttribute('data-filter'));
-  });
-})();
-</script>

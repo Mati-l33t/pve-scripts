@@ -13,6 +13,25 @@ layout: page
 {% endfor %}
 {% assign stable_in_cat = page.posts | size | minus: dev_in_cat %}
 
+<script>
+function catFilter(mode) {
+  var items = document.querySelectorAll('#page-category li[data-dev]');
+  var btns = document.querySelectorAll('#page-category .script-filter-btn');
+  var totalEl = document.querySelector('.cat-page-total');
+  var count = 0;
+  items.forEach(function(li) {
+    var isDev = li.getAttribute('data-dev') === 'true';
+    var show = mode === 'all' || (mode === 'dev' && isDev) || (mode === 'stable' && !isDev);
+    li.style.display = show ? '' : 'none';
+    if (show) { count++; }
+  });
+  btns.forEach(function(b) {
+    b.classList.toggle('active', b.getAttribute('data-filter') === mode);
+  });
+  if (totalEl) { totalEl.textContent = count; }
+}
+</script>
+
 <div id="page-category">
   <h1 class="ps-lg-2">
     {% include category-icon.html category=page.title %}
@@ -22,9 +41,9 @@ layout: page
 
   {% if dev_in_cat > 0 and stable_in_cat > 0 %}
   <div class="script-filter mb-3">
-    <button class="script-filter-btn active" data-filter="all">All <span class="filter-count">{{ page.posts | size }}</span></button>
-    <button class="script-filter-btn" data-filter="stable">Stable <span class="filter-count">{{ stable_in_cat }}</span></button>
-    <button class="script-filter-btn" data-filter="dev">Dev <span class="filter-count">{{ dev_in_cat }}</span></button>
+    <button type="button" class="script-filter-btn active" data-filter="all" onclick="catFilter('all')">All <span class="filter-count">{{ page.posts | size }}</span></button>
+    <button type="button" class="script-filter-btn" data-filter="stable" onclick="catFilter('stable')">Stable <span class="filter-count">{{ stable_in_cat }}</span></button>
+    <button type="button" class="script-filter-btn" data-filter="dev" onclick="catFilter('dev')">Dev <span class="filter-count">{{ dev_in_cat }}</span></button>
   </div>
   {% endif %}
 
@@ -57,33 +76,8 @@ layout: page
 
 <script>
 (function() {
-  function applyFilter(mode) {
-    var items = document.querySelectorAll('#page-category li[data-dev]');
-    var btns = document.querySelectorAll('#page-category .script-filter-btn');
-    var totalEl = document.querySelector('.cat-page-total');
-    var count = 0;
-    items.forEach(function(li) {
-      var isDev = li.getAttribute('data-dev') === 'true';
-      var show = mode === 'all' || (mode === 'dev' && isDev) || (mode === 'stable' && !isDev);
-      li.style.display = show ? '' : 'none';
-      if (show) { count++; }
-    });
-    btns.forEach(function(b) {
-      b.classList.toggle('active', b.getAttribute('data-filter') === mode);
-    });
-    if (totalEl) { totalEl.textContent = count; }
-  }
-
-  document.addEventListener('click', function(e) {
-    var btn = e.target.closest('#page-category .script-filter-btn');
-    if (!btn) return;
-    applyFilter(btn.getAttribute('data-filter'));
-  });
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var params = new URLSearchParams(window.location.search);
-    var initial = params.get('filter');
-    if (initial && initial !== 'all') { applyFilter(initial); }
-  });
+  var params = new URLSearchParams(window.location.search);
+  var initial = params.get('filter');
+  if (initial && initial !== 'all') { catFilter(initial); }
 })();
 </script>
