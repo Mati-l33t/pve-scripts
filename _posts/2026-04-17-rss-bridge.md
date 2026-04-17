@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RSS-Bridge"
-date: 2026-07-13 00:00:00 +0000
+date: 2026-04-17 00:00:00 +0000
 categories: [Miscellaneous]
 tags: [rss-bridge, lxc, miscellaneous, updateable, dev]
 description: "RSS-Bridge is a PHP web application that generates web feeds for websites that don't have one, supporting over 400 bridges for various platforms and services."

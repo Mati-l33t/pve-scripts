@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Certimate"
-date: 2026-07-13 00:00:00 +0000
+date: 2026-04-17 00:00:00 +0000
 categories: ["Authentication & Security"]
 tags: [certimate, lxc, authentication-security, updateable, dev]
 description: "Certimate is an open-source SSL certificate management tool that automates the application, deployment, and renewal of SSL certificates, supporting integration with various cloud providers and deployment targets."

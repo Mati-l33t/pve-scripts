@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Akaunting"
-date: 2026-07-13 00:00:00 +0000
-categories: ["Finance & Budgeting"]
-tags: [akaunting, lxc, finance-budgeting, updateable, dev]
-description: "Akaunting is a free, open-source online accounting software designed for small businesses and freelancers, featuring invoicing, expense tracking, and financial reporting."
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/akaunting.webp"
+title: "SolidTime"
+date: 2026-04-17 00:00:00 +0000
+categories: ["Business & ERP"]
+tags: [solidtime, lxc, business-erp, updateable, dev]
+description: "SolidTime is a modern open-source time tracking application for freelancers and agencies, featuring project management, task tracking, billable rates, and multiple organizations."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/solidtime.webp"
 #image:
-#  path: /assets/img/akaunting.png
-#  alt: Akaunting
+#  path: /assets/img/solidtime.png
+#  alt: SolidTime
 ---
 
 <div class="dev-callout">
@@ -20,7 +20,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/akaunting.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/akaunting.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/solidtime.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
@@ -33,7 +33,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Complete the setup wizard via the web interface on first access.</div>
+  <div>Create your first account by registering via the web interface.</div>
 </div>
 
 ## Web Interface
@@ -42,7 +42,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ## Links
 
-- [Official Website](https://akaunting.com/)
-- [Documentation](https://akaunting.com/hc/docs)
+- [Official Website](https://www.solidtime.io/)
+- [Documentation](https://docs.solidtime.io/)
 
 ---

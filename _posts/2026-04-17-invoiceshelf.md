@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "InvoiceShelf"
-date: 2026-07-13 00:00:00 +0000
+date: 2026-04-17 00:00:00 +0000
 categories: ["Finance & Budgeting"]
 tags: [invoiceshelf, lxc, finance-budgeting, updateable, dev]
 description: "InvoiceShelf is an open-source web and mobile app that helps you track expenses, payments and create professional invoices and estimates."

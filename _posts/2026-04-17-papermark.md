@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Papermark"
-date: 2026-07-13 00:00:00 +0000
+date: 2026-04-17 00:00:00 +0000
 categories: ["Documents & Notes"]
 tags: [papermark, lxc, documents-notes, updateable, dev]
 description: "Papermark is an open-source document sharing alternative to DocSend with built-in analytics, custom domains, and secure shareable links."
