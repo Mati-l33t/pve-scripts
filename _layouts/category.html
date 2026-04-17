@@ -21,8 +21,6 @@ function catFilter(mode) {
   btns.forEach(function(b) { b.classList.toggle('active', b.getAttribute('data-filter') === mode); });
   try { sessionStorage.setItem('catFilter', mode); } catch(e) {}
 }
-var _sf = sessionStorage.getItem('catFilter');
-if (_sf && _sf !== 'all') { catFilter(_sf); }
 </script>
 
 <div id="page-category" data-filter="all">
@@ -67,3 +65,7 @@ if (_sf && _sf !== 'all') { catFilter(_sf); }
   </ul>
 </div>
 
+<script>
+var _sf = sessionStorage.getItem('catFilter');
+if (_sf && _sf !== 'all') { catFilter(_sf); }
+</script>
