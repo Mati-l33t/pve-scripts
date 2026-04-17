@@ -662,6 +662,10 @@ h1.card-title .preview-img img {
   text-align: center;
 }
 
+/* ── Category filter: CSS-driven hiding via data-filter attribute ── */
+#page-category[data-filter="dev"] li[data-dev="false"] { display: none !important; }
+#page-category[data-filter="stable"] li[data-dev="true"] { display: none !important; }
+
 /* ── Category filter buttons (All / Stable / Dev) ── */
 .script-filter {
   display: flex;

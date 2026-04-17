@@ -15,24 +15,14 @@ layout: page
 
 <script>
 function catFilter(mode) {
-  var items = document.querySelectorAll('#page-category li[data-dev]');
-  var btns = document.querySelectorAll('#page-category .script-filter-btn');
-  var totalEl = document.querySelector('.cat-page-total');
-  var count = 0;
-  items.forEach(function(li) {
-    var isDev = li.getAttribute('data-dev') === 'true';
-    var show = mode === 'all' || (mode === 'dev' && isDev) || (mode === 'stable' && !isDev);
-    li.style.display = show ? '' : 'none';
-    if (show) { count++; }
-  });
-  btns.forEach(function(b) {
-    b.classList.toggle('active', b.getAttribute('data-filter') === mode);
-  });
-  if (totalEl) { totalEl.textContent = count; }
+  var el = document.getElementById('page-category');
+  if (el) { el.setAttribute('data-filter', mode); }
+  var btns = document.querySelectorAll('.script-filter-btn[data-filter]');
+  btns.forEach(function(b) { b.classList.toggle('active', b.getAttribute('data-filter') === mode); });
 }
 </script>
 
-<div id="page-category">
+<div id="page-category" data-filter="all">
   <h1 class="ps-lg-2">
     {% include category-icon.html category=page.title %}
     {{ page.title }}
@@ -74,10 +64,3 @@ function catFilter(mode) {
   </ul>
 </div>
 
-<script>
-(function() {
-  var params = new URLSearchParams(window.location.search);
-  var initial = params.get('filter');
-  if (initial && initial !== 'all') { catFilter(initial); }
-})();
-</script>
