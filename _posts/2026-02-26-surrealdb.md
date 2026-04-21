@@ -42,12 +42,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>SurrealDB web interface is available on port 8000.</div>
+  <div>Accessing http://IP:8000 redirects to surrealdb.com/surrealist — this is by design. The hosted Surrealist UI connects back to your local instance. Use http://IP:8000 as the connection URL in Surrealist.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Default credentials are saved in ~/surrealdb.creds.</div>
+  <div>The generated root password is stored in /opt/surrealdb/.env.</div>
 </div>
 
 ## Web Interface

@@ -48,11 +48,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ## Web Interface
 
-<div class="resource-bar"><span class="res-pill res-port">Port: 9000</span></div>
+<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 
-- [Official Website](https://github.com/ShaneIsrael/fireshare)
+- [Official Website](https://fireshare.net/)
 - [Documentation](https://github.com/ShaneIsrael/fireshare/blob/develop/README.md)
 
 ---
