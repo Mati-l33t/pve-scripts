@@ -3,7 +3,7 @@ layout: post
 title: "Transmute"
 date: 2026-03-30 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [transmute, lxc, files-downloads, updateable, dev]
+tags: [transmute, lxc, files-downloads, updateable]
 description: "Transmute is a free, open-source, self-hosted file converter built for privacy. Convert images, video, audio, documents, spreadsheets, subtitles, and fonts locally with no file size limits."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/transmute.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/transmute.webp"
 #  alt: Transmute
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/transmute.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/transmute.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
