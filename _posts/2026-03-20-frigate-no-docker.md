@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Frigate without Docker"
+title: "Frigate proxmox-scripts"
 date: 2026-03-20 00:00:00 +0000
 categories: ["NVR & Cameras"]
 tags: [frigate, lxc, nvr-cameras]
