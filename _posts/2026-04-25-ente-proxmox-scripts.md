@@ -6,6 +6,10 @@ categories: ["Media & Streaming"]
 tags: [ente, lxc, media-streaming]
 description: "Ente Photos is a fully open-source, end-to-end encrypted photo storage and sharing platform — self-hosted natively without Docker."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ente-photos.webp"
+image:
+  path: /assets/img/ente-proxmox-scripts.png
+  alt: ente-proxmox-scripts
+
 ---
 
 ## Installation

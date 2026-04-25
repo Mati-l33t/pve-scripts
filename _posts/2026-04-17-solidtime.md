@@ -6,9 +6,9 @@ categories: ["Business & ERP"]
 tags: [solidtime, lxc, business-erp, updateable, dev]
 description: "SolidTime is a modern open-source time tracking application for freelancers and agencies, featuring project management, task tracking, billable rates, and multiple organizations."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/solidtime.webp"
-#image:
-#  path: /assets/img/solidtime.png
-#  alt: SolidTime
+image:
+  path: /assets/img/solidtime.png
+  alt: SolidTime
 ---
 
 <div class="dev-callout">

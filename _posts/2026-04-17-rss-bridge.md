@@ -6,9 +6,9 @@ categories: [Miscellaneous]
 tags: [rss-bridge, lxc, miscellaneous, updateable, dev]
 description: "RSS-Bridge is a PHP web application that generates web feeds for websites that don't have one, supporting over 400 bridges for various platforms and services."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rss-bridge.webp"
-#image:
-#  path: /assets/img/rss-bridge.png
-#  alt: RSS-Bridge
+image:
+  path: /assets/img/rss-bridge.png
+  alt: RSS-Bridge
 ---
 
 <div class="dev-callout">

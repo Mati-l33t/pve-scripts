@@ -6,6 +6,9 @@ categories: ["Monitoring & Analytics"]
 tags: [network-sonar, lan-tracker, lxc, monitoring-analytics]
 description: "Network Sonar is a self-hosted LAN scanner and IP address manager — discover every device on your network with ARP scanning, vendor lookup, and uptime tracking."
 icon: "https://raw.githubusercontent.com/Mati-l33t/lan-tracker-network-sonar/main/app/static/logo.png"
+image:
+  path: /assets/img/network-sonar.png
+  alt: network-sonar
 ---
 
 ## Installation
