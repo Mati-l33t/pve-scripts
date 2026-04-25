@@ -5,6 +5,7 @@ date: 2026-04-25 00:00:00 +0000
 categories: ["Media & Streaming"]
 tags: [ente, lxc, media-streaming]
 description: "Ente Photos is a fully open-source, end-to-end encrypted photo storage and sharing platform — self-hosted natively without Docker."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ente-photos.webp"
 ---
 
 ## Installation

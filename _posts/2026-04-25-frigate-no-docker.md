@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Frigate proxmox-scripts"
-date: 2026-03-20 00:00:00 +0000
+date: 2026-04-25 00:00:00 +0000
 categories: ["NVR & Cameras"]
 tags: [frigate, lxc, nvr-cameras]
 description: "Frigate is a complete and local NVR (Network Video Recorder) with realtime AI object detection for CCTV cameras."
