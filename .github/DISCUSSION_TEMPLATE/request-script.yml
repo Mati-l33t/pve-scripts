@@ -1,0 +1,57 @@
+title: "[Request]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Request a New Script
+        Got an application you'd like to see available as a Proxmox LXC or VM script?
+        Fill out the details below and it'll be reviewed for inclusion on the site.
+
+  - type: input
+    id: app-name
+    attributes:
+      label: Application Name
+      description: The name of the application or service you'd like to see added.
+      placeholder: e.g. Vaultwarden, Immich, Stirling PDF
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Official Website / GitHub Repository
+      description: Link to the project's homepage or GitHub repo so we can review it.
+      placeholder: https://github.com/example/app
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: A short description of the application and why it would be useful to run on Proxmox.
+      placeholder: |
+        e.g. Vaultwarden is a lightweight, self-hosted password manager compatible with Bitwarden clients.
+        It's a great fit for a Proxmox LXC because it's low-resource and runs well on minimal hardware.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: script-type
+    attributes:
+      label: Script Type
+      description: What kind of script would this be?
+      options:
+        - LXC Container
+        - Virtual Machine (VM)
+        - Proxmox Helper / Addon
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Anything else worth mentioning — install quirks, similar existing scripts, dependencies, etc.
+      placeholder: Optional — leave blank if nothing to add.
