@@ -6,9 +6,9 @@ categories: ["Finance & Budgeting"]
 tags: [akaunting, lxc, finance-budgeting, updateable, dev]
 description: "Akaunting is a free, open-source online accounting software designed for small businesses and freelancers, featuring invoicing, expense tracking, and financial reporting."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/akaunting.webp"
-#image:
-#  path: /assets/img/akaunting.png
-#  alt: Akaunting
+image:
+  path: /assets/img/akaunting.png
+  alt: Akaunting
 ---
 
 <div class="dev-callout">

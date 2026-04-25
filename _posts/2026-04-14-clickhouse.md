@@ -6,9 +6,9 @@ categories: [Databases]
 tags: [clickhouse, lxc, databases, updateable, dev]
 description: "ClickHouse is an open-source, high-performance columnar database management system designed for real-time analytics and data processing using SQL queries."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/clickhouse.webp"
-#image:
-#  path: /assets/img/clickhouse.png
-#  alt: ClickHouse
+image:
+  path: /assets/img/clickhouse.png
+  alt: ClickHouse
 ---
 
 <div class="dev-callout">

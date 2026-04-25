@@ -6,9 +6,9 @@ categories: ["Finance & Budgeting"]
 tags: [invoiceshelf, lxc, finance-budgeting, updateable, dev]
 description: "InvoiceShelf is an open-source web and mobile app that helps you track expenses, payments and create professional invoices and estimates."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invoiceshelf.webp"
-#image:
-#  path: /assets/img/invoiceshelf.png
-#  alt: InvoiceShelf
+image:
+  path: /assets/img/invoiceshelf.png
+  alt: InvoiceShelf
 ---
 
 <div class="dev-callout">
