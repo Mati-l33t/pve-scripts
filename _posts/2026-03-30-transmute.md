@@ -6,9 +6,9 @@ categories: ["Files & Downloads"]
 tags: [transmute, lxc, files-downloads, updateable]
 description: "Transmute is a free, open-source, self-hosted file converter built for privacy. Convert images, video, audio, documents, spreadsheets, subtitles, and fonts locally with no file size limits."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/transmute.webp"
-#image:
-#  path: /assets/img/transmute.png
-#  alt: Transmute
+image:
+  path: /assets/img/transmute.png
+  alt: Transmute
 ---
 
 ## Installation

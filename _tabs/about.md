@@ -40,4 +40,4 @@ All options are presented through a dialog-based interface. After the user makes
 
 ## Contributing / Feedback
 
-Use the comment section under posts or [GitHub Discussions](https://github.com/Mati-l33t/pve-scripts/discussions) for questions and suggestions.
+Use the comment section under posts, [GitHub Discussions](https://github.com/Mati-l33t/pve-scripts/discussions), or the [Forum](https://homelabber.org/) for questions and suggestions.

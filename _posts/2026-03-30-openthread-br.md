@@ -6,9 +6,9 @@ categories: [ZigBee and Z-Wave]
 tags: [openthread-br, lxc, zigbee-and-z-wave, updateable, privileged]
 description: "OpenThread Border Router (OTBR) connects a Thread network to other IP-based networks such as Wi-Fi or Ethernet, providing bidirectional connectivity, mDNS/SRP service discovery, NAT64, and external Thread commissioning."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openthread.webp"
-#image:
-#  path: /assets/img/openthread-br.png
-#  alt: OpenThread Border Router
+image:
+  path: /assets/img/openthread-br.png
+  alt: OpenThread Border Router
 ---
 
 ## Installation

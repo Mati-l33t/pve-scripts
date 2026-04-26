@@ -6,9 +6,9 @@ categories: ["Documents & Notes"]
 tags: [papermark, lxc, documents-notes, updateable, dev]
 description: "Papermark is an open-source document sharing alternative to DocSend with built-in analytics, custom domains, and secure shareable links."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/papermark.webp"
-#image:
-#  path: /assets/img/papermark.png
-#  alt: Papermark
+image:
+  path: /assets/img/papermark.webp
+  alt: Papermark
 ---
 
 <div class="dev-callout">

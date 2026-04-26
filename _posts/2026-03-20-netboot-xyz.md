@@ -6,9 +6,9 @@ categories: ["Network & Firewall"]
 tags: [netboot-xyz, lxc, network-firewall, updateable]
 description: "netboot.xyz is a network boot utility that lets you boot into any type of operating system or utility disk directly from a BIOS/UEFI, without needing a physical boot media. It uses iPXE to present a user-friendly menu of operating systems and tools."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netboot-xyz.webp"
-#image:
-#  path: /assets/img/netboot-xyz.png
-#  alt: netboot.xyz
+image:
+  path: /assets/img/netboot-xyz.gif
+  alt: netboot.xyz
 ---
 
 ## Installation

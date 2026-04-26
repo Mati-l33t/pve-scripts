@@ -6,9 +6,9 @@ categories: ["Monitoring & Analytics"]
 tags: [sparkyfitness-garmin, addon, monitoring-analytics, updateable]
 description: "Microservice that acts as a bridge between the Garmin API and the main SparkyFitness application. It's required if users want to sync their Garmin data with SparkyFitness."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/sparkyfitness.webp"
-#image:
-#  path: /assets/img/sparkyfitness-garmin.png
-#  alt: SparkyFitness Garmin Microservice
+image:
+  path: /assets/img/sparkyfitness-garmin.png
+  alt: SparkyFitness Garmin Microservice
 ---
 
 ## Installation
