@@ -6,9 +6,9 @@ categories: ["Authentication & Security"]
 tags: [certimate, lxc, authentication-security, updateable, dev]
 description: "Certimate is an open-source SSL certificate management tool that automates the application, deployment, and renewal of SSL certificates, supporting integration with various cloud providers and deployment targets."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/certimate.webp"
-#image:
-#  path: /assets/img/certimate.png
-#  alt: Certimate
+image:
+  path: /assets/img/certimate.gif
+  alt: Certimate
 ---
 
 <div class="dev-callout">

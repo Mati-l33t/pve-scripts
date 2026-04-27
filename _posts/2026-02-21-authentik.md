@@ -25,11 +25,16 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
   <span class="res-pill res-ram">RAM: 4096 MB</span>
-  <span class="res-pill res-disk">Disk: 10 GB</span>
+  <span class="res-pill res-disk">Disk: 11 GB</span>
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
 ## Notes
+
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>A 1 GB secondary volume is automatically created and attached to the container at /opt/authentik-data. This is required for Authentik's internal file manager to work.</div>
+</div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>

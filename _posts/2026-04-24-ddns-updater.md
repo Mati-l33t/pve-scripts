@@ -6,9 +6,9 @@ categories: ["Network & Firewall"]
 tags: [ddns-updater, lxc, network-firewall, updateable, dev]
 description: "Lightweight universal DDNS updater with web UI, supporting 60+ DNS providers including Cloudflare, Namecheap, GoDaddy, DuckDNS and more."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ddns-updater.webp"
-#image:
-#  path: /assets/img/ddns-updater.png
-#  alt: DDNS-Updater
+image:
+  path: /assets/img/ddns-updater.gif
+  alt: DDNS-Updater
 ---
 
 <div class="dev-callout">
