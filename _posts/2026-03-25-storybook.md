@@ -3,7 +3,7 @@ layout: post
 title: "Storybook"
 date: 2026-03-25 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [storybook, lxc, ai-coding-dev-tools, updateable, dev]
+tags: [storybook, lxc, ai-coding-dev-tools, updateable]
 description: "Storybook is a frontend workshop for building UI components and pages in isolation. It's used for UI development, testing, and documentation."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/storybook.webp"
 image:
@@ -11,16 +11,11 @@ image:
   alt: Storybook
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/storybook.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/storybook.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
