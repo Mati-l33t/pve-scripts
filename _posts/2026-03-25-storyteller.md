@@ -3,7 +3,7 @@ layout: post
 title: "Storyteller"
 date: 2026-03-25 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [storyteller, lxc, media-streaming, updateable, dev]
+tags: [storyteller, lxc, media-streaming, updateable]
 description: "Storyteller is a self-hosted platform for creating and reading ebooks with synced narration, combining audiobooks and ebooks with automatic synchronization."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/storyteller.webp"
 image:
@@ -11,16 +11,11 @@ image:
   alt: Storyteller
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/storyteller.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/storyteller.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
