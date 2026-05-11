@@ -3,7 +3,7 @@ layout: post
 title: "SolidTime"
 date: 2026-04-17 00:00:00 +0000
 categories: ["Business & ERP"]
-tags: [solidtime, lxc, business-erp, updateable, dev]
+tags: [solidtime, lxc, business-erp, updateable]
 description: "SolidTime is a modern open-source time tracking application for freelancers and agencies, featuring project management, task tracking, billable rates, and multiple organizations."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/solidtime.webp"
 image:
@@ -11,16 +11,11 @@ image:
   alt: SolidTime
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/solidtime.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/solidtime.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
