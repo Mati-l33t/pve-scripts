@@ -3,7 +3,7 @@ layout: post
 title: "CLIProxyAPI"
 date: 2026-02-24 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [cliproxyapi, lxc, ai-coding-dev-tools, updateable, dev]
+tags: [cliproxyapi, lxc, ai-coding-dev-tools, updateable]
 description: "CLIProxyAPI is a proxy server that provides OpenAI-compatible API endpoints for multiple AI CLI tools including Claude Code, Gemini CLI, OpenAI Codex, and more. It enables leveraging free-tier AI subscriptions through a unified API with features like credential routing, quota management, and request retrying."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openai.webp"
 image:
@@ -11,16 +11,11 @@ image:
   alt: CLIProxyAPI
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/cliproxyapi.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/cliproxyapi.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
