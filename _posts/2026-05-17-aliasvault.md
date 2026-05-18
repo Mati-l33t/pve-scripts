@@ -25,8 +25,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
   <span class="res-pill res-ram">RAM: 6144 MB</span>
-  <span class="res-pill res-disk">Disk: 30 GB</span>
-  <span class="res-pill res-os">OS: Debian 12</span>
+  <span class="res-pill res-disk">Disk: 12 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
 ## Default Credentials
