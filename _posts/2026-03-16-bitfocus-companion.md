@@ -3,7 +3,7 @@ layout: post
 title: "Bitfocus Companion"
 date: 2026-03-16 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [bitfocus-companion, lxc, automation-scheduling, updateable, dev]
+tags: [bitfocus-companion, lxc, automation-scheduling, updateable]
 description: "Bitfocus Companion enables the Elgato Stream Deck and other controllers to trigger actions in broadcast software. Installs headless with systemd service, fetching the latest release via the Bitfocus API."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bitfocus-companion.webp"
 image:
@@ -11,16 +11,11 @@ image:
   alt: Bitfocus Companion
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/bitfocus-companion.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/bitfocus-companion.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
