@@ -43,7 +43,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>After container startup, login, switch to the hermes user (su - hermes) and run 'hermes setup' to configure your model provider and gateway server.</div>
+  <div>After container startup, login as root and run 'hermes-setup' to configure your model provider and gateway server. When prompted to install the gateway service, install it as a user service (not a system service).</div>
 </div>
 
 <div class="info-callout">
