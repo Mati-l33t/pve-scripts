@@ -46,7 +46,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Waydroid is pre-installed into the image before the VM boots. After first boot, run: sudo waydroid init && sudo systemctl start waydroid-container</div>
+  <div>Waydroid + Weston (Wayland compositor) are pre-installed. After first boot run: sudo waydroid init && sudo systemctl start waydroid-container. Then start the UI with: weston --backend=headless & && WAYLAND_DISPLAY=wayland-0 waydroid show-full-ui</div>
 </div>
 
 <div class="info-callout">
