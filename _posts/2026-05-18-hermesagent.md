@@ -3,7 +3,7 @@ layout: post
 title: "Hermes Agent"
 date: 2026-05-18 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [hermesagent, lxc, ai-coding-dev-tools, updateable, dev]
+tags: [hermesagent, lxc, ai-coding-dev-tools, updateable]
 description: "Self-improving AI agent by Nous Research. Connects to 15+ LLM providers, executes terminal commands, browses the web, and learns from experience. Supports 16 messaging platforms (Telegram, Discord, Slack, WhatsApp, Signal, Matrix, and more) with persistent memory and autonomous skill creation."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/hermes.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/hermes.webp"
 #  alt: Hermes Agent
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/hermesagent.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/hermesagent.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

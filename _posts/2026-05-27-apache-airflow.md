@@ -1,15 +1,20 @@
 ---
 layout: post
 title: "Apache Airflow"
-date: 2026-05-11 00:00:00 +0000
+date: 2026-05-27 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [airflow, lxc, automation-scheduling, updateable]
+tags: [apache-airflow, lxc, automation-scheduling, updateable, dev]
 description: "Apache Airflow is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. It uses Python to author DAGs (Directed Acyclic Graphs) that represent workflows, and provides a rich web UI for managing and observing pipelines."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-airflow.webp"
 #image:
-#  path: /assets/img/airflow.png
+#  path: /assets/img/apache-airflow.png
 #  alt: Apache Airflow
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

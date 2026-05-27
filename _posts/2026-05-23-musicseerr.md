@@ -3,7 +3,7 @@ layout: post
 title: "MusicSeerr"
 date: 2026-05-23 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [musicseerr, lxc, arr-suite, updateable, dev]
+tags: [musicseerr, lxc, arr-suite, updateable]
 description: "MusicSeerr is a self-hosted music request and discovery app for Lidarr. Search MusicBrainz, request albums, stream from Jellyfin, Navidrome, Plex, or local files, and scrobble to ListenBrainz and Last.fm."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/musicseerr.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/musicseerr.webp"
 #  alt: MusicSeerr
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/musicseerr.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/musicseerr.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
