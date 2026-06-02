@@ -3,7 +3,7 @@ layout: post
 title: "InvoiceShelf"
 date: 2026-04-17 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [invoiceshelf, lxc, finance-budgeting, updateable, dev]
+tags: [invoiceshelf, lxc, finance-budgeting, updateable]
 description: "InvoiceShelf is an open-source web and mobile app that helps you track expenses, payments and create professional invoices and estimates."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/invoiceshelf.webp"
 image:
@@ -11,16 +11,11 @@ image:
   alt: InvoiceShelf
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/invoiceshelf.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/invoiceshelf.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
