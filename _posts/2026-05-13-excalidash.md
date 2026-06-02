@@ -41,6 +41,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <div>Create your admin account on first visit at the web UI.</div>
 </div>
 
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>The one-time admin setup code can be retrieved with: journalctl -u excalidash | grep -i 'setup\|bootstrap\|code'</div>
+</div>
+
 ## Web Interface
 
 <div class="resource-bar"><span class="res-pill res-port">Port: 6767</span></div>
