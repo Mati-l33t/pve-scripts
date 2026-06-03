@@ -3,7 +3,7 @@ layout: post
 title: "ezBookkeeping"
 date: 2026-05-24 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [ezbookkeeping, lxc, finance-budgeting, updateable, dev]
+tags: [ezbookkeeping, lxc, finance-budgeting, updateable]
 description: "ezBookkeeping is a lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features. It helps you record daily transactions, import data from various sources, and quickly search and filter your bills. You can analyze historical data using built-in charts or perform custom queries with your own chart dimensions to better understand spending patterns and financial trends."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ezbookkeeping.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ezbookkeeping.webp"
 #  alt: ezBookkeeping
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/ezbookkeeping.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/ezbookkeeping.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
