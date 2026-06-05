@@ -3,7 +3,7 @@ layout: post
 title: "CyberChef"
 date: 2026-05-18 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [cyberchef, lxc, authentication-security, ai-coding-dev-tools, updateable, dev]
+tags: [cyberchef, lxc, authentication-security, ai-coding-dev-tools, updateable]
 description: "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cyberchef.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cyberchef.webp"
 #  alt: CyberChef
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/cyberchef.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/cyberchef.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

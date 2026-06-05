@@ -3,7 +3,7 @@ layout: post
 title: "MatterJS-Server"
 date: 2026-05-20 00:00:00 +0000
 categories: ["IoT & Smart Home"]
-tags: [matterjs-server, lxc, iot-smart-home, updateable, dev]
+tags: [matterjs-server, lxc, iot-smart-home, updateable]
 description: "JavaScript-based Matter controller server (successor to Python Matter Server). Provides a WebSocket API compatible with the Home Assistant Matter integration."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/matter.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/matter.webp"
 #  alt: MatterJS-Server
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/matterjs-server.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/matterjs-server.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
