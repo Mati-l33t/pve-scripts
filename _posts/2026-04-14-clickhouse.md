@@ -3,7 +3,7 @@ layout: post
 title: "ClickHouse"
 date: 2026-04-14 00:00:00 +0000
 categories: [Databases]
-tags: [clickhouse, lxc, databases, updateable, dev]
+tags: [clickhouse, lxc, databases, updateable]
 description: "ClickHouse is an open-source, high-performance columnar database management system designed for real-time analytics and data processing using SQL queries."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/clickhouse.webp"
 image:
@@ -11,16 +11,11 @@ image:
   alt: ClickHouse
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/clickhouse.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/clickhouse.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
