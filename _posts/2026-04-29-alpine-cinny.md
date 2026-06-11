@@ -3,18 +3,13 @@ layout: post
 title: "Alpine-Cinny"
 date: 2026-04-29 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [alpine-cinny, lxc, miscellaneous, network-firewall, updateable, dev]
+tags: [alpine-cinny, lxc, miscellaneous, network-firewall, updateable]
 description: "Yet another matrix client "
 icon: "https://cinny.in/assets/cinny.svg"
 #image:
 #  path: /assets/img/alpine-cinny.png
 #  alt: Alpine-Cinny
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 
