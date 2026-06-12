@@ -3,18 +3,13 @@ layout: post
 title: "Papermark"
 date: 2026-04-17 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [papermark, lxc, documents-notes, updateable, dev]
+tags: [papermark, lxc, documents-notes, updateable]
 description: "Papermark is an open-source document sharing alternative to DocSend with built-in analytics, custom domains, and secure shareable links."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/papermark.webp"
 image:
   path: /assets/img/papermark.gif
   alt: Papermark
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

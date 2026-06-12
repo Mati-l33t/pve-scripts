@@ -15,7 +15,7 @@ icon: "https://cinny.in/assets/cinny.svg"
 
 **Alpine install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/alpine-cinny.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/alpine-cinny.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
