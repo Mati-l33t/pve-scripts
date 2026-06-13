@@ -3,7 +3,7 @@ layout: post
 title: "BookOrbit"
 date: 2026-06-11 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [bookorbit, lxc, documents-notes, updateable, dev]
+tags: [bookorbit, lxc, documents-notes, updateable]
 description: "Self-hosted digital library and reading platform for ebooks, PDFs, audiobooks, and comics with metadata enrichment and Kobo/KOReader sync."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bookorbit.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/bookorbit.webp"
 #  alt: BookOrbit
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/bookorbit.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/bookorbit.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
