@@ -34,7 +34,11 @@
   };
 
   var deriveUpdateUrl = function(installUrl) {
-    return installUrl.replace(/\/(ct|vm|misc)\/([^/]+)\.sh$/, '/install/$2-install.sh');
+    var u = installUrl.replace(/\/(ct|vm|misc)\/([^/]+)\.sh$/, '/install/$2-install.sh');
+    if (u === installUrl) {
+      u = installUrl.replace(/\/proxmox\/install\.sh$/, '/update.sh');
+    }
+    return u;
   };
 
   var addLink = function(ul, hr, content, id, icon, label, url) {
@@ -170,6 +174,12 @@
 
     fetch(url)
       .then(function(r) {
+        if (!r.ok && url.match(/\/LICENSE$/)) {
+          return fetch(url + '.md').then(function(r2) {
+            if (!r2.ok) throw new Error('HTTP ' + r2.status);
+            return r2.text();
+          });
+        }
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.text();
       })
