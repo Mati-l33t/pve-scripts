@@ -3,7 +3,7 @@ layout: post
 title: "SnapOtter"
 date: 2026-05-27 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [snapotter, lxc, media-streaming, updateable, dev]
+tags: [snapotter, lxc, media-streaming, updateable]
 description: "SnapOtter is a self-hosted, privacy-first image processing toolbox with 50+ tools including background removal, upscaling, format conversion, OCR, face enhancement, and more — all running locally in your browser and on your server."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/snapotter.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/snapotter.webp"
 #  alt: SnapOtter
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/snapotter.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/snapotter.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
