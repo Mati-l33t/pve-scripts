@@ -1,0 +1,48 @@
+---
+layout: post
+title: "SolidInvoice"
+date: 2026-07-07 00:00:00 +0000
+categories: ["Finance & Budgeting"]
+tags: [solidinvoice, lxc, finance-budgeting, updateable, dev]
+description: "SolidInvoice is an open-source invoicing application that helps small businesses and freelancers manage clients, create professional invoices, track payments, and handle recurring billing."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/solidinvoice.webp"
+#image:
+#  path: /assets/img/solidinvoice.png
+#  alt: SolidInvoice
+---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
+
+## Installation
+
+**Default install:**
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/solidinvoice.sh)"
+```
+<div class="resource-bar">
+  <span class="res-pill res-cpu">CPU: 2 cores</span>
+  <span class="res-pill res-ram">RAM: 2048 MB</span>
+  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-os">OS: Debian 13</span>
+</div>
+
+## Notes
+
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>App startup could be slow. Once the app has started, complete the setup wizard via the web interface on first access.</div>
+</div>
+
+## Web Interface
+
+<div class="resource-bar"><span class="res-pill res-port">Port: 8765</span></div>
+
+## Links
+
+- [Official Website](https://solidinvoice.co)
+- [Documentation](https://solidinvoice.co/docs)
+
+---
