@@ -33,13 +33,17 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>JDownloader requires a free MyJDownloader account. After installation, register at https://my.jdownloader.org and link your device via the account settings.</div>
+  <div>MyJDownloader cloud access is disabled by default. To enable it, edit /opt/jdownloader/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json, replace the placeholder email/password with your my.jdownloader.org credentials, set autoconnectenabledv2 to true, and restart the service.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
   <div>JDownloader self-updates automatically on every restart. The 'Update' button in the UI simply restarts the service to trigger this process.</div>
 </div>
+
+## Web Interface
+
+<div class="resource-bar"><span class="res-pill res-port">Port: 3129</span></div>
 
 ## Links
 
