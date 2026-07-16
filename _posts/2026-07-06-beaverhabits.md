@@ -3,7 +3,7 @@ layout: post
 title: "BeaverHabits"
 date: 2026-07-06 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [beaverhabits, lxc, miscellaneous, updateable, dev]
+tags: [beaverhabits, lxc, miscellaneous, updateable]
 description: "BeaverHabits is a self-hosted habit tracking app without goals. Track streaks, view heatmaps, and manage your daily habits through a clean web interface powered by NiceGUI and Python."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/beaverhabits.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/beaverhabits.webp"
 #  alt: BeaverHabits
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/beaverhabits.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/beaverhabits.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

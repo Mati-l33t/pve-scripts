@@ -3,7 +3,7 @@ layout: post
 title: "NoteDiscovery"
 date: 2026-07-06 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [notediscovery, lxc, documents-notes, updateable, dev]
+tags: [notediscovery, lxc, documents-notes, updateable]
 description: "NoteDiscovery is a lightweight, self-hosted knowledge base and note-taking platform. Write Markdown notes, build a graph of linked knowledge, and search full-text across your entire vault — all stored as plain files."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/notediscovery.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/notediscovery.webp"
 #  alt: NoteDiscovery
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/notediscovery.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/notediscovery.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
