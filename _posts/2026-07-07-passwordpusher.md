@@ -53,6 +53,11 @@ Config file:
   <div>SQLite database and file uploads are stored in /opt/passwordpusher/storage.</div>
 </div>
 
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>On first start, retrieve the one-time boot code with <code>journalctl -u passwordpusher -o cat --no-pager | grep 'Boot Code:'</code> to create the first administrator account.</div>
+</div>
+
 ## Web Interface
 
 <div class="resource-bar"><span class="res-pill res-port">Port: 5100</span></div>

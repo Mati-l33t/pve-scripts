@@ -25,7 +25,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
   <span class="res-pill res-ram">RAM: 4096 MB</span>
-  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-disk">Disk: 20 GB</span>
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
@@ -33,7 +33,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Invidious Companion comes pre-installed and is running on port 8082.</div>
+  <div>Invidious Companion comes pre-installed and runs internally on localhost port 8282.</div>
 </div>
 
 ## Web Interface
@@ -43,6 +43,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 ## Links
 
 - [Official Website](https://invidious.io)
-- [Documentation](https:/docs.invidious.io)
+- [Documentation](https://docs.invidious.io)
 
 ---
