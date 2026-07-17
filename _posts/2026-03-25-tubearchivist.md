@@ -3,7 +3,7 @@ layout: post
 title: "Tube Archivist"
 date: 2026-03-25 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [tubearchivist, lxc, media-streaming, updateable, dev]
+tags: [tubearchivist, lxc, media-streaming, updateable]
 description: "Tube Archivist is a self-hosted YouTube media collection manager that indexes your video collection with metadata for organizing, searching, and playing archived YouTube videos offline."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tube-archivist.webp"
 image:
@@ -11,16 +11,11 @@ image:
   alt: Tube Archivist
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/tubearchivist.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/tubearchivist.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>

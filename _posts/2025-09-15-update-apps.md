@@ -3,7 +3,7 @@ layout: post
 title: "PVE LXC Apps Update"
 date: 2025-09-15 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [update-apps, pve, proxmox-virtualization, updateable, dev]
+tags: [update-apps, pve, proxmox-virtualization, updateable]
 description: "This script updates community-scripts managed LXC containers on a Proxmox VE node. It detects the installed service, verifies available update scripts, and applies updates interactively or unattended. Optionally, containers can be backed up before the update process. If additional build resources (CPU/RAM) are required, the script adjusts container resources temporarily and restores them after the update. Containers requiring a reboot will be listed at the end of the process."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #  alt: PVE LXC Apps Update
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/tools/pve/update-apps.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/update-apps.sh)"
 ```
 
 ## Notes

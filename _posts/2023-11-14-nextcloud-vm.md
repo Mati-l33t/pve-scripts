@@ -3,7 +3,7 @@ layout: post
 title: "Nextcloud VM"
 date: 2023-11-14 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [nextcloud-vm, vm, files-downloads, dev]
+tags: [nextcloud-vm, vm, files-downloads]
 description: "The Nextcloud VM by T&M Hansson IT is a pre-installed, production-ready virtual machine running Nextcloud on Debian. It is deployed via VZDUMP restore and includes an interactive setup wizard that runs on first boot."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud.webp"
 #  alt: Nextcloud VM
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/nextcloud-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/nextcloud-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
