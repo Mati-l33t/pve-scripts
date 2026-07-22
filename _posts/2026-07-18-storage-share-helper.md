@@ -3,7 +3,7 @@ layout: post
 title: "Storage-Share-Helper"
 date: 2026-07-18 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [storage-share-helper, pve, proxmox-virtualization, dev]
+tags: [storage-share-helper, pve, proxmox-virtualization]
 description: "Interactive Proxmox VE storage management utility for testing and configuring SMB/CIFS, NFS and iSCSI storage, managing LXC bind mountpoints, and creating optional SMB or NFS shares directly on the Proxmox host."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/storage-share-helper.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/storage-share-helper.
 #  alt: Storage-Share-Helper
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/tools/pve/storage-share-helper.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/storage-share-helper.sh)"
 ```
 
 ## Notes
