@@ -36,6 +36,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <div>App startup could be slow. Once the app has started, complete the setup wizard via the web interface on first access.</div>
 </div>
 
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>Reverse proxy: the container ships with HTTPS disabled and its bundled webserver bound to all hostnames, so terminate TLS on your proxy (HAProxy, nginx, Traefik, Cloudflare) and forward to http://<ip>:8765. To let the app manage its own certificate instead, set SOLIDINVOICE_DOMAIN and disable SOLIDINVOICE_DISABLE_HTTPS in /etc/solidinvoice/solidinvoice.env.</div>
+</div>
+
 ## Web Interface
 
 <div class="resource-bar"><span class="res-pill res-port">Port: 8765</span></div>
