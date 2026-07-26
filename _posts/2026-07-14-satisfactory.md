@@ -3,7 +3,7 @@ layout: post
 title: "Satisfactory"
 date: 2026-07-14 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [satisfactory, lxc, gaming-leisure, updateable, dev]
+tags: [satisfactory, lxc, gaming-leisure, updateable]
 description: "Host a persistent Satisfactory world for PC players using the official Linux dedicated server and SteamCMD."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/satisfactory.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/satisfactory.webp"
 #  alt: Satisfactory
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/satisfactory.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/satisfactory.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
