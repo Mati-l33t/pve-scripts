@@ -43,7 +43,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>DKIM keys are generated at /opt/simplelogin/dkim/. Add the public key as a TXT record: dkim._domainkey.yourdomain.com</div>
+  <div>DKIM keys are generated in /opt/simplelogin/dkim/. The ready-to-use DNS TXT record is saved to /opt/simplelogin/dkim/dkim.dns.txt (public key also at dkim.public.key). Add it as a TXT record at dkim._domainkey.yourdomain.com, replacing EMAIL_DOMAIN with your domain.</div>
+</div>
+
+<div class="warn-callout">
+  <i class="fas fa-exclamation-triangle"></i>
+  <div>For real email delivery, edit /etc/postfix/main.cf with your values: myhostname (e.g. sl.yourdomain.com), mydomain (yourdomain.com), myorigin = $mydomain, inet_interfaces = all, and add your LXC subnet to mynetworks; then 'systemctl restart postfix'. SimpleLogin requires a fully configured mail domain (MX, SPF, DKIM, PTR/rDNS).</div>
 </div>
 
 <div class="info-callout">

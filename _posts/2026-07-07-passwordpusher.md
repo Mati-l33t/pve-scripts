@@ -3,7 +3,7 @@ layout: post
 title: "PasswordPusher"
 date: 2026-07-07 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [passwordpusher, lxc, authentication-security, updateable, dev]
+tags: [passwordpusher, lxc, authentication-security, updateable]
 description: "PasswordPusher is an open-source app for securely sharing passwords, notes, files, and URLs via self-deleting links. Links expire after a set number of views or time, with full audit logs."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pwpush.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pwpush.webp"
 #  alt: PasswordPusher
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/passwordpusher.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/passwordpusher.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

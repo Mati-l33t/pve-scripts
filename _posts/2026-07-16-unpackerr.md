@@ -3,7 +3,7 @@ layout: post
 title: "Unpackerr"
 date: 2026-07-16 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [unpackerr, lxc, files-downloads, updateable, dev]
+tags: [unpackerr, lxc, files-downloads, updateable]
 description: "Unpackerr is a daemon that extracts completed archives for Sonarr, Radarr, Lidarr, Readarr and watched folders."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/unpackerr.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/unpackerr.webp"
 #  alt: Unpackerr
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/unpackerr.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/unpackerr.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
