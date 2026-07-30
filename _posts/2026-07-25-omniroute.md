@@ -3,7 +3,7 @@ layout: post
 title: "OmniRoute"
 date: 2026-07-25 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [omniroute, lxc, ai-coding-dev-tools, updateable, dev]
+tags: [omniroute, lxc, ai-coding-dev-tools, updateable]
 description: "OmniRoute is a self-hosted, OpenAI-compatible AI gateway that routes requests across 290+ providers and 500+ models with quota-aware auto-fallback, prompt compression and a management dashboard. Works with Claude Code, Cursor, Cline, Codex and any OpenAI-compatible client."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/omniroute.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/omniroute.webp"
 #  alt: OmniRoute
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/omniroute.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/omniroute.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

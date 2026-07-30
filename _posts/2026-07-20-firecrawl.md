@@ -3,7 +3,7 @@ layout: post
 title: "Firecrawl"
 date: 2026-07-20 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [firecrawl, lxc, ai-coding-dev-tools, updateable, dev]
+tags: [firecrawl, lxc, ai-coding-dev-tools, updateable]
 description: "API service that turns websites into clean data for AI applications, scraping, crawling, and extraction workflows."
 icon: "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/firecrawl_logo.png"
 #image:
@@ -11,16 +11,11 @@ icon: "https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/firecrawl_
 #  alt: Firecrawl
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/firecrawl.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/firecrawl.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
