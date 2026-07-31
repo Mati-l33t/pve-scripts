@@ -23,9 +23,9 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/maintainerr.webp"
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/maintainerr.sh)"
 ```
 <div class="resource-bar">
-  <span class="res-pill res-cpu">CPU: 2 cores</span>
-  <span class="res-pill res-ram">RAM: 2048 MB</span>
-  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-cpu">CPU: 4 cores</span>
+  <span class="res-pill res-ram">RAM: 8192 MB</span>
+  <span class="res-pill res-disk">Disk: 24 GB</span>
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
