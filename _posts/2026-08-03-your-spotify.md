@@ -40,17 +40,17 @@ Config file:
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>You must create a Spotify application at https://developer.spotify.com/dashboard and put its client ID and secret into SPOTIFY_PUBLIC and SPOTIFY_SECRET in /opt/your-spotify.env, then run 'systemctl restart your-spotify'. Without them nothing works.</div>
+  <div>Spotify only accepts https redirect URIs (loopback excepted), so the Spotify login cannot be completed on the container's plain IP - it fails with 'redirect_uri: Insecure'. A TLS reverse proxy with a real domain is required for normal use.</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>In the Spotify dashboard add the redirect URI http://[IP]:8080/oauth/spotify/callback - it must match API_ENDPOINT in the env file exactly, otherwise the login fails.</div>
+  <div>Create an app at https://developer.spotify.com/dashboard, put its client ID and secret into SPOTIFY_PUBLIC and SPOTIFY_SECRET in /opt/your-spotify.env, set API_ENDPOINT and CLIENT_ENDPOINT to your https URLs, and register [API_ENDPOINT]/oauth/spotify/callback in the dashboard. The API endpoint is baked into the built frontend, so run the update after changing it.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Two services run here: your-spotify (API on 8080) and your-spotify-web (UI on 3000). The API endpoint is baked into the built frontend, so changing API_ENDPOINT means re-running the sed steps from the install script or re-running the update.</div>
+  <div>Two services run here: your-spotify (API on 8080) and your-spotify-web (UI on 3000). Point the reverse proxy at both.</div>
 </div>
 
 <div class="info-callout">
