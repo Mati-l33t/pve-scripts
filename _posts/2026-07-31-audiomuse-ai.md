@@ -38,13 +38,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   </table>
 </div>
 
-## Configuration
-
-Config file:
-```
-/opt/audiomuse-ai_data/audiomuse.env
-```
-
 ## Notes
 
 <div class="info-callout">

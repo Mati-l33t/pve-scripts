@@ -38,13 +38,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   </table>
 </div>
 
-## Configuration
-
-Config file:
-```
-/etc/elasticsearch/elasticsearch.yml
-```
-
 ## Notes
 
 <div class="warn-callout">

@@ -38,13 +38,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   </table>
 </div>
 
-## Configuration
-
-Config file:
-```
-/opt/portabase/.env
-```
-
 ## Notes
 
 <div class="warn-callout">
