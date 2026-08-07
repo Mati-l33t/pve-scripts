@@ -3,7 +3,7 @@ layout: post
 title: "NetworkOptimizer"
 date: 2026-07-31 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [networkoptimizer, lxc, network-firewall, updateable, dev]
+tags: [networkoptimizer, lxc, network-firewall, updateable]
 description: "Network Optimizer is a self-hosted optimization, monitoring (NMS) and security audit tool for UniFi networks. It scores and optimizes Wi-Fi, runs DNS, VLAN and firewall security checks, hosts a centralized WAN and LAN speed test server with L2 tracing, and monitors ISP and WAN health. Built on .NET 10 / Blazor Server with a local SQLite database."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/networkoptimizer.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/networkoptimizer.webp
 #  alt: NetworkOptimizer
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/networkoptimizer.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/networkoptimizer.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
