@@ -3,7 +3,7 @@ layout: post
 title: "TeslaMate"
 date: 2026-08-03 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [teslamate, lxc, monitoring-analytics, updateable, dev]
+tags: [teslamate, lxc, monitoring-analytics, updateable]
 description: "TeslaMate is a self-hosted data logger for Tesla vehicles. It records drives, charges, battery health, efficiency and vehicle updates into PostgreSQL and visualizes everything through a set of prebuilt Grafana dashboards, with optional MQTT publishing for home automation."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/teslamate.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/teslamate.webp"
 #  alt: TeslaMate
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/teslamate.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/teslamate.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
