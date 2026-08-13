@@ -3,7 +3,7 @@ layout: post
 title: "SuggestArr"
 date: 2026-08-04 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [suggestarr, lxc, arr-suite, updateable, dev]
+tags: [suggestarr, lxc, arr-suite, updateable]
 description: "SuggestArr watches what you actually play on Jellyfin, Plex or Emby, looks up similar titles on TMDB, and automatically files requests for them in Jellyseerr or Overseerr. It turns your viewing history into an automatically growing library without manual searching."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/suggestarr.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/suggestarr.webp"
 #  alt: SuggestArr
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/suggestarr.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/suggestarr.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
