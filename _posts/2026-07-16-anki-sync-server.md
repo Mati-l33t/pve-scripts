@@ -3,18 +3,13 @@ layout: post
 title: "Anki Sync Server"
 date: 2026-07-16 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [anki-sync-server, lxc, documents-notes, updateable, dev]
+tags: [anki-sync-server, lxc, documents-notes, updateable]
 description: "The official self-hosted sync server for Anki flashcards, suitable for individual and family use."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/anki-sync-server.webp"
 #image:
 #  path: /assets/img/anki-sync-server.png
 #  alt: Anki Sync Server
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

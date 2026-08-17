@@ -3,18 +3,13 @@ layout: post
 title: "AllStarLink"
 date: 2025-05-05 00:00:00 +0000
 categories: ["Gaming & Leisure"]
-tags: [allstarlink, vm, gaming-leisure, dev]
+tags: [allstarlink, vm, gaming-leisure]
 description: "AllStarLink is a network of Amateur Radio repeaters, remote base stations and hot spots accessible to each other via Voice over Internet Protocol."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/allstar-link.webp"
 #image:
 #  path: /assets/img/allstarlink.png
 #  alt: AllStarLink
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

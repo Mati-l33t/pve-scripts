@@ -3,18 +3,13 @@ layout: post
 title: "Stoatchat"
 date: 2026-05-08 00:00:00 +0000
 categories: ["Bots & ChatOps"]
-tags: [stoatchat, lxc, bots-chatops, updateable, dev]
+tags: [stoatchat, lxc, bots-chatops, updateable]
 description: "A self-hostable open-source chat platform and community server. Stoatchat is a fork of Revolt, featuring real-time messaging, voice channels, file sharing, and a full-featured web client. Built with Rust (backend) and SolidJS (frontend)."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/stoatchat.webp"
 #image:
 #  path: /assets/img/stoatchat.png
 #  alt: Stoatchat
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

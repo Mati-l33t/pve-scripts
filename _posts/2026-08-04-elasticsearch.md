@@ -3,18 +3,13 @@ layout: post
 title: "Elasticsearch"
 date: 2026-08-04 00:00:00 +0000
 categories: [Databases]
-tags: [elasticsearch, lxc, databases, updateable, dev]
+tags: [elasticsearch, lxc, databases, updateable]
 description: "Elasticsearch is a distributed search and analytics engine. It is mostly deployed as the backend for something else - log aggregation, full-text search in an application, or as the storage layer for Graylog and similar tools. This installs a single node from the official Elastic repository."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/elasticsearch.webp"
 #image:
 #  path: /assets/img/elasticsearch.png
 #  alt: Elasticsearch
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

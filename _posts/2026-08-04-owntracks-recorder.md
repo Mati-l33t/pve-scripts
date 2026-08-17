@@ -3,18 +3,13 @@ layout: post
 title: "OwnTracks Recorder"
 date: 2026-08-04 00:00:00 +0000
 categories: ["IoT & Smart Home"]
-tags: [owntracks-recorder, lxc, iot-smart-home, updateable, dev]
+tags: [owntracks-recorder, lxc, iot-smart-home, updateable]
 description: "OwnTracks Recorder stores and serves the location data published by the OwnTracks apps for iOS and Android. It subscribes to an MQTT broker, keeps the history in a local LMDB store, and provides a web interface plus an HTTP API for maps, tracks and friend positions - a self-hosted alternative to commercial location sharing."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/owntracks.webp"
 #image:
 #  path: /assets/img/owntracks-recorder.png
 #  alt: OwnTracks Recorder
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

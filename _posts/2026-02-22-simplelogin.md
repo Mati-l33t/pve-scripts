@@ -3,18 +3,13 @@ layout: post
 title: "SimpleLogin"
 date: 2026-02-22 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [simplelogin, lxc, authentication-security, updateable, dev]
+tags: [simplelogin, lxc, authentication-security, updateable]
 description: "SimpleLogin is an open-source email alias solution that lets you create anonymous email aliases to protect your real email address from spam, trackers and data breaches."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/simplelogin.webp"
 image:
   path: /assets/img/simplelogin.png
   alt: SimpleLogin
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

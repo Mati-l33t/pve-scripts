@@ -3,18 +3,13 @@ layout: post
 title: "Akaunting"
 date: 2026-04-17 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [akaunting, lxc, finance-budgeting, updateable, dev]
+tags: [akaunting, lxc, finance-budgeting, updateable]
 description: "Akaunting is a free, open-source online accounting software designed for small businesses and freelancers, featuring invoicing, expense tracking, and financial reporting."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/akaunting.webp"
 image:
   path: /assets/img/akaunting.png
   alt: Akaunting
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

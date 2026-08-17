@@ -3,18 +3,13 @@ layout: post
 title: "Your Spotify"
 date: 2026-08-03 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [your-spotify, lxc, media-streaming, updateable, dev]
+tags: [your-spotify, lxc, media-streaming, updateable]
 description: "Your Spotify records your Spotify listening history and turns it into statistics: top tracks, artists and albums over any period, listening habits by time of day, and long-term trends. Past history can be imported from a Spotify privacy data export."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/your-spotify.webp"
 #image:
 #  path: /assets/img/your-spotify.png
 #  alt: Your Spotify
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

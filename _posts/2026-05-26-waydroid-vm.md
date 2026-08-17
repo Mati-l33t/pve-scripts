@@ -3,18 +3,13 @@ layout: post
 title: "Waydroid"
 date: 2026-05-26 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [waydroid-vm, vm, ai-coding-dev-tools, containers-docker, dev]
+tags: [waydroid-vm, vm, ai-coding-dev-tools, containers-docker]
 description: "Waydroid is a container-based approach to boot a full Android system on a regular GNU/Linux system. It uses Linux namespaces (LXC) to run Android in a container and bridges the Wayland compositor to display Android apps natively. This VM script creates a KVM virtual machine with Ubuntu 24.04 or Debian 13 as the base OS, ready for Waydroid installation."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/waydroid.webp"
 #image:
 #  path: /assets/img/waydroid-vm.png
 #  alt: Waydroid
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 

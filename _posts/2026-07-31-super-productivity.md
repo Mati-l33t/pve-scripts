@@ -3,18 +3,13 @@ layout: post
 title: "Super Productivity"
 date: 2026-07-31 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [super-productivity, lxc, documents-notes, updateable, dev]
+tags: [super-productivity, lxc, documents-notes, updateable]
 description: "Super Productivity is a privacy-focused, open-source to-do list, task manager and time tracker that helps you organize tasks, plan your day and track time. This deploys the self-hostable web (PWA) build as static files served by nginx."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/super-productivity.webp"
 #image:
 #  path: /assets/img/super-productivity.png
 #  alt: Super Productivity
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 
