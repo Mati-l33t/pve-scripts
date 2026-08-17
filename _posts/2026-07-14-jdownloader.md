@@ -3,13 +3,18 @@ layout: post
 title: "JDownloader"
 date: 2026-07-14 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [jdownloader, lxc, files-downloads, updateable]
+tags: [jdownloader, lxc, files-downloads, updateable, dev]
 description: "JDownloader is a free, open-source download management tool that simplifies downloading files from one-click hosting sites. It runs headless on servers and is managed remotely via the MyJDownloader cloud web interface at my.jdownloader.org."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/jdownloader.webp"
 #image:
 #  path: /assets/img/jdownloader.png
 #  alt: JDownloader
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

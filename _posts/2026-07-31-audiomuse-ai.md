@@ -3,13 +3,18 @@ layout: post
 title: "AudioMuse-AI"
 date: 2026-07-31 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [audiomuse-ai, lxc, arr-suite, updateable]
+tags: [audiomuse-ai, lxc, arr-suite, updateable, dev]
 description: "AudioMuse-AI is a self-hosted tool that uses sonic analysis to rediscover forgotten songs and generate groove-aware playlists for your music library, without external APIs. It integrates with Jellyfin, Navidrome, Emby, Lyrion or Plex and runs a Flask web UI backed by Redis Queue workers and PostgreSQL."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/audiomuse-ai.webp"
 #image:
 #  path: /assets/img/audiomuse-ai.png
 #  alt: AudioMuse-AI
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

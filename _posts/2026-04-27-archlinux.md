@@ -3,13 +3,18 @@ layout: post
 title: "Arch Linux"
 date: 2026-04-27 00:00:00 +0000
 categories: [Operating Systems]
-tags: [archlinux, lxc, operating-systems, updateable]
+tags: [archlinux, lxc, operating-systems, updateable, dev]
 description: "Arch Linux is a lightweight, rolling-release Linux distribution that follows a keep-it-simple philosophy. It provides a minimalist base system that users can build upon according to their needs."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/arch-linux.webp"
 #image:
 #  path: /assets/img/archlinux.png
 #  alt: Arch Linux
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

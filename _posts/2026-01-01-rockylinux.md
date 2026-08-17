@@ -3,13 +3,18 @@ layout: post
 title: "Rocky Linux"
 date: 2026-01-01 00:00:00 +0000
 categories: [Operating Systems]
-tags: [rockylinux, lxc, operating-systems, updateable]
+tags: [rockylinux, lxc, operating-systems, updateable, dev]
 description: "Rocky Linux is an enterprise-grade Linux distribution compatible with Red Hat Enterprise Linux."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rocky-linux.webp"
 #image:
 #  path: /assets/img/rockylinux.png
 #  alt: Rocky Linux
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

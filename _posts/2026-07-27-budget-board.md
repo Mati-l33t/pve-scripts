@@ -3,13 +3,18 @@ layout: post
 title: "Budget-Board"
 date: 2026-07-27 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [budget-board, lxc, finance-budgeting, updateable]
+tags: [budget-board, lxc, finance-budgeting, updateable, dev]
 description: "Budget-Board is a simple self-hosted app for tracking monthly spending and working towards financial goals. It pairs a .NET web API with a web client backed by PostgreSQL."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/budget-board.webp"
 #image:
 #  path: /assets/img/budget-board.png
 #  alt: Budget-Board
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

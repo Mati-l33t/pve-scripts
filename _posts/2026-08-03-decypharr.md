@@ -3,13 +3,18 @@ layout: post
 title: "Decypharr"
 date: 2026-08-03 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [decypharr, lxc, arr-suite, updateable]
+tags: [decypharr, lxc, arr-suite, updateable, dev]
 description: "Decypharr exposes a mock qBittorrent and SABnzbd API in front of debrid services, so Sonarr, Radarr, Lidarr and friends can send downloads to Real-Debrid, Torbox, AllDebrid, Debrid-Link or Premiumize as if they were talking to a normal download client. It also supports direct Usenet streaming via NNTP without a separate download client."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/decypharr.webp"
 #image:
 #  path: /assets/img/decypharr.png
 #  alt: Decypharr
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

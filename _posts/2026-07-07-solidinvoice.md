@@ -3,13 +3,18 @@ layout: post
 title: "SolidInvoice"
 date: 2026-07-07 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [solidinvoice, lxc, finance-budgeting, updateable]
+tags: [solidinvoice, lxc, finance-budgeting, updateable, dev]
 description: "SolidInvoice is an open-source invoicing application that helps small businesses and freelancers manage clients, create professional invoices, track payments, and handle recurring billing."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/solidinvoice.webp"
 #image:
 #  path: /assets/img/solidinvoice.png
 #  alt: SolidInvoice
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 

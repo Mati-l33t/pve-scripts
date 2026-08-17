@@ -3,13 +3,18 @@ layout: post
 title: "openEuler"
 date: 2026-01-01 00:00:00 +0000
 categories: [Operating Systems]
-tags: [openeuler, lxc, operating-systems, updateable]
+tags: [openeuler, lxc, operating-systems, updateable, dev]
 description: "openEuler is an open-source Linux distribution designed for servers and cloud computing."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openeuler.webp"
 #image:
 #  path: /assets/img/openeuler.png
 #  alt: openEuler
 ---
+
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
 
 ## Installation
 
