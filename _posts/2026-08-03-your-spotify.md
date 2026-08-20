@@ -38,7 +38,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>Create an app at https://developer.spotify.com/dashboard, put its client ID and secret into SPOTIFY_PUBLIC and SPOTIFY_SECRET in /opt/your-spotify.env, set API_ENDPOINT and CLIENT_ENDPOINT to your https URLs, and register [API_ENDPOINT]/oauth/spotify/callback in the dashboard. The API endpoint is baked into the built frontend, so run the update after changing it.</div>
+  <div>Create an app at https://developer.spotify.com/dashboard, put its client ID and secret into SPOTIFY_PUBLIC and SPOTIFY_SECRET in /opt/your-spotify.env, set API_ENDPOINT and CLIENT_ENDPOINT to your https URLs, and register [API_ENDPOINT]/oauth/spotify/callback in the dashboard. The API endpoint is baked into the built frontend; set both endpoints at install time, or change them in /opt/your-spotify.env and run 'update' inside the container, which re-applies them.</div>
 </div>
 
 <div class="info-callout">
