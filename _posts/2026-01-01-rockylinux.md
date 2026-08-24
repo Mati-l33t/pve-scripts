@@ -3,7 +3,7 @@ layout: post
 title: "Rocky Linux"
 date: 2026-01-01 00:00:00 +0000
 categories: [Operating Systems]
-tags: [rockylinux, lxc, operating-systems, updateable, dev]
+tags: [rockylinux, lxc, operating-systems, updateable]
 description: "Rocky Linux is an enterprise-grade Linux distribution compatible with Red Hat Enterprise Linux."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rocky-linux.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/rocky-linux.webp"
 #  alt: Rocky Linux
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/rockylinux.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/rockylinux.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
