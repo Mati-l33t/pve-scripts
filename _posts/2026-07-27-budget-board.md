@@ -3,7 +3,7 @@ layout: post
 title: "Budget-Board"
 date: 2026-07-27 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [budget-board, lxc, finance-budgeting, updateable, dev]
+tags: [budget-board, lxc, finance-budgeting, updateable]
 description: "Budget-Board is a simple self-hosted app for tracking monthly spending and working towards financial goals. It pairs a .NET web API with a web client backed by PostgreSQL."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/budget-board.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/budget-board.webp"
 #  alt: Budget-Board
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/budget-board.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/budget-board.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
