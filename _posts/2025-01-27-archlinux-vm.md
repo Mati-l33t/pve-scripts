@@ -3,9 +3,9 @@ layout: post
 title: "Arch Linux"
 date: 2025-01-27 00:00:00 +0000
 categories: [Operating Systems]
-tags: [archlinux-vm, vm, operating-systems, updateable]
-description: "Arch Linux is a highly customizable, independent Linux distribution that gives users complete control over their system. Known for its rolling release model, Arch Linux is always up-to-date with the latest software. It's favored by experienced users who appreciate its minimalist approach, demanding a hands-on installation and configuration process. This level of control and flexibility makes it a popular choice for those who want to tailor their Linux system to their exact needs."
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/arch-linux.webp"
+tags: [archlinux-vm, vm, operating-systems]
+description: "Arch Linux is a rolling-release distribution built around simplicity and user control. Packages arrive as upstream releases them, and the system is assembled rather than preconfigured."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/archlinux.webp"
 #image:
 #  path: /assets/img/archlinux-vm.png
 #  alt: Arch Linux
@@ -25,14 +25,19 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ## Notes
 
-<div class="warn-callout">
-  <i class="fas fa-exclamation-triangle"></i>
-  <div>doesnt work with lvm and lvmthin disks!</div>
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>Cloud-Init is enabled by default. Configure your SSH key and credentials in the Proxmox Cloud-Init tab before starting the VM.</div>
+</div>
+
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>If you use Cloud-init, checkout cloud-init discussion: <code>https://github.com/community-scripts/ProxmoxVE/discussions/272</code></div>
 </div>
 
 ## Links
 
 - [Official Website](https://archlinux.org/)
-- [Documentation](https://wiki.archlinux.org/title/Main_page)
+- [Documentation](https://wiki.archlinux.org/)
 
 ---

@@ -3,8 +3,8 @@ layout: post
 title: "ownCloud"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
-tags: [owncloud-vm, vm, operating-systems, updateable]
-description: "TurnKey ownCloud is an open-source file sharing server and collaboration platform that can store your personal content, like documents and pictures, in a centralized location."
+tags: [owncloud-vm, vm, operating-systems]
+description: "ownCloud is a self-hosted file sync and share platform. This installs the TurnKey appliance as a VM."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/owncloud.webp"
 #image:
 #  path: /assets/img/owncloud-vm.png
@@ -20,33 +20,19 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
   <span class="res-pill res-ram">RAM: 2048 MB</span>
-  <span class="res-pill res-disk">Disk: 12 GB</span>
-  <span class="res-pill res-os">OS: Debian 13</span>
-</div>
-
-## Default Credentials
-
-<div class="styled-table">
-  <table>
-    <thead><tr><th>Username</th><th>Password</th></tr></thead>
-    <tbody><tr><td><code>admin</code></td><td><code>None</code></td></tr></tbody>
-  </table>
+  <span class="res-pill res-disk">Disk: 10 GB</span>
 </div>
 
 ## Notes
 
-<div class="warn-callout">
-  <i class="fas fa-exclamation-triangle"></i>
-  <div>This VM requires extra installation steps, see install guide at <code>https://github.com/community-scripts/ProxmoxVE/discussions/144</code></div>
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>This VM boots an installer image. Open the console after creation and complete the installation there.</div>
 </div>
-
-## Web Interface
-
-<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
 
 ## Links
 
-- [Official Website](https://www.turnkeylinux.org/owncloud)
+- [Official Website](https://owncloud.com/)
 - [Documentation](https://doc.owncloud.com/)
 
 ---

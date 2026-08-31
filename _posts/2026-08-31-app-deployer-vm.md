@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "NetBird Server"
-date: 2026-05-19 00:00:00 +0000
+title: "App Deployer"
+date: 2026-08-31 00:00:00 +0000
 categories: [Operating Systems]
-tags: [netbird-server, vm, operating-systems, dev]
-description: "NetBird builds a WireGuard-based overlay network between your machines. This VM runs the self-hosted management server, signal service and relay."
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netbird.webp"
+tags: [app-deployer-vm, vm, operating-systems, dev]
+description: "A Debian VM prepared for deploying containerised applications, with Docker and the tooling a deployment host needs already in place."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/app-deployer.webp"
 #image:
-#  path: /assets/img/netbird-server.png
-#  alt: NetBird Server
+#  path: /assets/img/app-deployer-vm.png
+#  alt: App Deployer
 ---
 
 <div class="dev-callout">
@@ -20,12 +20,12 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netbird.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/netbird-server.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/app-deployer-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
   <span class="res-pill res-ram">RAM: 2048 MB</span>
-  <span class="res-pill res-disk">Disk: 10 GB</span>
+  <span class="res-pill res-disk">Disk: 20 GB</span>
 </div>
 
 ## Notes
@@ -42,7 +42,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ## Links
 
-- [Official Website](https://netbird.io/)
-- [Documentation](https://docs.netbird.io/)
+- [Official Website](https://github.com/community-scripts/ProxmoxVE)
+- [Documentation](https://community-scripts.org/)
 
 ---

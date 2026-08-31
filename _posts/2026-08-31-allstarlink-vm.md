@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "NetBird Server"
-date: 2026-05-19 00:00:00 +0000
+title: "AllStarLink"
+date: 2026-08-31 00:00:00 +0000
 categories: [Operating Systems]
-tags: [netbird-server, vm, operating-systems, dev]
-description: "NetBird builds a WireGuard-based overlay network between your machines. This VM runs the self-hosted management server, signal service and relay."
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netbird.webp"
+tags: [allstarlink-vm, vm, operating-systems, dev]
+description: "AllStarLink is an amateur radio network that links repeaters and hotspots over the internet using Asterisk. This VM runs a full node."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/allstarlink.webp"
 #image:
-#  path: /assets/img/netbird-server.png
-#  alt: NetBird Server
+#  path: /assets/img/allstarlink-vm.png
+#  alt: AllStarLink
 ---
 
 <div class="dev-callout">
@@ -20,12 +20,12 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netbird.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/netbird-server.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/allstarlink-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
   <span class="res-pill res-ram">RAM: 2048 MB</span>
-  <span class="res-pill res-disk">Disk: 10 GB</span>
+  <span class="res-pill res-disk">Disk: 8 GB</span>
 </div>
 
 ## Notes
@@ -42,7 +42,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ## Links
 
-- [Official Website](https://netbird.io/)
-- [Documentation](https://docs.netbird.io/)
+- [Official Website](https://allstarlink.org/)
+- [Documentation](https://allstarlink.github.io/)
 
 ---

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "TrueNAS Community Edition"
+title: "TrueNAS"
 date: 2026-02-19 00:00:00 +0000
 categories: [Operating Systems]
 tags: [truenas-vm, vm, operating-systems]
-description: "TrueNAS Community Edition is the world's most deployed storage software. Free, flexible and build on OpenZFS with Docker."
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/truenas-core.webp"
+description: "TrueNAS is a ZFS-based storage operating system with snapshots, replication and shares over SMB, NFS and iSCSI. Installation is completed in the installer console."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/truenas.webp"
 image:
   path: /assets/img/truenas-vm.webp
-  alt: TrueNAS Community Edition
+  alt: TrueNAS
 ---
 
 ## Installation
@@ -21,19 +21,18 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <span class="res-pill res-cpu">CPU: 2 cores</span>
   <span class="res-pill res-ram">RAM: 8192 MB</span>
   <span class="res-pill res-disk">Disk: 16 GB</span>
-  <span class="res-pill res-os">OS: Debian None</span>
 </div>
 
 ## Notes
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Once the script finishes, proceed with the OS installation via the console. For more details, please refer to this discussion: <code>https://github.com/community-scripts/ProxmoxVE/discussions/11344</code></div>
+  <div>This VM boots an installer image. Open the console after creation and complete the installation there.</div>
 </div>
 
 ## Links
 
-- [Official Website](https://www.truenas.com/truenas-community-edition/)
+- [Official Website](https://www.truenas.com/)
 - [Documentation](https://www.truenas.com/docs/)
 
 ---

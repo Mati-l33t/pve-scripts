@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Mikrotik RouterOS CHR"
+title: "MikroTik RouterOS"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
-tags: [mikrotik-routeros, vm, operating-systems, network-firewall, updateable]
-description: "Mikrotik RouterOS CHR is a Linux-based operating system that transforms a computer into a router. It provides a wide range of features for network routing, firewall, bandwidth management, wireless access point, backhaul link, hotspot gateway, VPN server, and many others. RouterOS is a versatile solution that supports various network configurations, including those with multiple WAN links, hotspots, and VPNs. It is highly customizable, allowing administrators to configure and manage their networks according to their specific requirements. With RouterOS, network administrators can monitor and control the performance and security of their networks, ensuring reliable and secure communication for their users. The software is designed to be easy to use and provides a wide range of tools for network management, making it a valuable solution for small and large networks alike."
+tags: [mikrotik-routeros, vm, operating-systems]
+description: "RouterOS is MikroTik's network operating system, offering routing, firewalling, VPN and wireless management. The Cloud Hosted Router image runs as a VM."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mikrotik.webp"
 #image:
 #  path: /assets/img/mikrotik-routeros.png
-#  alt: Mikrotik RouterOS CHR
+#  alt: MikroTik RouterOS
 ---
 
 ## Installation
@@ -20,20 +20,19 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
   <span class="res-pill res-ram">RAM: 512 MB</span>
+  <span class="res-pill res-disk">Disk: 1 GB</span>
 </div>
 
-## Default Credentials
+## Notes
 
-<div class="styled-table">
-  <table>
-    <thead><tr><th>Username</th><th>Password</th></tr></thead>
-    <tbody><tr><td><code>admin</code></td><td><code>none</code></td></tr></tbody>
-  </table>
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>This VM boots an installer image. Open the console after creation and complete the installation there.</div>
 </div>
 
 ## Links
 
-- [Official Website](https://mikrotik.com)
-- [Documentation](https://help.mikrotik.com/docs/spaces/ROS/pages/18350234/Cloud+Hosted+Router+CHR)
+- [Official Website](https://mikrotik.com/software)
+- [Documentation](https://help.mikrotik.com/docs/)
 
 ---
