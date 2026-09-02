@@ -3,7 +3,7 @@ layout: post
 title: "ReadMeABook"
 date: 2026-08-04 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [readmeabook, lxc, arr-suite, updateable, dev]
+tags: [readmeabook, lxc, arr-suite, updateable]
 description: "ReadMeABook is a request and download platform for audiobooks - the audiobook counterpart to Sonarr and Radarr. Users request titles, ReadMeABook finds and fetches them, and the result drops into a library that Audiobookshelf or a similar player can serve."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/readmeabook.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/readmeabook.webp"
 #  alt: ReadMeABook
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/readmeabook.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/readmeabook.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
