@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Home Assistant OS (ARM64)"
-date: 2026-09-05 00:00:00 +0000
+date: 2026-09-06 00:00:00 +0000
 categories: [Operating Systems]
 tags: [pimox-haos-vm, vm, operating-systems]
 description: "Home Assistant OS built for ARM64 hosts running Pimox. The same appliance image as the amd64 VM, different architecture."
