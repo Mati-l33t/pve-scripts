@@ -33,7 +33,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>Remote access is configured with <code>host=0.0.0.0</code>. Set <code>LEMONADE_API_KEY</code> via a systemd override at <code>/etc/systemd/system/lemond.service.d/override.conf</code> before exposing the service.</div>
+  <div>Remote access is configured with <code>host=0.0.0.0</code>, which also exposes the internal control endpoints (<code>/internal/*</code>, including shutdown and config). Secure it before use: run <code>systemctl edit lemond.service</code>, add <code>[Service]</code> followed by <code>Environment="LEMONADE_API_KEY=<random>"</code>, then <code>systemctl restart lemond</code>. <code>LEMONADE_API_KEY</code> protects every endpoint; <code>LEMONADE_ADMIN_API_KEY</code> alone only protects <code>/internal/*</code> and leaves <code>/api</code>, <code>/v0</code> and <code>/v1</code> open.</div>
 </div>
 
 <div class="info-callout">
