@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "AllStarLink"
-date: 2026-08-31 00:00:00 +0000
+title: "AlmaLinux"
+date: 2026-09-08 00:00:00 +0000
 categories: [Operating Systems]
-tags: [allstarlink-vm, vm, operating-systems, dev]
-description: "AllStarLink is an amateur radio network that links repeaters and hotspots over the internet using Asterisk. This VM runs a full node."
-icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/allstarlink.webp"
+tags: [almalinux-vm, vm, operating-systems, updateable, dev]
+description: "AlmaLinux as a cloud image, with a choice of release at start: 10, 9 or 8. A community-owned RHEL-compatible distribution."
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/almalinux.webp"
 #image:
-#  path: /assets/img/allstarlink-vm.png
-#  alt: AllStarLink
+#  path: /assets/img/almalinux-vm.png
+#  alt: AlmaLinux
 ---
 
 <div class="dev-callout">
@@ -20,19 +20,19 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/allstarlink.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/allstarlink-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/almalinux-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
   <span class="res-pill res-ram">RAM: 2048 MB</span>
-  <span class="res-pill res-disk">Disk: 8 GB</span>
+  <span class="res-pill res-disk">Disk: 10 GB</span>
 </div>
 
 ## Notes
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>The script asks which Debian release AllStarLink runs on (13 Trixie or 12 Bookworm) and pulls the matching asl-apt-repos package. Upstream ships asl3 3.18.2 for both.</div>
+  <div>The script asks which AlmaLinux release to install (10, 9 or 8). AlmaLinux 10 requires an x86-64-v3 capable host CPU; 9 and 8 run on older hardware.</div>
 </div>
 
 <div class="info-callout">
@@ -47,7 +47,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ## Links
 
-- [Official Website](https://allstarlink.org/)
-- [Documentation](https://allstarlink.github.io/)
+- [Official Website](https://almalinux.org/)
+- [Documentation](https://wiki.almalinux.org/)
 
 ---
