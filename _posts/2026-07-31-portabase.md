@@ -3,7 +3,7 @@ layout: post
 title: "Portabase"
 date: 2026-07-31 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [portabase, lxc, backup-recovery, updateable, dev]
+tags: [portabase, lxc, backup-recovery, updateable]
 description: "Portabase is a self-hosted dashboard to schedule, run and restore database backups for PostgreSQL, MySQL, MariaDB, MsSQL, Firebird, SQLite, MongoDB, Redis and Docker volumes. It supports retention policies, notifications and multiple storage backends (local, S3, Azure, GCS)."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/portabase.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/portabase.webp"
 #  alt: Portabase
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/portabase.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/portabase.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>

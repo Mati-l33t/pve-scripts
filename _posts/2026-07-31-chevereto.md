@@ -3,7 +3,7 @@ layout: post
 title: "Chevereto"
 date: 2026-07-31 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [chevereto, lxc, files-downloads, updateable, dev]
+tags: [chevereto, lxc, files-downloads, updateable]
 description: "Chevereto is a self-hosted image and video hosting platform for building your own Flickr or Imgur style media sharing site with full control over content, data and platform rules. This installs the open-source AGPLv3 Free edition on nginx, PHP-FPM and MariaDB."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/chevereto.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/chevereto.webp"
 #  alt: Chevereto
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/chevereto.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/chevereto.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
