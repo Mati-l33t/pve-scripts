@@ -4,7 +4,7 @@ title: "Umbrel OS"
 date: 2025-05-28 00:00:00 +0000
 categories: [Operating Systems]
 tags: [umbrel-os-vm, vm, operating-systems]
-description: "Umbrel OS is a personal server operating system with an app store for self-hosted software. This installs the official image as a VM."
+description: "Umbrel OS is a personal server operating system with an app store for self-hosted software. This creates a VM that boots the official umbrelOS installer ISO."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/umbrel.webp"
 #image:
 #  path: /assets/img/umbrel-os-vm.png
