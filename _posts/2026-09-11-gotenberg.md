@@ -3,7 +3,7 @@ layout: post
 title: "Gotenberg"
 date: 2026-09-11 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [gotenberg, lxc, documents-notes, updateable, dev]
+tags: [gotenberg, lxc, documents-notes, updateable]
 description: "Gotenberg is a developer-friendly API for converting numerous document formats (HTML, Markdown, URLs and LibreOffice-supported office documents such as DOCX, XLSX, PPTX and ODF) into PDF. It also merges, splits, flattens and manipulates PDFs using Chromium, LibreOffice, QPDF, pdfcpu, PDFtk and ExifTool. This script builds Gotenberg from source and runs it bare-metal instead of via Docker."
 icon: "https://gotenberg.dev/img/logo.png"
 #image:
@@ -11,16 +11,11 @@ icon: "https://gotenberg.dev/img/logo.png"
 #  alt: Gotenberg
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/gotenberg.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/gotenberg.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
