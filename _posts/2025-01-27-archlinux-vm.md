@@ -20,19 +20,19 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
   <span class="res-pill res-ram">RAM: 1024 MB</span>
-  <span class="res-pill res-disk">Disk: 4 GB</span>
+  <span class="res-pill res-disk">Disk: 10 GB</span>
 </div>
 
 ## Notes
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Cloud-Init is enabled by default. Configure your SSH key and credentials in the Proxmox Cloud-Init tab before starting the VM.</div>
+  <div>This boots the Arch installer ISO, which logs in as root by itself. Run <code>archinstall</code> or install by hand onto the empty disk, then detach the ISO with <code>qm set [VMID] --ide2 none</code>.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>If you use Cloud-init, checkout cloud-init discussion: <code>https://github.com/community-scripts/ProxmoxVE/discussions/272</code></div>
+  <div>The Arch ISO carries no Cloud-Init and no guest agent. Install <code>qemu-guest-agent</code> in the guest for Proxmox to show its IP.</div>
 </div>
 
 ## Links
