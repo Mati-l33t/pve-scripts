@@ -3,18 +3,13 @@ layout: post
 title: "App Deployer"
 date: 2026-08-31 00:00:00 +0000
 categories: [Operating Systems]
-tags: [app-deployer-vm, vm, operating-systems, dev]
+tags: [app-deployer-vm, vm, operating-systems]
 description: "A Debian VM prepared for deploying containerised applications, with Docker and the tooling a deployment host needs already in place."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/app-deployer.webp"
 #image:
 #  path: /assets/img/app-deployer-vm.png
 #  alt: App Deployer
 ---
-
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
 
 ## Installation
 
