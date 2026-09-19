@@ -3,7 +3,7 @@ layout: post
 title: "qBit Manage"
 date: 2026-08-03 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [qbit-manage, lxc, arr-suite, updateable, dev]
+tags: [qbit-manage, lxc, arr-suite, updateable]
 description: "qBit Manage keeps a qBittorrent instance tidy: tagging by tracker, cross-seed handling, orphaned file cleanup, share-limit enforcement, recheck of paused torrents and automatic removal of unregistered ones. It runs on a schedule and ships a web UI to configure the rules and inspect runs."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/qbittorrent.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/qbittorrent.webp"
 #  alt: qBit Manage
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/qbit-manage.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/qbit-manage.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>
