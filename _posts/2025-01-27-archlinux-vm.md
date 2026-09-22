@@ -3,7 +3,7 @@ layout: post
 title: "Arch Linux"
 date: 2025-01-27 00:00:00 +0000
 categories: [Operating Systems]
-tags: [archlinux-vm, vm, operating-systems]
+tags: [archlinux-vm, vm, operating-systems, dev]
 description: "Arch Linux is a rolling-release distribution built around simplicity and user control. Packages arrive as upstream releases them, and the system is assembled rather than preconfigured."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/archlinux.webp"
 #image:
@@ -11,11 +11,16 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/archlinux.webp"
 #  alt: Arch Linux
 ---
 
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
+
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/archlinux-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/archlinux-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>

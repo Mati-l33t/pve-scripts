@@ -3,7 +3,7 @@ layout: post
 title: "OPNsense"
 date: 2025-11-23 00:00:00 +0000
 categories: [Operating Systems]
-tags: [opnsense-vm, vm, operating-systems]
+tags: [opnsense-vm, vm, operating-systems, dev]
 description: "OPNsense is a FreeBSD-based firewall and routing platform with a web interface, IDS/IPS and VPN support. Installation is completed in the installer console."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/opnsense.webp"
 image:
@@ -11,11 +11,16 @@ image:
   alt: OPNsense
 ---
 
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
+
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/opnsense-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/opnsense-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>

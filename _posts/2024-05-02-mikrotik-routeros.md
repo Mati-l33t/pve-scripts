@@ -3,7 +3,7 @@ layout: post
 title: "MikroTik RouterOS"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
-tags: [mikrotik-routeros, vm, operating-systems]
+tags: [mikrotik-routeros, vm, operating-systems, dev]
 description: "RouterOS is MikroTik's network operating system, offering routing, firewalling, VPN and wireless management. The Cloud Hosted Router image runs as a VM."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mikrotik.webp"
 #image:
@@ -11,11 +11,16 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/mikrotik.webp"
 #  alt: MikroTik RouterOS
 ---
 
+<div class="dev-callout">
+  <i class="fas fa-code-branch"></i>
+  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+</div>
+
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/mikrotik-routeros.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/mikrotik-routeros.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
