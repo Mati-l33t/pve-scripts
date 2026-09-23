@@ -3,7 +3,7 @@ layout: post
 title: "JDownloader"
 date: 2026-07-14 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [jdownloader, lxc, files-downloads, updateable, dev]
+tags: [jdownloader, lxc, files-downloads, updateable]
 description: "JDownloader is a free, open-source download management tool that simplifies downloading files from one-click hosting sites. It runs headless on servers and is managed remotely via the MyJDownloader cloud web interface at my.jdownloader.org."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/jdownloader.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/jdownloader.webp"
 #  alt: JDownloader
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/jdownloader.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/jdownloader.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

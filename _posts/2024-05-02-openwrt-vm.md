@@ -3,7 +3,7 @@ layout: post
 title: "OpenWrt"
 date: 2024-05-02 00:00:00 +0000
 categories: [Operating Systems]
-tags: [openwrt-vm, vm, operating-systems, dev]
+tags: [openwrt-vm, vm, operating-systems]
 description: "OpenWrt is a Linux distribution for routers and embedded devices, with a full package manager and writable filesystem. Running it as a VM turns the host into a router."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openwrt.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/openwrt.webp"
 #  alt: OpenWrt
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/openwrt-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/openwrt-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>

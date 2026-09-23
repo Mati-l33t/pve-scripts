@@ -3,7 +3,7 @@ layout: post
 title: "Umbrel OS"
 date: 2025-05-28 00:00:00 +0000
 categories: [Operating Systems]
-tags: [umbrel-os-vm, vm, operating-systems, dev]
+tags: [umbrel-os-vm, vm, operating-systems]
 description: "Umbrel OS is a personal server operating system with an app store for self-hosted software. This creates a VM that boots the official umbrelOS installer ISO."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/umbrel.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/umbrel.webp"
 #  alt: Umbrel OS
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/umbrel-os-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/umbrel-os-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

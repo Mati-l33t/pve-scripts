@@ -3,7 +3,7 @@ layout: post
 title: "Whisparr-Eros"
 date: 2026-07-29 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [whisparr-eros, lxc, arr-suite, updateable, dev]
+tags: [whisparr-eros, lxc, arr-suite, updateable]
 description: "Whisparr V3 (\"eros\") is an adult movie and scene collection manager for Usenet and BitTorrent users. It monitors RSS feeds for new items, interfaces with download clients and indexers to grab, sort and rename them, and can automatically upgrade existing files when a better quality release appears. V3 is the Radarr-based train and is developed in its own repository, separate from the Sonarr-based Whisparr V2."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/whisparr.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/whisparr.webp"
 #  alt: Whisparr-Eros
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/whisparr-eros.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/whisparr-eros.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

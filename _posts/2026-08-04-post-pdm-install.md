@@ -3,7 +3,7 @@ layout: post
 title: "Proxmox Datacenter Manager Post Install"
 date: 2026-08-04 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [post-pdm-install, pve, proxmox-virtualization, dev]
+tags: [post-pdm-install, pve, proxmox-virtualization]
 description: "This script performs post-installation routines on a Proxmox Datacenter Manager host: it corrects the Debian sources, manages the pdm-enterprise, pdm-no-subscription and pdm-test repositories, optionally removes the subscription nag, and runs a distribution upgrade. Each step is a separate prompt, so nothing is changed without being asked."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 #  alt: Proxmox Datacenter Manager Post Install
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/tools/pve/post-pdm-install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pdm-install.sh)"
 ```
 
 ## Notes

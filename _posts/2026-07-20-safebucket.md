@@ -3,7 +3,7 @@ layout: post
 title: "Safebucket"
 date: 2026-07-20 00:00:00 +0000
 categories: ["Files & Downloads"]
-tags: [safebucket, lxc, files-downloads, updateable, dev]
+tags: [safebucket, lxc, files-downloads, updateable]
 description: "Open-source file sharing where files bypass the server via presigned URLs to a local Garage (S3-compatible) object store."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/safebucket.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/safebucket.webp"
 #  alt: Safebucket
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/safebucket.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/safebucket.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

@@ -3,7 +3,7 @@ layout: post
 title: "Nextcloud"
 date: 2023-11-14 00:00:00 +0000
 categories: [Operating Systems]
-tags: [nextcloud-vm, vm, operating-systems, dev]
+tags: [nextcloud-vm, vm, operating-systems]
 description: "Nextcloud is a self-hosted platform for files, calendars, contacts and collaboration. This installs the TurnKey appliance as a VM."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/nextcloud.webp"
 #  alt: Nextcloud
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/vm/nextcloud-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/nextcloud-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
