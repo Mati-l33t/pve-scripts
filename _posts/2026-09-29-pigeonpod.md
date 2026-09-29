@@ -47,7 +47,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>RSS links are built from the Base URL, which starts out as http://<container-ip>:8080. If podcast apps reach PigeonPod through a domain or reverse proxy, change it in the web UI settings; PIGEON_BASE_URL in /opt/pigeonpod_data/.env only applies while the setting is empty.</div>
+  <div>RSS links are built from the Base URL, set to http://<container-ip>:8080 at install time. If podcast apps reach PigeonPod through a domain or reverse proxy, or the container IP changes, update it in the web UI settings. PIGEON_BASE_URL in /opt/pigeonpod_data/.env is only read while that setting is empty.</div>
 </div>
 
 <div class="info-callout">
@@ -57,7 +57,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>The database and downloaded media live in /opt/pigeonpod_data. yt-dlp is a standalone binary updated by the update script; the in-app yt-dlp updater needs pip and is not supported here.</div>
+  <div>The database and downloaded media live in /opt/pigeonpod_data. yt-dlp is a standalone binary kept current by the update script. The in-app yt-dlp updater installs through pip, which this container does not ship.</div>
 </div>
 
 ## Web Interface
