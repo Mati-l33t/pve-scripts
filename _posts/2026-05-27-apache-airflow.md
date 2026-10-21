@@ -3,13 +3,18 @@ layout: post
 title: "Apache Airflow"
 date: 2026-05-27 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [apache-airflow, lxc, automation-scheduling, updateable]
+tags: [apache-airflow, lxc, automation-scheduling, updateable, removed]
 description: "Apache Airflow is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. It uses Python to author DAGs (Directed Acyclic Graphs) that represent workflows, and provides a rich web UI for managing and observing pipelines."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/apache-airflow.webp"
 #image:
 #  path: /assets/img/apache-airflow.png
 #  alt: Apache Airflow
 ---
+
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
+</div>
 
 ## Installation
 

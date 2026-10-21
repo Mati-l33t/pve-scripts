@@ -23,11 +23,20 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <span class="res-pill res-disk">Disk: 1 GB</span>
 </div>
 
+## Default Credentials
+
+<div class="styled-table">
+  <table>
+    <thead><tr><th>Username</th><th>Password</th></tr></thead>
+    <tbody><tr><td><code>root</code></td><td><code>None</code></td></tr></tbody>
+  </table>
+</div>
+
 ## Notes
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>This VM boots an installer image. Open the console after creation and complete the installation there.</div>
+  <div>Imports a preinstalled OpenWrt image and temporarily boots it to configure WAN/LAN, even when Start VM is disabled. LAN defaults to http://192.168.1.1; login root with no initial password and set one immediately. WAN and LAN default to vmbr0: isolate them for your network.</div>
 </div>
 
 ## Links

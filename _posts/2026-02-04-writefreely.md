@@ -35,7 +35,7 @@ Config file:
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>After installation execute <code>writefreely user create --admin <username>:<password></code> to create your user.</div>
+  <div>After installation execute <code>writefreely user create --admin &lt;username&gt;:&lt;password&gt;</code> to create your user.</div>
 </div>
 
 ## Web Interface

@@ -3,7 +3,7 @@ layout: post
 title: "WatchState"
 date: 2026-10-04 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [watchstate, lxc, media-streaming, updateable, dev]
+tags: [watchstate, lxc, media-streaming, updateable]
 description: "WatchState syncs play state (watched/unwatched and resume progress) between Plex, Jellyfin and Emby without relying on third-party services. It pulls changes from the media servers through scheduled imports or webhooks and pushes them to the others one-way or two-way, maps the users of each server, keeps portable backups of the play state and audits mismatched records with Media Health. This script builds the PHP backend and the web UI from source and serves them with nginx, PHP-FPM and Redis."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/watchstate.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/watchstate.webp"
 #  alt: WatchState
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/watchstate.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/watchstate.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
@@ -48,7 +43,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>Web UI and worker run as www-data. Run console commands from the Console page of the web UI or as www-data (runuser -u www-data -- php /opt/watchstate/bin/console <command>); run as root, they leave root-owned files in /opt/watchstate_data that WatchState can no longer write.</div>
+  <div>Web UI and worker run as www-data. Run console commands from the Console page of the web UI or as www-data (runuser -u www-data -- php /opt/watchstate/bin/console &lt;command&gt;); run as root, they leave root-owned files in /opt/watchstate_data that WatchState can no longer write.</div>
 </div>
 
 <div class="info-callout">

@@ -3,7 +3,7 @@ layout: post
 title: "Cinephage"
 date: 2026-10-04 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [cinephage, lxc, arr-suite, updateable, dev]
+tags: [cinephage, lxc, arr-suite, updateable]
 description: "Cinephage is a self-hosted media manager that covers in one app what usually takes Radarr, Sonarr, Prowlarr, Bazarr and Overseerr: it discovers, searches, downloads and organizes movies and TV shows, manages indexers and subtitles, and adds smart lists, .strm streaming and Live TV. Cloudflare-protected indexers are handled by a built-in headless browser (Camoufox) instead of FlareSolverr. Downloads go to external clients such as qBittorrent, SABnzbd or NZBGet."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cinephage.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cinephage.webp"
 #  alt: Cinephage
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/cinephage.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/cinephage.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

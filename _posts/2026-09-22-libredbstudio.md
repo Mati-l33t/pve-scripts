@@ -4,7 +4,7 @@ title: "LibreDB Studio"
 date: 2026-09-22 00:00:00 +0000
 categories: [Databases]
 tags: [libredbstudio, lxc, databases, updateable, dev]
-description: "LibreDB Studio is a browser-based SQL IDE you run on your own server. It connects to PostgreSQL, MySQL, SQLite, libSQL, DuckDB, Oracle, SQL Server, MongoDB, Redis, Couchbase, ClickHouse, Apache Druid, Elasticsearch, OpenSearch, Apache Trino and Apache Cassandra. Optional AI query assistance works with a local Ollama model, and read-only access is enforced by the database itself rather than by parsing SQL."
+description: "LibreDB Studio is a browser-based SQL IDE you run on your own server. It connects to PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, Redis, ClickHouse, Elasticsearch and many more databases, with optional AI query help from a local Ollama model."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/libredb-studio.webp"
 #image:
 #  path: /assets/img/libredbstudio.png
@@ -20,7 +20,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/libredb-studio.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/libredbstudio.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/libredbstudio.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

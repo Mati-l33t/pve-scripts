@@ -29,7 +29,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <div class="styled-table">
   <table>
     <thead><tr><th>Username</th><th>Password</th></tr></thead>
-    <tbody><tr><td><code><email address></code></td><td><code>admin</code></td></tr></tbody>
+    <tbody><tr><td><code>&lt;email address&gt;</code></td><td><code>admin</code></td></tr></tbody>
   </table>
 </div>
 

@@ -3,7 +3,7 @@ layout: post
 title: "Listenarr"
 date: 2026-09-27 00:00:00 +0000
 categories: ["*Arr Suite"]
-tags: [listenarr, lxc, arr-suite, updateable, dev]
+tags: [listenarr, lxc, arr-suite, updateable]
 description: "Listenarr automates audiobook collection management in the style of Sonarr and Radarr. It searches torrent and NZB indexers, hands grabs to your download client, and imports and organizes the finished audiobooks with metadata from Audible and other sources."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/listenarr.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/listenarr.webp"
 #  alt: Listenarr
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/listenarr.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/listenarr.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

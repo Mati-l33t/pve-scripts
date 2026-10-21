@@ -3,7 +3,7 @@ layout: post
 title: "Folding@home"
 date: 2026-09-27 00:00:00 +0000
 categories: [Miscellaneous]
-tags: [foldingathome, lxc, miscellaneous, updateable, dev]
+tags: [foldingathome, lxc, miscellaneous, updateable]
 description: "Folding@home is a distributed computing project that simulates protein dynamics to help research diseases such as cancer, Alzheimer's and infectious diseases. This script installs the official v8.5 client, which runs headless and folds work units on the container's CPUs and on any passed-through GPU, managed remotely through the Folding@home Web Control."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/folding-home.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/folding-home.webp"
 #  alt: Folding@home
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/foldingathome.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/foldingathome.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
@@ -38,7 +33,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>Linking needs the account token from Account Settings in the Web Control. If you skipped it, set it in /etc/fah-client/config.xml as <account-token v="..."/> and run systemctl restart fah-client. Generate a fresh token afterwards - only the newest token can add machines.</div>
+  <div>Linking needs the account token from Account Settings in the Web Control. If you skipped it, set it in /etc/fah-client/config.xml as &lt;account-token v="..."/&gt; and run systemctl restart fah-client. Generate a fresh token afterwards - only the newest token can add machines.</div>
 </div>
 
 <div class="info-callout">

@@ -4,7 +4,7 @@ title: "Dragonfly"
 date: 2026-10-04 00:00:00 +0000
 categories: [Databases]
 tags: [dragonfly, lxc, databases, updateable, dev]
-description: "Dragonfly is an in-memory data store compatible with the Redis and Memcached APIs, so existing Redis clients, libraries and tools work against it unchanged. It is multi-threaded with a shared-nothing design that uses every core it is given, and it takes snapshots without forking, which keeps the memory overhead of a save low. This script installs the official package with a generated password and periodic snapshots."
+description: "Dragonfly is an in-memory data store compatible with the Redis and Memcached APIs, so existing Redis clients and tools work against it unchanged. It is multi-threaded, uses every core it is given and takes snapshots without forking."
 icon: "https://cdn.jsdelivr.net/gh/dragonflydb/dragonfly@main/.github/images/logo-full.svg"
 #image:
 #  path: /assets/img/dragonfly.png
@@ -20,7 +20,7 @@ icon: "https://cdn.jsdelivr.net/gh/dragonflydb/dragonfly@main/.github/images/log
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/dragonfly.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/dragonfly.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
@@ -33,27 +33,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>Dragonfly listens on port 6379 on all interfaces and requires a password. It is generated at install and stored as --requirepass in /etc/dragonfly/dragonfly.conf. Connect with <code>redis-cli -h [IP] -a <password></code>; redis-cli is also installed inside the container.</div>
-</div>
-
-<div class="warn-callout">
-  <i class="fas fa-exclamation-triangle"></i>
-  <div>Dragonfly sets its memory limit at every start to 80% of the RAM free in the container and needs at least 256 MiB of that per CPU core, otherwise it refuses to start. Add RAM when you add cores (4 cores need more than 1.25 GB), or pin a limit with --maxmemory=<size> in the config.</div>
+  <div>Dragonfly refuses to start with less than 256 MiB of free RAM per CPU core. Add RAM when you add cores, or set --maxmemory=&lt;size&gt; in /etc/dragonfly/dragonfly.conf.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Once the memory limit is reached, writes fail with 'Out of memory' and nothing is evicted. To use Dragonfly as a cache that drops old keys instead, add --cache_mode=true to /etc/dragonfly/dragonfly.conf and run <code>systemctl restart dragonfly</code>.</div>
-</div>
-
-<div class="info-callout">
-  <i class="fas fa-info-circle"></i>
-  <div>Data is snapshotted to /var/lib/dragonfly every 30 minutes (--snapshot_cron) and on every clean stop, and loaded again at start. Back up that directory; updates leave it and the config in place.</div>
-</div>
-
-<div class="info-callout">
-  <i class="fas fa-info-circle"></i>
-  <div>Dragonfly is source-available under the Business Source License 1.1: free to self-host and to use in your own products, but not to offer as a hosted or managed in-memory data store service.</div>
+  <div>When memory is full, writes fail instead of evicting old keys. For cache use, add --cache_mode=true to /etc/dragonfly/dragonfly.conf and run systemctl restart dragonfly.</div>
 </div>
 
 ## Web Interface

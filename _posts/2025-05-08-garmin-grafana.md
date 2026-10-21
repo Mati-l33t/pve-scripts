@@ -3,13 +3,18 @@ layout: post
 title: "garmin-grafana"
 date: 2025-05-08 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [garmin-grafana, lxc, monitoring-analytics, updateable]
+tags: [garmin-grafana, lxc, monitoring-analytics, updateable, removed]
 description: "A self-hosted solution to fetch data from Garmin servers and store it in a local InfluxDB database for visualization with Grafana."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/garmin-grafana.webp"
 #image:
 #  path: /assets/img/garmin-grafana.png
 #  alt: garmin-grafana
 ---
+
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
+</div>
 
 ## Installation
 

@@ -27,8 +27,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>This VM boots an installer image. Open the console after creation and complete the installation there.</div>
+  <div>Imports the preinstalled ARM64 HAOS appliance; no installer or Cloud-Init credentials are needed. After first boot, complete onboarding at http://[VM-IP]:8123. The console uses the native HAOS CLI.</div>
 </div>
+
+## Web Interface
+
+<div class="resource-bar"><span class="res-pill res-port">Port: 8123</span></div>
 
 ## Links
 

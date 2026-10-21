@@ -20,7 +20,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/aliasvault.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/aliasvault.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/aliasvault.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>

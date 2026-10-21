@@ -3,13 +3,18 @@ layout: post
 title: "App Deployer"
 date: 2026-08-31 00:00:00 +0000
 categories: [Operating Systems]
-tags: [app-deployer-vm, vm, operating-systems]
+tags: [app-deployer-vm, vm, operating-systems, removed]
 description: "A Debian VM prepared for deploying containerised applications, with Docker and the tooling a deployment host needs already in place."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/app-deployer.webp"
 #image:
 #  path: /assets/img/app-deployer-vm.png
 #  alt: App Deployer
 ---
+
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
+</div>
 
 ## Installation
 

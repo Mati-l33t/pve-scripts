@@ -3,7 +3,7 @@ layout: post
 title: "ChromeOS Flex"
 date: 2026-08-31 00:00:00 +0000
 categories: [Operating Systems]
-tags: [chromeos-flex-vm, vm, operating-systems, updateable, dev]
+tags: [chromeos-flex-vm, vm, operating-systems, updateable, removed]
 description: "ChromeOS Flex is Google's ChromeOS build for ordinary PCs and Macs, aimed at giving old hardware a second life as a managed, fast-booting web terminal. This creates a VM from Google's official recovery image, verified against the sha1 Google publishes alongside it."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/google-chrome.webp"
 #image:
@@ -11,9 +11,9 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/google-chrome.webp"
 #  alt: ChromeOS Flex
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
 </div>
 
 ## Installation

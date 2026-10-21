@@ -20,7 +20,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pigeonpod.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/pigeonpod.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/pigeonpod.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
@@ -47,17 +47,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>RSS links are built from the Base URL, set to http://<container-ip>:8080 at install time. If podcast apps reach PigeonPod through a domain or reverse proxy, or the container IP changes, update it in the web UI settings. PIGEON_BASE_URL in /opt/pigeonpod_data/.env is only read while that setting is empty.</div>
-</div>
-
-<div class="info-callout">
-  <i class="fas fa-info-circle"></i>
   <div>YouTube channels and playlists need a YouTube Data API key, set in the web UI settings. Bilibili works without one.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>The database and downloaded media live in /opt/pigeonpod_data. yt-dlp is a standalone binary kept current by the update script. The in-app yt-dlp updater installs through pip, which this container does not ship.</div>
+  <div>RSS links use the Base URL from the web UI settings, set to the container IP at install. Update it when the IP changes or podcast apps reach PigeonPod through a domain or reverse proxy.</div>
 </div>
 
 ## Web Interface

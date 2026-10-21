@@ -38,7 +38,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>When accessing from a different hostname, update <code>PAPERCLIP_PUBLIC_URL</code> in <code>/opt/paperclip/.env</code>, restart the service, and run <code>pnpm paperclipai allowed-hostname <hostname></code>.</div>
+  <div>When accessing from a different hostname, update <code>PAPERCLIP_PUBLIC_URL</code> in <code>/opt/paperclip/.env</code>, restart the service, and run <code>pnpm paperclipai allowed-hostname &lt;hostname&gt;</code>.</div>
 </div>
 
 ## Web Interface

@@ -3,13 +3,18 @@ layout: post
 title: "AlmaLinux 10"
 date: 2026-02-19 00:00:00 +0000
 categories: [Operating Systems]
-tags: [almalinux-10-vm, vm, operating-systems, updateable]
+tags: [almalinux-10-vm, vm, operating-systems, updateable, removed]
 description: "AlmaLinux 10 (Heliotrope Lion) is a community-driven, RHEL-compatible enterprise Linux distribution. It provides a stable, production-ready platform with long-term support, making it ideal for servers, workloads, and cloud deployments."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/almalinux.webp"
 image:
   path: /assets/img/almalinux-10-vm.png
   alt: AlmaLinux 10
 ---
+
+<div class="warn-callout removed-callout">
+  <i class="fas fa-right-left"></i>
+  <div><strong>Replaced upstream</strong><br>This script has been merged into <a href="/posts/almalinux-vm/">AlmaLinux</a>, so the install command below no longer works. Use that script instead.</div>
+</div>
 
 ## Installation
 

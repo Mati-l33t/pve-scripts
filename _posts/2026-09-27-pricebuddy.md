@@ -3,7 +3,7 @@ layout: post
 title: "PriceBuddy"
 date: 2026-09-27 00:00:00 +0000
 categories: ["Finance & Budgeting"]
-tags: [pricebuddy, lxc, finance-budgeting, updateable, dev]
+tags: [pricebuddy, lxc, finance-budgeting, updateable]
 description: "PriceBuddy is a self-hosted price tracker. Paste a product URL from almost any store and it checks price and stock on a schedule, keeps the price history, compares the same product across retailers, and notifies you by email, Pushover, Gotify, ntfy, Telegram, Discord or Apprise when a deal moves in your favour."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pricebuddy.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pricebuddy.webp"
 #  alt: PriceBuddy
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/pricebuddy.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/pricebuddy.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

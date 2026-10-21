@@ -33,7 +33,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>You will get a Not Found error if initial setup URL doesn't include the trailing forward slash /. Make sure you use the complete url (http://<your server's IP or hostname>:9000/if/flow/initial-setup/) including the trailing forward slash.</div>
+  <div>You will get a Not Found error if initial setup URL doesn't include the trailing forward slash /. Make sure you use the complete url (http://&lt;your server's IP or hostname&gt;:9000/if/flow/initial-setup/) including the trailing forward slash.</div>
 </div>
 
 <div class="info-callout">

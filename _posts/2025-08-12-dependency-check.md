@@ -15,7 +15,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxmox.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/tools/pve/dependency-check.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/tools/pve/dependency-check.sh)"
 ```
 
 ## Notes
@@ -32,12 +32,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>To wait until a certain host is available, tag the VM or container with <code>dep_ping_<hostname></code> where <code><hostname></code> is the name or IP of the host to ping. The script will wait until the host is reachable before proceeding with the startup.</div>
+  <div>To wait until a certain host is available, tag the VM or container with <code>dep_ping_&lt;hostname&gt;</code> where <code>&lt;hostname&gt;</code> is the name or IP of the host to ping. The script will wait until the host is reachable before proceeding with the startup.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>To wait until a certain TCP port is open, tag the VM or container with <code>dep_tcp_<hostname>_<port></code> where <code><hostname></code> is the name or IP of the host and <code><port></code> is the TCP port number. The script will wait until the port is open before proceeding with the startup.</div>
+  <div>To wait until a certain TCP port is open, tag the VM or container with <code>dep_tcp_&lt;hostname&gt;_&lt;port&gt;</code> where <code>&lt;hostname&gt;</code> is the name or IP of the host and <code>&lt;port&gt;</code> is the TCP port number. The script will wait until the port is open before proceeding with the startup.</div>
 </div>
 
 ---

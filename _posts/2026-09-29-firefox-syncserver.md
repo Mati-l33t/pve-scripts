@@ -4,7 +4,7 @@ title: "Firefox Syncserver"
 date: 2026-09-29 00:00:00 +0000
 categories: ["Backup & Recovery"]
 tags: [firefox-syncserver, lxc, backup-recovery, updateable, dev]
-description: "Firefox Syncserver (syncstorage-rs) is Mozilla's own Rust server behind Firefox Sync, combining the sync storage and the tokenserver in one binary. Self-hosted, it keeps your Firefox bookmarks, history, passwords, open tabs, add-ons and form data on your own infrastructure, while you still sign in with a regular Mozilla account. Firefox encrypts every record before upload, so the server never sees their contents."
+description: "Firefox Syncserver (syncstorage-rs) is Mozilla's server behind Firefox Sync. It keeps your bookmarks, history, passwords, tabs and add-ons on your own hardware, encrypted by Firefox before upload, while you still sign in with a regular Mozilla account."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/firefox.webp"
 #image:
 #  path: /assets/img/firefox-syncserver.png
@@ -20,7 +20,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/firefox.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/firefox-syncserver.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/firefox-syncserver.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
@@ -33,27 +33,17 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>There is no web interface. In Firefox open about:config, set identity.sync.tokenserver.uri to http://[IP]:8000/1.0/sync/1.5, restart Firefox, then sign in to Sync. about:sync-log shows whether it talks to your server. Health check: http://[IP]:8000/__heartbeat__</div>
+  <div>There is no web interface. Before signing in to Sync, set identity.sync.tokenserver.uri in about:config to http://[IP]:8000/1.0/sync/1.5 and restart Firefox.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Sign-in still goes through your Mozilla account at accounts.firefox.com. Only the sync data is stored on this server.</div>
+  <div>On Android, tap the logo in Settings &gt; About Firefox until the debug menu appears, then set the custom Sync server there before signing in.</div>
 </div>
 
 <div class="warn-callout">
   <i class="fas fa-exclamation-triangle"></i>
-  <div>Firefox syncs to the storage URL this server hands out, set by SYNC_TOKENSERVER__INIT_NODE_URL in /opt/firefox-syncserver_data/.env (default http://[IP]:8000). If you use HTTPS through a reverse proxy, or the container IP changes, set it to the public origin (e.g. https://sync.example.com) before the first sign-in and point identity.sync.tokenserver.uri at that origin. It is stored in the nodes table of the syncserver database on first start; changing it later only adds a second node, so also update the existing row.</div>
-</div>
-
-<div class="info-callout">
-  <i class="fas fa-info-circle"></i>
-  <div>Firefox for Android: in Settings > About Firefox tap the logo repeatedly to unlock the debug menu, set the custom Sync server to the same /1.0/sync/1.5 URL and stop Firefox from that menu. Do this before signing in.</div>
-</div>
-
-<div class="info-callout">
-  <i class="fas fa-info-circle"></i>
-  <div>Install and every update compile the server from source with Rust. The 3 GB RAM is sized for that build; the running server itself uses under 100 MB.</div>
+  <div>Behind an HTTPS reverse proxy or after an IP change, set SYNC_TOKENSERVER__INIT_NODE_URL in /opt/firefox-syncserver_data/.env to the new origin, restart firefox-syncserver and update the URL in Firefox.</div>
 </div>
 
 ## Web Interface

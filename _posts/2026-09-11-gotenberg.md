@@ -28,7 +28,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Gotenberg is a stateless conversion API - it has no web interface. Verify it is running with: curl http://<container-ip>:3000/health</div>
+  <div>Gotenberg is a stateless conversion API - it has no web interface. Verify it is running with: curl http://&lt;container-ip&gt;:3000/health</div>
 </div>
 
 <div class="warn-callout">

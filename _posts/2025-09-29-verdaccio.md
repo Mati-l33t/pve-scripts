@@ -3,13 +3,18 @@ layout: post
 title: "Verdaccio"
 date: 2025-09-29 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [verdaccio, lxc, ai-coding-dev-tools, updateable]
+tags: [verdaccio, lxc, ai-coding-dev-tools, updateable, removed]
 description: "Verdaccio is a lightweight private npm proxy registry built with Node.js. It allows you to host your own npm registry with minimal configuration, providing a private npm repository for your projects. Verdaccio supports npm, yarn, and pnpm, and can cache packages from the public npm registry, allowing for faster installs and protection against npm registry outages. It includes a web interface for browsing packages, authentication and authorization features, and can be easily integrated into your development workflow."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/verdaccio.webp"
 #image:
 #  path: /assets/img/verdaccio.png
 #  alt: Verdaccio
 ---
+
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
+</div>
 
 ## Installation
 

@@ -3,7 +3,7 @@ layout: post
 title: "AnythingLLM"
 date: 2026-08-03 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [anythingllm, lxc, ai-coding-dev-tools, updateable, dev]
+tags: [anythingllm, lxc, ai-coding-dev-tools, updateable]
 description: "AnythingLLM is an all-in-one AI application: turn documents, websites and other content into a chat-ready knowledge base with RAG, agents and multi-user workspaces. It connects to local model runners such as Ollama and LM Studio as well as OpenAI, Anthropic and other hosted providers."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/anythingllm.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/anythingllm.webp"
 #  alt: AnythingLLM
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/anythingllm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/anythingllm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>

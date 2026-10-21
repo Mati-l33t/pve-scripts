@@ -3,13 +3,18 @@ layout: post
 title: "Daemon Sync Server"
 date: 2024-05-02 00:00:00 +0000
 categories: ["Automation & Scheduling"]
-tags: [daemonsync, lxc, automation-scheduling, updateable]
+tags: [daemonsync, lxc, automation-scheduling, updateable, removed]
 description: "Sync files from app to server, share photos & videos, back up your data and stay secure inside local network."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/daemon-sync.webp"
 #image:
 #  path: /assets/img/daemonsync.png
 #  alt: Daemon Sync Server
 ---
+
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
+</div>
 
 ## Installation
 

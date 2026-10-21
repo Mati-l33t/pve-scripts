@@ -52,7 +52,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Use <code>var_backup_storage=<name></code> to set backup storage location.</div>
+  <div>Use <code>var_backup_storage=&lt;name&gt;</code> to set backup storage location.</div>
 </div>
 
 <div class="info-callout">

@@ -3,7 +3,7 @@ layout: post
 title: "Tvheadend"
 date: 2026-09-29 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [tvheadend, lxc, media-streaming, updateable, dev]
+tags: [tvheadend, lxc, media-streaming, updateable]
 description: "Tvheadend is a TV streaming server and Digital Video Recorder for Linux, supporting DVB-S/S2, DVB-C, DVB-T/T2, ATSC, IPTV, SAT>IP and HDHomeRun as input sources, with HTSP and HTTP streaming output."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tvheadend.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/tvheadend.webp"
 #  alt: Tvheadend
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/tvheadend.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/tvheadend.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

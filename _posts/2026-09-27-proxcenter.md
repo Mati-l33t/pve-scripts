@@ -3,7 +3,7 @@ layout: post
 title: "ProxCenter"
 date: 2026-09-27 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [proxcenter, lxc, proxmox-virtualization, updateable, dev]
+tags: [proxcenter, lxc, proxmox-virtualization, updateable]
 description: "ProxCenter is a web console for running several Proxmox VE clusters and Proxmox Backup Server instances from one place: inventory and topology, in-browser noVNC/SPICE consoles, backup visibility, migrations from VMware, Hyper-V, Nutanix and XCP-ng, RBAC and SSO. This script installs the open-source Community Edition with its PostgreSQL database."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxcenter.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/proxcenter.webp"
 #  alt: ProxCenter
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/proxcenter.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/proxcenter.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

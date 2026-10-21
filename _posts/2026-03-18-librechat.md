@@ -43,7 +43,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>For local embeddings without an API key, set EMBEDDINGS_PROVIDER=ollama and OLLAMA_BASE_URL=http://<ollama-host>:11434 in /opt/rag-api/.env and restart rag-api.</div>
+  <div>For local embeddings without an API key, set EMBEDDINGS_PROVIDER=ollama and OLLAMA_BASE_URL=http://&lt;ollama-host&gt;:11434 in /opt/rag-api/.env and restart rag-api.</div>
 </div>
 
 ## Web Interface

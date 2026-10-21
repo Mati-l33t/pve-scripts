@@ -3,13 +3,18 @@ layout: post
 title: "nebula-sync"
 date: 2026-08-03 00:00:00 +0000
 categories: ["Adblock & DNS"]
-tags: [nebula-sync, lxc, adblock-dns, updateable]
+tags: [nebula-sync, lxc, adblock-dns, updateable, removed]
 description: "nebula-sync keeps multiple Pi-hole v6 instances in sync by replicating the configuration of a primary Pi-hole to one or more replicas over the Pi-hole API. It can run a full Teleporter import/export or sync only selected features, on a cron schedule."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/pi-hole.webp"
 #image:
 #  path: /assets/img/nebula-sync.png
 #  alt: nebula-sync
 ---
+
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
+</div>
 
 ## Installation
 

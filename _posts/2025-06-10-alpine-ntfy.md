@@ -3,13 +3,18 @@ layout: post
 title: "Alpine-ntfy"
 date: 2025-06-10 00:00:00 +0000
 categories: ["MQTT & Messaging"]
-tags: [alpine-ntfy, lxc, mqtt-messaging, updateable]
+tags: [alpine-ntfy, lxc, mqtt-messaging, updateable, removed]
 description: "ntfy is a simple HTTP-based pub-sub notification service that lets you send push notifications to your phone or desktop via scripts, without signup or cost."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/ntfy.webp"
 #image:
 #  path: /assets/img/alpine-ntfy.png
 #  alt: Alpine-ntfy
 ---
+
+<div class="warn-callout removed-callout">
+  <i class="fas fa-right-left"></i>
+  <div><strong>Replaced upstream</strong><br>This script has been merged into <a href="/posts/ntfy/">ntfy</a>, so the install command below no longer works. Use that script instead.</div>
+</div>
 
 ## Installation
 

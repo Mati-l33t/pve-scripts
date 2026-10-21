@@ -3,13 +3,18 @@ layout: post
 title: "FlowiseAI"
 date: 2024-05-02 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [flowiseai, lxc, ai-coding-dev-tools, updateable]
+tags: [flowiseai, lxc, ai-coding-dev-tools, updateable, removed]
 description: "FlowiseAI is an open source low-code tool for developers to build customized LLM orchestration flow & AI agents"
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/flowise.webp"
 #image:
 #  path: /assets/img/flowiseai.png
 #  alt: FlowiseAI
 ---
+
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
+</div>
 
 ## Installation
 

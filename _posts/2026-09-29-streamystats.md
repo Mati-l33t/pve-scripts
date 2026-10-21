@@ -4,7 +4,7 @@ title: "Streamystats"
 date: 2026-09-29 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [streamystats, lxc, monitoring-analytics, updateable, dev]
-description: "Streamystats is a statistics and analytics service for Jellyfin. It tracks playback sessions through the Jellyfin API and shows watch history, per-user, library and client statistics, and watch-time graphs. It supports multiple servers and can import history from Jellystat and the Playback Reporting plugin. Optional AI features add library chat and embedding-based recommendations through OpenAI-compatible, Ollama or Anthropic providers."
+description: "Streamystats is a statistics and analytics service for Jellyfin. It shows watch history, per-user, library and client statistics and watch-time graphs for one or more servers, and can import history from Jellystat and the Playback Reporting plugin."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/streamystats.webp"
 #image:
 #  path: /assets/img/streamystats.png
@@ -20,7 +20,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/streamystats.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/streamystats.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/streamystats.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
@@ -33,22 +33,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>On first visit the setup page asks for your Jellyfin URL and an API key. Create the key in Jellyfin under Dashboard > API Keys. The optional internal URL is used for server-to-server traffic when Jellyfin is reachable on a LAN address.</div>
+  <div>The first visit asks for your Jellyfin URL and an API key (Jellyfin: Dashboard &gt; API Keys). After that, sign in with your Jellyfin account; Jellyfin admins get the admin views.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>There is no separate account: after setup, sign in with your Jellyfin username and password. Jellyfin administrators get the admin views in Streamystats.</div>
-</div>
-
-<div class="info-callout">
-  <i class="fas fa-info-circle"></i>
-  <div>The first sync of a large library can take a while. AI chat and embedding-based recommendations stay off until you configure a provider under Settings > AI.</div>
-</div>
-
-<div class="warn-callout">
-  <i class="fas fa-exclamation-triangle"></i>
-  <div>Installs and updates build the Next.js app from source, which peaks at about 2.3 GB of RAM. Keep the container at 3 GB or more, or updates can fail mid-build.</div>
+  <div>AI chat and recommendations stay off until you set up a provider under Settings &gt; AI.</div>
 </div>
 
 ## Web Interface

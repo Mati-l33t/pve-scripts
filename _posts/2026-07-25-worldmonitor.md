@@ -4,7 +4,7 @@ title: "World Monitor"
 date: 2026-07-25 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
 tags: [worldmonitor, lxc, monitoring-analytics, updateable, dev]
-description: "Real-time global intelligence dashboard with AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface."
+description: "World Monitor is a real-time global intelligence dashboard. It combines AI-powered news aggregation, geopolitical monitoring and infrastructure tracking in one interface."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/worldmonitor.webp"
 #image:
 #  path: /assets/img/worldmonitor.png
@@ -20,7 +20,7 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/worldmonitor.webp"
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVED/main/ct/worldmonitor.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/worldmonitor.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
@@ -33,22 +33,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>The Docker Compose stack is translated to native services: worldmonitor.service (Node API sidecar on 127.0.0.1:46123), worldmonitor-ais-relay.service (AIS/OpenSky/RSS relay on :3004), worldmonitor-redis-rest.service (Upstash-compatible REST proxy on :8079), redis-server, and nginx (serves the built SPA and proxies /api on :8080).</div>
-</div>
-
-<div class="warn-callout">
-  <i class="fas fa-exclamation-triangle"></i>
-  <div>Redis password, REST-proxy token, relay shared secret and the local API token are generated at install and stored in /opt/worldmonitor/.env.</div>
+  <div>Public data sources work out of the box. For more feeds, add API keys (Groq, OpenRouter, Finnhub, FRED, NASA FIRMS and others) to /opt/worldmonitor/.env and restart worldmonitor and worldmonitor-ais-relay.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>The dashboard runs with public data sources out of the box. Add optional API keys (Groq, OpenRouter, Finnhub, FRED, EIA, AISSTREAM, NASA FIRMS, ACLED, Cloudflare) to /opt/worldmonitor/.env and restart the services to unlock additional data feeds.</div>
-</div>
-
-<div class="info-callout">
-  <i class="fas fa-info-circle"></i>
-  <div>Optional AI assessments work with any OpenAI-compatible endpoint (Ollama, vLLM, llama.cpp). Set LLM_API_URL, LLM_API_KEY and LLM_MODEL in /opt/worldmonitor/.env. No LLM is installed by default.</div>
+  <div>For AI assessments, point LLM_API_URL, LLM_API_KEY and LLM_MODEL in /opt/worldmonitor/.env at any OpenAI-compatible endpoint (Ollama, vLLM, llama.cpp).</div>
 </div>
 
 ## Web Interface

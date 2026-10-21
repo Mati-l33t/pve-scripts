@@ -43,12 +43,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>OpenAI-compatible API server available at http://<container-ip>:8642/v1. API key is stored in /home/hermes/.hermes/.env.</div>
+  <div>OpenAI-compatible API server available at http://&lt;container-ip&gt;:8642/v1. API key is stored in /home/hermes/.hermes/.env.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Access the web dashboard via SSH tunnel: ssh -fNL 9119:localhost:9119 root@<container-ip>, then open http://localhost:9119</div>
+  <div>Access the web dashboard via SSH tunnel: ssh -fNL 9119:localhost:9119 root@&lt;container-ip&gt;, then open http://localhost:9119</div>
 </div>
 
 ## Links

@@ -24,6 +24,10 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
+<div class="warn-callout removed-method">
+  <i class="fas fa-exclamation-triangle"></i>
+  <div>This install method has been removed upstream and no longer works.</div>
+</div>
 **Alpine install:**
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/alpine-rustdeskserver.sh)"
@@ -44,7 +48,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>To set admin password on Debian, type <code>cd /var/lib/rustdesk-api && rustdesk-api reset-admin-pwd <yournewpasswordhere></code> inside LXC.</div>
+  <div>To set admin password on Debian, type <code>cd /var/lib/rustdesk-api && rustdesk-api reset-admin-pwd &lt;yournewpasswordhere&gt;</code> inside LXC.</div>
 </div>
 
 <div class="info-callout">
