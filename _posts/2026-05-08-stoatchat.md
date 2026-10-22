@@ -48,7 +48,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScr
 
 ## Web Interface
 
-<div class="resource-bar"><span class="res-pill res-port">Port: 80</span></div>
+<div class="resource-bar"><span class="res-pill res-port">Port: 443</span></div>
 
 ## Links
 
