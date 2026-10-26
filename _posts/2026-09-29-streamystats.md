@@ -3,7 +3,7 @@ layout: post
 title: "Streamystats"
 date: 2026-09-29 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [streamystats, lxc, monitoring-analytics, updateable, dev]
+tags: [streamystats, lxc, monitoring-analytics, updateable]
 description: "Streamystats is a statistics and analytics service for Jellyfin. It shows watch history, per-user, library and client statistics and watch-time graphs for one or more servers, and can import history from Jellystat and the Playback Reporting plugin."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/streamystats.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/streamystats.webp"
 #  alt: Streamystats
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/streamystats.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/streamystats.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
