@@ -3,7 +3,7 @@ layout: post
 title: "VictoriaLogs"
 date: 2026-10-21 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [victorialogs, lxc, monitoring-analytics, updateable, dev]
+tags: [victorialogs, lxc, monitoring-analytics, updateable]
 description: "VictoriaLogs is a fast, cost-effective and scalable open-source log database that can efficiently handle terabytes of logs with minimal resources."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/victoriametrics.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/victoriametrics.webp"
 #  alt: VictoriaLogs
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/victorialogs.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/victorialogs.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
