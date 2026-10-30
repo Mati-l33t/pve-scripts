@@ -240,7 +240,7 @@
     injectStaticLinks();
     var installUrl = findScriptUrl();
     if (!installUrl) return;
-    var updateUrl = deriveUpdateUrl(installUrl);
+    var updateUrl = {% if page.update_script %}{{ page.update_script | jsonify }}{% else %}deriveUpdateUrl(installUrl){% endif %};
     injectTriggers(installUrl, updateUrl);
   };
 
