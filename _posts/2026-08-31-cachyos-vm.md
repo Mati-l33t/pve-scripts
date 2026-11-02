@@ -3,7 +3,7 @@ layout: post
 title: "CachyOS"
 date: 2026-08-31 00:00:00 +0000
 categories: [Operating Systems]
-tags: [cachyos-vm, vm, operating-systems, dev]
+tags: [cachyos-vm, vm, operating-systems]
 description: "CachyOS is a performance-focused Arch derivative with custom kernels, BORE and sched-ext schedulers, and packages built for x86-64-v3/v4. Installation is completed in the graphical Calamares installer."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cachyos.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/cachyos.webp"
 #  alt: CachyOS
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/vm/cachyos-vm.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/cachyos-vm.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
