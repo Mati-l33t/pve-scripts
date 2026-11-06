@@ -25,7 +25,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScr
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
   <span class="res-pill res-ram">RAM: 6144 MB</span>
-  <span class="res-pill res-disk">Disk: 12 GB</span>
+  <span class="res-pill res-disk">Disk: 24 GB</span>
   <span class="res-pill res-os">OS: Debian 13</span>
 </div>
 
@@ -40,19 +40,19 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScr
 
 ## Notes
 
-<div class="warn-callout">
-  <i class="fas fa-exclamation-triangle"></i>
-  <div>The initial installation builds AliasVault from source and takes 15–30 minutes. Do not interrupt the process.</div>
-</div>
-
-<div class="warn-callout">
-  <i class="fas fa-exclamation-triangle"></i>
-  <div>The admin password is auto-generated during installation and displayed in the installation output. Save it immediately.</div>
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>Open https://[IP] and accept the self-signed certificate. Admin panel (/admin): user admin, password in ~/aliasvault.creds inside the container.</div>
 </div>
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>To receive alias emails, configure your domain's MX record to point to this server and update PRIVATE_EMAIL_DOMAINS in /opt/aliasvault/.env.</div>
+  <div>Behind a TLS-terminating reverse proxy, set FORCE_HTTPS_REDIRECT=false and TRUSTED_PROXIES=&lt;proxy IP&gt; in /opt/aliasvault/.env, then run: systemctl restart aliasvault.target</div>
+</div>
+
+<div class="info-callout">
+  <i class="fas fa-info-circle"></i>
+  <div>To receive alias emails, point your domain's MX record at this container (port 25) and set PRIVATE_EMAIL_DOMAINS in /opt/aliasvault/.env.</div>
 </div>
 
 ## Web Interface
