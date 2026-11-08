@@ -3,7 +3,7 @@ layout: post
 title: "Firefox Syncserver"
 date: 2026-09-29 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [firefox-syncserver, lxc, backup-recovery, updateable, dev]
+tags: [firefox-syncserver, lxc, backup-recovery, updateable]
 description: "Firefox Syncserver (syncstorage-rs) is Mozilla's server behind Firefox Sync. It keeps your bookmarks, history, passwords, tabs and add-ons on your own hardware, encrypted by Firefox before upload, while you still sign in with a regular Mozilla account."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/firefox.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/firefox.webp"
 #  alt: Firefox Syncserver
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/firefox-syncserver.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/firefox-syncserver.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
