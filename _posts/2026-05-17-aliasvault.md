@@ -47,7 +47,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScr
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>Behind a TLS-terminating reverse proxy, set FORCE_HTTPS_REDIRECT=false and TRUSTED_PROXIES=&lt;proxy IP&gt; in /opt/aliasvault/.env, then run: systemctl restart aliasvault.target</div>
+  <div>Behind a TLS-terminating reverse proxy, set FORCE_HTTPS_REDIRECT=false and TRUSTED_PROXIES=&lt;proxy IPv4&gt; in /opt/aliasvault/.env, then run: systemctl restart aliasvault.target</div>
 </div>
 
 <div class="info-callout">
