@@ -3,7 +3,7 @@ layout: post
 title: "Euro-Office"
 date: 2026-11-13 00:00:00 +0000
 categories: ["Documents & Notes"]
-tags: [euro-office, lxc, documents-notes, updateable, dev]
+tags: [euro-office, lxc, documents-notes, updateable]
 description: "Euro-Office Document Server is a European-led, open-source fork of ONLYOFFICE Docs with online editors for text documents, spreadsheets, presentations and PDFs, including real-time co-editing. It is not a standalone app: platforms such as Nextcloud or Seafile store the files and open them in its editors."
 icon: "https://cdn.jsdelivr.net/gh/Euro-Office/documentation@main/docs/assets/favicon.svg"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/Euro-Office/documentation@main/docs/assets/fa
 #  alt: Euro-Office
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/euro-office.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/euro-office.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

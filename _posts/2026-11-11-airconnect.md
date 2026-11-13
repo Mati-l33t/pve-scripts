@@ -3,7 +3,7 @@ layout: post
 title: "AirConnect"
 date: 2026-11-11 00:00:00 +0000
 categories: ["Media & Streaming"]
-tags: [airconnect, lxc, media-streaming, updateable, dev]
+tags: [airconnect, lxc, media-streaming, updateable]
 description: "AirConnect adds AirPlay capabilities to Chromecast and UPnP (such as Sonos) players, allowing them to appear as native AirPlay audio devices on your network."
 icon: "https://avatars.githubusercontent.com/u/9712599?v=4"
 #image:
@@ -11,16 +11,11 @@ icon: "https://avatars.githubusercontent.com/u/9712599?v=4"
 #  alt: AirConnect
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/airconnect.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/airconnect.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>

@@ -3,7 +3,7 @@ layout: post
 title: "World Monitor"
 date: 2026-07-25 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [worldmonitor, lxc, monitoring-analytics, updateable, dev]
+tags: [worldmonitor, lxc, monitoring-analytics, updateable, removed]
 description: "World Monitor is a real-time global intelligence dashboard. It combines AI-powered news aggregation, geopolitical monitoring and infrastructure tracking in one interface."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/worldmonitor.webp"
 #image:
@@ -11,9 +11,9 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/worldmonitor.webp"
 #  alt: World Monitor
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
+<div class="unavail-callout removed-callout">
+  <i class="fas fa-ban"></i>
+  <div><strong>Removed upstream</strong><br>This script has been removed from the upstream repository, so the install command below no longer works. This page is kept for reference.</div>
 </div>
 
 ## Installation

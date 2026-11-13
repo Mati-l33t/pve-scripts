@@ -3,7 +3,7 @@ layout: post
 title: "GoatCounter"
 date: 2026-11-12 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [goatcounter, lxc, monitoring-analytics, updateable, dev]
+tags: [goatcounter, lxc, monitoring-analytics, updateable]
 description: "GoatCounter is lightweight, privacy-friendly web analytics without tracking cookies or unique identifiers. It records pageviews, referrers, campaigns, browsers, screen sizes and locations through a small script, a no-JavaScript pixel, a REST API or imported server logs, and shows them on a simple, accessible dashboard."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/goatcounter.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/goatcounter.webp"
 #  alt: GoatCounter
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/goatcounter.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/goatcounter.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>

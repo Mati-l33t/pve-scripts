@@ -3,7 +3,7 @@ layout: post
 title: "Nightingale"
 date: 2026-10-21 00:00:00 +0000
 categories: ["Monitoring & Analytics"]
-tags: [nightingale, lxc, monitoring-analytics, updateable, dev]
+tags: [nightingale, lxc, monitoring-analytics, updateable]
 description: "Nightingale is an open-source monitoring and alerting platform. It queries data sources such as Prometheus, VictoriaMetrics, Elasticsearch or Loki, and adds alert rules, muting, notifications to more than 20 channels, dashboards and a built-in time series database."
 icon: "https://cdn.jsdelivr.net/gh/n9e/n9e.github.io@main/static/apple-touch-icon.png"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/n9e/n9e.github.io@main/static/apple-touch-ico
 #  alt: Nightingale
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/nightingale.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/nightingale.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
