@@ -3,7 +3,7 @@ layout: post
 title: "LibreDB Studio"
 date: 2026-09-22 00:00:00 +0000
 categories: [Databases]
-tags: [libredbstudio, lxc, databases, updateable, dev]
+tags: [libredbstudio, lxc, databases, updateable]
 description: "LibreDB Studio is a browser-based SQL IDE you run on your own server. It connects to PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, Redis, ClickHouse, Elasticsearch and many more databases, with optional AI query help from a local Ollama model."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/libredb-studio.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/libredb-studio.webp"
 #  alt: LibreDB Studio
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/libredbstudio.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/libredbstudio.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
