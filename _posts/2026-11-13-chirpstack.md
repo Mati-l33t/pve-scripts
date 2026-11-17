@@ -5,7 +5,7 @@ date: 2026-11-13 00:00:00 +0000
 categories: ["IoT & Smart Home"]
 tags: [chirpstack, lxc, iot-smart-home, updateable, dev]
 description: "ChirpStack is an open-source LoRaWAN Network Server. It manages gateways, devices and applications, handles device activation and the LoRaWAN MAC layer, and forwards uplink data to MQTT, HTTP and many other integrations."
-icon: "https://raw.githubusercontent.com/chirpstack/chirpstack-docs/refs/heads/master/theme/favicon.svg"
+icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/chirpstack.webp"
 #image:
 #  path: /assets/img/chirpstack.png
 #  alt: ChirpStack
@@ -47,7 +47,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScr
 
 <div class="info-callout">
   <i class="fas fa-info-circle"></i>
-  <div>The install asks for the gateway region ID (e.g. eu868, us915_0); unattended installs must set var_region. It must be listed in enabled_regions in /etc/chirpstack/chirpstack.toml.</div>
+  <div>The install asks for the gateway region ID (e.g. eu868, us915_0); unattended installs must set var_region. It must be listed in here: https://github.com/chirpstack/chirpstack/tree/master/chirpstack/configuration.</div>
 </div>
 
 ## Web Interface

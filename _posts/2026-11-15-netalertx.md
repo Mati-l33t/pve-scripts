@@ -3,7 +3,7 @@ layout: post
 title: "NetAlertX"
 date: 2026-11-15 00:00:00 +0000
 categories: ["Network & Firewall"]
-tags: [netalertx, lxc, network-firewall, updateable, dev]
+tags: [netalertx, lxc, network-firewall, updateable]
 description: "NetAlertX watches your network for devices: it discovers everything on the LAN with ARP scans, nmap and imports from routers, Pi-hole or DHCP servers, and tracks when devices come and go. It alerts you about new, unknown or missing devices through email, ntfy, Telegram, MQTT, webhooks and more, and ships many plugins for other integrations."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netalertx.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/netalertx.webp"
 #  alt: NetAlertX
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/netalertx.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/netalertx.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 1 cores</span>

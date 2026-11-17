@@ -3,7 +3,7 @@ layout: post
 title: "Gitea Runner"
 date: 2026-09-29 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [gitea-runner, lxc, ai-coding-dev-tools, updateable, dev]
+tags: [gitea-runner, lxc, ai-coding-dev-tools, updateable]
 description: "Gitea Runner (act_runner) is the daemon that executes CI/CD jobs for Gitea Actions. It connects to your Gitea instance, polls for queued workflow runs, and executes tasks using either host execution or containerized engines."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/gitea.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/gitea.webp"
 #  alt: Gitea Runner
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/gitea-runner.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/gitea-runner.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
