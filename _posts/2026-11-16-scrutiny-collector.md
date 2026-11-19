@@ -3,7 +3,7 @@ layout: post
 title: "Scrutiny Collector"
 date: 2026-11-16 00:00:00 +0000
 categories: ["Proxmox & Virtualization"]
-tags: [scrutiny-collector, pve, proxmox-virtualization, monitoring-analytics, updateable, dev]
+tags: [scrutiny-collector, pve, proxmox-virtualization, monitoring-analytics, updateable]
 description: "The Scrutiny collector reads the S.M.A.R.T. data of every physical disk on the host and sends it to a Scrutiny web UI, which keeps the history and warns when a drive starts to fail. It runs on the host because containers cannot see the disks."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/scrutiny.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/scrutiny.webp"
 #  alt: Scrutiny Collector
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/tools/pve/scrutiny-collector.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/scrutiny-collector.sh)"
 ```
 
 ## Notes
