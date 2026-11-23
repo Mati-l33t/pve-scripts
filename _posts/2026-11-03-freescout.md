@@ -3,7 +3,7 @@ layout: post
 title: "FreeScout"
 date: 2026-11-03 00:00:00 +0000
 categories: ["Business & ERP"]
-tags: [freescout, lxc, business-erp, updateable, dev]
+tags: [freescout, lxc, business-erp, updateable]
 description: "FreeScout is a self-hosted help desk and shared mailbox, an open-source alternative to Zendesk and Help Scout. It turns support email into conversations that agents assign, tag and answer together, with saved replies, internal notes, collision detection and customer history. Modules add features like a knowledge base, satisfaction ratings and workflows."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/freescout.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/freescout.webp"
 #  alt: FreeScout
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/freescout.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/freescout.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

@@ -3,7 +3,7 @@ layout: post
 title: "JumpServer"
 date: 2026-10-28 00:00:00 +0000
 categories: ["Authentication & Security"]
-tags: [jumpserver, lxc, authentication-security, updateable, dev]
+tags: [jumpserver, lxc, authentication-security, updateable]
 description: "JumpServer is an open-source PAM (Privileged Access Management) / bastion host that provides unified, audited access to SSH, RDP, VNC, Telnet, Kubernetes and database assets through a single web console, with full session recording and playback."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/jumpserver.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/jumpserver.webp"
 #  alt: JumpServer
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/jumpserver.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/jumpserver.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
