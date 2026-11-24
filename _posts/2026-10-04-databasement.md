@@ -3,7 +3,7 @@ layout: post
 title: "Databasement"
 date: 2026-10-04 00:00:00 +0000
 categories: ["Backup & Recovery"]
-tags: [databasement, lxc, backup-recovery, updateable, dev]
+tags: [databasement, lxc, backup-recovery, updateable]
 description: "Databasement is a self-hosted backup manager for MySQL, MariaDB, PostgreSQL, MongoDB, SQLite and Redis/Valkey. It runs scheduled or on-demand backups, optionally through an SSH tunnel, stores them locally or on S3, SFTP, FTP, Samba or Azure, and restores them to any registered server."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/databasement.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/databasement.webp"
 #  alt: Databasement
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/databasement.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/databasement.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>

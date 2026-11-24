@@ -3,7 +3,7 @@ layout: post
 title: "Woodpecker CI"
 date: 2026-10-21 00:00:00 +0000
 categories: ["AI / Coding & Dev-Tools"]
-tags: [woodpecker-ci, lxc, ai-coding-dev-tools, updateable, dev]
+tags: [woodpecker-ci, lxc, ai-coding-dev-tools, updateable]
 description: "Woodpecker CI is a simple, community-driven CI/CD engine for Forgejo, Gitea, GitHub, GitLab and Bitbucket. Pipelines are YAML files in the repository that run on pushes, pull requests, tags or schedules, with matrix builds, secrets and a web UI with live logs."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/woodpecker-ci.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/woodpecker-ci.webp"
 #  alt: Woodpecker CI
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/woodpecker-ci.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/woodpecker-ci.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 2 cores</span>
