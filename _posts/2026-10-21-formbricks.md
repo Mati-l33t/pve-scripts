@@ -3,7 +3,7 @@ layout: post
 title: "Formbricks"
 date: 2026-10-21 00:00:00 +0000
 categories: ["Business & ERP"]
-tags: [formbricks, lxc, business-erp, updateable, dev]
+tags: [formbricks, lxc, business-erp, updateable]
 description: "Formbricks is an open-source survey and experience management platform and an alternative to Qualtrics. It runs link, website and in-app surveys with logic and multiple languages, and passes responses on through webhooks, the API and integrations such as Slack, Notion and Zapier."
 icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/formbricks.webp"
 #image:
@@ -11,16 +11,11 @@ icon: "https://cdn.jsdelivr.net/gh/selfhst/icons@main/webp/formbricks.webp"
 #  alt: Formbricks
 ---
 
-<div class="dev-callout">
-  <i class="fas fa-code-branch"></i>
-  <div><strong>In Development</strong><br>This script is currently in active development and may be unstable or incomplete. Use in production environments is not recommended.</div>
-</div>
-
 ## Installation
 
 **Default install:**
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/DevScripts/main/ct/formbricks.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/formbricks.sh)"
 ```
 <div class="resource-bar">
   <span class="res-pill res-cpu">CPU: 4 cores</span>
